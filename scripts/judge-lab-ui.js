@@ -130,8 +130,17 @@ async function jlCallClaude(judge, system, userText, imgB64s){
     content.push({type:'image', source:{type:'base64', media_type:'image/png', data:b64}}); });
   const body = {model: judge.model || 'claude-sonnet-5', max_tokens: 3000,
                 system: system, messages: [{role:'user', content: content}]};
+  // With an Anthropic API key in this judge's own key box, call the API directly
+  // (the extra header is what lets Anthropic accept a browser request). With no
+  // key we are inside a Claude artifact, where the call is proxied and needs none.
+  const headers = {'Content-Type':'application/json'};
+  if(judge.key){
+    headers['x-api-key'] = judge.key;
+    headers['anthropic-version'] = '2023-06-01';
+    headers['anthropic-dangerous-direct-browser-access'] = 'true';
+  }
   const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)});
+    method:'POST', headers: headers, body: JSON.stringify(body)});
   if(!res.ok) throw new Error('Claude ' + res.status + ': ' + (await res.text()).slice(0,160));
   const d = await res.json();
   return (d.content || []).map(function(b){ return b.text || ''; }).join('');

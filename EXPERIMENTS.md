@@ -19,6 +19,15 @@ API PROVIDER panel. Add a row per model you want to compare.
 
 Set **delay ms** to suit your rate limits — 1000 is fine on a paid tier.
 
+Provider notes:
+
+- **Gemini** and **OpenAI** — key in the judge row, or leave it empty to use the
+  key in the app own API PROVIDER panel.
+- **Claude** — put an Anthropic API key in that judge row key box. Without a key
+  it only works inside a Claude artifact, not on a normal web page.
+- The free Gemini tier refused most of my calls for days (51 quota, 9 capacity
+  out of 93). On a paid tier none of that should bite.
+
 ## The four experiments
 
 Pick one from the dropdown in section 3 and press **Run this experiment**. The
