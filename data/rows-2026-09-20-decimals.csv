@@ -1,0 +1,61 @@
+ts,batchId,batchName,makerCompany,makerModel,judgeId,judgeCompany,judgeModel,repeat,order,target,variantIndex,position,aes,nov,score,winner,parseOk,error,latencyMs,reason
+2026-09-20T14:51:02.928Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,0-1-2,parent,,0,3.8,0,3.8,v2,true,,9497,Minimalist vertical line lacks grid structure and primary colors.
+2026-09-20T14:51:02.928Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,0-1-2,variant,0,1,5.9,6.3,9.05,v2,true,,9497,Introduces red and rectangular form aligned with the style.
+2026-09-20T14:51:02.928Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,0-1-2,variant,1,2,5.7,6.1,8.75,v2,true,,9497,Uses blue palette within a basic geometric frame.
+2026-09-20T14:51:02.928Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,0-1-2,variant,2,3,6.2,6.5,9.45,v2,true,,9497,Combines yellow with thicker black lines for better contrast.
+2026-09-20T14:51:21.469Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,0-1-2,parent,,0,3.2,0,3.2,v2,true,,8531,Single vertical line is too sparse for the Mondrian style.
+2026-09-20T14:51:21.469Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,0,1,6.4,6.7,9.75,v2,true,,8531,Incorporates primary red and rectangular framing effectively.
+2026-09-20T14:51:21.469Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,1,2,6.2,6.5,9.45,v2,true,,8531,Blue palette and geometry begin to mirror modernist structures.
+2026-09-20T14:51:21.469Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,2,3,6.5,6.8,9.9,v2,true,,8531,Yellow highlights and thicker black lines better capture the aesthetic.
+2026-09-20T14:51:42.178Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,0-1-2,parent,,0,3.8,0,3.8,v2,true,,10697,Too minimal and lacks required color palette.
+2026-09-20T14:51:42.178Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,0-1-2,variant,0,1,6.2,6.1,9.25,v2,true,,10697,Good introduction of bold lines and red.
+2026-09-20T14:51:42.178Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,0-1-2,variant,1,2,6.1,6,9.1,v2,true,,10697,Effective use of blue with thick borders.
+2026-09-20T14:51:42.178Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,0-1-2,variant,2,3,6.4,6.3,9.55,v2,true,,10697,Better balance of yellow and black lines.
+2026-09-20T14:51:59.051Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,0-1-2,parent,,0,3.8,0,3.8,v2,true,,6866,Minimalist line lacks color and grid structure.
+2026-09-20T14:51:59.051Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,0-1-2,variant,0,1,6.4,6.5,9.65,v2,true,,6866,Red rectangle introduces essential primary color palette.
+2026-09-20T14:51:59.051Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,0-1-2,variant,1,2,6.3,6.4,9.5,v2,true,,6866,Blue framing shows progress toward geometric abstraction.
+2026-09-20T14:51:59.051Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,0-1-2,variant,2,3,6.6,6.7,9.95,v2,true,,6866,Yellow color and thicker edges improve composition.
+2026-09-20T14:52:18.008Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,0-1-2,parent,,0,3.8,0,3.8,v2,true,,8953,Single line lacks the grid and color blocks central to Mondrian's style.
+2026-09-20T14:52:18.008Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,0,1,5.6,4.8,8,v2,true,,8953,Red rectangle introduces essential primary colors and basic geometric structure.
+2026-09-20T14:52:18.008Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,1,2,5.4,4.5,7.65,v2,true,,8953,Blue palette and wider aspect ratio expand the geometric exploration.
+2026-09-20T14:52:18.008Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,2,3,5.9,5.2,8.5,v2,true,,8953,Yellow hue combined with thicker black borders best approximates the target aesthetic.
+2026-09-20T14:52:36.424Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,0-1-2,parent,,0,3.8,0,3.8,v2,true,,8411,Single line lacks the color and geometry of the target style.
+2026-09-20T14:52:36.424Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,0-1-2,variant,0,1,6.2,6.8,9.6,v2,true,,8411,Introduces primary red and a rectangular frame structure.
+2026-09-20T14:52:36.424Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,0-1-2,variant,1,2,6.4,6.7,9.75,v2,true,,8411,Uses blue and varied proportions to better suggest the aesthetic.
+2026-09-20T14:52:36.424Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,0-1-2,variant,2,3,6.5,7.1,10.05,v2,true,,8411,Yellow color and thicker strokes improve the visual weight.
+2026-09-20T14:53:02.044Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,7,0-1-2,parent,,0,3.4,0,3.4,v2,true,,15612,Single line lacks compositional complexity.
+2026-09-20T14:53:02.044Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,7,0-1-2,variant,0,1,5.8,6.5,9.05,v2,true,,15612,Red boundaries introduce primary color elements.
+2026-09-20T14:53:02.044Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,7,0-1-2,variant,1,2,5.5,6.8,8.9,v2,true,,15612,Blue palette expands the geometric footprint.
+2026-09-20T14:53:02.044Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,7,0-1-2,variant,2,3,6.1,6.6,9.399999999999999,v2,true,,15612,Yellow highlights with black corners approach style.
+2026-09-20T14:53:19.344Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,8,0-1-2,parent,,0,3.8,0,3.8,v2,true,,7284,Minimalist line lacks characteristic grid and color palette.
+2026-09-20T14:53:19.344Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,8,0-1-2,variant,0,1,6.4,6.5,9.65,v2,true,,7284,Red rectangular form initiates the geometric style effectively.
+2026-09-20T14:53:19.344Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,8,0-1-2,variant,1,2,6.2,6.3,9.35,v2,true,,7284,Blue palette and wider frame mirror the aesthetic well.
+2026-09-20T14:53:19.344Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,8,0-1-2,variant,2,3,6.7,6.8,10.1,v2,true,,7284,Yellow highlights and black borders show strong progress.
+2026-09-20T14:53:37.420Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,0-1-2,parent,,0,3.5,0,3.5,v2,true,,8060,Basic vertical line lacks Mondrian's characteristic grid and primary palette.
+2026-09-20T14:53:37.420Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,0-1-2,variant,0,1,6.2,6.5,9.45,v2,true,,8060,"Introduces rectangular form and red hue, aligning closer to Neoplasticism."
+2026-09-20T14:53:37.420Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,0-1-2,variant,1,2,6.1,6.4,9.3,v2,true,,8060,Uses blue and simple geometry but remains a single isolated shape.
+2026-09-20T14:53:37.420Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,0-1-2,variant,2,3,6.5,6.8,9.9,v2,true,,8060,Incorporates yellow and more prominent black framing for better structural balance.
+2026-09-20T14:53:49.312Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,10,0-1-2,,,,,,,,false,"Gemini 503: {
+  ""error"": {
+    ""code"": 503,
+    ""message"": ""This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",1885,
+2026-09-20T14:54:09.707Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,0-1-2,parent,,0,3.5,0,3.5,v2,true,,10387,Minimalist single line lacks the necessary grid and color blocks.
+2026-09-20T14:54:09.707Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,0-1-2,variant,0,1,6.2,6.8,9.6,v2,true,,10387,Introduces primary red and rectangular form consistent with the style.
+2026-09-20T14:54:09.707Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,0-1-2,variant,1,2,6,6.5,9.25,v2,true,,10387,Utilizes blue tones and a wider aspect ratio for geometric variety.
+2026-09-20T14:54:09.707Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,0-1-2,variant,2,3,6.4,6.9,9.850000000000001,v2,true,,10387,Yellow palette and thicker black borders approximate the intended aesthetic best.
+2026-09-20T14:54:27.573Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,0-1-2,parent,,0,4.2,0,4.2,v0,true,,7859,Basic vertical line lacking the color and grid complexity of Mondrian works.
+2026-09-20T14:54:27.573Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,0-1-2,variant,0,1,6.3,6.5,9.55,v0,true,,7859,Introduction of primary red and thicker strokes begins to evoke the style.
+2026-09-20T14:54:27.573Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,0-1-2,variant,1,2,6.1,6.4,9.3,v0,true,,7859,The blue rectangular frame provides a strong geometric foundation for the aesthetic.
+2026-09-20T14:54:27.573Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,0-1-2,variant,2,3,6,6.6,9.3,v0,true,,7859,Yellow accents and varied line weights align with neoplasticism color palettes.
+2026-09-20T14:54:44.474Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,0-1-2,parent,,0,3.2,0,3.2,v2,true,,6888,Single vertical line lacks the grid complexity of the Mondrian style.
+2026-09-20T14:54:44.474Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,0-1-2,variant,0,1,6.4,5.2,9,v2,true,,6888,Introduces primary red and a rectangular frame resembling early neoplasticism.
+2026-09-20T14:54:44.474Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,0-1-2,variant,1,2,6.3,5.1,8.85,v2,true,,6888,Utilizes blue with thick borders to establish a basic geometric composition.
+2026-09-20T14:54:44.474Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,0-1-2,variant,2,3,6.5,5.3,9.15,v2,true,,6888,Combines yellow and black lines to form a recognizable rectangular structure.
+2026-09-20T14:55:03.543Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,0-1-2,parent,,0,3.8,0,3.8,v2,true,,9065,Minimalist black line lacks the color and geometric complexity of the target style.
+2026-09-20T14:55:03.543Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,0-1-2,variant,0,1,5.2,6.2,8.3,v2,true,,9065,"Introduces primary red and rectangular structure, moving closer to the requested aesthetic."
+2026-09-20T14:55:03.543Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,0-1-2,variant,1,2,5.1,6.1,8.149999999999999,v2,true,,9065,Utilizes blue in a similar geometric format but lacks compositional variation.
+2026-09-20T14:55:03.543Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,0-1-2,variant,2,3,5.4,6.4,8.600000000000001,v2,true,,9065,Yellow palette and varied line placement offer slightly more stylistic alignment.
+2026-09-20T14:55:32.091Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,15,0-1-2,parent,,0,3.4,0,3.4,v2,true,,18535,Minimalist line lacks color and structure.
+2026-09-20T14:55:32.091Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,15,0-1-2,variant,0,1,5.5,6.4,8.7,v2,true,,18535,Adds red and basic rectangular form.
+2026-09-20T14:55:32.091Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,15,0-1-2,variant,1,2,5.5,6.4,8.7,v2,true,,18535,Introduces blue and horizontal orientation.
+2026-09-20T14:55:32.091Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,15,0-1-2,variant,2,3,6.1,6.8,9.5,v2,true,,18535,Uses yellow with thicker black borders.

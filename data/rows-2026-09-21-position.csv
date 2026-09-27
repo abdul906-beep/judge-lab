@@ -1,0 +1,81 @@
+ts,batchId,batchName,makerCompany,makerModel,judgeId,judgeCompany,judgeModel,repeat,order,target,variantIndex,position,aes,nov,score,winner,parseOk,error,latencyMs,reason
+2026-09-21T07:39:59.364Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,1,0-1-2,parent,,0,4.1,0,4.1,v0,true,,9675,Single line lacks color and grid structure.
+2026-09-21T07:39:59.364Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,1,0-1-2,variant,0,1,5.9,6.4,9.100000000000001,v0,true,,9675,Thick borders and blue color approach style.
+2026-09-21T07:39:59.364Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,1,0-1-2,variant,1,2,5.9,6.4,9.100000000000001,v0,true,,9675,Identical to variant one.
+2026-09-21T07:39:59.364Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,1,0-1-2,variant,2,3,5.9,6.4,9.100000000000001,v0,true,,9675,Identical to variant one.
+2026-09-21T07:40:17.335Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,2,0-1-2,parent,,0,3.2,0,3.2,v0,true,,7969,Single line lacks required grid complexity.
+2026-09-21T07:40:17.335Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,0,1,6.5,6.8,9.9,v0,true,,7969,Introduces rectangular form and primary blue.
+2026-09-21T07:40:17.335Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,1,2,6.5,6.8,9.9,v0,true,,7969,Visually identical to variant one.
+2026-09-21T07:40:17.335Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,2,3,6.5,6.8,9.9,v0,true,,7969,Visually identical to variant one.
+2026-09-21T07:40:39.284Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,3,0-1-2,parent,,0,4.2,0,4.2,v0,true,,11946,Single line lacks the grid and color complexity required.
+2026-09-21T07:40:39.284Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,3,0-1-2,variant,0,1,6.4,5.8,9.3,v0,true,,11946,Introduces primary blue and rectangular framing characteristic of Mondrian.
+2026-09-21T07:40:39.284Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,3,0-1-2,variant,1,2,6.4,5.8,9.3,v0,true,,11946,Bold black strokes and blue color improve stylistic alignment.
+2026-09-21T07:40:39.284Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,3,0-1-2,variant,2,3,6.4,5.8,9.3,v0,true,,11946,Geometric shift toward rectangles captures the basic neoplasticism essence.
+2026-09-21T07:40:57.477Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,4,0-1-2,parent,,0,3.2,0,3.2,v0,true,,8187,Single vertical line lacks Mondrian grid complexity.
+2026-09-21T07:40:57.477Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,4,0-1-2,variant,0,1,5.4,6.7,8.75,v0,true,,8187,Introduces blue color and rectangular framing.
+2026-09-21T07:40:57.477Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,4,0-1-2,variant,1,2,5.4,6.7,8.75,v0,true,,8187,Consistent use of primary color and bold lines.
+2026-09-21T07:40:57.477Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,4,0-1-2,variant,2,3,5.4,6.7,8.75,v0,true,,8187,Maintains the same geometric and color structure.
+2026-09-21T07:41:19.322Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,5,0-1-2,parent,,0,3.4,0,3.4,v0,true,,11839,Minimalist line lacks the characteristic grid and color palette.
+2026-09-21T07:41:19.322Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,0,1,4.9,5.8,7.800000000000001,v0,true,,11839,Introduction of blue and rectangular framing improves stylistic alignment.
+2026-09-21T07:41:19.322Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,1,2,4.9,5.8,7.800000000000001,v0,true,,11839,Geometric structure and bold color use advance the composition.
+2026-09-21T07:41:19.322Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,2,3,4.9,5.8,7.800000000000001,v0,true,,11839,Evolution to a framed shape adds necessary visual complexity.
+2026-09-21T07:41:39.843Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,6,0-1-2,parent,,0,3.7,0,3.7,v0,true,,10519,Minimal line lacks grid composition.
+2026-09-21T07:41:39.843Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,6,0-1-2,variant,0,1,5.6,6.3,8.75,v0,true,,10519,Adds blue color and basic framing.
+2026-09-21T07:41:39.843Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,6,0-1-2,variant,1,2,5.6,6.3,8.75,v0,true,,10519,Identical to variant one visually.
+2026-09-21T07:41:39.843Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,6,0-1-2,variant,2,3,5.6,6.3,8.75,v0,true,,10519,No visual distinction from other variants.
+2026-09-21T07:41:59.019Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,7,0-1-2,parent,,0,3.2,0,3.2,v0,true,,9164,Single line lacks geometric complexity and primary color palette.
+2026-09-21T07:41:59.019Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,7,0-1-2,variant,0,1,5.4,6.2,8.5,v0,true,,9164,Colored rectangular frame aligns better with neoplasticism principles.
+2026-09-21T07:41:59.019Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,7,0-1-2,variant,1,2,5.4,6.2,8.5,v0,true,,9164,"Visual output is identical to variant 1, offering no change."
+2026-09-21T07:41:59.019Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,7,0-1-2,variant,2,3,5.4,6.2,8.5,v0,true,,9164,No visual distinction from other variants prevents further evaluation.
+2026-09-21T07:42:18.308Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,8,0-1-2,parent,,0,3.2,0,3.2,v0,true,,9276,Single vertical line lacks compositional complexity.
+2026-09-21T07:42:18.308Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,8,0-1-2,variant,0,1,5.8,6.4,9,v0,true,,9276,Introduces blue color and rectangular framing.
+2026-09-21T07:42:18.308Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,8,0-1-2,variant,1,2,5.8,6.4,9,v0,true,,9276,Maintains the blue and black geometric structure.
+2026-09-21T07:42:18.308Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,8,0-1-2,variant,2,3,5.8,6.4,9,v0,true,,9276,Replicates the colored frame approach.
+2026-09-21T07:42:37.344Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,9,0-1-2,parent,,0,3.2,0,3.2,v0,true,,9020,Lacks the essential grid and color palette.
+2026-09-21T07:42:37.344Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,9,0-1-2,variant,0,1,6.4,5.8,9.3,v0,true,,9020,Introduces rectangular form and primary blue.
+2026-09-21T07:42:37.344Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,9,0-1-2,variant,1,2,6.4,5.8,9.3,v0,true,,9020,Visually identical to the first variant.
+2026-09-21T07:42:37.344Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,9,0-1-2,variant,2,3,6.4,5.8,9.3,v0,true,,9020,Repeats the same blue rectangular structure.
+2026-09-21T07:42:57.423Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,10,0-1-2,parent,,0,3.2,0,3.2,v0,true,,10066,Minimalist single line lacks Mondrian's grid and color palette.
+2026-09-21T07:42:57.423Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,10,0-1-2,variant,0,1,6.5,7.1,10.05,v0,true,,10066,Introduces blue primary color and rectangular framing.
+2026-09-21T07:42:57.423Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,10,0-1-2,variant,1,2,6.5,7.1,10.05,v0,true,,10066,Maintains the blue and black geometric structure.
+2026-09-21T07:42:57.423Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,10,0-1-2,variant,2,3,6.5,7.1,10.05,v0,true,,10066,Repeats the use of thick lines and primary tones.
+2026-09-21T07:43:17.545Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,11,0-1-2,parent,,0,3.2,0,3.2,v0,true,,10113,Lacks the characteristic grid and palette of the style.
+2026-09-21T07:43:17.545Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,11,0-1-2,variant,0,1,6.4,5.8,9.3,v0,true,,10113,Introduces primary color and rectangular structure.
+2026-09-21T07:43:17.545Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,11,0-1-2,variant,1,2,6.4,5.8,9.3,v0,true,,10113,Introduces primary color and rectangular structure.
+2026-09-21T07:43:17.545Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,11,0-1-2,variant,2,3,6.4,5.8,9.3,v0,true,,10113,Introduces primary color and rectangular structure.
+2026-09-21T07:43:37.730Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,12,0-1-2,parent,,0,3.4,0,3.4,v0,true,,10175,Minimalist vertical line lacks Mondrian's color and grid complexity.
+2026-09-21T07:43:37.730Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,12,0-1-2,variant,0,1,6.2,5.8,9.1,v0,true,,10175,Introduces primary blue and rectilinear framing consistent with De Stijl.
+2026-09-21T07:43:37.730Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,12,0-1-2,variant,1,2,6.2,5.8,9.1,v0,true,,10175,Maintains the same color block and line weight as variant one.
+2026-09-21T07:43:37.730Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,12,0-1-2,variant,2,3,6.2,5.8,9.1,v0,true,,10175,Repeats the previous geometric structure without further stylistic evolution.
+2026-09-21T07:43:56.026Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,13,0-1-2,parent,,0,3.2,0,3.2,v0,true,,8291,Single line lacks the required geometric complexity and primary palette.
+2026-09-21T07:43:56.026Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,13,0-1-2,variant,0,1,6.5,6.8,9.9,v0,true,,8291,Introduction of blue and thick borders better reflects neoplasticism.
+2026-09-21T07:43:56.026Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,13,0-1-2,variant,1,2,6.5,6.8,9.9,v0,true,,8291,Stronger visual weight through color and rectangular framing.
+2026-09-21T07:43:56.026Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,13,0-1-2,variant,2,3,6.5,6.8,9.9,v0,true,,8291,Improved adherence to style via bold outlines and color blocks.
+2026-09-21T07:44:13.712Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,14,0-1-2,parent,,0,3.2,0,3.2,v0,true,,7677,Single thin line lacks Mondrian's characteristic grid and color.
+2026-09-21T07:44:13.712Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,14,0-1-2,variant,0,1,6.8,7.5,10.55,v0,true,,7677,Stronger composition with thick lines and primary blue color.
+2026-09-21T07:44:13.712Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,14,0-1-2,variant,1,2,6.8,7.5,10.55,v0,true,,7677,Identical to variant one with good use of stroke weight.
+2026-09-21T07:44:13.712Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,14,0-1-2,variant,2,3,6.8,7.5,10.55,v0,true,,7677,"Identical to variant one, capturing basic geometric elements."
+2026-09-21T07:44:31.724Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,15,0-1-2,parent,,0,3.2,0,3.2,v0,true,,8000,Single thin line lacks the characteristic grid and primary color blocks of Mondrian.
+2026-09-21T07:44:31.724Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,15,0-1-2,variant,0,1,6.4,6.8,9.8,v0,true,,8000,"Introduces rectilinear form and primary blue, aligning better with Neoplasticist principles."
+2026-09-21T07:44:31.724Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,15,0-1-2,variant,1,2,6.4,6.8,9.8,v0,true,,8000,Maintains the rectangular structure and bold line weight seen in the previous variant.
+2026-09-21T07:44:31.724Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,15,0-1-2,variant,2,3,6.4,6.8,9.8,v0,true,,8000,Consistency in geometric output provides a stable base for further stylistic evolution.
+2026-09-21T07:44:43.145Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,16,0-1-2,,,,,,,,false,"Gemini 503: {
+  ""error"": {
+    ""code"": 503,
+    ""message"": ""This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",1417,
+2026-09-21T07:45:02.343Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,17,0-1-2,parent,,0,3.2,0,3.2,v0,true,,9190,Single black line lacks the color and geometry of the target style.
+2026-09-21T07:45:02.343Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,17,0-1-2,variant,0,1,5.6,6.4,8.8,v0,true,,9190,"Incorporates blue and rectangular structure, improving stylistic alignment."
+2026-09-21T07:45:02.343Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,17,0-1-2,variant,1,2,5.6,6.4,8.8,v0,true,,9190,"Identical to variant one, offering no further stylistic progression."
+2026-09-21T07:45:02.343Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,17,0-1-2,variant,2,3,5.6,6.4,8.8,v0,true,,9190,Repeats the blue frame without adding necessary red or yellow accents.
+2026-09-21T07:45:21.551Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,18,0-1-2,parent,,0,3.2,0,3.2,v0,true,,9206,Lacks the color and complexity of the target style.
+2026-09-21T07:45:21.551Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,18,0-1-2,variant,0,1,6.4,6.1,9.45,v0,true,,9206,Introduces primary color and rectangular structure.
+2026-09-21T07:45:21.551Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,18,0-1-2,variant,1,2,6.4,6.1,9.45,v0,true,,9206,Visually identical to variant one.
+2026-09-21T07:45:21.551Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,18,0-1-2,variant,2,3,6.4,6.1,9.45,v0,true,,9206,Visually identical to variant one.
+2026-09-21T07:45:41.755Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,19,0-1-2,parent,,0,3.2,0,3.2,v0,true,,10196,Single line lacks color and grid structure.
+2026-09-21T07:45:41.755Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,19,0-1-2,variant,0,1,4.8,6.2,7.9,v0,true,,10196,Adds blue and shape but lacks complexity.
+2026-09-21T07:45:41.755Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,19,0-1-2,variant,1,2,4.8,6.2,7.9,v0,true,,10196,Identical to variant one with no change.
+2026-09-21T07:45:41.755Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,19,0-1-2,variant,2,3,4.8,6.2,7.9,v0,true,,10196,Visual output remains stagnant in this variant.
+2026-09-21T07:46:03.997Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,20,0-1-2,parent,,0,3.1,0,3.1,v0,true,,12236,A single line lacks the complex grid and primary colors of the style.
+2026-09-21T07:46:03.997Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,20,0-1-2,variant,0,1,6.2,6.5,9.45,v0,true,,12236,The addition of blue and a rectangular frame moves toward the aesthetic.
+2026-09-21T07:46:03.997Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,20,0-1-2,variant,1,2,6.2,6.5,9.45,v0,true,,12236,Bold line weights and primary color usage align with the target theme.
+2026-09-21T07:46:03.997Z,Bmu9yp9p3,position test,,,J1,google,gemini-3-flash-preview,20,0-1-2,variant,2,3,6.2,6.5,9.45,v0,true,,12236,Rectangular geometry and blue hues successfully initiate the requested look.

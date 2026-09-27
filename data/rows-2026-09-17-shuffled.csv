@@ -1,0 +1,161 @@
+ts,batchId,batchName,makerCompany,makerModel,judgeId,judgeCompany,judgeModel,repeat,order,target,variantIndex,position,aes,nov,score,winner,parseOk,error,latencyMs,reason
+2026-09-17T13:32:13.060Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,1-0-2,parent,,0,3,0,3,v2,true,,10315,Minimalist single line lacks color and grid structure.
+2026-09-17T13:32:13.060Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,1-0-2,variant,1,1,5,4,7,v2,true,,10315,Introduces primary blue and basic rectangular form.
+2026-09-17T13:32:13.060Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,1-0-2,variant,0,2,5,4,7,v2,true,,10315,Utilizes primary red within a standard frame.
+2026-09-17T13:32:13.060Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,1-0-2,variant,2,3,6,5,8.5,v2,true,,10315,Asymmetrical black border with yellow improves composition.
+2026-09-17T13:32:34.123Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,0-1-2,parent,,0,4,0,4,v2,true,,11058,Lacks required color and grid structure.
+2026-09-17T13:32:34.123Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,0,1,6,4,8,v2,true,,11058,Introduces red and basic rectangular form.
+2026-09-17T13:32:34.123Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,1,2,6,4,8,v2,true,,11058,Utilizes blue and varied horizontal proportions.
+2026-09-17T13:32:34.123Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,0-1-2,variant,2,3,7,5,9.5,v2,true,,11058,Effective use of yellow and thicker lines.
+2026-09-17T13:32:52.732Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,1-0-2,parent,,0,3,0,3,v2,true,,8601,Too minimalist without color or grid structure.
+2026-09-17T13:32:52.732Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,1-0-2,variant,1,1,5,5,7.5,v2,true,,8601,Introduces blue and basic rectangular framing.
+2026-09-17T13:32:52.732Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,1-0-2,variant,0,2,5,5,7.5,v2,true,,8601,Utilizes red within a vertical orientation.
+2026-09-17T13:32:52.732Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,1-0-2,variant,2,3,6,6,9,v2,true,,8601,Effective combination of yellow with multiple black edges.
+2026-09-17T13:33:16.193Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,1-0-2,parent,,0,3,0,3,v2,true,,13446,Too minimal for the intended grid style.
+2026-09-17T13:33:16.193Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,1-0-2,variant,1,1,5,5,7.5,v2,true,,13446,Adds primary color and rectangular structure.
+2026-09-17T13:33:16.193Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,1-0-2,variant,0,2,5,5,7.5,v2,true,,13446,Effective use of primary red and bold lines.
+2026-09-17T13:33:16.193Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,1-0-2,variant,2,3,6,5,8.5,v2,true,,13446,Best composition using yellow and partial black border.
+2026-09-17T13:33:49.221Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,0-1-2,parent,,0,3,0,3,v0,true,,23026,Single vertical line lacks color and composition.
+2026-09-17T13:33:49.221Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,0,1,6,5,8.5,v0,true,,23026,Introduces red and basic rectangular geometry.
+2026-09-17T13:33:49.221Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,1,2,6,5,8.5,v0,true,,23026,Uses blue with increased line thickness.
+2026-09-17T13:33:49.221Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,0-1-2,variant,2,3,6,5,8.5,v0,true,,23026,Applies yellow within a simple frame.
+2026-09-17T13:34:15.571Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,1-2-0,parent,,0,3,0,3,v0,true,,16342,Simple line lacks Mondrian composition.
+2026-09-17T13:34:15.571Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,1-2-0,variant,1,1,5,6,8,v0,true,,16342,Introduces blue within a frame.
+2026-09-17T13:34:15.571Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,1-2-0,variant,2,2,5,6,8,v0,true,,16342,Uses yellow for specific edges.
+2026-09-17T13:34:15.571Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,1-2-0,variant,0,3,6,6,9,v0,true,,16342,Red color aligns with the theme.
+2026-09-17T13:34:34.549Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,7,0-1-2,,,,,,,,false,"Gemini 503: {
+  ""error"": {
+    ""code"": 503,
+    ""message"": ""This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",8970,
+2026-09-17T13:35:04.980Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,8,2-1-0,,,,,,,,false,"Gemini 503: {
+  ""error"": {
+    ""code"": 503,
+    ""message"": ""This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",20417,
+2026-09-17T13:35:32.496Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,1-2-0,parent,,0,4,0,4,v0,true,,17502,Minimalist line lacks required complexity.
+2026-09-17T13:35:32.496Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,1-2-0,variant,1,1,5,6,8,v0,true,,17502,Blue frame introduces geometric structure.
+2026-09-17T13:35:32.496Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,1-2-0,variant,2,2,5,6,8,v0,true,,17502,Yellow palette aligns with style.
+2026-09-17T13:35:32.496Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,1-2-0,variant,0,3,6,6,9,v0,true,,17502,Red rectangle captures iconic aesthetic.
+2026-09-17T13:35:53.053Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,10,2-0-1,parent,,0,4,0,4,v2,true,,10548,Single line lacks geometric complexity.
+2026-09-17T13:35:53.053Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,10,2-0-1,variant,2,1,6,7,9.5,v2,true,,10548,Rectangle with yellow introduces primary colors.
+2026-09-17T13:35:53.053Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,10,2-0-1,variant,0,2,6,7,9.5,v2,true,,10548,Red border aligns with stylistic palette.
+2026-09-17T13:35:53.053Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,10,2-0-1,variant,1,3,6,7,9.5,v2,true,,10548,Blue frame adds necessary color variety.
+2026-09-17T13:36:16.315Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,2-0-1,parent,,0,3,0,3,v1,true,,13261,Minimalist vertical line lacks necessary color and grid complexity.
+2026-09-17T13:36:16.315Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,2-0-1,variant,2,1,6,4,8,v1,true,,13261,Yellow palette and rectangular form begin to reflect geometric abstraction.
+2026-09-17T13:36:16.315Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,2-0-1,variant,0,2,6,4,8,v1,true,,13261,Red framing and right angles align with basic structural requirements.
+2026-09-17T13:36:16.315Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,2-0-1,variant,1,3,7,5,9.5,v1,true,,13261,Thicker blue boundaries and clear geometry best represent the style.
+2026-09-17T13:36:37.672Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,1-0-2,parent,,0,4,0,4,v2,true,,11341,Minimal line lacks geometric complexity.
+2026-09-17T13:36:37.672Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,1-0-2,variant,1,1,5,5,7.5,v2,true,,11341,Blue rectangle begins defining space.
+2026-09-17T13:36:37.672Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,1-0-2,variant,0,2,5,5,7.5,v2,true,,11341,Red palette fits the aesthetic.
+2026-09-17T13:36:37.672Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,1-0-2,variant,2,3,6,6,9,v2,true,,11341,Yellow and black balance is strongest.
+2026-09-17T13:36:56.345Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,2-0-1,parent,,0,4,0,4,v2,true,,8670,Minimal vertical line lacks grid complexity.
+2026-09-17T13:36:56.345Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,2-0-1,variant,2,1,7,6,10,v2,true,,8670,Yellow palette and rectangular form approach the style.
+2026-09-17T13:36:56.345Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,2-0-1,variant,0,2,7,6,10,v2,true,,8670,Red border and perpendicular lines reflect basic composition.
+2026-09-17T13:36:56.345Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,2-0-1,variant,1,3,7,6,10,v2,true,,8670,Blue accents and geometric structure fit the aesthetic.
+2026-09-17T13:37:18.967Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,2-0-1,parent,,0,4,0,4,v2,true,,12615,Isolated line lacks necessary color and geometry.
+2026-09-17T13:37:18.967Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,2-0-1,variant,2,1,6,5,8.5,v2,true,,12615,Yellow framing begins to establish rectangular themes.
+2026-09-17T13:37:18.967Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,2-0-1,variant,0,2,6,5,8.5,v2,true,,12615,Red perimeter aligns with primary color palette.
+2026-09-17T13:37:18.967Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,2-0-1,variant,1,3,6,5,8.5,v2,true,,12615,Blue stroke and width provide better visual weight.
+2026-09-17T13:37:33.638Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,15,1-2-0,,,,,,,,false,"Gemini 503: {
+  ""error"": {
+    ""code"": 503,
+    ""message"": ""This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",4668,
+2026-09-17T13:37:51.204Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,16,2-0-1,parent,,0,4,0,4,v2,true,,7558,Minimalist black line lacks the color and grid structure of the style.
+2026-09-17T13:37:51.204Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,16,2-0-1,variant,2,1,7,6,10,v2,true,,7558,Yellow palette and rectangular form capture basic stylistic elements well.
+2026-09-17T13:37:51.204Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,16,2-0-1,variant,0,2,7,6,10,v2,true,,7558,Red primary color and bold borders align effectively with the aesthetic.
+2026-09-17T13:37:51.204Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,16,2-0-1,variant,1,3,7,6,10,v2,true,,7558,Blue hue and wider aspect ratio reflect Neo-Plasticism principles.
+2026-09-17T13:38:14.426Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,17,2-0-1,parent,,0,3,0,3,v1,true,,13216,Basic line lacks geometric structure.
+2026-09-17T13:38:14.426Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,17,2-0-1,variant,2,1,6,5,8.5,v1,true,,13216,Rectangle and yellow hint at Mondrian.
+2026-09-17T13:38:14.426Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,17,2-0-1,variant,0,2,6,5,8.5,v1,true,,13216,Red borders provide necessary primary contrast.
+2026-09-17T13:38:14.426Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,17,2-0-1,variant,1,3,6,6,9,v1,true,,13216,Blue frame adds spatial variety.
+2026-09-17T13:38:34.173Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,18,0-1-2,parent,,0,4,0,4,v2,true,,9743,Simple line lacks composition.
+2026-09-17T13:38:34.173Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,18,0-1-2,variant,0,1,6,5,8.5,v2,true,,9743,Adds red and basic geometry.
+2026-09-17T13:38:34.173Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,18,0-1-2,variant,1,2,6,5,8.5,v2,true,,9743,Uses blue and wider proportions.
+2026-09-17T13:38:34.173Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,18,0-1-2,variant,2,3,7,6,10,v2,true,,9743,Better yellow contrast and border weight.
+2026-09-17T13:38:53.292Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,19,2-0-1,parent,,0,4,0,4,v0,true,,9111,Single vertical line lacks geometric complexity.
+2026-09-17T13:38:53.292Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,19,2-0-1,variant,2,1,6,6,9,v0,true,,9111,Yellow framing introduces basic rectangular structure.
+2026-09-17T13:38:53.292Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,19,2-0-1,variant,0,2,7,6,10,v0,true,,9111,Red palette and thicker lines improve composition.
+2026-09-17T13:38:53.292Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,19,2-0-1,variant,1,3,7,6,10,v0,true,,9111,Blue borders create better visual weight.
+2026-09-17T13:39:16.754Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,20,1-0-2,parent,,0,3,0,3,v1,true,,13457,Minimal line lacks color and grid.
+2026-09-17T13:39:16.754Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,20,1-0-2,variant,1,1,6,6,9,v1,true,,13457,Introduces blue and rectangular geometry.
+2026-09-17T13:39:16.754Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,20,1-0-2,variant,0,2,6,6,9,v1,true,,13457,Utilizes red in a framed layout.
+2026-09-17T13:39:16.754Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,20,1-0-2,variant,2,3,6,6,9,v1,true,,13457,Adds yellow with distinct black borders.
+2026-09-17T13:40:54.168Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,0-2-1,parent,,0,3,0,3,v0,true,,87411,Lacks required color and grid structure.
+2026-09-17T13:40:54.168Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,0-2-1,variant,0,1,7,7,10.5,v0,true,,87411,Adds red and basic rectangular form.
+2026-09-17T13:40:54.168Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,0-2-1,variant,2,2,7,7,10.5,v0,true,,87411,Uses yellow with varied border weights.
+2026-09-17T13:40:54.168Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,1,0-2-1,variant,1,3,7,7,10.5,v0,true,,87411,Strong blue usage and high contrast.
+2026-09-17T13:41:30.216Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,1-0-2,parent,,0,4,0,4,v1,true,,26041,Basic black line lacks required primary colors and geometric complexity.
+2026-09-17T13:41:30.216Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,1-0-2,variant,1,1,6,5,8.5,v1,true,,26041,Introduces blue and rectangular forms central to the Mondrian style.
+2026-09-17T13:41:30.216Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,1-0-2,variant,0,2,6,5,8.5,v1,true,,26041,Utilizes red and vertical proportions common in neoplasticist compositions.
+2026-09-17T13:41:30.216Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,2,1-0-2,variant,2,3,6,5,8.5,v1,true,,26041,Combines yellow with black borders to approximate a grid element.
+2026-09-17T13:41:40.682Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,3,0-1-2,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",454,
+2026-09-17T13:41:51.161Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,4,2-1-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",474,
+2026-09-17T13:42:01.609Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,5,2-1-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",432,
+2026-09-17T13:42:12.096Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,6,1-2-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",473,
+2026-09-17T13:42:22.541Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,7,1-0-2,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",429,
+2026-09-17T13:42:32.974Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,8,1-0-2,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",429,
+2026-09-17T13:42:43.469Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,9,2-0-1,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",483,
+2026-09-17T13:42:53.905Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,10,2-0-1,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",421,
+2026-09-17T13:43:04.335Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,11,2-1-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",425,
+2026-09-17T13:43:14.825Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,12,0-2-1,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",480,
+2026-09-17T13:43:25.297Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,13,1-2-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",462,
+2026-09-17T13:43:35.742Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,14,1-2-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",443,
+2026-09-17T13:43:46.181Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,15,2-1-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",434,
+2026-09-17T13:43:56.648Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,16,1-0-2,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",458,
+2026-09-17T13:44:07.070Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,17,1-0-2,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",415,
+2026-09-17T13:44:17.493Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,18,0-1-2,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",414,
+2026-09-17T13:44:27.939Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,19,1-2-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",436,
+2026-09-17T13:44:38.427Z,Bmu2ndzkj,round 1,,,J1,google,gemini-3-flash-preview,20,1-2-0,,,,,,,,false,"Gemini 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error,",479,
