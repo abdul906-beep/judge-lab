@@ -25,8 +25,9 @@ Provider notes:
   key in the app own API PROVIDER panel.
 - **Claude** — put an Anthropic API key in that judge row key box. Without a key
   it only works inside a Claude artifact, not on a normal web page.
-- The free Gemini tier refused most of my calls for days (51 quota, 9 capacity
-  out of 93). On a paid tier none of that should bite.
+- The free Gemini tier refused a lot of my calls: across every run, 79 succeeded
+  and 69 failed (52 refused for quota, 17 for capacity). On a paid tier that
+  should not be a problem.
 
 ## The four experiments
 
