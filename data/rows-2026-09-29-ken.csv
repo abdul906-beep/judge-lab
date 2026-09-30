@@ -1,0 +1,93 @@
+ts,callId,batchId,batchName,makerCompany,makerModel,judgeId,judgeCompany,judgeModel,repeat,precision,order,target,variantIndex,position,aes,nov,score,winner,parseOk,error,latencyMs,reason
+2026-09-29T05:44:07.373Z,c1-2026-09-29T05:44:07.373Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,1,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",1901,
+2026-09-29T05:44:09.460Z,c2-2026-09-29T05:44:09.460Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,2,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",884,
+2026-09-29T05:44:11.503Z,c3-2026-09-29T05:44:11.503Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,3,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",841,
+2026-09-29T05:44:13.439Z,c4-2026-09-29T05:44:13.439Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,4,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",734,
+2026-09-29T05:44:15.407Z,c5-2026-09-29T05:44:15.407Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,5,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",767,
+2026-09-29T05:44:16.809Z,c6-2026-09-29T05:44:16.809Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,6,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",201,
+2026-09-29T05:44:18.807Z,c7-2026-09-29T05:44:18.807Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,7,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",796,
+2026-09-29T05:44:20.386Z,c8-2026-09-29T05:44:20.386Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,8,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",377,
+2026-09-29T05:44:21.807Z,c9-2026-09-29T05:44:21.807Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,9,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",220,
+2026-09-29T05:44:23.210Z,c10-2026-09-29T05:44:23.210Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,openai,gpt-5.6-terra,10,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",201,
+2026-09-29T05:44:24.641Z,c11-2026-09-29T05:44:24.641Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,1,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",231,
+2026-09-29T05:44:26.092Z,c12-2026-09-29T05:44:26.092Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,2,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",250,
+2026-09-29T05:44:28.288Z,c13-2026-09-29T05:44:28.288Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,3,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",210,
+2026-09-29T05:44:30.281Z,c14-2026-09-29T05:44:30.281Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,4,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",203,
+2026-09-29T05:44:32.297Z,c15-2026-09-29T05:44:32.297Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,5,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",218,
+2026-09-29T05:44:34.318Z,c16-2026-09-29T05:44:34.318Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,6,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",240,
+2026-09-29T05:44:36.331Z,c17-2026-09-29T05:44:36.331Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,7,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",253,
+2026-09-29T05:44:38.280Z,c18-2026-09-29T05:44:38.280Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,8,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",202,
+2026-09-29T05:44:40.314Z,c19-2026-09-29T05:44:40.314Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,9,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",235,
+2026-09-29T05:44:42.895Z,c20-2026-09-29T05:44:42.895Z,Bmuic32w9,Wild flowers (round 1),google,gemini-3.8-flash,J1,openai,gpt-5.6-terra,10,app,0-1-2,,,,,,,,false,"OpenAI 400: {
+  ""error"": {
+    ""message"": ""Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead."",
+    ""type"": ""invalid",816,
+2026-09-29T05:46:13.143Z,c21-2026-09-29T05:46:13.143Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,1,app,0-1-2,parent,,0,3,0,3,v0,true,,4096,A single thin vertical line lacks Mondrian's signature geometric grid structure and primary color palette.
+2026-09-29T05:46:13.143Z,c21-2026-09-29T05:46:13.143Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,0,1,6,6,9,v0,true,,4096,"Introduces bold primary red alongside thick black boundaries, capturing a foundational De Stijl aesthetic."
+2026-09-29T05:46:13.143Z,c21-2026-09-29T05:46:13.143Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,1,2,5,6,8,v0,true,,4096,Uses a wide rectangular form with primary blue and heavy black line weight.
+2026-09-29T05:46:13.143Z,c21-2026-09-29T05:46:13.143Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,2,3,5,6,8,v0,true,,4096,"Incorporates primary yellow and black framing, though the split-border structure feels slightly incomplete."
+2026-09-29T05:46:18.986Z,c22-2026-09-29T05:46:18.986Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,2,app,0-1-2,parent,,0,3,0,3,v0,true,,4641,A single thin vertical line lacks Mondrian's signature grid structure and color palette.
+2026-09-29T05:46:18.986Z,c22-2026-09-29T05:46:18.986Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,0,1,6,6,9,v0,true,,4641,Introduces primary red and a bold rectangular frame echoing De Stijl geometry.
+2026-09-29T05:46:18.986Z,c22-2026-09-29T05:46:18.986Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,1,2,6,6,9,v0,true,,4641,Uses classic Mondrian blue alongside thick black framing in a broader rectangular proportion.
+2026-09-29T05:46:18.986Z,c22-2026-09-29T05:46:18.986Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,2,3,5,6,8,v0,true,,4641,Applies yellow and black linear elements to define an asymmetric vertical boundary.
+2026-09-29T05:46:24.615Z,c23-2026-09-29T05:46:24.615Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,3,app,0-1-2,parent,,0,3,0,3,v0,true,,4427,A single thin line lacks Mondrian's grid structure and color.
+2026-09-29T05:46:24.615Z,c23-2026-09-29T05:46:24.615Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,0,1,5,6,8,v0,true,,4427,Introduces primary red and rectilinear structure reminiscent of De Stijl.
+2026-09-29T05:46:24.615Z,c23-2026-09-29T05:46:24.615Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,1,2,5,6,8,v0,true,,4427,Strong primary blue frame pairs decently with the bold black bar.
+2026-09-29T05:46:24.615Z,c23-2026-09-29T05:46:24.615Z,Bmu2ndzkj,Mondrian (round 1),google,gemini-3-flash-preview,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,2,3,5,6,8,v0,true,,4427,Yellow accent lines provide asymmetric balance against the black segment.

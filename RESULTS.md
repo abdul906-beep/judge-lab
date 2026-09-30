@@ -141,3 +141,42 @@ So the earlier "52% of calls" figure is specific to a batch whose variants were
 become more similar, the gaps shrink, and ties — and therefore order deciding
 the winner — should become *more* frequent in later rounds. Testable by
 recording the gap between the top two variants at round 1 versus round 20.
+
+## Ken's runs (29 Sep) — first non-Google judge
+Run by Ken on his own keys. Mondrian batch, written order, app's default scale.
+Data: `data/rows-2026-09-29-ken.csv` (gemini-3.8-flash; its 20 OpenAI rows all
+failed on the `max_tokens` bug, fixed in commit 304fa29) and
+`data/rows-2026-09-29-ken-gpt.csv` (gpt-5.6-terra, after the fix).
+
+| judge | calls | top-score ties | winner (variant 1/2/3) | overall scores v1 / v2 / v3 |
+|---|---|---|---|---|
+| gemini-3.8-flash | 3 | 2 (both to variant 1) | 3 / 0 / 0 | 9,9,8 / 8,9,8 / 8,8,8 |
+| gpt-5.6-terra | 3 | 0 | 0 / 3 / 0 | 6,6.5,5.5 / 6.5,8,6 / 6,6.5,5.5 |
+
+GPT's top-to-second gap was 0.5, 1.5, 0.5. Variants 1 and 3 tied for second in
+all three calls. Too few calls to claim anything, but the three judges so far do
+not agree on the best variant: gemini-3-flash-preview preferred variant 3,
+gpt-5.6-terra variant 2, and gemini-3.8-flash tied or chose variant 1.
+
+## Ken's three-judge run (30 Sep)
+Experiment 4, run by Ken, 10 calls per judge per batch, whole-number prompt,
+written order. Data: `data/rows-2026-09-30-ken-3judges.csv`. Claude failed on
+Mondrian (model typed as `sonnet-5.5`, 404) and worked on wild flowers
+(`claude-sonnet-5`).
+
+| batch | judge | calls | top-score ties | winner v1 / v2 / v3 |
+|---|---|---|---|---|
+| Mondrian | gemini-3.8-flash | 10 | **10** | 10 / 0 / 0 |
+| Mondrian | gpt-5.6-luna | 10 | 1 | 0 / 8 / 2 |
+| Wild flowers | gemini-3.8-flash | 10 | 0 | 10 / 0 / 0 |
+| Wild flowers | gpt-5.6-luna | 10 | 0 | 9 / 1 / 0 |
+| Wild flowers | claude-sonnet-5 | 10 | 0 | 10 / 0 / 0 |
+
+- **Mondrian, gemini-3.8-flash: a tie in every one of 10 calls**, all won by the
+  first-listed variant. Here list order chose every winner.
+- GPT scores in half-points and tied once; it preferred variant 2, 8 of 10.
+- **Wild flowers: all three companies agree** — variant 1, 29 of 30 calls, no
+  ties. Where the variants are far apart the judges agree and ties vanish; where
+  they are close (Mondrian) one judge ties every time and the judges disagree.
+  Consistent with the gap rule, now across two companies' models plus Claude on
+  one batch.

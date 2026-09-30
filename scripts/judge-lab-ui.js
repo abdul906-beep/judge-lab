@@ -457,13 +457,13 @@ const JL_PRESETS = {
     label: '1. Tie rate on both tastes (20 calls each, whole numbers)',
     calls: 40,
     tests: 'Whether ties depend on how far apart the variants are. Expect many ties on Mondrian (top two 0.47 apart) and none on wild flowers (2.17 apart).',
-    batches: 'all', repeats: 20, precision: 'app', shuffle: false
+    batches: 'original', repeats: 20, precision: 'app', shuffle: false
   },
   decimal_fix: {
     label: '2. Does the decimal fix hold on both tastes? (20 + 20 each)',
     calls: 80,
     tests: 'Whether asking for one decimal place removes ties. Expect ties to vanish wherever they occurred.',
-    batches: 'all', repeats: 20, precision: 'both', shuffle: false
+    batches: 'original', repeats: 20, precision: 'both', shuffle: false
   },
   order_decides: {
     label: '3. Does list order decide the winner? (20 fixed + 20 shuffled, Mondrian)',
@@ -475,7 +475,13 @@ const JL_PRESETS = {
     label: '4. Same pictures, every judge you have (10 calls per judge per batch)',
     calls: 0,
     tests: 'Whether this behaviour is particular to one company. Add one judge per provider first, then run.',
-    batches: 'all', repeats: 10, precision: 'app', shuffle: false
+    batches: 'original', repeats: 10, precision: 'app', shuffle: false
+  },
+  close_vs_far: {
+    label: '5. New categories: close vs far (10 calls per judge per batch)',
+    calls: 0,
+    tests: 'Six new batches: snowflake, city skyline and spiral galaxy, each as a close set (three near-identical variants) and a far set (one clearly strongest, listed last). Expect whole-number ties on the close sets and none on the far ones. Tick every judge you want; about 60 calls per judge.',
+    batches: 'new', repeats: 10, precision: 'app', shuffle: false
   }
 };
 
@@ -485,6 +491,8 @@ async function jlRunPreset(key){
   if(JL.running){ jlStatus('Already running — press Stop first.'); return; }
   const want = function(b){
     return p.batches === 'all' ? true
+         : p.batches === 'original' ? /mondrian|flower/i.test(b.name)
+         : p.batches === 'new' ? / - (close|far)$/.test(b.name)
          : p.batches === 'mondrian' ? /mondrian/i.test(b.name)
          : /flower/i.test(b.name);
   };
@@ -696,7 +704,7 @@ function jlBuildPanel(){
   + '<div style="font-weight:700;margin-top:4px">4 &middot; Results</div>'
   + '<div id="jlResults" style="border:1px solid #1e293b;padding:6px;border-radius:4px;max-height:230px;overflow:auto"></div>'
   + '<div style="display:flex;gap:4px;margin-top:4px"><button onclick="JLui.exportCSV()">Export CSV</button><button onclick="JLui.clearRows()">Clear results</button></div>'
-  + '<div id="jlCopyBox" style="display:none;margin-top:6px"><div style="opacity:.7">Downloads are blocked in artifacts — copy from here:</div><textarea style="width:100%;height:90px;font-size:.6rem"></textarea></div>'
+  + '<div id="jlCopyBox" style="display:none;margin-top:6px"><div style="opacity:.7">If the download did not start (it cannot inside a Claude artifact), copy from here:</div><textarea style="width:100%;height:90px;font-size:.6rem"></textarea></div>'
   + '</div>';
   document.body.appendChild(d);
   const onClaude = (typeof isArtifact === 'function' && isArtifact())

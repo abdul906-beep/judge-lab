@@ -11,6 +11,10 @@ Two frozen batches are built in, so nothing needs pasting:
 
 Both store their rendered images, so every run scores pixel-identical pictures.
 
+Six more, added on 30 Sep for experiment 5, are hand-written rather than
+made by the app: snowflake, city skyline and spiral galaxy, each as a **close**
+set and a **far** set (see experiment 5).
+
 ## Setting up a judge
 
 In section 2, each row is one judge: provider, model, API key. The key box can
@@ -23,7 +27,9 @@ Provider notes:
 
 - **Gemini** and **OpenAI** — key in the judge row, or leave it empty to use the
   key in the app own API PROVIDER panel.
-- **Claude** — put an Anthropic API key in that judge row key box. Without a key
+- **Claude** — put an Anthropic API key in that judge row key box, and use a
+  full model id such as `claude-sonnet-5` (a short name like `sonnet-5.5` gets
+  a 404). Without a key
   it only works inside a Claude artifact, not on a normal web page.
 - The free Gemini tier refused a lot of my calls: across every run, 79 succeeded
   and 69 failed (52 refused for quota, 17 for capacity). On a paid tier that
@@ -50,6 +56,15 @@ to lose its advantage when shuffled.
 **4. Same pictures, every judge you have** (10 calls per judge per batch). This
 is the one I could not run at all. It asks whether any of this is particular to
 one company. Add a Gemini row, an OpenAI row and a Claude row, then run.
+
+**5. New categories: close vs far** (10 calls per judge per batch, about 60 per
+judge). Six new batches in three tastes. In each **close** set the three
+variants are the same drawing with small changes (a slightly different angle,
+colour, or building height). In each **far** set one variant is clearly the
+strongest and one clearly the weakest, and the strongest is listed **last**, so
+if it wins, list order did not give it the win. These are hand-written, not
+evolved, so the gap between variants is set on purpose. Expect whole-number
+ties on the close sets and none on the far sets.
 
 ## The prediction I could not test
 
