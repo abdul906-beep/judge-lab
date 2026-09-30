@@ -1,0 +1,601 @@
+ts,callId,batchId,batchName,makerCompany,makerModel,judgeId,judgeCompany,judgeModel,repeat,precision,order,target,variantIndex,position,aes,nov,score,winner,parseOk,error,latencyMs,reason
+2026-09-30T10:00:01.400Z,c1-2026-09-30T10:00:01.400Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,parent,,0,4,0,4,v0,true,,4513,Basic radial spokes lack the delicate branching structure typical of snowflakes.
+2026-09-30T10:00:01.400Z,c1-2026-09-30T10:00:01.400Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,0,1,7,6,10,v0,true,,4513,Adds clear secondary crystal branches and high-contrast winter palette.
+2026-09-30T10:00:01.400Z,c1-2026-09-30T10:00:01.400Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,1,2,7,6,10,v0,true,,4513,Well-balanced dendritic crystal form matching the snowflake aesthetic closely.
+2026-09-30T10:00:01.400Z,c1-2026-09-30T10:00:01.400Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,2,3,7,6,10,v0,true,,4513,"Consistent symmetric snowflake structure with clear, balanced branching."
+2026-09-30T10:00:15.307Z,c2-2026-09-30T10:00:15.307Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,parent,,0,4,0,4,v0,true,,12701,Basic intersecting blue lines on white background lack snowflake intricacy.
+2026-09-30T10:00:15.307Z,c2-2026-09-30T10:00:15.307Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,0,1,7,6,10,v0,true,,12701,Sixfold symmetry with chevron side-branches on navy creates an authentic snowflake motif.
+2026-09-30T10:00:15.307Z,c2-2026-09-30T10:00:15.307Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,1,2,7,6,10,v0,true,,12701,Well-balanced dendritic crystal structure with good contrast against the dark background.
+2026-09-30T10:00:15.307Z,c2-2026-09-30T10:00:15.307Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,2,3,7,6,10,v0,true,,12701,Clean crystalline geometry captures the snowflake aesthetic effectively.
+2026-09-30T10:00:20.746Z,c3-2026-09-30T10:00:20.746Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,parent,,0,4,0,4,v0,true,,4235,Basic six-line radial star lacks intricate crystalline structure.
+2026-09-30T10:00:20.746Z,c3-2026-09-30T10:00:20.746Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,0,1,7,6,10,v0,true,,4235,"Adds balanced branching and high contrast, capturing a classic snowflake form."
+2026-09-30T10:00:20.746Z,c3-2026-09-30T10:00:20.746Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,1,2,7,6,10,v0,true,,4235,Features clear secondary dendrite branches on a dark background.
+2026-09-30T10:00:20.746Z,c3-2026-09-30T10:00:20.746Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,2,3,7,6,10,v0,true,,4235,"Presents a clean, symmetrical dendritic snowflake motif."
+2026-09-30T10:00:28.750Z,c4-2026-09-30T10:00:28.750Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,parent,,0,4,0,4,v0,true,,6203,Basic six-line radial star lacks intricate icy crystal detail.
+2026-09-30T10:00:28.750Z,c4-2026-09-30T10:00:28.750Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,0,1,7,6,10,v0,true,,6203,Branching sub-stems and dark contrast strongly capture crystalline snowflake geometry.
+2026-09-30T10:00:28.750Z,c4-2026-09-30T10:00:28.750Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,1,2,7,6,10,v0,true,,6203,Balanced branching structure mimics natural hexagonal symmetry effectively.
+2026-09-30T10:00:28.750Z,c4-2026-09-30T10:00:28.750Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,2,3,7,6,10,v0,true,,6203,Consistent icy blue linework on dark background delivers a clear snowflake motif.
+2026-09-30T10:00:35.638Z,c5-2026-09-30T10:00:35.638Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,parent,,0,4,0,4,v0,true,,5092,Basic intersecting blue lines provide a minimal 6-fold radial axis without branching.
+2026-09-30T10:00:35.638Z,c5-2026-09-30T10:00:35.638Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,0,1,7,6,10,v0,true,,5092,Branching sub-spokes and a dark contrast background effectively capture crystalline snowflake geometry.
+2026-09-30T10:00:35.638Z,c5-2026-09-30T10:00:35.638Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,1,2,7,6,10,v0,true,,5092,"Symmetrical branched structure creates a solid, clear snowflake motif."
+2026-09-30T10:00:35.638Z,c5-2026-09-30T10:00:35.638Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,2,3,7,6,10,v0,true,,5092,"Consistent dendritic arms convey a recognizable cold, crystalline aesthetic."
+2026-09-30T10:00:42.954Z,c6-2026-09-30T10:00:42.954Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,parent,,0,3,0,3,v0,true,,5408,Basic six-line star lacking snowflake complexity and contrast.
+2026-09-30T10:00:42.954Z,c6-2026-09-30T10:00:42.954Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,0,1,7,6,10,v0,true,,5408,Good six-fold symmetry with branching side crystals on dark background.
+2026-09-30T10:00:42.954Z,c6-2026-09-30T10:00:42.954Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,1,2,7,6,10,v0,true,,5408,Effective crystalline motif with balanced secondary dendritic spurs.
+2026-09-30T10:00:42.954Z,c6-2026-09-30T10:00:42.954Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,2,3,7,6,10,v0,true,,5408,Clean snowflake structure exhibiting clear radial geometry.
+2026-09-30T10:00:49.530Z,c7-2026-09-30T10:00:49.530Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,parent,,0,4,0,4,v0,true,,4983,Basic six-line radial star lacking branching snowflake detail.
+2026-09-30T10:00:49.530Z,c7-2026-09-30T10:00:49.530Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,0,1,7,6,10,v0,true,,4983,Sixfold branching structure on a dark background fits the snowflake theme well.
+2026-09-30T10:00:49.530Z,c7-2026-09-30T10:00:49.530Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,1,2,7,6,10,v0,true,,4983,Symmetrical dendritic arms capture the classic ice crystal look cleanly.
+2026-09-30T10:00:49.530Z,c7-2026-09-30T10:00:49.530Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,2,3,7,6,10,v0,true,,4983,Well-balanced arm geometry effectively conveys a cold crystalline form.
+2026-09-30T10:01:00.279Z,c8-2026-09-30T10:01:00.279Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,parent,,0,4,0,4,v0,true,,8732,Basic six-line asterisk lacks crystal branching and depth.
+2026-09-30T10:01:00.279Z,c8-2026-09-30T10:01:00.279Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,0,1,7,6,10,v0,true,,8732,Strong dendritic structure and high contrast background capture authentic snowflake geometry.
+2026-09-30T10:01:00.279Z,c8-2026-09-30T10:01:00.279Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,1,2,7,6,10,v0,true,,8732,Well-balanced hexagonal branches create a clean crystalline silhouette.
+2026-09-30T10:01:00.279Z,c8-2026-09-30T10:01:00.279Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,2,3,7,6,10,v0,true,,8732,Effective branching angles successfully resemble a classic ice crystal motif.
+2026-09-30T10:01:06.837Z,c9-2026-09-30T10:01:06.837Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,parent,,0,4,0,4,v0,true,,5290,Basic intersecting lines lack essential snowflake branching details.
+2026-09-30T10:01:06.837Z,c9-2026-09-30T10:01:06.837Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,0,1,7,6,10,v0,true,,5290,Accurately captures crystalline structure with branching arms and contrast.
+2026-09-30T10:01:06.837Z,c9-2026-09-30T10:01:06.837Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,1,2,7,6,10,v0,true,,5290,Well-balanced six-fold symmetry effectively evokes a classic snowflake.
+2026-09-30T10:01:06.837Z,c9-2026-09-30T10:01:06.837Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,2,3,7,6,10,v0,true,,5290,Clean geometric branches render the snowflake motif clearly.
+2026-09-30T10:01:13.051Z,c10-2026-09-30T10:01:13.051Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,parent,,0,4,0,4,v0,true,,4503,Basic six-line asterisk with minimal snowflake detail.
+2026-09-30T10:01:13.051Z,c10-2026-09-30T10:01:13.051Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,0,1,7,6,10,v0,true,,4503,Clear crystalline structure with branching on dark background.
+2026-09-30T10:01:13.051Z,c10-2026-09-30T10:01:13.051Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,1,2,7,6,10,v0,true,,4503,Effective hexagonal symmetry with secondary branch details.
+2026-09-30T10:01:13.051Z,c10-2026-09-30T10:01:13.051Z,Bsnowclose,Snowflake - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,2,3,7,6,10,v0,true,,4503,Well-balanced snowflake motif with good visual contrast.
+2026-09-30T10:01:15.644Z,c11-2026-09-30T10:01:15.644Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,1,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",1097,
+2026-09-30T10:01:17.928Z,c12-2026-09-30T10:01:17.928Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,2,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",381,
+2026-09-30T10:01:19.963Z,c13-2026-09-30T10:01:19.963Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,3,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",416,
+2026-09-30T10:01:21.941Z,c14-2026-09-30T10:01:21.941Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,4,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",395,
+2026-09-30T10:01:23.688Z,c15-2026-09-30T10:01:23.688Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,5,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",142,
+2026-09-30T10:01:25.703Z,c16-2026-09-30T10:01:25.703Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,6,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",157,
+2026-09-30T10:01:27.693Z,c17-2026-09-30T10:01:27.693Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,7,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",147,
+2026-09-30T10:01:29.936Z,c18-2026-09-30T10:01:29.936Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,8,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",390,
+2026-09-30T10:01:31.693Z,c19-2026-09-30T10:01:31.693Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,9,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",146,
+2026-09-30T10:01:33.699Z,c20-2026-09-30T10:01:33.699Z,Bsnowclose,Snowflake - close,hand-written,none,J2,openai,gpt-5.5-luna,10,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",151,
+2026-09-30T10:01:36.180Z,c21-2026-09-30T10:01:36.180Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,1,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",632,
+2026-09-30T10:01:37.790Z,c22-2026-09-30T10:01:37.790Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,2,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",243,
+2026-09-30T10:01:39.793Z,c23-2026-09-30T10:01:39.793Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,3,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",246,
+2026-09-30T10:01:41.791Z,c24-2026-09-30T10:01:41.791Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,4,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",244,
+2026-09-30T10:01:43.790Z,c25-2026-09-30T10:01:43.790Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,5,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",243,
+2026-09-30T10:01:45.789Z,c26-2026-09-30T10:01:45.789Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,6,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",243,
+2026-09-30T10:01:47.814Z,c27-2026-09-30T10:01:47.814Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,7,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",257,
+2026-09-30T10:01:49.801Z,c28-2026-09-30T10:01:49.801Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,8,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",254,
+2026-09-30T10:01:51.847Z,c29-2026-09-30T10:01:51.847Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,9,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",301,
+2026-09-30T10:01:53.783Z,c30-2026-09-30T10:01:53.783Z,Bsnowclose,Snowflake - close,hand-written,none,J3,anthropic,claude-sonnet-5,10,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",236,
+2026-09-30T10:02:00.276Z,c31-2026-09-30T10:02:00.276Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,parent,,0,4,0,4,v2,true,,4730,Basic six-fold radial lines establish symmetry but lack characteristic crystalline structure.
+2026-09-30T10:02:00.276Z,c31-2026-09-30T10:02:00.276Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,0,1,3,4,5,v2,true,,4730,Asymmetrical layout fails to evoke a snowflake motif.
+2026-09-30T10:02:00.276Z,c31-2026-09-30T10:02:00.276Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,4730,Forked branch tips cleanly develop the snowflake geometry.
+2026-09-30T10:02:00.276Z,c31-2026-09-30T10:02:00.276Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4730,Multi-tiered branching and high-contrast palette strongly embody the snowflake aesthetic.
+2026-09-30T10:02:06.412Z,c32-2026-09-30T10:02:06.412Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,parent,,0,4,0,4,v2,true,,4865,Basic six-fold radial lines establish the foundational geometry.
+2026-09-30T10:02:06.412Z,c32-2026-09-30T10:02:06.412Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,0,1,3,5,5.5,v2,true,,4865,Asymmetrical layout fails to evoke crystalline structure.
+2026-09-30T10:02:06.412Z,c32-2026-09-30T10:02:06.412Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,4865,Terminal forked branches provide a recognizable snowflake motif.
+2026-09-30T10:02:06.412Z,c32-2026-09-30T10:02:06.412Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4865,Multi-tiered branching and contrasting backdrop create strong crystalline depth.
+2026-09-30T10:02:14.267Z,c33-2026-09-30T10:02:14.267Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,parent,,0,4,0,4,v2,true,,5721,Basic six-fold radial lines with no crystal branching.
+2026-09-30T10:02:14.267Z,c33-2026-09-30T10:02:14.267Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,0,1,3,5,5.5,v2,true,,5721,Asymmetric four-axis layout fails to evoke snowflake geometry.
+2026-09-30T10:02:14.267Z,c33-2026-09-30T10:02:14.267Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,5721,Maintains proper six-fold symmetry with simple terminal branching.
+2026-09-30T10:02:14.267Z,c33-2026-09-30T10:02:14.267Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5721,Rich multi-tiered branching on high-contrast background captures the theme best.
+2026-09-30T10:02:20.338Z,c34-2026-09-30T10:02:20.338Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,parent,,0,4,0,4,v2,true,,4792,Simple six-axis star lacking dendritic detail.
+2026-09-30T10:02:20.338Z,c34-2026-09-30T10:02:20.338Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,0,1,3,5,5.5,v2,true,,4792,Asymmetrical four-fold structure fails to evoke a snowflake.
+2026-09-30T10:02:20.338Z,c34-2026-09-30T10:02:20.338Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,4792,Terminal V-tips introduce proper hexagonal branching.
+2026-09-30T10:02:20.338Z,c34-2026-09-30T10:02:20.338Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4792,Multi-tiered chevron branches and contrasting palette create a convincing crystal form.
+2026-09-30T10:02:27.108Z,c35-2026-09-30T10:02:27.108Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,parent,,0,5,0,5,v2,true,,5561,Basic six-fold symmetry establishes a snowflake foundation but lacks decorative crystal detail.
+2026-09-30T10:02:27.108Z,c35-2026-09-30T10:02:27.108Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,0,1,3,4,5,v2,true,,5561,Four-fold asymmetry fails to capture classic hexagonal snowflake geometry.
+2026-09-30T10:02:27.108Z,c35-2026-09-30T10:02:27.108Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,5561,Terminal V-forks on each arm enhance the icy crystalline feel.
+2026-09-30T10:02:27.108Z,c35-2026-09-30T10:02:27.108Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5561,Multi-tiered branching paired with high contrast creates a convincing delicate snowflake.
+2026-09-30T10:02:34.806Z,c36-2026-09-30T10:02:34.806Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,parent,,0,4,0,4,v2,true,,6259,Basic six-fold radial axis with no decorative branching.
+2026-09-30T10:02:34.806Z,c36-2026-09-30T10:02:34.806Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,0,1,3,5,5.5,v2,true,,6259,Lacks rotational symmetry and recognizable crystalline structure.
+2026-09-30T10:02:34.806Z,c36-2026-09-30T10:02:34.806Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,6259,Enhances hexagonal geometry with terminal fork branches.
+2026-09-30T10:02:34.806Z,c36-2026-09-30T10:02:34.806Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,6259,Tiered secondary branching and high contrast capture the crystal theme well.
+2026-09-30T10:02:40.574Z,c37-2026-09-30T10:02:40.574Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,parent,,0,4,0,4,v2,true,,4028,Basic six-fold radial lines establish the structure but lack intricate crystalline features.
+2026-09-30T10:02:40.574Z,c37-2026-09-30T10:02:40.574Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,0,1,3,5,5.5,v2,true,,4028,Lacks radial symmetry and reads as an incomplete cross rather than a snowflake.
+2026-09-30T10:02:40.574Z,c37-2026-09-30T10:02:40.574Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,4028,Adds simple terminal v-forks that clearly suggest a basic snowflake.
+2026-09-30T10:02:40.574Z,c37-2026-09-30T10:02:40.574Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4028,Layered branching and high-contrast background strongly evoke an intricate ice crystal.
+2026-09-30T10:02:47.214Z,c38-2026-09-30T10:02:47.214Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,parent,,0,4,0,4,v2,true,,4668,Basic six-fold radial structure establishes the core symmetry but lacks crystalline detail.
+2026-09-30T10:02:47.214Z,c38-2026-09-30T10:02:47.214Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,0,1,3,5,5.5,v2,true,,4668,Asymmetric cross pattern deviates significantly from snowflake geometry.
+2026-09-30T10:02:47.214Z,c38-2026-09-30T10:02:47.214Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,1,2,6,4,8,v2,true,,4668,Terminal v-shaped branches begin to capture classic hexagonal snowflake traits.
+2026-09-30T10:02:47.214Z,c38-2026-09-30T10:02:47.214Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4668,Multi-tiered branching paired with high contrast strongly evokes an intricate ice crystal.
+2026-09-30T10:02:54.301Z,c39-2026-09-30T10:02:54.301Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,parent,,0,5,0,5,v2,true,,5754,Presents a basic six-fold radial axis lacking branching detail.
+2026-09-30T10:02:54.301Z,c39-2026-09-30T10:02:54.301Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,0,1,3,5,5.5,v2,true,,5754,Lacks hexagonal symmetry and balanced crystalline structure.
+2026-09-30T10:02:54.301Z,c39-2026-09-30T10:02:54.301Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,5754,Retains proper six-fold symmetry with simple terminal V-branches.
+2026-09-30T10:02:54.301Z,c39-2026-09-30T10:02:54.301Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5754,Features rich multi-level branching and strong crystalline contrast.
+2026-09-30T10:03:01.006Z,c40-2026-09-30T10:03:01.006Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,parent,,0,4,0,4,v2,true,,5459,Basic six-fold radial lines form a minimal crystalline foundation.
+2026-09-30T10:03:01.006Z,c40-2026-09-30T10:03:01.006Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,0,1,3,5,5.5,v2,true,,5459,Asymmetric four-fold lines fail to evoke a coherent snowflake structure.
+2026-09-30T10:03:01.006Z,c40-2026-09-30T10:03:01.006Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,1,2,6,5,8.5,v2,true,,5459,Terminal V-forks enhance the characteristic hexagonal geometry.
+2026-09-30T10:03:01.006Z,c40-2026-09-30T10:03:01.006Z,Bsnowfar,Snowflake - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5459,Multi-tier chevron branching on a dark background strongly evokes crystalline ice.
+2026-09-30T10:03:02.750Z,c41-2026-09-30T10:03:02.750Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,1,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",203,
+2026-09-30T10:03:04.694Z,c42-2026-09-30T10:03:04.694Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,2,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",147,
+2026-09-30T10:03:06.696Z,c43-2026-09-30T10:03:06.696Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,3,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",150,
+2026-09-30T10:03:08.703Z,c44-2026-09-30T10:03:08.703Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,4,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",157,
+2026-09-30T10:03:10.714Z,c45-2026-09-30T10:03:10.714Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,5,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",167,
+2026-09-30T10:03:12.694Z,c46-2026-09-30T10:03:12.694Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,6,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",147,
+2026-09-30T10:03:14.695Z,c47-2026-09-30T10:03:14.695Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,7,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",148,
+2026-09-30T10:03:16.699Z,c48-2026-09-30T10:03:16.699Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,8,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",152,
+2026-09-30T10:03:18.689Z,c49-2026-09-30T10:03:18.689Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,9,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",142,
+2026-09-30T10:03:20.057Z,c50-2026-09-30T10:03:20.057Z,Bsnowfar,Snowflake - far,hand-written,none,J2,openai,gpt-5.5-luna,10,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",153,
+2026-09-30T10:03:21.556Z,c51-2026-09-30T10:03:21.556Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,1,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",298,
+2026-09-30T10:03:23.006Z,c52-2026-09-30T10:03:23.006Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,2,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",246,
+2026-09-30T10:03:24.450Z,c53-2026-09-30T10:03:24.450Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,3,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",240,
+2026-09-30T10:03:25.895Z,c54-2026-09-30T10:03:25.895Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,4,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",238,
+2026-09-30T10:03:27.349Z,c55-2026-09-30T10:03:27.349Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,5,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",250,
+2026-09-30T10:03:28.774Z,c56-2026-09-30T10:03:28.774Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,6,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",222,
+2026-09-30T10:03:30.215Z,c57-2026-09-30T10:03:30.215Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,7,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",237,
+2026-09-30T10:03:31.790Z,c58-2026-09-30T10:03:31.790Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,8,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",243,
+2026-09-30T10:03:33.802Z,c59-2026-09-30T10:03:33.802Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,9,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",254,
+2026-09-30T10:03:35.786Z,c60-2026-09-30T10:03:35.786Z,Bsnowfar,Snowflake - far,hand-written,none,J3,anthropic,claude-sonnet-5,10,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",239,
+2026-09-30T10:03:42.633Z,c61-2026-09-30T10:03:42.633Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,parent,,0,3,0,3,v0,true,,5087,Empty white canvas showing no skyline elements.
+2026-09-30T10:03:42.633Z,c61-2026-09-30T10:03:42.633Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,5087,Clearly captures the night skyline with glowing windows and a bright moon.
+2026-09-30T10:03:42.633Z,c61-2026-09-30T10:03:42.633Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,1,2,7,7,10.5,v0,true,,5087,Strong night atmosphere with balanced building silhouettes and warm lights.
+2026-09-30T10:03:42.633Z,c61-2026-09-30T10:03:42.633Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,2,3,7,6,10,v0,true,,5087,Good cityscape composition with the moon shifted slightly inward.
+2026-09-30T10:03:51.015Z,c62-2026-09-30T10:03:51.015Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,parent,,0,3,0,3,v0,true,,6467,Empty canvas fails to convey a night skyline.
+2026-09-30T10:03:51.015Z,c62-2026-09-30T10:03:51.015Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,6467,Effective dark palette with glowing windows and moon capturing the skyline theme.
+2026-09-30T10:03:51.015Z,c62-2026-09-30T10:03:51.015Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,1,2,7,7,10.5,v0,true,,6467,Nicely balanced night cityscape with clear architectural silhouettes.
+2026-09-30T10:03:51.015Z,c62-2026-09-30T10:03:51.015Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,6467,"Solid skyline rendering, though moon placement crowds the central towers slightly."
+2026-09-30T10:04:02.403Z,c63-2026-09-30T10:04:02.403Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,parent,,0,3,0,3,v0,true,,9856,A blank canvas that fails to represent the night skyline theme.
+2026-09-30T10:04:02.403Z,c63-2026-09-30T10:04:02.403Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,9856,Effectively depicts nocturnal city silhouettes with lit windows and a moon.
+2026-09-30T10:04:02.403Z,c63-2026-09-30T10:04:02.403Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,1,2,7,7,10.5,v0,true,,9856,Captures the nighttime skyline cleanly with balanced building shapes.
+2026-09-30T10:04:02.403Z,c63-2026-09-30T10:04:02.403Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,2,3,7,7,10.5,v0,true,,9856,Renders the nocturnal city concept well with slight variation in moon placement.
+2026-09-30T10:04:11.344Z,c64-2026-09-30T10:04:11.344Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,parent,,0,3,0,3,v0,true,,6796,Empty canvas frame fails to convey a night skyline.
+2026-09-30T10:04:11.344Z,c64-2026-09-30T10:04:11.344Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,6796,"Night skyline with clear building outlines, lit windows, and moon."
+2026-09-30T10:04:11.344Z,c64-2026-09-30T10:04:11.344Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,1,2,7,7,10.5,v0,true,,6796,Consistent nocturnal city view with balanced glowing window dots.
+2026-09-30T10:04:11.344Z,c64-2026-09-30T10:04:11.344Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,6796,Skyline rendering with altered moon position over the city grid.
+2026-09-30T10:04:20.106Z,c65-2026-09-30T10:04:20.106Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,parent,,0,3,0,3,v0,true,,6559,Empty outlined frame lacking any city or night elements.
+2026-09-30T10:04:20.106Z,c65-2026-09-30T10:04:20.106Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,6559,Successfully captures a nighttime cityscape with warm windows and a moonlit sky.
+2026-09-30T10:04:20.106Z,c65-2026-09-30T10:04:20.106Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,1,2,6,7,9.5,v0,true,,6559,Clear nighttime skyline motif with balanced silhouette outlines and glowing window grids.
+2026-09-30T10:04:20.106Z,c65-2026-09-30T10:04:20.106Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,6559,Effective night palette with illuminated windows contrasting against the dark backdrop.
+2026-09-30T10:04:34.973Z,c66-2026-09-30T10:04:34.973Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,parent,,0,3,0,3,v0,true,,13426,Empty canvas lacking any cityscape features.
+2026-09-30T10:04:34.973Z,c66-2026-09-30T10:04:34.973Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,13426,Clean skyline silhouettes with glowing windows against a dark sky.
+2026-09-30T10:04:34.973Z,c66-2026-09-30T10:04:34.973Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,1,2,7,7,10.5,v0,true,,13426,Good depiction of nighttime buildings with moonlight.
+2026-09-30T10:04:34.973Z,c66-2026-09-30T10:04:34.973Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,2,3,7,6,10,v0,true,,13426,Effective urban nighttime scene with well-placed glowing elements.
+2026-09-30T10:04:42.489Z,c67-2026-09-30T10:04:42.489Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,parent,,0,3,0,3,v0,true,,5942,A blank canvas with only a border fails to evoke a nighttime city.
+2026-09-30T10:04:42.489Z,c67-2026-09-30T10:04:42.489Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,5942,"Dark background, illuminated windows, and the moon effectively capture the skyline theme."
+2026-09-30T10:04:42.489Z,c67-2026-09-30T10:04:42.489Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,1,2,7,7,10.5,v0,true,,5942,Clearly represents a night skyline with simple glowing window dots and building frames.
+2026-09-30T10:04:42.489Z,c67-2026-09-30T10:04:42.489Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,2,3,7,7,10.5,v0,true,,5942,Shifting the moon inward maintains a balanced night skyline composition.
+2026-09-30T10:04:53.685Z,c68-2026-09-30T10:04:53.685Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,parent,,0,3,0,3,v0,true,,9137,Empty frame does not represent a city skyline.
+2026-09-30T10:04:53.685Z,c68-2026-09-30T10:04:53.685Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,9137,"Clear depiction of buildings, glowing windows, and a full moon against a night sky."
+2026-09-30T10:04:53.685Z,c68-2026-09-30T10:04:53.685Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,1,2,6,7,9.5,v0,true,,9137,Effectively conveys the nocturnal urban theme with balanced vertical silhouettes.
+2026-09-30T10:04:53.685Z,c68-2026-09-30T10:04:53.685Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,9137,Presents a coherent skyline composition with glowing accents beneath the moon.
+2026-09-30T10:05:05.591Z,c69-2026-09-30T10:05:05.591Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,parent,,0,3,0,3,v0,true,,10044,Empty bordered canvas lacking any skyline or nocturnal imagery.
+2026-09-30T10:05:05.591Z,c69-2026-09-30T10:05:05.591Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,10044,"Nicely renders glowing windows, building silhouettes, and a distinct moon."
+2026-09-30T10:05:05.591Z,c69-2026-09-30T10:05:05.591Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,1,2,7,7,10.5,v0,true,,10044,Effectively captures the theme with clear architecture and balanced nighttime contrast.
+2026-09-30T10:05:05.591Z,c69-2026-09-30T10:05:05.591Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,10044,Well-executed city silhouette with a slightly shifted lunar placement.
+2026-09-30T10:05:15.402Z,c70-2026-09-30T10:05:15.402Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,parent,,0,3,0,3,v0,true,,7855,A blank canvas inside a border fails to evoke the city night theme.
+2026-09-30T10:05:15.402Z,c70-2026-09-30T10:05:15.402Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,7855,Effectively captures the skyline aesthetic with glowing windows against a dark sky.
+2026-09-30T10:05:15.402Z,c70-2026-09-30T10:05:15.402Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,1,2,7,6,10,v0,true,,7855,Presents a clear nocturnal city composition nearly identical to the other variants.
+2026-09-30T10:05:15.402Z,c70-2026-09-30T10:05:15.402Z,Bcityclose,City skyline - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,2,3,7,6,10,v0,true,,7855,Well-rendered nighttime skyline with subtle shifts in moon placement.
+2026-09-30T10:05:17.953Z,c71-2026-09-30T10:05:17.953Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,1,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",406,
+2026-09-30T10:05:19.980Z,c72-2026-09-30T10:05:19.980Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,2,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",432,
+2026-09-30T10:05:21.694Z,c73-2026-09-30T10:05:21.694Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,3,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",146,
+2026-09-30T10:05:23.694Z,c74-2026-09-30T10:05:23.694Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,4,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",146,
+2026-09-30T10:05:25.698Z,c75-2026-09-30T10:05:25.698Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,5,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",152,
+2026-09-30T10:05:27.702Z,c76-2026-09-30T10:05:27.702Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,6,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",155,
+2026-09-30T10:05:29.702Z,c77-2026-09-30T10:05:29.702Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,7,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",154,
+2026-09-30T10:05:31.686Z,c78-2026-09-30T10:05:31.686Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,8,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",138,
+2026-09-30T10:05:33.691Z,c79-2026-09-30T10:05:33.691Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,9,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",143,
+2026-09-30T10:05:35.695Z,c80-2026-09-30T10:05:35.695Z,Bcityclose,City skyline - close,hand-written,none,J2,openai,gpt-5.5-luna,10,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",148,
+2026-09-30T10:05:38.024Z,c81-2026-09-30T10:05:38.024Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,1,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",476,
+2026-09-30T10:05:39.783Z,c82-2026-09-30T10:05:39.783Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,2,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",236,
+2026-09-30T10:05:41.788Z,c83-2026-09-30T10:05:41.788Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,3,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",240,
+2026-09-30T10:05:43.770Z,c84-2026-09-30T10:05:43.770Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,4,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",223,
+2026-09-30T10:05:45.781Z,c85-2026-09-30T10:05:45.781Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,5,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",234,
+2026-09-30T10:05:47.816Z,c86-2026-09-30T10:05:47.816Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,6,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",262,
+2026-09-30T10:05:49.796Z,c87-2026-09-30T10:05:49.796Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,7,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",248,
+2026-09-30T10:05:51.812Z,c88-2026-09-30T10:05:51.812Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,8,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",265,
+2026-09-30T10:05:53.790Z,c89-2026-09-30T10:05:53.790Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,9,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",242,
+2026-09-30T10:05:55.777Z,c90-2026-09-30T10:05:55.777Z,Bcityclose,City skyline - close,hand-written,none,J3,anthropic,claude-sonnet-5,10,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",231,
+2026-09-30T10:06:02.240Z,c91-2026-09-30T10:06:02.240Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,parent,,0,3,0,3,v2,true,,4693,Empty frame showing no skyline features.
+2026-09-30T10:06:02.240Z,c91-2026-09-30T10:06:02.240Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,0,1,3,4,5,v2,true,,4693,A single diagonal line fails to evoke a cityscape.
+2026-09-30T10:06:02.240Z,c91-2026-09-30T10:06:02.240Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,1,2,3,4,5,v2,true,,4693,Vertical dividers suggest columns but lack city elements.
+2026-09-30T10:06:02.240Z,c91-2026-09-30T10:06:02.240Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4693,Accurately depicts illuminated skyscrapers against a dark sky with a moon.
+2026-09-30T10:06:09.420Z,c92-2026-09-30T10:06:09.420Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,parent,,0,3,0,3,v2,true,,5872,Empty white canvas conveys no elements of a city skyline.
+2026-09-30T10:06:09.420Z,c92-2026-09-30T10:06:09.420Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,0,1,3,4,5,v2,true,,5872,A single diagonal line lacks any thematic skyline representation.
+2026-09-30T10:06:09.420Z,c92-2026-09-30T10:06:09.420Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,1,2,3,4,5,v2,true,,5872,Simple vertical dividers do not evoke buildings or night atmosphere.
+2026-09-30T10:06:09.420Z,c92-2026-09-30T10:06:09.420Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5872,"Effectively depicts the prompt with dark sky, illuminated buildings, and moon."
+2026-09-30T10:06:17.431Z,c93-2026-09-30T10:06:17.431Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,parent,,0,3,0,3,v2,true,,5882,Empty bounding box lacks any cityscape elements.
+2026-09-30T10:06:17.431Z,c93-2026-09-30T10:06:17.431Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,0,1,3,4,5,v2,true,,5882,Single diagonal line does not evoke buildings or night.
+2026-09-30T10:06:17.431Z,c93-2026-09-30T10:06:17.431Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,1,2,3,4,5,v2,true,,5882,Vertical dividers suggest grid structure but lack skyline details.
+2026-09-30T10:06:17.431Z,c93-2026-09-30T10:06:17.431Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5882,"Directly captures the theme with night colors, window lights, and varied building heights."
+2026-09-30T10:06:25.686Z,c94-2026-09-30T10:06:25.686Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,parent,,0,3,0,3,v2,true,,6139,Empty framed canvas with no skyline elements.
+2026-09-30T10:06:25.686Z,c94-2026-09-30T10:06:25.686Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,0,1,3,4,5,v2,true,,6139,Single diagonal stroke lacks any architectural or night themes.
+2026-09-30T10:06:25.686Z,c94-2026-09-30T10:06:25.686Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,1,2,4,4,6,v2,true,,6139,Vertical dividers slightly suggest structures but remain abstract.
+2026-09-30T10:06:25.686Z,c94-2026-09-30T10:06:25.686Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,6139,Directly represents the night skyline with silhouetted towers and glowing windows.
+2026-09-30T10:06:34.509Z,c95-2026-09-30T10:06:34.509Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,parent,,0,3,0,3,v2,true,,6960,Empty framed canvas shows no elements of a nocturnal cityscape.
+2026-09-30T10:06:34.509Z,c95-2026-09-30T10:06:34.509Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,0,1,3,4,5,v2,true,,6960,A single diagonal line does not convey buildings or night ambiance.
+2026-09-30T10:06:34.509Z,c95-2026-09-30T10:06:34.509Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,1,2,3,4,5,v2,true,,6960,Basic vertical division lacks architectural details and night colors.
+2026-09-30T10:06:34.509Z,c95-2026-09-30T10:06:34.509Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,6960,"Clear depiction of lit windows, silhouettes, and a night sky matches the theme well."
+2026-09-30T10:06:41.022Z,c96-2026-09-30T10:06:41.022Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,parent,,0,3,0,3,v2,true,,4475,Blank canvas with no skyline features.
+2026-09-30T10:06:41.022Z,c96-2026-09-30T10:06:41.022Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,0,1,3,4,5,v2,true,,4475,Single diagonal line shows no architectural theme.
+2026-09-30T10:06:41.022Z,c96-2026-09-30T10:06:41.022Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,1,2,3,4,5,v2,true,,4475,Basic vertical division lacks night skyline context.
+2026-09-30T10:06:41.022Z,c96-2026-09-30T10:06:41.022Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4475,Clearly renders illuminated buildings and a moon against the dark background.
+2026-09-30T10:06:46.960Z,c97-2026-09-30T10:06:46.960Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,parent,,0,3,0,3,v2,true,,4412,An empty canvas does not depict a night skyline.
+2026-09-30T10:06:46.960Z,c97-2026-09-30T10:06:46.960Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,0,1,3,4,5,v2,true,,4412,A single diagonal line fails to evoke architectural or night elements.
+2026-09-30T10:06:46.960Z,c97-2026-09-30T10:06:46.960Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,1,2,3,4,5,v2,true,,4412,Basic vertical divisions provide structure but lack any skyline features.
+2026-09-30T10:06:46.960Z,c97-2026-09-30T10:06:46.960Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4412,"Clearly captures the theme with glowing windows, varied building heights, and a moon."
+2026-09-30T10:06:54.837Z,c98-2026-09-30T10:06:54.837Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,parent,,0,3,0,3,v2,true,,6289,Empty bounding box with no cityscape elements.
+2026-09-30T10:06:54.837Z,c98-2026-09-30T10:06:54.837Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,0,1,3,4,5,v2,true,,6289,Single diagonal line does not evoke a skyline.
+2026-09-30T10:06:54.837Z,c98-2026-09-30T10:06:54.837Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,1,2,3,4,5,v2,true,,6289,Vertical geometric panels lack nighttime architectural context.
+2026-09-30T10:06:54.837Z,c98-2026-09-30T10:06:54.837Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,6289,Strongly conveys the nocturnal city theme with illuminated windows and a moon.
+2026-09-30T10:07:01.096Z,c99-2026-09-30T10:07:01.096Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,parent,,0,3,0,3,v2,true,,4548,Empty bounding box fails to evoke the night skyline theme.
+2026-09-30T10:07:01.096Z,c99-2026-09-30T10:07:01.096Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,0,1,3,4,5,v2,true,,4548,Single diagonal line provides minimal progress toward a cityscape.
+2026-09-30T10:07:01.096Z,c99-2026-09-30T10:07:01.096Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,1,2,3,4,5,v2,true,,4548,Vertical dividers suggest basic columns but lack nighttime atmosphere and detail.
+2026-09-30T10:07:01.096Z,c99-2026-09-30T10:07:01.096Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4548,Clear depiction of lit buildings against a dark sky with a moon.
+2026-09-30T10:07:08.093Z,c100-2026-09-30T10:07:08.093Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,parent,,0,3,0,3,v2,true,,5546,Empty border lacking any cityscape elements.
+2026-09-30T10:07:08.093Z,c100-2026-09-30T10:07:08.093Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,0,1,3,4,5,v2,true,,5546,Single diagonal line showing no resemblance to a skyline.
+2026-09-30T10:07:08.093Z,c100-2026-09-30T10:07:08.093Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,1,2,3,4,5,v2,true,,5546,Vertical partitions without nighttime or architectural features.
+2026-09-30T10:07:08.093Z,c100-2026-09-30T10:07:08.093Z,Bcityfar,City skyline - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5546,Strongly conveys buildings with glowing windows under a night sky.
+2026-09-30T10:07:09.762Z,c101-2026-09-30T10:07:09.762Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,1,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",214,
+2026-09-30T10:07:11.689Z,c102-2026-09-30T10:07:11.689Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,2,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",142,
+2026-09-30T10:07:13.688Z,c103-2026-09-30T10:07:13.688Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,3,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",139,
+2026-09-30T10:07:15.695Z,c104-2026-09-30T10:07:15.695Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,4,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",147,
+2026-09-30T10:07:17.694Z,c105-2026-09-30T10:07:17.694Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,5,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",146,
+2026-09-30T10:07:19.685Z,c106-2026-09-30T10:07:19.685Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,6,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",138,
+2026-09-30T10:07:21.680Z,c107-2026-09-30T10:07:21.680Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,7,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",132,
+2026-09-30T10:07:23.695Z,c108-2026-09-30T10:07:23.695Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,8,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",147,
+2026-09-30T10:07:25.037Z,c109-2026-09-30T10:07:25.037Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,9,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",137,
+2026-09-30T10:07:26.382Z,c110-2026-09-30T10:07:26.382Z,Bcityfar,City skyline - far,hand-written,none,J2,openai,gpt-5.5-luna,10,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",140,
+2026-09-30T10:07:27.824Z,c111-2026-09-30T10:07:27.824Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,1,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",236,
+2026-09-30T10:07:29.271Z,c112-2026-09-30T10:07:29.271Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,2,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",243,
+2026-09-30T10:07:30.787Z,c113-2026-09-30T10:07:30.787Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,3,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",239,
+2026-09-30T10:07:32.803Z,c114-2026-09-30T10:07:32.803Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,4,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",255,
+2026-09-30T10:07:34.811Z,c115-2026-09-30T10:07:34.811Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,5,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",262,
+2026-09-30T10:07:36.811Z,c116-2026-09-30T10:07:36.811Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,6,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",264,
+2026-09-30T10:07:38.913Z,c117-2026-09-30T10:07:38.913Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,7,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",365,
+2026-09-30T10:07:40.798Z,c118-2026-09-30T10:07:40.798Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,8,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",251,
+2026-09-30T10:07:42.780Z,c119-2026-09-30T10:07:42.780Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,9,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",233,
+2026-09-30T10:07:44.797Z,c120-2026-09-30T10:07:44.797Z,Bcityfar,City skyline - far,hand-written,none,J3,anthropic,claude-sonnet-5,10,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",250,
+2026-09-30T10:07:51.436Z,c121-2026-09-30T10:07:51.436Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,parent,,0,3,0,3,v2,true,,4888,Plain circular outline does not convey a spiral galaxy.
+2026-09-30T10:07:51.436Z,c121-2026-09-30T10:07:51.436Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,0,1,6,7,9.5,v2,true,,4888,Dual curving arms against dark space capture the spiral theme effectively.
+2026-09-30T10:07:51.436Z,c121-2026-09-30T10:07:51.436Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,1,2,6,7,9.5,v2,true,,4888,Tighter logarithmic winding gives a balanced celestial structure.
+2026-09-30T10:07:51.436Z,c121-2026-09-30T10:07:51.436Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4888,Vibrant magenta and cyan contrast enhances cosmic depth.
+2026-09-30T10:07:57.806Z,c122-2026-09-30T10:07:57.806Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,parent,,0,3,0,3,v0,true,,4258,A plain circle does not capture the spiral galaxy theme.
+2026-09-30T10:07:57.806Z,c122-2026-09-30T10:07:57.806Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,0,1,6,7,9.5,v0,true,,4258,Dual curving arms on black resemble a stylized galaxy form.
+2026-09-30T10:07:57.806Z,c122-2026-09-30T10:07:57.806Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,1,2,6,7,9.5,v0,true,,4258,Tighter central winding evokes galactic core rotation.
+2026-09-30T10:07:57.806Z,c122-2026-09-30T10:07:57.806Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,4258,Vibrant contrasting arms give a vivid cosmic appearance.
+2026-09-30T10:08:05.874Z,c123-2026-09-30T10:08:05.874Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,parent,,0,3,0,3,v0,true,,6326,A plain circle lacks any galactic spiral structure or cosmic theme.
+2026-09-30T10:08:05.874Z,c123-2026-09-30T10:08:05.874Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,0,1,6,7,9.5,v0,true,,6326,Dual logarithmic arms and background stars effectively evoke a cosmic spiral galaxy.
+2026-09-30T10:08:05.874Z,c123-2026-09-30T10:08:05.874Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,1,2,6,6,9,v0,true,,6326,A tighter central winding creates good rotation dynamics though the arms feel slightly rigid.
+2026-09-30T10:08:05.874Z,c123-2026-09-30T10:08:05.874Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,6326,"High-contrast magenta and cyan curves define clean, energetic spiral arms against dark space."
+2026-09-30T10:08:13.431Z,c124-2026-09-30T10:08:13.431Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,parent,,0,3,0,3,v0,true,,5883,Simple circle outline lacks any galactic or spiral features.
+2026-09-30T10:08:13.431Z,c124-2026-09-30T10:08:13.431Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,5883,Dual logarithmic arms and dark starry field evoke a clear galaxy structure.
+2026-09-30T10:08:13.431Z,c124-2026-09-30T10:08:13.431Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,1,2,6,7,9.5,v0,true,,5883,Tighter arm curvature captures galaxy motion nicely but feels slightly crowded.
+2026-09-30T10:08:13.431Z,c124-2026-09-30T10:08:13.431Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,2,3,7,7,10.5,v0,true,,5883,Vibrant magenta and cyan spiral arms create strong cosmic contrast against the background.
+2026-09-30T10:08:21.744Z,c125-2026-09-30T10:08:21.744Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,parent,,0,3,0,3,v0,true,,6195,Basic dark outline on white background lacks any spiral or celestial features.
+2026-09-30T10:08:21.744Z,c125-2026-09-30T10:08:21.744Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,0,1,7,7,10.5,v0,true,,6195,Dual cyan and purple spiral arms on black capture the core galactic form well.
+2026-09-30T10:08:21.744Z,c125-2026-09-30T10:08:21.744Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,1,2,6,6,9,v0,true,,6195,Tighter arm curvature resembles a galaxy but feels slightly rigid and enclosed.
+2026-09-30T10:08:21.744Z,c125-2026-09-30T10:08:21.744Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,2,3,7,7,10.5,v0,true,,6195,High-contrast magenta and cyan curves create a dynamic galactic swirl.
+2026-09-30T10:08:28.828Z,c126-2026-09-30T10:08:28.828Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,parent,,0,3,0,3,v0,true,,5280,A plain circular ring does not represent a spiral galaxy.
+2026-09-30T10:08:28.828Z,c126-2026-09-30T10:08:28.828Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,0,1,6,6,9,v0,true,,5280,Dual spiral arms with surrounding star points convey the galactic theme well.
+2026-09-30T10:08:28.828Z,c126-2026-09-30T10:08:28.828Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,1,2,6,6,9,v0,true,,5280,Tighter winding creates a denser galactic core impression.
+2026-09-30T10:08:28.828Z,c126-2026-09-30T10:08:28.828Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,2,3,6,6,9,v0,true,,5280,High-contrast magenta and cyan curves effectively suggest swirling cosmic arms.
+2026-09-30T10:08:38.096Z,c127-2026-09-30T10:08:38.096Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,parent,,0,3,0,3,v2,true,,7548,Plain ring shape lacks galaxy characteristics.
+2026-09-30T10:08:38.096Z,c127-2026-09-30T10:08:38.096Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,0,1,6,7,9.5,v2,true,,7548,Dual logarithmic arms and background dots capture galactic structure.
+2026-09-30T10:08:38.096Z,c127-2026-09-30T10:08:38.096Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,1,2,6,7,9.5,v2,true,,7548,Tighter winding creates a denser galactic core feel.
+2026-09-30T10:08:38.096Z,c127-2026-09-30T10:08:38.096Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,7548,High-contrast magenta and cyan curves highlight the spiral flow well.
+2026-09-30T10:08:45.673Z,c128-2026-09-30T10:08:45.673Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,parent,,0,3,0,3,v2,true,,6125,A plain circular boundary lacking any galaxy features or cosmic depth.
+2026-09-30T10:08:45.673Z,c128-2026-09-30T10:08:45.673Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,0,1,6,7,9.5,v2,true,,6125,Dual curving arms on a dark background effectively evoke a spiral galaxy form.
+2026-09-30T10:08:45.673Z,c128-2026-09-30T10:08:45.673Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,1,2,6,6,9,v2,true,,6125,Tighter arm geometry provides good galactic structure but feels somewhat rigid.
+2026-09-30T10:08:45.673Z,c128-2026-09-30T10:08:45.673Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,6125,Vibrant contrasting arm colors produce the most energetic galactic visual.
+2026-09-30T10:08:58.641Z,c129-2026-09-30T10:08:58.641Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,parent,,0,3,0,3,v0,true,,11089,Basic outline circle lacks any spiral or galactic qualities.
+2026-09-30T10:08:58.641Z,c129-2026-09-30T10:08:58.641Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,0,1,6,7,9.5,v0,true,,11089,Dual curving arms and background stars effectively evoke a galaxy.
+2026-09-30T10:08:58.641Z,c129-2026-09-30T10:08:58.641Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,1,2,6,7,9.5,v0,true,,11089,Tightly wound spiral arms give a focused sense of galactic rotation.
+2026-09-30T10:08:58.641Z,c129-2026-09-30T10:08:58.641Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,11089,Vibrant magenta and cyan lines create strong galactic visual contrast.
+2026-09-30T10:09:05.279Z,c130-2026-09-30T10:09:05.279Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,parent,,0,3,0,3,v0,true,,4731,A plain circular outline fails to capture any galactic form.
+2026-09-30T10:09:05.279Z,c130-2026-09-30T10:09:05.279Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,0,1,6,7,9.5,v0,true,,4731,Dual spiral arms with ambient star points effectively suggest a basic galaxy.
+2026-09-30T10:09:05.279Z,c130-2026-09-30T10:09:05.279Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,1,2,6,7,9.5,v0,true,,4731,Tighter logarithmic winding provides a denser core structure.
+2026-09-30T10:09:05.279Z,c130-2026-09-30T10:09:05.279Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,2,3,6,7,9.5,v0,true,,4731,Vibrant magenta and cyan contrast nicely against the dark canvas.
+2026-09-30T10:09:06.758Z,c131-2026-09-30T10:09:06.758Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,1,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",210,
+2026-09-30T10:09:08.710Z,c132-2026-09-30T10:09:08.710Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,2,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",162,
+2026-09-30T10:09:10.708Z,c133-2026-09-30T10:09:10.708Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,3,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",160,
+2026-09-30T10:09:12.717Z,c134-2026-09-30T10:09:12.717Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,4,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",170,
+2026-09-30T10:09:14.700Z,c135-2026-09-30T10:09:14.700Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,5,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",152,
+2026-09-30T10:09:16.702Z,c136-2026-09-30T10:09:16.702Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,6,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",154,
+2026-09-30T10:09:18.701Z,c137-2026-09-30T10:09:18.701Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,7,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",153,
+2026-09-30T10:09:20.708Z,c138-2026-09-30T10:09:20.708Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,8,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",160,
+2026-09-30T10:09:22.694Z,c139-2026-09-30T10:09:22.694Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,9,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",146,
+2026-09-30T10:09:24.706Z,c140-2026-09-30T10:09:24.706Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J2,openai,gpt-5.5-luna,10,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",158,
+2026-09-30T10:09:26.857Z,c141-2026-09-30T10:09:26.857Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,1,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",309,
+2026-09-30T10:09:28.771Z,c142-2026-09-30T10:09:28.771Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,2,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",223,
+2026-09-30T10:09:30.810Z,c143-2026-09-30T10:09:30.810Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,3,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",262,
+2026-09-30T10:09:32.784Z,c144-2026-09-30T10:09:32.784Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,4,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",236,
+2026-09-30T10:09:34.800Z,c145-2026-09-30T10:09:34.800Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,5,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",253,
+2026-09-30T10:09:36.788Z,c146-2026-09-30T10:09:36.788Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,6,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",239,
+2026-09-30T10:09:38.834Z,c147-2026-09-30T10:09:38.834Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,7,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",286,
+2026-09-30T10:09:40.927Z,c148-2026-09-30T10:09:40.927Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,8,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",379,
+2026-09-30T10:09:42.794Z,c149-2026-09-30T10:09:42.794Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,9,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",246,
+2026-09-30T10:09:44.824Z,c150-2026-09-30T10:09:44.824Z,Bgalaxclose,Spiral galaxy - close,hand-written,none,J3,anthropic,claude-sonnet-5,10,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",276,
+2026-09-30T10:09:51.183Z,c151-2026-09-30T10:09:51.183Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,parent,,0,3,0,3,v2,true,,4634,A plain circle lacks the form and characteristics of a spiral galaxy.
+2026-09-30T10:09:51.183Z,c151-2026-09-30T10:09:51.183Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,0,1,4,4,6,v2,true,,4634,Overlapping rings introduce symmetry but fail to evoke a spiral structure.
+2026-09-30T10:09:51.183Z,c151-2026-09-30T10:09:51.183Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,1,2,6,6,9,v2,true,,4634,The single spiral captures rotational motion but lacks depth and celestial context.
+2026-09-30T10:09:51.183Z,c151-2026-09-30T10:09:51.183Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,1,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4634,Dual contrasting spiral arms on a dark starfield strongly evoke a galactic core.
+2026-09-30T10:09:58.423Z,c152-2026-09-30T10:09:58.423Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,parent,,0,3,0,3,v2,true,,5875,A plain single circle fails to convey the form of a spiral galaxy.
+2026-09-30T10:09:58.423Z,c152-2026-09-30T10:09:58.423Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,0,1,4,5,6.5,v2,true,,5875,Intersecting rings add geometry but lack spiral dynamics.
+2026-09-30T10:09:58.423Z,c152-2026-09-30T10:09:58.423Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,1,2,6,6,9,v2,true,,5875,A clean spiral curve directly introduces rotational structure.
+2026-09-30T10:09:58.423Z,c152-2026-09-30T10:09:58.423Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,2,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5875,Dual intertwined arms and starry background effectively evoke a galactic core.
+2026-09-30T10:10:05.497Z,c153-2026-09-30T10:10:05.497Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,parent,,0,3,0,3,v2,true,,4948,A plain circle lacks any galactic spiral structure.
+2026-09-30T10:10:05.497Z,c153-2026-09-30T10:10:05.497Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,0,1,4,4,6,v2,true,,4948,Interlocking circles introduce geometry but fail to resemble a galaxy.
+2026-09-30T10:10:05.497Z,c153-2026-09-30T10:10:05.497Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,1,2,6,6,9,v2,true,,4948,A smooth spiral curve clearly establishes the swirling shape.
+2026-09-30T10:10:05.497Z,c153-2026-09-30T10:10:05.497Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,3,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,4948,Dual spiral arms on a dark starfield strongly evoke space.
+2026-09-30T10:10:14.113Z,c154-2026-09-30T10:10:14.113Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,parent,,0,3,0,3,v2,true,,6566,Single outline circle does not evoke a spiral galaxy.
+2026-09-30T10:10:14.113Z,c154-2026-09-30T10:10:14.113Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,0,1,3,4,5,v2,true,,6566,Overlapping circles add color but lack spiral motion.
+2026-09-30T10:10:14.113Z,c154-2026-09-30T10:10:14.113Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,1,2,5,6,8,v2,true,,6566,Clear spiral geometry begins matching the theme but lacks galactic complexity.
+2026-09-30T10:10:14.113Z,c154-2026-09-30T10:10:14.113Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,4,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,6566,Dual-armed spiral on dark background effectively captures the galaxy concept.
+2026-09-30T10:10:26.456Z,c155-2026-09-30T10:10:26.456Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,parent,,0,3,0,3,v2,true,,10908,A plain circle lacks the rotational arms of a spiral galaxy.
+2026-09-30T10:10:26.456Z,c155-2026-09-30T10:10:26.456Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,0,1,4,4,6,v2,true,,10908,Overlapping rings introduce symmetry but miss the spiral dynamic.
+2026-09-30T10:10:26.456Z,c155-2026-09-30T10:10:26.456Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,1,2,6,6,9,v2,true,,10908,The curve captures the spiral geometry well but feels sparse.
+2026-09-30T10:10:26.456Z,c155-2026-09-30T10:10:26.456Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,5,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,10908,Dual-colored arms on a dark starfield strongly evoke galactic motion.
+2026-09-30T10:10:34.089Z,c156-2026-09-30T10:10:34.089Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,parent,,0,3,0,3,v2,true,,5541,A single plain circle lacks spiral structure and celestial atmosphere.
+2026-09-30T10:10:34.089Z,c156-2026-09-30T10:10:34.089Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,0,1,4,4,6,v2,true,,5541,Overlapping circles add color but do not resemble galactic arms.
+2026-09-30T10:10:34.089Z,c156-2026-09-30T10:10:34.089Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,1,2,5,6,8,v2,true,,5541,Demonstrates clear spiral motion but lacks multi-arm density and space backdrop.
+2026-09-30T10:10:34.089Z,c156-2026-09-30T10:10:34.089Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,6,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,5541,Dual-colored spiral arms and dotted stars against dark space effectively capture the galaxy theme.
+2026-09-30T10:10:50.130Z,c157-2026-09-30T10:10:50.130Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,parent,,0,3,0,3,v2,true,,14582,A single plain ring does not evoke a spiral galaxy.
+2026-09-30T10:10:50.130Z,c157-2026-09-30T10:10:50.130Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,0,1,4,5,6.5,v2,true,,14582,Multiple circles add geometry but still lack spiral structure.
+2026-09-30T10:10:50.130Z,c157-2026-09-30T10:10:50.130Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,1,2,6,6,9,v2,true,,14582,Introduces a smooth spiral curve matching the prompt basic form.
+2026-09-30T10:10:50.130Z,c157-2026-09-30T10:10:50.130Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,7,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,14582,Dual spiral arms with a dark starry background best capture the galaxy theme.
+2026-09-30T10:11:14.689Z,c158-2026-09-30T10:11:14.689Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,parent,,0,3,0,3,v2,true,,23141,A plain circle fails to capture the spiral galaxy theme.
+2026-09-30T10:11:14.689Z,c158-2026-09-30T10:11:14.689Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,0,1,4,5,6.5,v2,true,,23141,Overlapping circles add color but lack any spiral galactic structure.
+2026-09-30T10:11:14.689Z,c158-2026-09-30T10:11:14.689Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,1,2,6,6,9,v2,true,,23141,A smooth single spiral introduces the correct geometry.
+2026-09-30T10:11:14.689Z,c158-2026-09-30T10:11:14.689Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,8,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,23141,Dual logarithmic arms with star dots on black effectively suggest a galaxy.
+2026-09-30T10:11:22.715Z,c159-2026-09-30T10:11:22.715Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,parent,,0,3,0,3,v2,true,,6167,A plain circle lacks any galactic or spiral characteristics.
+2026-09-30T10:11:22.715Z,c159-2026-09-30T10:11:22.715Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,0,1,4,4,6,v2,true,,6167,Overlapping circles introduce multi-element geometry but still lack spiral flow.
+2026-09-30T10:11:22.715Z,c159-2026-09-30T10:11:22.715Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,1,2,6,6,9,v2,true,,6167,A single continuous spiral introduces rotational motion without celestial depth.
+2026-09-30T10:11:22.715Z,c159-2026-09-30T10:11:22.715Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,9,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,6167,Dual contrasting spiral arms on a dark starfield capture the galaxy theme well.
+2026-09-30T10:11:30.802Z,c160-2026-09-30T10:11:30.802Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,parent,,0,3,0,3,v2,true,,6253,A single circular outline does not convey spiral galaxy dynamics.
+2026-09-30T10:11:30.802Z,c160-2026-09-30T10:11:30.802Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,0,1,4,4,6,v2,true,,6253,Multiple rings introduce geometry but lack spiral movement.
+2026-09-30T10:11:30.802Z,c160-2026-09-30T10:11:30.802Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,1,2,6,6,9,v2,true,,6253,A clear spiral form establishes the desired galactic structure.
+2026-09-30T10:11:30.802Z,c160-2026-09-30T10:11:30.802Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J1,google,gemini-3.8-flash,10,app,0-1-2,variant,2,3,7,7,10.5,v2,true,,6253,Dual contrasting spiral arms on black with stars capture the galaxy aesthetic well.
+2026-09-30T10:11:32.754Z,c161-2026-09-30T10:11:32.754Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,1,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",205,
+2026-09-30T10:11:34.701Z,c162-2026-09-30T10:11:34.701Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,2,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",152,
+2026-09-30T10:11:36.721Z,c163-2026-09-30T10:11:36.721Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,3,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",172,
+2026-09-30T10:11:38.705Z,c164-2026-09-30T10:11:38.705Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,4,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",157,
+2026-09-30T10:11:40.692Z,c165-2026-09-30T10:11:40.692Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,5,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",143,
+2026-09-30T10:11:42.701Z,c166-2026-09-30T10:11:42.701Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,6,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",153,
+2026-09-30T10:11:44.694Z,c167-2026-09-30T10:11:44.694Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,7,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",145,
+2026-09-30T10:11:46.704Z,c168-2026-09-30T10:11:46.704Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,8,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",156,
+2026-09-30T10:11:48.688Z,c169-2026-09-30T10:11:48.688Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,9,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",140,
+2026-09-30T10:11:50.703Z,c170-2026-09-30T10:11:50.703Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J2,openai,gpt-5.5-luna,10,app,0-1-2,,,,,,,,false,"OpenAI 404: {
+    ""error"": {
+        ""message"": ""The model `gpt-5.5-luna` does not exist or you do not have access to it."",
+        ""type"": ""invalid_request_error"",
+       ",155,
+2026-09-30T10:11:53.189Z,c171-2026-09-30T10:11:53.189Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,1,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",640,
+2026-09-30T10:11:54.817Z,c172-2026-09-30T10:11:54.817Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,2,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",269,
+2026-09-30T10:11:56.822Z,c173-2026-09-30T10:11:56.822Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,3,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",273,
+2026-09-30T10:11:58.809Z,c174-2026-09-30T10:11:58.809Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,4,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",260,
+2026-09-30T10:12:00.789Z,c175-2026-09-30T10:12:00.789Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,5,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",241,
+2026-09-30T10:12:02.797Z,c176-2026-09-30T10:12:02.797Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,6,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",248,
+2026-09-30T10:12:04.793Z,c177-2026-09-30T10:12:04.793Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,7,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",244,
+2026-09-30T10:12:06.801Z,c178-2026-09-30T10:12:06.801Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,8,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",253,
+2026-09-30T10:12:08.792Z,c179-2026-09-30T10:12:08.792Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,9,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",244,
+2026-09-30T10:12:10.813Z,c180-2026-09-30T10:12:10.813Z,Bgalaxfar,Spiral galaxy - far,hand-written,none,J3,anthropic,claude-sonnet-5,10,app,0-1-2,,,,,,,,false,"Claude 400: {""type"":""error"",""error"":{""type"":""invalid_request_error"",""message"":""Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to u",264,

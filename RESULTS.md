@@ -180,3 +180,30 @@ Mondrian (model typed as `sonnet-5.5`, 404) and worked on wild flowers
   they are close (Mondrian) one judge ties every time and the judges disagree.
   Consistent with the gap rule, now across two companies' models plus Claude on
   one batch.
+
+## Close vs far: the gap rule tested on purpose (30 Sep)
+Experiment 5, run by Ken. Six hand-written batches (three tastes, each a close
+set of near-identical variants and a far set with the strongest listed last).
+Judge gemini-3.8-flash, 10 calls per batch, whole-number prompt, written order.
+Data: `data/rows-2026-09-30-ken-closefar.csv`. The OpenAI rows all failed (model
+typed as `gpt-5.5-luna`, which does not exist) and the Claude rows all failed
+(Anthropic account out of credit), so this is one judge only.
+
+| batch | calls | top-score ties | winner v1 / v2 / v3 | mean gap, best to 2nd |
+|---|---|---|---|---|
+| Snowflake - close | 10 | **10** | 10 / 0 / 0 | 0.00 |
+| City skyline - close | 10 | **7** | 10 / 0 / 0 | 0.25 |
+| Spiral galaxy - close | 10 | **7** | 7 / 0 / 3 | 0.30 |
+| Snowflake - far | 10 | 0 | 0 / 0 / **10** | 2.05 |
+| City skyline - far | 10 | 0 | 0 / 0 / **10** | 5.40 |
+| Spiral galaxy - far | 10 | 0 | 0 / 0 / **10** | 1.70 |
+
+- **Close sets: ties in 24 of 30 calls. Far sets: 0 of 30.** Fisher exact,
+  two-tailed, p = 3.3e-11.
+- On close sets the first-listed variant won 27 of 30. On far sets the
+  strongest variant won 30 of 30 **from last place**, so when the gap is large
+  the critic's judgement, not list order, decides.
+- The gap rule now holds across five tastes on this judge: ties appear when the
+  variants are close and vanish when they are far apart.
+- Caveat: the batches were designed by hand to be close or far, so this tests
+  the mechanism, not how often real evolved batches are close. One judge.
