@@ -207,3 +207,24 @@ typed as `gpt-5.5-luna`, which does not exist) and the Claude rows all failed
   variants are close and vanish when they are far apart.
 - Caveat: the batches were designed by hand to be close or far, so this tests
   the mechanism, not how often real evolved batches are close. One judge.
+
+## Close vs far, second company (1 Oct)
+Ken re-ran experiment 5 with gpt-5.6-luna, 10 calls per batch, all succeeded.
+Data: `data/rows-2026-10-01-ken-closefar-gpt.csv`.
+
+| batch | calls | top-score ties | winner v1 / v2 / v3 | mean gap, best to 2nd |
+|---|---|---|---|---|
+| Snowflake - close | 10 | **8** | 10 / 0 / 0 | 0.10 |
+| City skyline - close | 10 | **6** | 10 / 0 / 0 | 0.40 |
+| Spiral galaxy - close | 10 | **8** | 8 / 2 / 0 | 0.20 |
+| Snowflake - far | 10 | 0 | 0 / 0 / **10** | 2.85 |
+| City skyline - far | 10 | 0 | 0 / 0 / **10** | 9.95 |
+| Spiral galaxy - far | 10 | 0 | 0 / 0 / **10** | 2.15 |
+
+- GPT: ties in **22 of 30** close calls and **0 of 30** far calls (Fisher exact
+  p = 2e-9). First-listed variant won 28 of 30 close calls; the strongest
+  variant won 30 of 30 far calls from last place.
+- Same pattern as gemini-3.8-flash (24 of 30 vs 0 of 30). Both judges together:
+  ties in 46 of 60 close calls, 0 of 60 far calls.
+- So the gap rule is not particular to Google's models. Note that GPT scores in
+  half-points and still ties when the variants are near-identical.
