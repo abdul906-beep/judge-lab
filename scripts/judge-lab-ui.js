@@ -555,6 +555,224 @@ function jlGapReport(){
 }
 window.jlGapReport = jlGapReport;
 
+/* ── enhancements, and evolution A/B ────────────────────────
+   Two switches change how the app itself evolves, not just how a frozen batch
+   is scored:
+   - decimal: the Critic is asked for one decimal place (fewer ties)
+   - fairTie: a tie for the top score is broken at random, not by list order
+   They hook the host's callAI and selectWinner, so a normal Start run uses them
+   too. "Compare evolution" runs the same start program with both off, then
+   with the ticked ones on, and logs every round. */
+const JL_DECIMAL_SUFFIX = '\n\nSCORING PRECISION: give aestheticScore and noveltyScore to one decimal place '
+  + '(for example 7.4 or 8.1). Do not round to whole numbers.';
+JL.enh = {decimal:true, fairTie:true};   // on by default; the panel checkboxes mirror this
+JL.evo = null;          // set while a comparison is running
+JL.evoRows = [];        // one row per evolution round
+JL.evoFinals = [];      // which final picture came from which arm
+
+const _hostCallAI = window.callAI;
+window.callAI = function(system, userText, imgB64s, maxTokens, label){
+  if(label === 'Critic' && JL.enh.decimal) system = system + JL_DECIMAL_SUFFIX;
+  return _hostCallAI(system, userText, imgB64s, maxTokens, label);
+};
+
+const _hostSelectWinner = window.selectWinner;
+window.selectWinner = function(pool){
+  const roulette = document.getElementById('rouletteToggle').checked;
+  let w;
+  if(JL.enh.fairTie && !roulette){
+    const i = JLCore.jlPickWinner(pool, true);
+    w = (i >= 0) ? pool[i] : _hostSelectWinner(pool);
+  } else {
+    w = _hostSelectWinner(pool);
+  }
+  if(JL.evo){
+    const row = JLCore.jlRoundSummary(pool, pool.indexOf(w));
+    row.ts = new Date().toISOString();
+    row.arm = JL.evo.arm; row.run = JL.evo.run; row.round = S.iteration + 1;
+    row.decimal = JL.enh.decimal; row.fairTie = JL.enh.fairTie;
+    row.provider = JL.evo.provider; row.model = JL.evo.model;
+    row.taste = JL.evo.taste; row.magnitude = JL.evo.magnitude;
+    row.winnerCode = w.code || '';
+    JL.evoRows.push(row);
+  }
+  return w;
+};
+
+const EVO_COLS = ['ts','arm','run','round','decimal','fairTie','provider','model','taste','magnitude',
+  'candidates','parentScore','variantScores','best','second','gap','tiedAtTop','tieWentToFirstListed',
+  'winner','parentKept','winnerAes','winnerNov','winnerScore','decimalsUsed','criticFailed','winnerCode'];
+
+function jlEvoStatus(t){
+  const el = document.getElementById('jlEvoStatus'); if(el) el.textContent = t;
+  jlStatus(t);
+}
+function jlWait(seconds, why){
+  return new Promise(function(res){
+    let left = seconds;
+    (function tick(){
+      if(JL.abort || left <= 0){ res(); return; }
+      jlEvoStatus(why + ' — trying again in ' + left + 's (press Stop to give up)');
+      left--; setTimeout(tick, 1000);
+    })();
+  });
+}
+
+function jlEvoSummary(){
+  const el = document.getElementById('jlEvoOut'); if(!el) return;
+  if(!JL.evoRows.length){ el.innerHTML = ''; return; }
+  const pct = function(a, b){ return b ? a + ' of ' + b : '-'; };
+  const meanGap = function(rs){
+    const g = rs.filter(function(r){ return r.gap !== ''; }).map(function(r){ return r.gap; });
+    return g.length ? JLCore.jlMean(g).toFixed(2) : '-';
+  };
+  const half = Math.ceil((JL.evoRoundsPlanned || 2) / 2);
+  let h = '<table style="width:100%;font-size:.66rem;border-collapse:collapse"><tr><th align="left"></th>'
+        + '<th>original</th><th>enhanced</th></tr>';
+  const arms = ['original','enhanced'].map(function(a){
+    const rs = JL.evoRows.filter(function(r){ return r.arm === a; });
+    const early = rs.filter(function(r){ return r.round <= half; });
+    const late  = rs.filter(function(r){ return r.round >  half; });
+    const n = function(list, f){ return list.filter(f).length; };
+    const tie = function(r){ return r.tiedAtTop; };
+    return {rounds: rs.length,
+      ties: pct(n(rs, tie), rs.length),
+      tiesEarly: pct(n(early, tie), early.length), tiesLate: pct(n(late, tie), late.length),
+      toFirst: pct(n(rs, function(r){ return r.tieWentToFirstListed; }), n(rs, tie)),
+      parentKept: pct(n(rs, function(r){ return r.parentKept; }), rs.length),
+      gapEarly: meanGap(early), gapLate: meanGap(late),
+      failed: n(rs, function(r){ return r.criticFailed; })};
+  });
+  [['rounds logged','rounds'], ['rounds with a tie for top score','ties'],
+   ['&nbsp;&nbsp;in the first half','tiesEarly'], ['&nbsp;&nbsp;in the second half','tiesLate'],
+   ['ties won by the first-listed','toFirst'], ['rounds where the parent was kept','parentKept'],
+   ['mean gap, first half','gapEarly'], ['mean gap, second half','gapLate'],
+   ['rounds where the critic reply failed','failed']].forEach(function(line){
+    h += '<tr><td>' + line[0] + '</td><td align="center">' + arms[0][line[1]]
+       + '</td><td align="center">' + arms[1][line[1]] + '</td></tr>';
+  });
+  h += '</table>';
+  // final pictures, judged together in shuffled order
+  if(JL.evoFinals.length){
+    const bid = JL.evoFinals[0].batchId;
+    const rs = JL.rows.filter(function(r){ return r.batchId === bid && r.target === 'variant' && r.score !== null; });
+    if(rs.length){
+      const armOf = {}; JL.evoFinals.forEach(function(f){ armOf[f.variantIndex] = f.arm; });
+      const calls = {};
+      rs.forEach(function(r){ calls[r.callId] = r.winner; });
+      const out = ['original','enhanced'].map(function(a){
+        const mine = rs.filter(function(r){ return armOf[r.variantIndex] === a; });
+        const wins = Object.keys(calls).filter(function(c){
+          return /^v\d+$/.test(calls[c]) && armOf[+calls[c].slice(1)] === a; }).length;
+        return a + ': mean aesthetic ' + JLCore.jlMean(mine.map(function(r){ return r.aes; })).toFixed(2)
+             + ', mean score ' + JLCore.jlMean(mine.map(function(r){ return r.score; })).toFixed(2)
+             + ', best picture in ' + wins + ' of ' + Object.keys(calls).length + ' calls';
+      });
+      h += '<div style="margin-top:4px"><b>Final pictures, judged side by side:</b><br>' + out.join('<br>') + '</div>';
+    }
+  }
+  el.innerHTML = h;
+}
+
+async function jlEvoAB(){
+  if(JL.running || S.autoRunning){ jlEvoStatus('Something is already running — press Stop first.'); return; }
+  const enhDef = {decimal: document.getElementById('jlEnhDecimal').checked,
+                  fairTie: document.getElementById('jlEnhFair').checked};
+  if(!enhDef.decimal && !enhDef.fairTie){ jlEvoStatus('Tick at least one enhancement to compare against the original.'); return; }
+  const startCode = document.getElementById('codeInput').value.trim();
+  if(!startCode){ jlEvoStatus('Type a starting Logo program in the app first.'); return; }
+  // Outside an artifact the host only uses a pasted key while its provider panel is open.
+  if(typeof isArtifact === 'function' && !isArtifact()){
+    const key = ((document.getElementById('fallbackKey') || {}).value || '').trim();
+    if(!key){ jlEvoStatus('Paste an API key into the app\'s API PROVIDER panel first — the evolution rounds use that provider and model.'); return; }
+    if(document.getElementById('fallbackBody').style.display !== 'grid' && typeof toggleFallback === 'function') toggleFallback(true);
+  }
+  const rounds =Math.max(2, parseInt(document.getElementById('jlEvoRounds').value) || 10);
+  const runs   = Math.max(1, parseInt(document.getElementById('jlEvoRuns').value) || 1);
+  const judgeCalls = Math.max(0, parseInt(document.getElementById('jlEvoJudge').value) || 0);
+  const judgeIds = [].slice.call(document.querySelectorAll('.jlJudgeCb:checked')).map(function(c){ return c.value; });
+
+  // hold the host still: Best mode, no story call, no auto-retry of its own
+  const roulette = document.getElementById('rouletteToggle');
+  const numRounds = document.getElementById('numRounds');
+  const saved = {roulette: roulette.checked, numRounds: numRounds.value,
+                 story: window.generateStory, retry: window.startRetryCountdown};
+  roulette.checked = false;
+  window.generateStory = function(){ return Promise.resolve(); };
+  window.startRetryCountdown = function(){};
+
+  JL.running = true; JL.abort = false;
+  JL.evoRows = []; JL.evoFinals = []; JL.evoRoundsPlanned = rounds;
+  const finals = [];
+  const meta = {provider: (document.getElementById('providerSelect') || {}).value || '',
+                model: (document.getElementById('fallbackModel') || {}).value || '',
+                taste: document.getElementById('tasteInput').value,
+                magnitude: document.getElementById('magSlider').value};
+  try {
+    for(let run = 1; run <= runs && !JL.abort; run++){
+      // alternate which arm goes first, so neither always gets the fresher quota
+      const order = (run % 2) ? ['original','enhanced'] : ['enhanced','original'];
+      for(const arm of order){
+        if(JL.abort) break;
+        JL.enh = (arm === 'enhanced') ? enhDef : {decimal:false, fairTie:false};
+        JL.evo = Object.assign({arm: arm, run: run}, meta);
+        clearHistory();
+        document.getElementById('codeInput').value = startCode;
+        let stuck = 0;
+        while(S.historyLog.length < rounds && !JL.abort && stuck < 6){
+          const before = S.historyLog.length;
+          numRounds.value = rounds - before;
+          jlEvoStatus('Run ' + run + ' of ' + runs + ', ' + arm + ' — round ' + (before + 1) + ' of ' + rounds);
+          await handleMain();
+          if(S.historyLog.length === before && !JL.abort){ stuck++; await jlWait(30, 'A call failed'); }
+          else stuck = 0;
+          jlEvoSummary();
+        }
+        // drop rows from rounds the host did not keep (a call failed after selection)
+        const kept = S.historyLog.length;
+        JL.evoRows = JL.evoRows.filter(function(r){ return !(r.arm === arm && r.run === run && r.round > kept); });
+        finals.push({arm: arm, run: run, rounds: kept, code: S.modCode || startCode});
+      }
+    }
+  } finally {
+    JL.evo = null; JL.enh = enhDef;
+    roulette.checked = saved.roulette; numRounds.value = saved.numRounds;
+    window.generateStory = saved.story; window.startRetryCountdown = saved.retry;
+    JL.running = false;
+  }
+  jlEvoSummary();
+  const done = finals.filter(function(f){ return f.rounds > 0; });
+  if(done.length < 2){ jlEvoStatus('Stopped before both versions had run. Rounds so far are kept — Export evolution CSV.'); return; }
+
+  // freeze the final pictures as one batch and judge them together, shuffled
+  const b = jlFreezeBatch('Evolution finals ' + new Date().toISOString().slice(0,16).replace('T',' '),
+                          meta.taste, startCode, done.map(function(f){ return f.code; }), 'evolution', meta.model);
+  JL.evoFinals = done.map(function(f, i){
+    return {batchId: b.id, variantIndex: i, arm: f.arm, run: f.run, rounds: f.rounds}; });
+  if(JL.abort || !judgeCalls || !judgeIds.length){
+    jlEvoStatus('Evolution finished. Final pictures are frozen as "' + b.name + '" (not judged: '
+      + (judgeIds.length ? 'judging calls set to 0, or stopped' : 'no judge ticked') + ').');
+    return;
+  }
+  jlEvoStatus('Evolution finished — judging the final pictures side by side…');
+  const base = (document.getElementById('criticPromptEl') || {}).value || CRITIC_SYS;
+  JL.delayMs = Math.max(0, parseInt(document.getElementById('jlDelay').value) || 0);
+  await jlRun({batchIds: [b.id], judgeIds: judgeIds, repeats: judgeCalls, shuffle: true,
+               taste: '', criticSystem: base + JL_DECIMAL_SUFFIX, precision: 'decimal'});
+  jlEvoSummary();
+  jlEvoStatus('Done. Press Export evolution CSV (the rounds) and Export CSV (the final judging).');
+}
+window.jlEvoAB = jlEvoAB;
+
+function jlEvoExport(){
+  if(!JL.evoRows.length){ jlEvoStatus('No evolution rounds logged yet.'); return; }
+  const key = JL.evoFinals.map(function(f){
+    return '# final picture v' + f.variantIndex + ' = ' + f.arm + ', run ' + f.run + ' (' + f.rounds + ' rounds)'; });
+  jlDownload('judge-lab-evolution.csv',
+    JLCore.jlCSV(JL.evoRows, EVO_COLS) + (key.length ? '\n' + key.join('\n') : ''), 'text/csv');
+}
+window.jlEvoExport = jlEvoExport;
+
 const JLui = {
   setJudge: function(i, field, value){
     JL.judges[i][field] = value;
@@ -617,7 +835,7 @@ const JLui = {
   },
   exportCSV: function(){ jlDownload('judge-lab-rows.csv', JLCore.jlCSV(JL.rows, CSV_COLS), 'text/csv'); },
   clearRows: function(){ JL.rows = []; jlRenderResults(); jlStatus('Cleared results.'); },
-  stop: function(){ JL.abort = true; },
+  stop: function(){ JL.abort = true; if(JL.evo && typeof S !== 'undefined') S.stopRequested = true; },
   // Build a run config from the panel. precision: 'app' (1-10 whole numbers, as the
   // app asks) or 'decimal' (one decimal place — tests whether the tie rate comes
   // from the coarse integer scale). Recorded on every row so conditions stay apart.
@@ -690,7 +908,15 @@ function jlBuildPanel(){
   + '<div style="display:flex;gap:4px;flex-wrap:wrap"><button onclick="jlRunPreset(document.getElementById(\'jlPreset\').value)" style="background:#7c3aed;color:#fff">Run this experiment</button>'
   + '<button onclick="jlGapReport()">Gap report from the app rounds</button></div>'
   + '<div id="jlPresetWhat" style="opacity:.75;font-size:.66rem;margin:3px 0"></div>'
-  + '<div style="font-weight:700;margin-top:8px">4 &middot; Or set it up by hand</div>'
+  + '<div style="font-weight:700;margin-top:8px">4 &middot; Evolution: original vs enhanced</div>'
+  + '<label style="display:block"><input type="checkbox" id="jlEnhDecimal" checked onchange="JL.enh.decimal=this.checked"> enhancement: ask the critic for one decimal place</label>'
+  + '<label style="display:block"><input type="checkbox" id="jlEnhFair" checked onchange="JL.enh.fairTie=this.checked"> enhancement: break ties at random, not by list order</label>'
+  + '<div style="opacity:.75;font-size:.66rem;margin:3px 0">While ticked, an enhancement also applies to the app\'s own Start button. Compare evolution runs the starting program twice per run (original app, then with the ticked enhancements) using the app\'s own taste, magnitude, variants per round and API PROVIDER settings, then asks the ticked judges to score the final pictures together. About rounds &times; 4 &times; runs calls, plus the judging.</div>'
+  + '<div style="display:flex;gap:6px;align-items:center;margin:3px 0">rounds <input id="jlEvoRounds" type="number" value="10" min="2" max="100" style="width:48px"> runs <input id="jlEvoRuns" type="number" value="2" min="1" max="20" style="width:44px"> final judging calls <input id="jlEvoJudge" type="number" value="10" min="0" max="50" style="width:48px"></div>'
+  + '<div style="display:flex;gap:4px;flex-wrap:wrap"><button onclick="jlEvoAB()" style="background:#7c3aed;color:#fff">Compare evolution</button><button onclick="JLui.stop()">Stop</button><button onclick="jlEvoExport()">Export evolution CSV</button></div>'
+  + '<div id="jlEvoStatus" style="margin:4px 0;min-height:14px;opacity:.85"></div>'
+  + '<div id="jlEvoOut"></div>'
+  + '<div style="font-weight:700;margin-top:8px">5 &middot; Or set it up by hand</div>'
   + '<div style="display:flex;gap:6px;align-items:center;margin:3px 0">'
   + 'scores <select id="jlPrecision" style="font-size:.65rem"><option value="app">as the app asks (1-10)</option><option value="decimal">one decimal place</option></select> '
   + 'repeats <input id="jlRepeats" type="number" value="10" min="1" max="200" style="width:52px">'
@@ -701,7 +927,7 @@ function jlBuildPanel(){
   + '<button onclick="JLui.runBoth()" style="background:#7c3aed;color:#fff">Run both (whole, then decimal)</button>'
   + '<button onclick="JLui.stop()">Stop</button></div>'
   + '<div id="jlStatus" style="margin:6px 0;min-height:16px;opacity:.85"></div>'
-  + '<div style="font-weight:700;margin-top:4px">4 &middot; Results</div>'
+  + '<div style="font-weight:700;margin-top:4px">6 &middot; Results</div>'
   + '<div id="jlResults" style="border:1px solid #1e293b;padding:6px;border-radius:4px;max-height:230px;overflow:auto"></div>'
   + '<div style="display:flex;gap:4px;margin-top:4px"><button onclick="JLui.exportCSV()">Export CSV</button><button onclick="JLui.clearRows()">Clear results</button></div>'
   + '<div id="jlCopyBox" style="display:none;margin-top:6px"><div style="opacity:.7">If the download did not start (it cannot inside a Claude artifact), copy from here:</div><textarea style="width:100%;height:90px;font-size:.6rem"></textarea></div>'

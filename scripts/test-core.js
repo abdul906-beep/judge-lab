@@ -81,6 +81,24 @@ ok('flagged as same company', f['google judging google'].sameCompany===true);
 ok('neutral pairing shows no inflation', close(f['openai judging openai'].meanDeviation,0));
 ok('others pushed negative by the panel mean', f['anthropic judging google'].meanDeviation<0);
 
+console.log('evolution A/B: tie-break and round summary');
+const P=[{title:'Parent',score:4,aes:4,nov:0},{title:'Variant 1',score:9,aes:6,nov:6},
+         {title:'Variant 2',score:9,aes:7,nov:4},{title:'Variant 3',score:8,aes:6.5,nov:3}];
+ok('app rule: earliest of the tied wins', J.jlPickWinner(P,false)===1);
+ok('fair rule can pick the later tied one', J.jlPickWinner(P,true,()=>0.99)===2);
+ok('fair rule can pick the earlier tied one', J.jlPickWinner(P,true,()=>0)===1);
+ok('fair rule never picks a lower score', [0,0.3,0.6,0.99].every(r=>[1,2].indexOf(J.jlPickWinner(P,true,()=>r))>=0));
+ok('no tie: both rules agree', J.jlPickWinner([{score:5},{score:7},{score:6}],true,()=>0.99)===1&&J.jlPickWinner([{score:5},{score:7},{score:6}],false)===1);
+ok('nothing scored -> -1', J.jlPickWinner([{score:0},{score:0}],true)===-1);
+const rs1=J.jlRoundSummary(P,1);
+ok('tie detected, gap 0', rs1.tiedAtTop===true&&rs1.gap===0&&rs1.best===9&&rs1.second===9);
+ok('tie went to first listed', rs1.tieWentToFirstListed===true&&J.jlRoundSummary(P,2).tieWentToFirstListed===false);
+ok('variant scores in list order', rs1.variantScores==='9/9/8'&&rs1.parentScore===4);
+ok('decimals noticed', rs1.decimalsUsed===true);
+const rs2=J.jlRoundSummary([{title:'Parent',score:9,aes:9,nov:0},{title:'Variant 1',score:9,aes:6,nov:6}],0);
+ok('parent kept on a tie is flagged', rs2.parentKept===true&&rs2.tieWentToFirstListed===true&&rs2.decimalsUsed===false);
+ok('default-score round flagged', J.jlRoundSummary([{title:'Variant 1',score:6.5,reason:'(critic failed — default score)'}],0).criticFailed===true);
+
 console.log('CSV escaping');
 const csv=J.jlCSV([{a:'plain',b:'has,comma',c:'has "quote"',d:null}],['a','b','c','d']);
 ok('header + escaping', csv==='a,b,c,d\nplain,"has,comma","has ""quote""",', csv);

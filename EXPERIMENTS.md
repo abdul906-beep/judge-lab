@@ -66,6 +66,49 @@ if it wins, list order did not give it the win. These are hand-written, not
 evolved, so the gap between variants is set on purpose. Expect whole-number
 ties on the close sets and none on the far sets.
 
+## Evolution: original vs enhanced (added 1 Oct)
+
+Everything above scores one frozen round. This runs the real evolution loop.
+
+Section 4 of the Judge Lab panel has two enhancements, both ticked by default:
+
+- **ask the critic for one decimal place** — the same sentence as experiment 2,
+  now added to the app's own Critic call
+- **break ties at random, not by list order** — replaces the rule that hands a
+  tie to the earliest candidate
+
+While ticked they also apply to the app's own **Start** button, so the page is
+the app with the enhancements built in. Untick both to get the original
+behaviour back.
+
+**Compare evolution** takes the starting program, taste, magnitude, variants per
+round and API PROVIDER settings from the app itself, then:
+
+1. evolves for N rounds as the original app (both enhancements off)
+2. evolves again from the same start with the ticked enhancements on
+3. repeats that for as many runs as you set, swapping which goes first each run
+4. freezes the final picture from every run as one batch and has the ticked
+   judges score them together, in shuffled order, with decimals
+
+It needs a key in the app's API PROVIDER panel (for the evolution rounds) and at
+least one ticked judge in section 2 (for the final judging). Calls: about
+rounds x 4 x runs, plus the judging. If a call fails it waits 30 seconds and
+carries on from the round it had reached, six times before giving up.
+
+Two files come out:
+
+- **Export evolution CSV** — one row per round: which version, the scores, the
+  gap between the top two, whether they tied, whether the tie went to the
+  first-listed candidate, whether the parent was kept, and the winning program.
+  The last lines say which final picture came from which version.
+- **Export CSV** — the final judging, in the usual format.
+
+The panel also shows a table: ties in the first and second half of the run for
+each version (the prediction below), how often a tie went to the first-listed
+candidate, and which version's final pictures the judges preferred.
+
+Three variants per round matches the frozen batches; the app's default is two.
+
 ## The prediction I could not test
 
 As a run converges the variants get more alike, so the gap between the best two

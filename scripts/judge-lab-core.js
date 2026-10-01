@@ -142,6 +142,43 @@ function jlCSV(rows, columns){
     return /[",\n]/.test(s) ? '"'+s.replace(/"/g,'""')+'"' : s; };
   return [cols.join(',')].concat(rows.map(r=>cols.map(c=>esc(r[c])).join(','))).join('\n');
 }
-if (typeof module!=='undefined') module.exports={jlMean,jlSD,jlScore,jlIdentityOrder,
+/* ── evolution A/B ──────────────────────────────────────────────
+   jlPickWinner mirrors selectWinner in "Best" mode. With fairTie off it is the
+   app rule (strict >, so the earliest candidate keeps a tie); with fairTie on,
+   one of the candidates sharing the top score is chosen at random.
+   Returns an index into candidates, or -1 if none has a score above 0. */
+function jlPickWinner(candidates, fairTie, rnd){
+  let best=-1;
+  candidates.forEach((c,i)=>{ if(c.score>0 && (best<0 || c.score>candidates[best].score)) best=i; });
+  if(best<0 || !fairTie) return best;
+  const top=candidates[best].score;
+  const tied=candidates.map((c,i)=>c.score===top?i:-1).filter(i=>i>=0);
+  return tied[Math.floor((rnd?rnd():Math.random())*tied.length)];
+}
+/* One evolution round, as the app saw it. pool[0] is normally the Parent. */
+function jlRoundSummary(pool, winnerIdx){
+  const scored=pool.map((c,i)=>({i,score:c.score})).filter(c=>c.score>0);
+  const sorted=scored.map(c=>c.score).sort((a,b)=>b-a);
+  const top=sorted.length?sorted[0]:null, second=sorted.length>1?sorted[1]:null;
+  const atTop=scored.filter(c=>c.score===top);
+  const w=pool[winnerIdx]||{};
+  const isParent=c=>c.title==='Parent';
+  const vars=pool.filter(c=>!isParent(c));
+  return {
+    candidates: pool.length,
+    parentScore: (pool.find(isParent)||{score:''}).score,
+    variantScores: vars.map(c=>+(+c.score).toFixed(3)).join('/'),
+    best: top===null?'':+top.toFixed(3), second: second===null?'':+second.toFixed(3),
+    gap: (top!==null&&second!==null) ? +(top-second).toFixed(3) : '',
+    tiedAtTop: atTop.length>1,
+    tieWentToFirstListed: atTop.length>1 && winnerIdx===atTop[0].i,
+    winner: w.title||'',
+    parentKept: isParent(w),
+    winnerAes: w.aes, winnerNov: w.nov, winnerScore: w.score,
+    decimalsUsed: vars.some(c=>Number.isFinite(c.aes)&&c.aes%1!==0),
+    criticFailed: pool.some(c=>/critic failed|not scored/.test(c.reason||''))
+  };
+}
+if (typeof module!=='undefined') module.exports={jlPickWinner,jlRoundSummary,jlMean,jlSD,jlScore,jlIdentityOrder,
   jlShuffled,jlMapEvaluations,jlWinnerOf,jlStats,jlWinnerStability,jlPositionEffect,
   jlCorrelation,jlFavouritism,jlCSV};
