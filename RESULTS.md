@@ -222,7 +222,7 @@ Data: `data/rows-2026-10-01-ken-closefar-gpt.csv`.
 | Spiral galaxy - far | 10 | 0 | 0 / 0 / **10** | 2.15 |
 
 - GPT: ties in **22 of 30** close calls and **0 of 30** far calls (Fisher exact
-  p = 2e-9). First-listed variant won 28 of 30 close calls; the strongest
+  p = 8.3e-10). First-listed variant won 28 of 30 close calls; the strongest
   variant won 30 of 30 far calls from last place.
 - Same pattern as gemini-3.8-flash (24 of 30 vs 0 of 30). Both judges together:
   ties in 46 of 60 close calls, 0 of 60 far calls.
