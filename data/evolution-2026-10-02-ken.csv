@@ -1,0 +1,190 @@
+ts,arm,run,round,decimal,fairTie,provider,model,taste,magnitude,candidates,parentScore,variantScores,best,second,gap,tiedAtTop,tieWentToFirstListed,winner,parentKept,winnerAes,winnerNov,winnerScore,decimalsUsed,criticFailed,winnerCode
+2026-10-01T19:42:52.877Z,original,1,1,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,1,12.5/14/12.5,14,12.5,1.5,false,false,Variant 2,false,9,10,14,false,false,REPEAT 72 [FD 100 RT 175 FD 50 LT 90]
+2026-10-01T19:43:01.166Z,original,1,2,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,9/10.5/10,10.5,10,0.5,false,false,Variant 2,false,9,3,10.5,false,false,REPEAT 120 [FD 90 RT 172 FD 55 LT 90]
+2026-10-01T19:43:09.176Z,original,1,3,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,9,9.5/8.5/8.5,9.5,9,0.5,false,false,Variant 1,false,8,3,9.5,false,false,REPEAT 132 [FD 90 RT 169 FD 55 LT 90]
+2026-10-01T19:43:18.945Z,original,1,4,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,9.5/11/9,11,9.5,1.5,false,false,Variant 2,false,9,4,11,false,false,"CS
+REPEAT 108 [REPEAT 3 [FD 92 RT 166 FD 58 LT 90 LT 1] RT 3]"
+2026-10-01T19:43:28.134Z,original,1,5,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,11/9.5/10,11,10,1,false,false,Variant 1,false,9,4,11,false,false,"CS
+REPEAT 108 [REPEAT 3 [FD 92 RT 168 FD 58 LT 90 LT 1] RT 4]"
+2026-10-01T19:43:37.644Z,original,1,6,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,9,9.5/9.5/9,9.5,9.5,0,true,true,Variant 1,false,6,7,9.5,false,false,"CS
+REPEAT 108 [REPEAT 3 [FD 92 RT 168 FD 58 LT 90 LT 1] RT 3.8]"
+2026-10-01T19:43:46.310Z,original,1,7,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,13/8.5/13.5,13.5,13,0.5,false,false,Variant 3,false,10,7,13.5,false,false,"CS
+REPEAT 114 [REPEAT 3 [FD 90 RT 165 FD 60 LT 90 LT 1] RT 3.6]"
+2026-10-01T19:43:55.364Z,original,1,8,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,8.5/8/9.5,9.5,8.5,1,false,false,Variant 3,false,5,9,9.5,false,false,"CS
+REPEAT 132 [REPEAT 3 [FD 76 RT 168 FD 50 LT 88 LT 1] RT 3]"
+2026-10-01T19:44:04.140Z,original,1,9,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,6,12.5/10.5/13,13,12.5,0.5,false,false,Variant 3,false,9,8,13,false,false,"CS
+REPEAT 150 [REPEAT 3 [FD 76 RT 166 FD 50 LT 88 LT 1] RT 2.6]"
+2026-10-01T19:44:14.744Z,original,1,10,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,7,11/9.5/10,11,10,1,false,false,Variant 1,false,9,4,11,false,false,"CS
+REPEAT 120 [REPEAT 3 [FD 76 RT 168 FD 48 LT 90 LT 2] RT 3]"
+2026-10-01T19:44:22.627Z,enhanced,1,1,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,1.2,13.8/13.1/4.15,13.8,13.1,0.7,false,false,Variant 1,false,9.1,9.4,13.8,true,false,REPEAT 36 [FD 100 RT 170]
+2026-10-01T19:44:29.844Z,enhanced,1,2,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.2,10.8/11.9/8.5,11.9,10.8,1.1,false,false,Variant 2,false,8.7,6.4,11.899999999999999,true,false,REPEAT 72 [FD 90 RT 175]
+2026-10-01T19:44:38.221Z,enhanced,1,3,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.6,9.9/9.75/11.05,11.05,9.9,1.15,false,false,Variant 3,false,8.1,5.9,11.05,true,false,REPEAT 120 [FD 90 RT 177]
+2026-10-01T19:44:48.193Z,enhanced,1,4,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.6,11.3/6.8/11.05,11.3,11.05,0.25,false,false,Variant 1,false,7.9,6.8,11.3,true,false,REPEAT 120 [FD 90 + 10 * SIN REPCOUNT * 18 BK 90 + 10 * SIN REPCOUNT * 18 RT 177]
+2026-10-01T19:44:58.118Z,enhanced,1,5,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.6,12.1/10/11.95,12.1,11.95,0.15,false,false,Variant 1,false,8.9,6.4,12.100000000000001,true,false,"MAKE ""L 100
+REPEAT 120 [FD :L - REPCOUNT / 3 + 10 * SIN REPCOUNT * 18 BK :L - REPCOUNT / 3 + 10 * SIN REPCOUNT * 18 RT 177.5]"
+2026-10-01T19:45:09.220Z,enhanced,1,6,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.4,10.3/10.8/10.3,10.8,10.3,0.5,false,false,Variant 2,false,7.9,5.8,10.8,true,false,"MAKE ""L 100
+REPEAT 144 [FD :L - REPCOUNT / 3 + 12 * SIN REPCOUNT * 20 + 6 * SIN REPCOUNT * 5 BK :L - REPCOUNT / 3 + 12 * SIN REPCOUNT * 20 + 6 * SIN REPCOUNT * 5 RT 175]"
+2026-10-01T19:45:19.134Z,enhanced,1,7,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.1,9.7/9.1/9.05,9.7,9.1,0.6,false,false,Variant 1,false,8.4,2.6,9.700000000000001,true,false,"MAKE ""L 104
+REPEAT 156 [FD :L - REPCOUNT / 3 + 12 * SIN REPCOUNT * 20 + 6 * SIN REPCOUNT * 5 + 4 * SIN REPCOUNT * 40 BK :L - REPCOUNT / 3 + 12 * SIN REPCOUNT * 20 + 6 * SIN REPCOUNT * 5 + 4 * SIN REPCOUNT * 40 RT 173]"
+2026-10-01T19:45:29.486Z,enhanced,1,8,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.1,9.35/9.8/9.35,9.8,9.35,0.45,false,false,Variant 2,false,7.4,4.8,9.8,true,false,"MAKE ""L 104
+REPEAT 156 [MAKE ""D :L - REPCOUNT / 3 + 10 * SIN REPCOUNT * 20 + 6 * SIN REPCOUNT * 5 + 7 * SIN REPCOUNT * 40 + 22 * SIN REPCOUNT * 11 FD :D BK :D RT 171]"
+2026-10-01T19:45:42.129Z,enhanced,1,9,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.6,9.3/9.65/9.9,9.9,9.65,0.25,false,false,Variant 3,false,7.1,5.6,9.899999999999999,true,false,"MAKE ""L 104
+REPEAT 156 [MAKE ""K MOD REPCOUNT 3 MAKE ""D :L - REPCOUNT / 3 + 8 * SIN REPCOUNT * 24 + 7 * SIN REPCOUNT * 4 + 6 * SIN REPCOUNT * 39 + 24 * SIN REPCOUNT * 10 + 10 * :K * :K FD :D BK :D RT 173]"
+2026-10-01T19:45:56.337Z,enhanced,1,10,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,6.2,12.25/12.7/11.8,12.7,12.25,0.45,false,false,Variant 2,false,8.9,7.6,12.7,true,false,"MAKE ""L 112
+REPEAT 144 [MAKE ""K MOD REPCOUNT 4 MAKE ""M IFELSE :K = 0 [30] [IFELSE :K = 1 [8] [IFELSE :K = 2 [20] [8]]] MAKE ""D :L - REPCOUNT / 3 + 10 * SIN REPCOUNT * 24 + 5 * SIN REPCOUNT * 4 + 8 * SIN REPCOUNT * 39 + 18 * SIN REPCOUNT * 10 + :M FD :D BK :D RT 175]"
+2026-10-01T19:46:05.738Z,enhanced,2,1,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,1.8,13.6/11.9/12.95,13.6,12.95,0.65,false,false,Variant 1,false,8.9,9.4,13.600000000000001,true,false,REPEAT 36 [FD 100 RT 170]
+2026-10-01T19:46:16.017Z,enhanced,2,2,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,9.2,10.8/9.75/9.85,10.8,9.85,0.95,false,false,Variant 1,false,7.4,6.8,10.8,true,false,"CS
+HOME
+SETPC CYAN
+REPEAT 36 [FD 100 RT 170 BK 100]
+RT 6
+SETPC WHITE
+REPEAT 36 [FD 100 RT 170 BK 100]"
+2026-10-01T19:46:26.432Z,enhanced,2,3,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,7.9,8.75/10.05/8.9,10.05,8.9,1.15,false,false,Variant 2,false,8.3,3.5,10.05,true,false,"CS
+HOME
+SETPC CYAN
+MAKE ""d 55
+REPEAT 36 [FD :d RT 170 BK :d MAKE ""d :d+3]
+RT 6
+SETPC WHITE
+MAKE ""d 61
+REPEAT 36 [FD :d RT 170 BK :d MAKE ""d :d+3]"
+2026-10-01T19:46:36.198Z,enhanced,2,4,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.2,9.8/9.9/9.6,9.9,9.8,0.1,false,false,Variant 2,false,7.6,4.6,9.899999999999999,true,false,"CS
+HOME
+SETPC CYAN
+MAKE ""d 78
+REPEAT 36 [FD :d RT 173 BK :d MAKE ""d :d-2]
+RT 10
+SETPC WHITE
+MAKE ""d 84
+REPEAT 36 [FD :d RT 173 BK :d MAKE ""d :d-2]"
+2026-10-01T19:46:47.039Z,enhanced,2,5,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,7.2,10.5/9.8/11.85,11.85,10.5,1.35,false,false,Variant 3,false,8.7,6.3,11.85,true,false,"CS
+HOME
+SETPC CYAN
+MAKE ""d 78
+REPEAT 46 [FD :d RT 170 BK :d MAKE ""d :d-1.8]
+RT 12
+SETPC [230 230 255]
+MAKE ""d 84
+REPEAT 46 [FD :d RT 170 BK :d MAKE ""d :d-1.8]"
+2026-10-01T19:46:57.666Z,enhanced,2,6,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.3,9.6/11.05/11.15,11.15,11.05,0.1,false,false,Variant 3,false,7.4,7.5,11.15,true,false,"CS
+HOME
+SETPC SKYBLUE
+SETWIDTH 3
+MAKE ""d 86
+REPEAT 44 [FD :d RT 166 BK :d MAKE ""d :d-1.9]
+RT 12
+SETPC [235 240 255]
+SETWIDTH 1
+MAKE ""d 92
+REPEAT 44 [FD :d RT 166 BK :d MAKE ""d :d-1.9]"
+2026-10-01T19:47:10.339Z,enhanced,2,7,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,6.8,12.6/12.2/12.15,12.6,12.2,0.4,false,false,Variant 1,false,8.9,7.4,12.600000000000001,true,false,"CS
+HOME
+SETPC SKYBLUE
+SETWIDTH 3
+MAKE ""d 86
+REPEAT 44 [FD :d RT 166 BK :d RT 4 IFELSE MOD REPCOUNT 4 = 0 [MAKE ""d :d-3.2] [MAKE ""d :d-1.4]]
+RT 12
+SETPC [235 240 255]
+SETWIDTH 1
+MAKE ""d 92
+REPEAT 44 [FD :d RT 166 BK :d RT 4 IFELSE MOD REPCOUNT 4 = 0 [MAKE ""d :d-3.2] [MAKE ""d :d-1.4]]"
+2026-10-01T19:47:22.852Z,enhanced,2,8,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,7.8,10/11/10.15,11,10.15,0.85,false,false,Variant 2,false,8.7,4.6,11,true,false,"CS
+HOME
+SETPC SKYBLUE
+SETWIDTH 2
+MAKE ""d 84
+REPEAT 60 [FD :d RT 170 BK :d RT 2 IFELSE MOD REPCOUNT 5 = 0 [MAKE ""d :d-3.1] [MAKE ""d :d-1.1]]
+RT 9
+SETPC [235 240 255]
+SETWIDTH 1
+MAKE ""d 90
+REPEAT 60 [FD :d RT 170 BK :d RT 2 IFELSE MOD REPCOUNT 5 = 0 [MAKE ""d :d-3.1] [MAKE ""d :d-1.1]]"
+2026-10-01T19:47:36.022Z,enhanced,2,9,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,7.6,11.2/11.2/11.15,11.2,11.2,0,true,false,Variant 2,false,8.4,5.6,11.2,true,false,"CS
+HOME
+SETPC SKYBLUE
+SETWIDTH 2
+MAKE ""d 82
+REPEAT 64 [FD :d RT 172 BK :d RT 3 IFELSE MOD REPCOUNT 4 = 0 [MAKE ""d :d-2.9] [MAKE ""d :d-0.95]]
+RT 11
+SETPC [235 240 255]
+SETWIDTH 1
+MAKE ""d 88
+REPEAT 64 [FD :d RT 172 BK :d RT 3 IFELSE MOD REPCOUNT 4 = 0 [MAKE ""d :d-2.9] [MAKE ""d :d-0.95]]"
+2026-10-01T19:47:47.109Z,enhanced,2,10,true,true,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8.3,10.05/11/11.85,11.85,11,0.85,false,false,Variant 3,false,8,7.7,11.85,true,false,"CS
+HOME
+SETPC SKYBLUE
+SETWIDTH 2
+MAKE ""d 82
+REPEAT 68 [FD :d RT 174 BK :d RT 4 MAKE ""d :d-1.15]
+RT 13
+SETPC [235 240 255]
+SETWIDTH 1
+MAKE ""d 88
+REPEAT 68 [FD :d RT 174 BK :d RT 4 MAKE ""d :d-1.15]"
+2026-10-01T19:47:55.873Z,original,2,1,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,2,14/11/9.5,14,11,3,false,false,Variant 1,false,9,10,14,false,false,REPEAT 36 [FD 100 RT 170]
+2026-10-01T19:48:05.147Z,original,2,2,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,9,8.5/9/9,9,9,0,true,true,Parent,true,9,0,9,false,false,REPEAT 36 [FD 100 RT 170]
+2026-10-01T19:48:14.513Z,original,2,3,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,9,9.5/10/10,10,10,0,true,true,Variant 2,false,9,2,10,false,false,"CS
+SETPC BLUE
+REPEAT 48 [FD 110 RT 168 RT 2]"
+2026-10-01T19:48:23.949Z,original,2,4,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,8.5/9.5/12,12,9.5,2.5,false,false,Variant 3,false,9,6,12,false,false,"CS
+SETPC PURPLE
+REPEAT 72 [FD 100 RT 173 RT 2]
+HOME
+RT 6
+SETPC MAGENTA
+REPEAT 72 [FD 100 RT 173 RT 2]"
+2026-10-01T19:48:33.202Z,original,2,5,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,9/9.5/12,12,9.5,2.5,false,false,Variant 3,false,9,6,12,false,false,"CS
+SETPC PURPLE
+REPEAT 84 [FD 82 RT 175 RT 1]
+HOME
+RT 8
+SETPC MAGENTA
+REPEAT 84 [FD 82 RT 175 RT 1]"
+2026-10-01T19:48:43.609Z,original,2,6,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,9/10/8.5,10,9,1,false,false,Variant 2,false,6,8,10,false,false,"CS
+SETPC PURPLE
+REPEAT 72 [FD 80 RT 177 RT 1]
+HOME
+RT 11
+SETPC MAGENTA
+REPEAT 72 [FD 80 RT 177 RT 1]"
+2026-10-01T19:48:54.627Z,original,2,7,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,10/8.5/10,10,10,0,true,true,Variant 1,false,7,6,10,false,false,"CS
+SETPC PURPLE
+MAKE ""L 84
+REPEAT 72 [FD :L RT 177 RT 2 IF MOD REPCOUNT 4 = 0 [MAKE ""L :L - 2]]
+HOME
+RT 11
+SETPC MAGENTA
+MAKE ""L 84
+REPEAT 72 [FD :L RT 177 RT 2 IF MOD REPCOUNT 4 = 0 [MAKE ""L :L - 2]]"
+2026-10-01T19:49:06.251Z,original,2,8,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,6.5/10/6.5,10,8,2,false,false,Variant 2,false,9,2,10,false,false,"CS
+SETPC PURPLE
+MAKE ""L 86
+REPEAT 68 [FD :L RT 176 RT 3 IF MOD REPCOUNT 4 = 0 [MAKE ""L :L - 2] IF REPCOUNT = 34 [MAKE ""L :L - 10]]
+HOME
+RT 17
+SETPC MAGENTA
+MAKE ""L 86
+REPEAT 68 [FD :L RT 176 RT 3 IF MOD REPCOUNT 4 = 0 [MAKE ""L :L - 2] IF REPCOUNT = 34 [MAKE ""L :L - 10]]"
+2026-10-01T19:49:18.992Z,original,2,9,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,7,12.5/9.5/12,12.5,12,0.5,false,false,Variant 1,false,9,7,12.5,false,false,"CS
+SETPC PURPLE
+MAKE ""L 86
+REPEAT 68 [FD :L RT 176 RT 2 IF MOD REPCOUNT 4 = 0 [MAKE ""L :L - 2] IF REPCOUNT = 34 [MAKE ""L :L - 10]]
+HOME
+RT 15
+SETPC MAGENTA
+MAKE ""L 86
+REPEAT 68 [FD :L RT 176 RT 2 IF MOD REPCOUNT 4 = 0 [MAKE ""L :L - 2] IF REPCOUNT = 34 [MAKE ""L :L - 10]]"
+2026-10-01T19:49:31.490Z,original,2,10,false,false,openai,gpt-5.4,Mathematical beauty where simple rules generate complexity,5,4,8,11/10.5/8.5,11,10.5,0.5,false,false,Variant 1,false,9,4,11,false,false,"CS
+SETPC PURPLE
+MAKE ""L 86
+REPEAT 80 [FD :L RT 176 RT 1.5 IF MOD REPCOUNT 4 = 0 [MAKE ""L :L - 2] IF REPCOUNT = 40 [MAKE ""L :L - 10]]
+HOME
+RT 12
+SETPC MAGENTA
+MAKE ""L 86
+REPEAT 80 [FD :L RT 176 RT 1.5 IF MOD REPCOUNT 4 = 0 [MAKE ""L :L - 2] IF REPCOUNT = 40 [MAKE ""L :L - 10]]"
+# final picture v0 = original, run 1 (10 rounds)
+# final picture v1 = enhanced, run 1 (10 rounds)
+# final picture v2 = enhanced, run 2 (10 rounds)
+# final picture v3 = original, run 2 (10 rounds)

@@ -228,3 +228,58 @@ Data: `data/rows-2026-10-01-ken-closefar-gpt.csv`.
   ties in 46 of 60 close calls, 0 of 60 far calls.
 - So the gap rule is not particular to Google's models. Note that GPT scores in
   half-points and still ties when the variants are near-identical.
+
+## Evolution: original app vs enhanced (2 Oct)
+First multi-round test, run by Ken with "Compare evolution". Modifier and critic
+gpt-5.4, taste "Mathematical beauty where simple rules generate complexity",
+start `FD 100`, 3 variants per round, magnitude 5, Best mode, 10 rounds, 2 runs
+of each version. Enhanced = decimal critic scores + random tie-break.
+Data: `data/evolution-2026-10-02-ken.csv` (one row per round),
+`data/rows-2026-10-02-ken-evo-finals.csv` (final judging, plus a 20-call
+experiment 4 with gpt-5.6-terra), `data/history-2026-10-02-ken.html` (the app's
+own history export).
+
+| | original | enhanced |
+|---|---|---|
+| rounds | 20 | 20 |
+| rounds with a tie for top score | **4** | **1** |
+| ties won by the first-listed candidate | 4 of 4 | 0 of 1 |
+| rounds where a tie kept the parent (no progress) | 1 | 0 |
+| ties, rounds 1-5 / rounds 6-10 | 2 / 2 | 0 / 1 |
+| mean gap, rounds 1-5 / rounds 6-10 | 1.30 / 0.70 | 0.75 / 0.45 |
+
+Final pictures, judged together by gpt-5.6-terra, 10 calls, shuffled order,
+decimals:
+
+| final picture | mean aesthetic | best in |
+|---|---|---|
+| original, run 1 | 8.99 | 10 of 10 calls |
+| enhanced, run 2 | 7.82 | 0 |
+| original, run 2 | 6.89 | 0 |
+| enhanced, run 1 | 6.22 | 0 |
+
+What this does and does not show:
+
+- **The mechanism appears in real evolution.** In the original app 4 of 20 rounds
+  tied and every tie went to the first-listed candidate. In one of them (run 2,
+  round 2: parent 9, variants 8.5 / 9 / 9) the first-listed candidate was the
+  parent, so the app kept the parent and the round produced nothing.
+- **The enhancements cut ties from 4 to 1 of 20**, but that difference is not
+  significant on 20 rounds each (Fisher exact p = 0.34). The one remaining tie
+  (11.2 / 11.2) shows decimals reduce ties rather than remove them; the random
+  tie-break handled it.
+- **No evidence the enhancements gave better final pictures.** The best final
+  picture came from the original app, and the two runs of the same version
+  differed more (8.99 vs 6.89) than the two versions did on average (original
+  7.94, enhanced 7.02). With two runs each, run-to-run luck dominates.
+- **Ties were not more common later** (2 early, 2 late). The gap between the top
+  two did shrink in the second half in both versions, as predicted, but over 10
+  rounds that did not turn into more ties.
+- The tie rate here (20%) is well below the Mondrian batch (52%): gpt-5.4 as
+  critic spreads its scores more, and half-point totals separate more variants.
+- Side note: in the same file, gpt-5.6-terra on experiment 4 gave no ties in 20
+  Mondrian calls (variants 2 and 3 won 10 each) and none in 20 wild flowers calls.
+
+Needed next: more runs per version (the run-to-run spread says roughly 10+), and
+a critic that ties more often (gemini-3.8-flash tied in 10 of 10 on Mondrian),
+where the enhancements have more to fix.
