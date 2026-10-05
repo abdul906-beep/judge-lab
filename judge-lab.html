@@ -3110,6 +3110,45 @@ async function jlCallOpenAI(judge, system, userText, imgB64s){
   return (d.choices && d.choices[0] && d.choices[0].message.content) || '';
 }
 
+/* OpenRouter: one key reaches models from every company, with an OpenAI-style
+   request. Model ids carry the company (google/gemini-3.8-flash). Parameters a
+   model does not take, such as temperature, are dropped by OpenRouter. The
+   reply reports what the call cost, which is added up for the panel. */
+JL.orSpend = 0;
+function jlShowSpend(){
+  const el = document.getElementById('jlSpend');
+  if(el) el.textContent = JL.orSpend ? 'OpenRouter spend since this page loaded: $' + JL.orSpend.toFixed(3) : '';
+}
+async function jlOpenRouterChat(model, key, system, userText, imgB64s, maxTokens, temperature){
+  if(!key) throw new Error('No OpenRouter API key');
+  const content = [{type:'text', text:userText}];
+  (imgB64s || []).forEach(function(b64){
+    content.push({type:'image_url', image_url:{url:'data:image/png;base64,' + b64}}); });
+  const body = {model: model, max_tokens: maxTokens, temperature: temperature, usage: {include: true},
+                messages: [{role:'system', content:system}, {role:'user', content:content}]};
+  const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+    method:'POST',
+    headers:{'Content-Type':'application/json', 'Authorization':'Bearer ' + key},
+    body: JSON.stringify(body)});
+  if(!res.ok){
+    const e = new Error('OpenRouter ' + res.status + ': ' + (await res.text()).slice(0,200));
+    e.httpStatus = res.status; throw e;
+  }
+  const d = await res.json();
+  if(d.error) throw new Error('OpenRouter: ' + String(d.error.message || JSON.stringify(d.error)).slice(0,200));
+  if(d.usage && typeof d.usage.cost === 'number'){ JL.orSpend += d.usage.cost; jlShowSpend(); }
+  const c0 = d.choices && d.choices[0];
+  const mc = c0 && c0.message && c0.message.content;
+  const text = (typeof mc === 'string') ? mc
+             : Array.isArray(mc) ? mc.map(function(p){ return p.text || ''; }).join('') : '';
+  if(!text) throw new Error('OpenRouter returned no text (finish reason: ' + ((c0 && c0.finish_reason) || 'none') + ')');
+  return text;
+}
+function jlCompanyOf(judge){
+  if(judge.provider === 'openrouter') return String(judge.model || '').split('/')[0] || 'openrouter';
+  return COMPANY_OF[judge.provider] || judge.provider;
+}
+
 /* Published artifacts cannot fetch api.anthropic.com; they ask Claude through
    the sample capability instead, on the viewer own account. */
 let _sampleFn = null, _sampleTried = false;
@@ -3171,6 +3210,10 @@ async function jlCallClaude(judge, system, userText, imgB64s){
 async function jlCallJudge(judge, system, userText, imgB64s){
   if(judge.provider === 'gemini') return jlCallGemini(judge, system, userText, imgB64s);
   if(judge.provider === 'openai') return jlCallOpenAI(judge, system, userText, imgB64s);
+  if(judge.provider === 'openrouter'){
+    return jlOpenRouterChat(judge.model, jlKeyFor(judge), system, userText, imgB64s, 8000,
+      (judge.temperature !== undefined && judge.temperature !== '') ? Number(judge.temperature) : 0.7);
+  }
   if(judge.provider === 'claude'){
     // published artifact: sample capability; chat artifact: direct keyless API
     if(window.claude && claude.use) return jlCallSample(judge, system, userText, imgB64s);
@@ -3454,7 +3497,7 @@ function jlRenderBatches(){
 function jlRenderJudges(){
   const el = document.getElementById('jlJudgeList'); if(!el) return;
   el.innerHTML = JL.judges.map(function(j, i){
-    const provOpts = ['gemini','openai','claude'].map(function(p){
+    const provOpts = ['gemini','openai','claude','openrouter'].map(function(p){
       return '<option value="' + p + '"' + (j.provider === p ? ' selected' : '') + '>' + p + '</option>';
     }).join('');
     return '<div style="display:flex;gap:4px;margin-bottom:3px;align-items:center">'
@@ -3591,6 +3634,14 @@ JL.evoFinals = [];      // which final picture came from which arm
 const _hostCallAI = window.callAI;
 window.callAI = function(system, userText, imgB64s, maxTokens, label){
   if(label === 'Critic' && JL.enh.decimal) system = system + JL_DECIMAL_SUFFIX;
+  const prov = document.getElementById('providerSelect');
+  if(prov && prov.value === 'openrouter'){
+    // the host only knows Gemini and OpenAI; route OpenRouter here. The extra
+    // tokens leave room for models that think before answering.
+    return jlOpenRouterChat(document.getElementById('fallbackModel').value,
+      document.getElementById('fallbackKey').value.trim(), system, userText, imgB64s || [],
+      (maxTokens || 1400) + 4096, 0.7);
+  }
   return _hostCallAI(system, userText, imgB64s, maxTokens, label);
 };
 
@@ -3794,7 +3845,11 @@ window.jlEvoExport = jlEvoExport;
 const JLui = {
   setJudge: function(i, field, value){
     JL.judges[i][field] = value;
-    if(field === 'provider') JL.judges[i].company = COMPANY_OF[value] || value;
+    // OpenRouter model ids are company/model; give a sensible one when switching to it
+    if(field === 'provider' && value === 'openrouter' && JL.judges[i].model.indexOf('/') < 0){
+      JL.judges[i].model = 'google/gemini-3.8-flash';
+    }
+    if(field === 'provider' || field === 'model') JL.judges[i].company = jlCompanyOf(JL.judges[i]);
     jlRenderJudges();
   },
   addJudge: function(){
@@ -3921,6 +3976,7 @@ function jlBuildPanel(){
   + '<div style="font-weight:700;margin-top:8px">2 &middot; Judges</div>'
   + '<div id="jlJudgeList"></div>'
   + '<button onclick="JLui.addJudge()">+ judge</button>'
+  + '<div id="jlSpend" style="opacity:.75;font-size:.66rem;margin-top:2px"></div>'
   + '<div style="font-weight:700;margin-top:8px">3 &middot; One-click experiments</div>'
   + '<select id="jlPreset" style="width:100%;font-size:.65rem;margin:2px 0"></select>'
   + '<div style="display:flex;gap:4px;flex-wrap:wrap"><button onclick="jlRunPreset(document.getElementById(\'jlPreset\').value)" style="background:#7c3aed;color:#fff">Run this experiment</button>'
@@ -3956,6 +4012,26 @@ function jlBuildPanel(){
     || window.self !== window.top;
   if(onClaude){
     JL.judges = [{id:'J1', company:'anthropic', provider:'claude', model:'claude-sonnet-5', key:''}];
+  }
+  // OpenRouter in the app's own API PROVIDER panel (the host lists two providers)
+  const provSel = document.getElementById('providerSelect');
+  if(provSel && typeof FALLBACK_MODELS !== 'undefined' && !FALLBACK_MODELS.openrouter){
+    FALLBACK_MODELS.openrouter = [
+      {id:'google/gemini-3.8-flash', name:'Gemini 3.8 Flash (Google)'},
+      {id:'google/gemini-3-flash-preview', name:'Gemini 3 Flash Preview (Google)'},
+      {id:'openai/gpt-6-luna', name:'GPT-6 Luna (OpenAI)'},
+      {id:'openai/gpt-5.6-luna', name:'GPT-5.6 Luna (OpenAI)'},
+      {id:'openai/gpt-5.4', name:'GPT-5.4 (OpenAI)'},
+      {id:'anthropic/claude-haiku-4.5', name:'Claude Haiku 4.5 (Anthropic)'},
+      {id:'anthropic/claude-sonnet-5', name:'Claude Sonnet 5 (Anthropic)'}];
+    const o = document.createElement('option');
+    o.value = 'openrouter'; o.textContent = 'OpenRouter (any company)';
+    provSel.appendChild(o);
+    try {
+      if(typeof LS_PROV !== 'undefined' && localStorage.getItem(LS_PROV) === 'openrouter'){
+        provSel.value = 'openrouter'; updateFallbackModels(); loadKeyForProvider('openrouter');
+      }
+    } catch(e){}
   }
   if(window.JL_BUILTIN_BATCHES){
     window.JL_BUILTIN_BATCHES.forEach(function(b){

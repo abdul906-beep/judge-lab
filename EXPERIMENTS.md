@@ -27,6 +27,11 @@ Provider notes:
 
 - **Gemini** and **OpenAI** — key in the judge row, or leave it empty to use the
   key in the app own API PROVIDER panel.
+- **OpenRouter** — one key for models from every company. Choose `openrouter`
+  in a judge row and type the model as `company/model`, for example
+  `google/gemini-3.8-flash`, `openai/gpt-6-luna` or `anthropic/claude-sonnet-5`.
+  It is also in the app's own API PROVIDER list, so the evolution rounds can use
+  it. The panel shows what the calls have cost since the page loaded.
 - **Claude** — put an Anthropic API key in that judge row key box, and use a
   full model id such as `claude-sonnet-5` (a short name like `sonnet-5.5` gets
   a 404). Without a key
