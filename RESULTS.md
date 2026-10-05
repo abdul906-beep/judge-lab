@@ -283,3 +283,61 @@ What this does and does not show:
 Needed next: more runs per version (the run-to-run spread says roughly 10+), and
 a critic that ties more often (gemini-3.8-flash tied in 10 of 10 on Mondrian),
 where the enhancements have more to fix.
+
+## Evolution: original vs enhanced, six runs on the tie-prone critic (5 Oct)
+Run by me through OpenRouter (key from Ken). Modifier and critic
+google/gemini-3.8-flash, taste "Mondrian", start `FD 100`, 3 variants per round,
+magnitude 5, Best mode, 10 rounds, **6 runs of each version** (120 rounds, about
+250 calls, roughly $1.75). Enhanced = decimal critic scores + random tie-break.
+Data: `data/evolution-2026-10-05-mondrian-g38.csv`,
+`data/rows-2026-10-05-evo-finals-g38.csv` (the 12:57 batch is the real run; the
+12:11 batch is a 2-round smoke test).
+
+| | original | enhanced |
+|---|---|---|
+| rounds | 60 | 60 |
+| rounds with a tie for top score | **10** | **1** |
+| ties won by the first-listed candidate | 10 of 10 | 1 of 1 (by chance) |
+| ties that kept the parent (round wasted) | 1 | 0 |
+| ties, rounds 1-5 / rounds 6-10 | 5 / 5 | 0 / 1 |
+| mean gap, rounds 1-5 / rounds 6-10 | 1.15 / 0.75 | 1.07 / 0.63 |
+| critic replies with decimals | 0 of 60 | 60 of 60 |
+
+Ties: Fisher exact, two-tailed, **p = 0.008**. With Ken's 2 Oct run added:
+14 of 80 original rounds against 2 of 80 enhanced, p = 0.002.
+
+Final pictures: all 12 judged together by gemini-3.8-flash, 10 calls, shuffled
+order, decimals.
+
+| | original | enhanced |
+|---|---|---|
+| mean aesthetic of the 6 final pictures | 5.83 | 5.68 |
+| range | 5.06 to 6.88 | 4.29 to 6.79 |
+| judged best picture | 8 of 10 calls (run 2) | 2 of 10 calls (run 3) |
+
+Exact permutation test on the two means: p = 0.75. Enhanced minus original, run
+by run: +0.93, -2.08, +0.75, -1.36, +0.04, +0.80.
+
+What this shows:
+
+- **The enhancements do what they were built for.** Ties fell from 10 of 60
+  rounds to 1 of 60, and that is now significant. Every tie in the original app
+  went to the first-listed candidate; one of them was the parent (run 6, round 4,
+  parent 7 against 7 / 7 / 7), so that round changed nothing.
+- **They did not make the final pictures better.** 5.83 against 5.68 with p = 0.75
+  is no difference; three runs favoured each side. The earlier hypothesis, that
+  ties are part of why evolution underperforms, is **not supported** by this.
+- **Why not, probably:** in real evolution the original app ties in about 1
+  round in 6, not the 1 in 2 seen on the frozen Mondrian batch, so list order
+  decides far fewer rounds than that batch suggested. And when two variants tie
+  they are close in quality anyway, so picking the "wrong" one costs little.
+- **Ties did not become more common later** (5 early, 5 late), although the gap
+  between the top two shrank in the second half in both versions, as predicted.
+  That prediction is not supported over 10 rounds.
+- **Progress stalls early in both versions.** The parent's aesthetic score rises
+  from about 4.2 at round 2 to about 6 by round 5 and then stays there (original
+  6.2, 6.2, 6.2, 6.0, 6.0; enhanced 6.5, 6.3, 5.8, 5.8). Whatever limits the
+  evolution after round 5, it is not tie-breaking. Scores from different calls
+  drift, so this is suggestive only.
+- Caveats: one taste, one model as both modifier and critic, 10 rounds, and the
+  same model judged the finals.
