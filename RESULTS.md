@@ -304,7 +304,7 @@ Data: `data/evolution-2026-10-05-mondrian-g38.csv`,
 | critic replies with decimals | 0 of 60 | 60 of 60 |
 
 Ties: Fisher exact, two-tailed, **p = 0.008**. With Ken's 2 Oct run added:
-14 of 80 original rounds against 2 of 80 enhanced, p = 0.002.
+14 of 80 original rounds against 2 of 80 enhanced, p = 0.003.
 
 Final pictures: all 12 judged together by gemini-3.8-flash, 10 calls, shuffled
 order, decimals.
