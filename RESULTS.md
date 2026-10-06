@@ -389,3 +389,34 @@ version per taste (168 rounds, about $2.40). Data:
 - Pooled with the 5 Oct run: 27 of 144 original rounds tied, 2 of 144 enhanced.
 - Caveats: 2 runs per taste, so the per-taste rows are a survey, not results;
   one model in every role.
+
+## How big is each step? (6 Oct, no new calls)
+Prompted by a chat Ken shared, which predicts that when the critic and the
+generator share a prior, lineages narrow quickly. `step-size.js` compares each
+round's winning program with the previous round's (token edit distance divided
+by the longer program's length), over data already collected.
+
+Share of the program changed, by round (original version; enhanced is the same
+within noise):
+
+| run set | r1 | r2 | r3 | r4 | r5 | r6 | r7 | r8 | r9 | r10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Mondrian, 6 runs (5 Oct) | 0.96 | 0.75 | 0.58 | 0.31 | 0.32 | 0.32 | 0.35 | 0.28 | 0.33 | 0.35 |
+| seven tastes, 14 runs (6 Oct) | 0.95 | 0.65 | 0.53 | 0.41 | 0.34 | 0.39 | | | | |
+
+- **Steps shrink fast and then stay small.** Round 1 rewrites the whole program,
+  round 2 about 70% of it, round 3 just over half, and from round 4 on each round
+  changes about a third. That is the same round at which the parent's aesthetic
+  score stops rising. The critic's own novelty score for the winner falls in
+  step, from about 6.5 to about 5.
+- Programs keep growing while this happens (Mondrian: 64 tokens at round 1, about
+  160 by round 7), so later rounds add detail to one design rather than trying
+  another.
+- The enhancements make no difference to any of this, which fits their making
+  no difference to the final pictures.
+- Different runs do not end in the same place: final programs from different
+  runs of the same taste differ by 0.7 to 0.9 on the same measure. So the
+  narrowing is within a lineage, not towards one house style, at least as far
+  as program text can show.
+- Limits: this measures program text, not pictures. Two different programs can
+  draw similar pictures, and one changed number can change a picture a lot.
