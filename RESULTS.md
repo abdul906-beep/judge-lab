@@ -369,8 +369,8 @@ version per taste (168 rounds, about $2.40). Data:
   (mathematical beauty) never tied. What does line up is the gap: the three
   tastes with the smallest mean gap between the top two (0.71, 0.75, 0.79) had
   14 of the 17 ties, and the four with gaps of 1.0 or more had 3 (14 of 36
-  rounds against 3 of 48, p = 1.4e-4; rank correlation between gap and ties
-  -0.85 over seven tastes). The gap rule from the frozen batches holds in live
+  rounds against 3 of 48, p = 3.0e-4; rank correlation between gap and ties
+  -0.88 over seven tastes). The gap rule from the frozen batches holds in live
   evolution. A plausible reading: with a simple, concrete goal several variants
   satisfy it equally (scores like 10 / 10 / 10), so the critic cannot separate them.
 - **Still no gain in the final pictures.** Enhanced minus original over the 14
