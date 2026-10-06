@@ -95,6 +95,13 @@ round and API PROVIDER settings from the app itself, then:
 4. freezes the final picture from every run as one batch and has the ticked
    judges score them together, in shuffled order, with decimals
 
+**Several tastes at once.** Type tastes into the box above the button, one per
+line, and the whole comparison runs once for each. Use few rounds and few runs
+per taste for a quick survey, then repeat the interesting tastes with more. The
+panel adds a table with one line per taste: ties in each version, the mean gap,
+the parent's aesthetic score in the last round (how far it got), and how the
+final pictures were judged. Leave the box empty to use the taste in the app.
+
 It needs a key in the app's API PROVIDER panel (for the evolution rounds) and at
 least one ticked judge in section 2 (for the final judging). Calls: about
 rounds x 4 x runs, plus the judging. If a call fails it waits 30 seconds and
