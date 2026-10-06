@@ -1,0 +1,4348 @@
+ts,arm,run,round,decimal,fairTie,provider,model,taste,magnitude,candidates,parentScore,variantScores,best,second,gap,tiedAtTop,tieWentToFirstListed,winner,parentKept,winnerAes,winnerNov,winnerScore,decimalsUsed,criticFailed,winnerCode
+2026-10-06T14:28:23.448Z,original,1,1,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,3,9/9/10,10,9,1,false,false,Variant 3,false,7,6,10,false,false,"PU
+SETXY 0 -50
+PD
+SETPC RED
+SETWIDTH 5
+REPEAT 72 [FD 4.5 RT 5]"
+2026-10-06T14:28:48.882Z,original,1,2,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7,7/7/6.5,7,7,0,true,true,Parent,true,7,0,7,false,false,"PU
+SETXY 0 -50
+PD
+SETPC RED
+SETWIDTH 5
+REPEAT 72 [FD 4.5 RT 5]"
+2026-10-06T14:29:11.531Z,original,1,3,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7,10/5.5/7,10,7,3,false,false,Variant 1,false,7,6,10,false,false,"PU
+SETXY 0 0
+SETPC RED
+SETWIDTH 3
+REPEAT 180 [
+  SETHEADING (REPCOUNT * 2)
+  PD
+  FD 51
+  PU
+  HOME
+]
+SETWIDTH 5
+PU
+SETXY 0 -51
+SETHEADING 90
+PD
+REPEAT 72 [FD 4.5 LT 5]"
+2026-10-06T14:29:38.157Z,original,1,4,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,5,9.5/7/8,9.5,8,1.5,false,false,Variant 1,false,7,5,9.5,false,false,"PU
+SETXY 0 0
+SETPC RED
+SETWIDTH 4
+REPEAT 360 [
+  SETHEADING REPCOUNT
+  PD
+  FD 50
+  PU
+  HOME
+]
+SETWIDTH 4
+PU
+SETXY 0 -50
+SETHEADING 90
+PD
+REPEAT 120 [FD 2.62 LT 3]"
+2026-10-06T14:29:53.717Z,original,1,5,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7,8.5/8.5/7,8.5,8.5,0,true,true,Variant 1,false,7,3,8.5,false,false,"CS
+PU
+SETXY 0 0
+SETPC RED
+SETWIDTH 3
+REPEAT 720 [
+  SETHEADING REPCOUNT * 0.5
+  PD
+  FD 60
+  PU
+  HOME
+]
+SETWIDTH 2
+PU
+SETXY 60 0
+SETHEADING 0
+PD
+REPEAT 360 [
+  FD 1.047
+  LT 1
+]"
+2026-10-06T14:30:20.411Z,original,1,6,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7,8.5/9/8.5,9,8.5,0.5,false,false,Variant 2,false,7,4,9,false,false,"CS
+PU
+SETXY 0 0
+SETPC CRIMSON
+SETWIDTH 2.5
+REPEAT 1080 [
+  SETHEADING REPCOUNT / 3
+  PD
+  FD 65
+  PU
+  HOME
+]
+SETWIDTH 2
+PU
+SETXY 65 0
+SETHEADING 0
+PD
+REPEAT 1440 [
+  FD 0.2836
+  LT 0.25
+]"
+2026-10-06T14:30:40.919Z,enhanced,1,1,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,3.1,9.6/9.4/10.35,10.35,9.6,0.75,false,false,Variant 3,false,7.2,6.3,10.35,true,false,"PU
+FD 50
+PD
+SETPC RED
+SETPENSIZE 3
+REPEAT 72 [FD 5 RT 5]"
+2026-10-06T14:31:07.848Z,enhanced,1,2,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7.2,6.8/8.05/6.95,8.05,7.2,0.85,false,false,Variant 2,false,4.8,6.5,8.05,true,false,"PU
+HOME
+SETPC RED
+SETPENSIZE 3
+PD
+REPEAT 360 [
+  FD 58
+  BK 58
+  RT 1
+]
+PU
+SETXY 0 -58
+PD
+SETPENSIZE 3
+REPEAT 72 [FD 5.06 RT 5]"
+2026-10-06T14:31:32.430Z,enhanced,1,3,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,4.6,6.9/6.65/6.65,6.9,6.65,0.25,false,false,Variant 1,false,4.8,4.2,6.9,true,false,"PU
+HOME
+SETPC [225 15 25]
+SETPENSIZE 5
+PD
+REPEAT 360 [
+  FD 65
+  BK 65
+  RT 1
+]
+PU
+SETXY 0 -65
+PD
+SETPC CRIMSON
+SETPENSIZE 4
+REPEAT 120 [FD 3.4 RT 3]"
+2026-10-06T14:31:53.160Z,enhanced,1,4,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,4.1,10.4/9.3/9.45,10.4,9.45,0.95,false,false,Variant 1,false,7.3,6.2,10.4,true,false,"PU
+HOME
+SETPC [225 20 25]
+SETPENSIZE 4
+PD
+REPEAT 360 [
+  FD 75
+  BK 75
+  RT 1
+]"
+2026-10-06T14:32:11.669Z,enhanced,1,5,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7.1,8.55/7.2/8.25,8.55,8.25,0.3,false,false,Variant 1,false,7,3.1,8.55,true,false,"PU
+HOME
+PD
+SETPENSIZE 3
+REPEAT 720 [
+  SETPC [225 25 30]
+  FD 160
+  BK 160
+  RT 0.5
+]
+HT"
+2026-10-06T14:32:46.112Z,enhanced,1,6,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7.1,7.75/8.4/6.85,8.4,7.75,0.65,false,false,Variant 2,false,6.3,4.2,8.4,true,false,"CS
+PU
+HOME
+PD
+SETPENSIZE 5
+REPEAT 720 [
+  SETPC [225 25 30]
+  FD 138
+  BK 138
+  RT 0.5
+]
+SETPENSIZE 2
+REPEAT 720 [
+  SETPC [225 25 30]
+  FD 140
+  BK 140
+  RT 0.5
+]
+SETPENSIZE 1
+REPEAT 720 [
+  SETPC [238 110 115]
+  FD 140.8
+  BK 140.8
+  RT 0.5
+]
+HT"
+2026-10-06T14:33:02.306Z,enhanced,2,1,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,3.1,9.2/10.55/9.35,10.55,9.35,1.2,false,false,Variant 2,false,7.1,6.9,10.55,true,false,"SETPC RED
+SETPENSIZE 3
+REPEAT 72 [FD 7 RT 5]"
+2026-10-06T14:33:27.359Z,enhanced,2,2,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,5.8,9.9/8.15/7.95,9.9,8.15,1.75,false,false,Variant 1,false,6.8,6.2,9.9,true,false,"CS
+SETPC RED
+SETPENSIZE 3
+REPEAT 360 [
+  FD 80
+  BK 80
+  RT 1
+]"
+2026-10-06T14:34:07.763Z,enhanced,2,3,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,6.8,8.7/9.3/6.65,9.3,8.7,0.6,false,false,Variant 2,false,6.6,5.4,9.3,true,false,"CS
+SETBG [245 242 240]
+REPEAT 360 [
+  SETPC (LIST (195 + INT (45 * SIN (REPCOUNT * 2))) 20 30)
+  SETPENSIZE 3
+  FD 115
+  BK 115
+  RT 1
+]
+SETPENSIZE 3
+SETPC CRIMSON
+CIRCLE 115"
+2026-10-06T14:34:28.056Z,enhanced,2,4,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,6.9,7.3/6.55/7.2,7.3,7.2,0.1,false,false,Variant 1,false,4.6,5.4,7.3,true,false,"CS
+SETBG [245 242 240]
+PU HOME PD
+REPEAT 720 [
+  SETPC (LIST (205 + INT (35 * SIN (REPCOUNT * 2))) 22 35)
+  SETPENSIZE 2
+  FD 114
+  BK 114
+  RT 0.5
+]
+SETPENSIZE 2.5
+SETPC [200 25 35]
+CIRCLE 114.5
+SETPENSIZE 1.5
+SETPC [220 120 125]
+CIRCLE 115.5
+SETPENSIZE 1
+SETPC [235 190 190]
+CIRCLE 116.2"
+2026-10-06T14:34:45.714Z,enhanced,2,5,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,4.6,9.6/10.15/6.7,10.15,9.6,0.55,false,false,Variant 2,false,7.1,6.1,10.149999999999999,true,false,"CS
+SETBG [248 245 242]
+PU HOME PD
+REPEAT 720 [
+  SETPC [210 25 35]
+  SETPENSIZE 1.5
+  FD 110
+  BK 110
+  RT 0.5
+]
+SETPENSIZE 3
+SETPC [190 18 28]
+CIRCLE 110"
+2026-10-06T14:35:05.878Z,enhanced,2,6,true,true,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7.2,6.6/7.5/6.45,7.5,7.2,0.3,false,false,Variant 2,false,4.8,5.4,7.5,true,false,"CS
+SETBG [248 245 242]
+PU HOME PD
+REPEAT 1440 [
+  SETPC [212 24 36]
+  SETPENSIZE 1.2
+  FD 112
+  BK 112
+  RT 0.25
+]
+SETPC [195 20 30]
+SETPENSIZE 2.5
+CIRCLE 112
+SETPC [212 24 36]
+SETPENSIZE 1.5
+CIRCLE 111"
+2026-10-06T14:35:39.898Z,original,2,1,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,3,10/10/10,10,10,0,true,true,Variant 1,false,7,6,10,false,false,"SETPC RED
+SETPENSIZE 4
+CIRCLE 70"
+2026-10-06T14:36:01.651Z,original,2,2,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,6,10/7/8.5,10,8.5,1.5,false,false,Variant 1,false,7,6,10,false,false,"SETPC RED
+SETPENSIZE 2
+PU
+SETXY 0 0
+PD
+REPEAT 360 [
+  SETHEADING REPCOUNT
+  FD 70
+  BK 70
+]
+SETPC CRIMSON
+SETPENSIZE 4
+PU
+SETXY 0 -70
+SETHEADING 90
+PD
+REPEAT 360 [
+  FD 1.222
+  LT 1
+]"
+2026-10-06T14:36:36.310Z,original,2,3,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,6,9.5/8.5/8.5,9.5,8.5,1,false,false,Variant 1,false,7,5,9.5,false,false,"SETPC RED
+SETPENSIZE 3
+PU
+SETXY 0 0
+PD
+REPEAT 720 [
+  SETHEADING REPCOUNT * 0.5
+  FD 70
+  BK 70
+]
+SETPC RED
+SETPENSIZE 3
+PU
+SETXY 0 -70
+SETHEADING 90
+PD
+REPEAT 360 [
+  FD 1.222
+  LT 1
+]"
+2026-10-06T14:36:50.274Z,original,2,4,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7,8.5/8.5/8.5,8.5,8.5,0,true,true,Variant 1,false,6,5,8.5,false,false,"CS
+SETPC RED
+SETPENSIZE 2
+PU
+SETXY 0 0
+PD
+REPEAT 1440 [
+  SETHEADING REPCOUNT * 0.25
+  FD 75
+  BK 75
+]
+SETPC CRIMSON
+SETPENSIZE 3
+PU
+SETXY 0 -75
+SETHEADING 90
+PD
+REPEAT 720 [
+  FD 0.654
+  LT 0.5
+]"
+2026-10-06T14:37:09.167Z,original,2,5,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,7,8.5/9/8,9,8.5,0.5,false,false,Variant 2,false,7,4,9,false,false,"CS
+SETPC [230 20 30]
+SETPENSIZE 1.5
+PU
+SETXY 0 0
+PD
+REPEAT 1800 [
+  SETHEADING REPCOUNT * 0.2
+  FD 60
+  BK 60
+]
+SETPC [180 0 20]
+SETPENSIZE 2.5
+PU
+SETXY 0 -60
+SETHEADING 90
+PD
+REPEAT 720 [
+  FD 0.524
+  LT 0.5
+]"
+2026-10-06T14:37:29.539Z,original,2,6,false,false,openrouter,google/gemini-3.8-flash,A single red circle,5,4,6,9/9/9,9,9,0,true,true,Variant 1,false,7,4,9,false,false,"CS
+SETPC [230 25 30]
+SETPENSIZE 2
+PU
+SETXY 0 0
+PD
+REPEAT 1800 [
+  SETHEADING REPCOUNT * 0.2
+  FD 65
+  BK 65
+]"
+2026-10-06T14:38:48.703Z,original,1,1,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,3,10/10/9,10,10,0,true,true,Variant 1,false,7,6,10,false,false,"SETPENSIZE 3
+SETPC GOLD
+REPEAT 5 [FD 100 RT 144]"
+2026-10-06T14:39:39.259Z,original,1,2,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,7,8/8/8,8,8,0,true,true,Variant 1,false,5,6,8,false,false,"PU HOME PD
+SETPENSIZE 2
+SETPC GOLD
+REPEAT 5 [
+  MAKE ""B (REPCOUNT - 1) * 72
+  FOR [A -36 36] [
+    MAKE ""R 100 - (ABS :A) * 1.75
+    SETHEADING :B + :A
+    FD :R
+    BK :R
+  ]
+]"
+2026-10-06T14:40:00.014Z,original,1,3,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,5,8/7/6.5,8,7,1,false,false,Variant 1,false,6,4,8,false,false,"PU HOME PD
+SETPENSIZE 1.5
+SETPC GOLD
+REPEAT 5 [
+  MAKE ""B (REPCOUNT - 1) * 72
+  FOR [A -36 36] [
+    MAKE ""R 110 - (ABS :A) * 2.1
+    SETHEADING :B + :A
+    FD :R
+    BK :R
+  ]
+]
+SETPENSIZE 3
+SETPC AMBER
+REPEAT 5 [
+  SETHEADING (REPCOUNT - 1) * 72
+  PU FD 110 PD
+  SETHEADING (REPCOUNT - 1) * 72 + 144
+  FD 68
+  PU HOME PD
+  SETHEADING (REPCOUNT - 1) * 72
+  PU FD 110 PD
+  SETHEADING (REPCOUNT - 1) * 72 - 144
+  FD 68
+  PU HOME PD
+]"
+2026-10-06T14:40:22.300Z,original,1,4,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,7,8.5/7/6,8.5,7,1.5,false,false,Variant 1,false,6,5,8.5,false,false,"PU HOME PD
+REPEAT 5 [
+  MAKE ""B (REPCOUNT - 1) * 72
+  SETPC GOLD
+  FOR [A -36 0] [
+    MAKE ""R 45 + (36 + :A) * (120 - 45) / 36
+    SETHEADING :B + :A
+    FD :R BK :R
+  ]
+  SETPC YELLOW
+  FOR [A 1 36] [
+    MAKE ""R 120 - :A * (120 - 45) / 36
+    SETHEADING :B + :A
+    FD :R BK :R
+  ]
+]
+SETPENSIZE 2.5
+SETPC AMBER
+REPEAT 5 [
+  SETHEADING (REPCOUNT - 1) * 72
+  PU FD 120 PD
+  SETHEADING (REPCOUNT - 1) * 72 + 162
+  FD 77
+  PU HOME PD
+  SETHEADING (REPCOUNT - 1) * 72
+  PU FD 120 PD
+  SETHEADING (REPCOUNT - 1) * 72 - 162
+  FD 77
+  PU HOME PD
+]"
+2026-10-06T14:40:50.135Z,original,1,5,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6,8/6.5/8,8,8,0,true,true,Variant 1,false,5,6,8,false,false,"PU HOME PD
+REPEAT 5 [
+  MAKE ""B (REPCOUNT - 1) * 72
+  SETPC GOLD
+  FOR [A -36 0] [
+    MAKE ""R 46 + (36 + :A) * (120 - 46) / 36
+    SETHEADING :B + :A
+    FD :R BK :R
+  ]
+  SETPC YELLOW
+  FOR [A 1 36] [
+    MAKE ""R 120 - :A * (120 - 46) / 36
+    SETHEADING :B + :A
+    FD :R BK :R
+  ]
+]
+SETPENSIZE 3
+SETPC CRIMSON
+PU
+SETHEADING 0 FD 120 PD
+REPEAT 5 [
+  SETHEADING REPCOUNT * 72 - 72 + 162.4
+  FD 87.5
+  SETHEADING REPCOUNT * 72 - 162.4
+  FD 87.5
+]
+PU HOME PD"
+2026-10-06T14:41:13.028Z,original,1,6,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,4,7.5/10/6,10,7.5,2.5,false,false,Variant 2,false,7,6,10,false,false,"SETBG BLACK
+PU HOME PD
+REPEAT 5 [
+  MAKE ""B (REPCOUNT - 1) * 72
+  SETPC SKYBLUE
+  FOR [A -36 0] [
+    MAKE ""R 48 + (36 + :A) * (125 - 48) / 36
+    SETHEADING :B + :A
+    FD :R BK :R
+  ]
+  SETPC WHITE
+  FOR [A 1 36] [
+    MAKE ""R 125 - :A * (125 - 48) / 36
+    SETHEADING :B + :A
+    FD :R BK :R
+  ]
+]
+SETPENSIZE 3
+SETPC BLUE
+PU HOME SETHEADING 0 FD 125 PD
+REPEAT 5 [
+  MAKE ""T (REPCOUNT - 1) * 72
+  PU HOME SETHEADING :T FD 125
+  PD SETHEADING :T + 162 FD 91
+  PU HOME SETHEADING :T + 72 FD 125
+  PD SETHEADING :T + 72 - 162 FD 91
+]
+SETPENSIZE 1
+SETPC CYAN
+REPEAT 5 [
+  PU HOME SETHEADING (REPCOUNT - 1) * 72 + 36 FD 48 PD
+  HOME
+]
+PU HOME PD"
+2026-10-06T14:41:33.226Z,enhanced,1,1,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,3.1,10.5/10.25/7.65,10.5,10.25,0.25,false,false,Variant 1,false,7.1,6.8,10.5,true,false,"SETPENCOLOR ""GOLD
+SETPENSIZE 4
+PU SETXY -50 -20 PD
+REPEAT 5 [ FD 100 RT 144 ]"
+2026-10-06T14:42:30.078Z,enhanced,1,2,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,4.6,9.1/9.35/8.95,9.35,9.1,0.25,false,false,Variant 2,false,6.2,6.3,9.35,true,false,"SETBG ""BLACK
+SETPENSIZE 3
+FOR [R 105 1 -2] [
+  IFELSE :R > 45 [ SETPENCOLOR ""GOLD ] [ SETPENCOLOR ""YELLOW ]
+  IF :R < 18 [ SETPENCOLOR ""WHITE ]
+  PU SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [ FD (:R * 1.902) RT 144 ]
+]
+PU HOME"
+2026-10-06T14:42:45.799Z,enhanced,1,3,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6.5,8.2/9.35/8.1,9.35,8.2,1.15,false,false,Variant 2,false,6.8,5.1,9.35,true,false,"SETBG ""BLACK
+FOR [S 135 110 -3] [
+  SETPENCOLOR (LIST (INT (:S * 0.8)) (INT (:S * 0.4)) 0)
+  SETPENSIZE 5
+  PU SETXY 0 :S
+  SETHEADING 162
+  PD
+  REPEAT 5 [ FD (:S * 1.902) RT 144 ]
+]
+SETPENSIZE 2
+FOR [R 105 1 -2] [
+  IFELSE :R > 60 [ SETPENCOLOR ""ORANGE ] [ SETPENCOLOR ""GOLD ]
+  IF :R < 35 [ SETPENCOLOR ""YELLOW ]
+  IF :R < 15 [ SETPENCOLOR ""WHITE ]
+  PU SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [ FD (:R * 1.902) RT 144 ]
+]
+PU HOME"
+2026-10-06T14:43:07.089Z,enhanced,1,4,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6.8,7.95/7.55/7.8,7.95,7.8,0.15,false,false,Variant 1,false,5.9,4.1,7.95,true,false,"SETBG ""BLACK
+REPEAT 5 [
+  SETHEADING REPCOUNT * 72
+  PU HOME FD 135
+  PD
+  FOR [L 1 5] [
+    SETPENSIZE (6 - :L)
+    SETPENCOLOR (LIST 255 (INT (120 + :L * 25)) (INT (:L * 40)))
+    FD 10
+    PU BK 10 PD
+    LT 15 FD 8 PU BK 8 PD
+    RT 30 FD 8 PU BK 8 PD
+    LT 15
+    PU FD 11 PD
+  ]
+]
+PU HOME
+FOR [S 135 110 -3] [
+  SETPENCOLOR (LIST (INT (:S * 0.8)) (INT (:S * 0.4)) 0)
+  SETPENSIZE 4
+  PU SETXY 0 :S
+  SETHEADING 162
+  PD
+  REPEAT 5 [ FD (:S * 1.902) RT 144 ]
+]
+SETPENSIZE 2
+FOR [R 105 1 -3] [
+  IFELSE :R > 60 [ SETPENCOLOR ""ORANGE ] [ SETPENCOLOR ""GOLD ]
+  IF :R < 35 [ SETPENCOLOR ""YELLOW ]
+  IF :R < 15 [ SETPENCOLOR ""WHITE ]
+  PU SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [ FD (:R * 1.902) RT 144 ]
+]
+PU HOME"
+2026-10-06T14:43:36.989Z,enhanced,1,5,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,5.8,7.65/9.05/8.65,9.05,8.65,0.4,false,false,Variant 2,false,6.2,5.7,9.05,true,false,"SETBG ""BLACK
+REPEAT 5 [
+  SETHEADING REPCOUNT * 72
+  PU HOME FD 135 PD
+  FOR [L 1 5] [
+    SETPENSIZE (6 - :L)
+    SETPENCOLOR (LIST 255 (INT (120 + :L * 25)) (INT (:L * 40)))
+    FD 10 PU BK 10 PD
+    LT 30 FD 12 PU BK 12 PD
+    RT 60 FD 12 PU BK 12 PD
+    LT 30
+    PU FD 11 PD
+  ]
+  PU HOME SETHEADING REPCOUNT * 72 + 36 FD 50 PD
+  SETPENCOLOR ""CORAL
+  SETPENSIZE 2
+  CIRCLE 6
+  PU FD 20 PD
+  CIRCLE 3
+]
+PU HOME
+FOR [S 135 110 -3] [
+  SETPENCOLOR (LIST (INT (:S * 0.8)) (INT (:S * 0.4)) 0)
+  SETPENSIZE 4
+  PU SETXY 0 :S
+  SETHEADING 162 PD
+  REPEAT 5 [ FD (:S * 1.902) RT 144 ]
+]
+SETPENSIZE 2
+FOR [R 105 1 -4] [
+  IFELSE :R > 70 [ SETPENCOLOR ""CRIMSON ] [ SETPENCOLOR ""ORANGE ]
+  IF :R < 40 [ SETPENCOLOR ""YELLOW ]
+  IF :R < 15 [ SETPENCOLOR ""WHITE ]
+  PU SETXY 0 :R
+  SETHEADING 162 PD
+  REPEAT 5 [ FD (:R * 1.902) RT 144 ]
+]
+PU HOME"
+2026-10-06T14:44:03.893Z,enhanced,1,6,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,5.4,8.3/8.2/8.55,8.55,8.3,0.25,false,false,Variant 3,false,6.1,4.9,8.55,true,false,"SETBG ""BLACK
+REPEAT 5 [
+  SETHEADING REPCOUNT * 72 - 36
+  PU HOME FD 135 PD
+  FOR [L 1 5] [
+    SETPENSIZE (6 - :L)
+    SETPENCOLOR (LIST 255 (INT (120 + :L * 25)) (INT (:L * 40)))
+    FD 10 PU BK 10 PD
+    LT 30 FD 12 PU BK 12 PD
+    RT 60 FD 12 PU BK 12 PD
+    LT 30
+    PU FD 11 PD
+  ]
+  PU HOME SETHEADING REPCOUNT * 72 FD 60 PD
+  SETPENCOLOR ""GOLD
+  SETPENSIZE 2
+  CIRCLE 5
+  PU FD 24 PD
+  CIRCLE 3
+]
+PU HOME
+FOR [S 135 105 -5] [
+  SETPENCOLOR (LIST (INT (:S * 1.5)) (INT (:S * 0.6)) 30)
+  SETPENSIZE 3
+  PU SETXY 0 :S
+  SETHEADING 162 PD
+  REPEAT 5 [ FD (:S * 1.902) RT 144 ]
+]
+FOR [R 100 4 -4] [
+  IFELSE :R > 65 [ SETPENCOLOR ""ROSE ] [ SETPENCOLOR ""CORAL ]
+  IF :R < 40 [ SETPENCOLOR ""YELLOW ]
+  IF :R < 15 [ SETPENCOLOR ""WHITE ]
+  SETPENSIZE 2
+  PU SETXY 0 :R
+  SETHEADING 162 PD
+  REPEAT 5 [ FD (:R * 1.902) RT 144 ]
+]
+PU HOME"
+2026-10-06T14:44:29.606Z,enhanced,2,1,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,3,10.6/7.8/9.35,10.6,9.35,1.25,false,false,Variant 1,false,7.2,6.8,10.6,true,false,"CS
+SETBG [10 10 25]
+PU
+SETXY -52 -38
+PD
+SETPC GOLD
+SETWIDTH 3
+REPEAT 5 [
+  FD 100
+  RT 144
+]"
+2026-10-06T14:45:37.161Z,enhanced,2,2,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,5.8,7.1/8.85/9.3,9.3,8.85,0.45,false,false,Variant 3,false,6.6,5.4,9.3,true,false,"CS
+SETBG [15 15 35]
+PU
+SETXY -58 -42
+PD
+REPEAT 4 [
+  MAKE ""STEP REPCOUNT
+  IFELSE :STEP = 1 [SETPC [255 140 30] SETWIDTH 6] [
+    IFELSE :STEP = 2 [SETPC GOLD SETWIDTH 4] [
+      IFELSE :STEP = 3 [SETPC [255 235 120] SETWIDTH 2] [SETPC WHITE SETWIDTH 1]
+    ]
+  ]
+  REPEAT 5 [
+    FD 120
+    RT 144
+    PU
+    DOT 8
+    PD
+  ]
+]"
+2026-10-06T14:45:56.616Z,enhanced,2,3,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6.8,9.5/7.45/7.25,9.5,7.45,2.05,false,false,Variant 1,false,6.9,5.2,9.5,true,false,"CS
+SETBG [10 10 28]
+PU
+HOME
+PD
+REPEAT 24 [
+  MAKE ""SZ (25 - REPCOUNT) * 5
+  SETPC LIST (255 - REPCOUNT * 6) (120 + REPCOUNT * 4) (20 + REPCOUNT * 7)
+  SETWIDTH 3
+  PU
+  SETXY (-0.485 * :SZ) (-0.35 * :SZ)
+  SETHEADING 0
+  PD
+  REPEAT 5 [
+    FD :SZ
+    RT 144
+  ]
+]
+PU
+SETXY -58 -42
+SETHEADING 0
+PD
+REPEAT 3 [
+  MAKE ""STEP REPCOUNT
+  IFELSE :STEP = 1 [SETPC GOLD SETWIDTH 4] [
+    IFELSE :STEP = 2 [SETPC [255 240 160] SETWIDTH 2] [SETPC WHITE SETWIDTH 1]
+  ]
+  REPEAT 5 [
+    FD 120
+    RT 144
+    PU
+    DOT 7
+    PD
+  ]
+]"
+2026-10-06T14:46:31.148Z,enhanced,2,4,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,3,6.8,7.55/8.4,8.4,7.55,0.85,false,false,Variant 2,false,5.7,5.4,8.4,true,false,"CS
+SETBG [5 5 20]
+PU HOME PD
+REPEAT 16 [
+  MAKE ""RAD (17 - REPCOUNT) * 8
+  MAKE ""INR :RAD * 0.382
+  SETPC LIST 255 (80 + REPCOUNT * 10) (10 + REPCOUNT * 12)
+  SETWIDTH 2
+  PU
+  SETHEADING 0
+  FD :RAD
+  PD
+  REPEAT 5 [
+    RT 36
+    SETHEADING (REPCOUNT * 72 - 36)
+    PU HOME RT (REPCOUNT * 72 - 36) FD :INR PD
+    SETHEADING (REPCOUNT * 72)
+    PU HOME RT (REPCOUNT * 72) FD :RAD PD
+  ]
+]
+REPEAT 20 [
+  MAKE ""CR (21 - REPCOUNT) * 2
+  SETPC LIST (255 - REPCOUNT * 5) (150 + REPCOUNT * 4) (REPCOUNT * 10)
+  SETWIDTH 2
+  REPEAT 5 [
+    PU HOME
+    RT (REPCOUNT * 72)
+    FD :CR
+    PD
+    DOT 4
+  ]
+]
+PU HOME PD
+REPEAT 3 [
+  MAKE ""W 4 - REPCOUNT
+  IFELSE REPCOUNT = 1 [SETPC GOLD] [IFELSE REPCOUNT = 2 [SETPC [255 235 150]] [SETPC WHITE]]
+  SETWIDTH :W
+  REPEAT 5 [
+    PU HOME
+    SETHEADING (REPCOUNT * 72)
+    FD 130
+    PD
+    DOT 7
+    RT 162
+    FD 76.5
+    LT 72
+    FD 76.5
+  ]
+]"
+2026-10-06T14:47:01.904Z,enhanced,2,5,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,4.2,9.4/7.4/9.9,9.9,9.4,0.5,false,false,Variant 3,false,6.8,6.2,9.9,true,false,"CS
+SETBG [4 6 22]
+PU HOME PD
+REPEAT 16 [
+  MAKE ""RAD (17 - REPCOUNT) * 8
+  SETPC LIST 255 (60 + REPCOUNT * 11) (20 + REPCOUNT * 14)
+  SETWIDTH 2
+  PU
+  SETXY 0 :RAD
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD (:RAD * 0.727)
+    LT 72
+    FD (:RAD * 0.727)
+    RT 144
+  ]
+]
+REPEAT 12 [
+  MAKE ""SZ REPCOUNT * 9
+  SETPC LIST (255 - REPCOUNT * 8) (190 + REPCOUNT * 5) (80 + REPCOUNT * 10)
+  SETWIDTH 1.5
+  PU
+  SETXY 0 :SZ
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD (:SZ * 0.727)
+    LT 72
+    FD (:SZ * 0.727)
+    RT 144
+  ]
+]
+PU HOME
+REPEAT 5 [
+  PU HOME
+  SETHEADING (REPCOUNT * 72)
+  FD 130
+  PD
+  SETPC AMBER
+  DOT 10
+  SETPC WHITE
+  DOT 4
+]
+REPEAT 3 [
+  MAKE ""W 5 - REPCOUNT * 1.5
+  IFELSE REPCOUNT = 1 [SETPC CRIMSON] [IFELSE REPCOUNT = 2 [SETPC GOLD] [SETPC WHITE]]
+  SETWIDTH :W
+  PU
+  SETXY 0 130
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD 94.5
+    LT 72
+    FD 94.5
+    RT 144
+  ]
+]"
+2026-10-06T14:47:25.903Z,enhanced,2,6,true,true,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6.3,8/8.35/8.75,8.75,8.35,0.4,false,false,Variant 3,false,5.8,5.9,8.75,true,false,"CS
+SETBG [12 2 16]
+PU HOME
+REPEAT 30 [
+  MAKE ""P REPCOUNT / 30
+  MAKE ""RAD 8 + :P * 135
+  MAKE ""R INT (255 * SIN (:P * 90))
+  MAKE ""G INT (210 * SIN (:P * 90) * :P)
+  MAKE ""B INT (240 * COS (:P * 90))
+  SETPC LIST :R :G :B
+  SETWIDTH (0.8 + :P * 2)
+  PU
+  SETXY 0 :RAD
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD (:RAD * 0.727)
+    LT 72
+    FD (:RAD * 0.727)
+    RT 144
+  ]
+]
+REPEAT 5 [
+  PU HOME
+  SETHEADING (REPCOUNT * 72)
+  FD 143
+  PD
+  SETPC CORAL
+  DOT 11
+  SETPC AMBER
+  DOT 6
+  SETPC WHITE
+  DOT 2
+]
+REPEAT 2 [
+  MAKE ""W 3 - REPCOUNT
+  IFELSE REPCOUNT = 1 [SETPC ROSE] [SETPC WHITE]
+  SETWIDTH :W
+  PU
+  SETXY 0 143
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD (143 * 0.727)
+    LT 72
+    FD (143 * 0.727)
+    RT 144
+  ]
+]"
+2026-10-06T14:47:44.347Z,original,2,1,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,3,10/9/9,10,9,1,false,false,Variant 1,false,7,6,10,false,false,"CS
+SETPENCOLOR ""GOLD
+SETPENSIZE 3
+PU
+SETXY -50 -25
+PD
+REPEAT 5 [
+  FD 100
+  RT 144
+]"
+2026-10-06T14:48:16.560Z,original,2,2,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,5,8.5/9/10,10,9,1,false,false,Variant 3,false,7,6,10,false,false,"CS
+SETBG [20 20 20]
+FOR [R 80 1 -1] [
+  SETPC (LIST 255 (INT (170 + :R)) 30)
+  SETPENSIZE 2
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]"
+2026-10-06T14:48:58.732Z,original,2,3,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6,7.5/8.5/8,8.5,8,0.5,false,false,Variant 2,false,6,5,8.5,false,false,"CS
+SETBG [15 10 25]
+FOR [R 120 75 -3] [
+  MAKE ""GLOW 255 - (:R - 75) * 5
+  SETPC (LIST (INT (:GLOW * 0.45)) (INT (:GLOW * 0.2)) (INT (:GLOW * 0.5)))
+  SETPENSIZE 5
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]
+FOR [R 80 1 -2] [
+  SETPC (LIST 255 (INT (180 + :R * 0.9)) (INT (:R * 1.2)))
+  SETPENSIZE 2.5
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]"
+2026-10-06T14:49:16.621Z,original,2,4,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6,7/9/8.5,9,8.5,0.5,false,false,Variant 2,false,6,6,9,false,false,"CS
+SETBG [8 5 18]
+REPEAT 60 [
+  PU
+  SETXY (RANDOM 390) - 195 (RANDOM 390) - 195
+  MAKE ""SZ 1.5 + (RANDOM 3)
+  SETPC (LIST (200 + RANDOM 55) (200 + RANDOM 55) 255)
+  SETPENSIZE 1
+  PD
+  REPEAT 5 [
+    FD :SZ * 1.6
+    RT 144
+  ]
+  PU
+  IF (RANDOM 3) = 0 [
+    DOT (LIST 255 255 240)
+  ]
+]
+FOR [R 130 80 -3] [
+  MAKE ""G 255 - (:R - 80) * 5
+  SETPC (LIST (INT (:G * 0.2)) (INT (:G * 0.45)) (INT (:G * 0.7)))
+  SETPENSIZE 5
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]
+FOR [R 82 2 -2] [
+  SETPC (LIST (INT (160 + :R * 1.1)) 220 255)
+  SETPENSIZE 2
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]"
+2026-10-06T14:49:48.367Z,original,2,5,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6,8/8.5/8.5,8.5,8.5,0,true,true,Variant 2,false,6,5,8.5,false,false,"CS
+SETBG [12 6 8]
+PU
+SETXY 0 0
+FOR [GR 135 15 -5] [
+  MAKE ""W INT (8 + (135 - :GR) * 0.55)
+  SETPC (LIST (INT :W * 1.4) (INT :W * 0.9) (INT :W * 0.3))
+  SETPENSIZE 6
+  CIRCLE :GR
+]
+REPEAT 60 [
+  PU
+  SETXY (RANDOM 390) - 195 (RANDOM 390) - 195
+  MAKE ""SZ 1.5 + (RANDOM 3)
+  SETPC (LIST 255 (210 + RANDOM 45) (160 + RANDOM 70))
+  SETPENSIZE 1
+  PD
+  REPEAT 5 [
+    FD :SZ * 1.6
+    RT 144
+  ]
+  PU
+  IF (RANDOM 3) = 0 [
+    DOT (LIST 255 245 210)
+  ]
+]
+FOR [R 130 80 -3] [
+  MAKE ""G 255 - (:R - 80) * 5
+  SETPC (LIST (INT (:G * 0.85)) (INT (:G * 0.55)) (INT (:G * 0.2)))
+  SETPENSIZE 5
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]
+FOR [R 82 2 -2] [
+  SETPC (LIST 255 (INT (170 + :R * 1.0)) (INT (130 + :R * 1.4)))
+  SETPENSIZE 2
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]"
+2026-10-06T14:50:09.888Z,original,2,6,false,false,openrouter,google/gemini-3.8-flash,A five-pointed star,5,4,6,7/8.5/10,10,8.5,1.5,false,false,Variant 3,false,7,6,10,false,false,"CS
+SETBG [8 5 14]
+PU
+SETXY 0 0
+FOR [GR 145 15 -6] [
+  MAKE ""W INT (8 + (145 - :GR) * 0.5)
+  SETPC (LIST (INT :W * 1.2) (INT :W * 0.7) (INT :W * 0.45))
+  SETPENSIZE 7
+  CIRCLE :GR
+]
+FOR [A 0 357 3] [
+  PU
+  SETXY 0 0
+  SETHEADING :A
+  MAKE ""MODULUS 1 + (SIN (:A * 5))
+  MAKE ""DIST 110 + 60 * :MODULUS
+  SETPC (LIST (INT (90 + 75 * :MODULUS)) (INT (60 + 55 * :MODULUS)) (INT (30 + 30 * :MODULUS)))
+  SETPENSIZE 1.2
+  PU
+  FD 70
+  PD
+  FD :DIST - 70
+]
+REPEAT 50 [
+  PU
+  SETXY (RANDOM 390) - 195 (RANDOM 390) - 195
+  MAKE ""SZ 1.2 + (RANDOM 3)
+  SETPC (LIST 255 (210 + RANDOM 45) (150 + RANDOM 70))
+  SETPENSIZE 1
+  PD
+  REPEAT 5 [
+    FD :SZ * 1.6
+    RT 144
+  ]
+]
+FOR [R 130 80 -3] [
+  MAKE ""G 255 - (:R - 80) * 5
+  SETPC (LIST (INT (:G * 0.88)) (INT (:G * 0.58)) (INT (:G * 0.22)))
+  SETPENSIZE 5
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]
+FOR [R 82 2 -2] [
+  SETPC (LIST 255 (INT (170 + :R * 1.0)) (INT (140 + :R * 1.3)))
+  SETPENSIZE 2
+  PU
+  SETXY 0 :R
+  SETHEADING 162
+  PD
+  REPEAT 5 [
+    FD :R * 1.902
+    RT 144
+  ]
+]"
+2026-10-06T14:51:07.003Z,original,1,1,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,3,10.5/9.5/9.5,10.5,9.5,1,false,false,Variant 1,false,7,7,10.5,false,false,"CS
+SETBG [10 15 35]
+SETPC [200 230 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 100
+  REPEAT 3 [
+    BK 25
+    LT 45 FD 18 BK 18
+    RT 90 FD 18 BK 18
+    LT 45
+  ]
+  BK 25
+  RT 60
+]"
+2026-10-06T14:51:22.336Z,original,1,2,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,5,10/7/7.5,10,7.5,2.5,false,false,Variant 1,false,7,6,10,false,false,"CS
+SETBG [10 15 35]
+SETPC [200 230 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 100
+  REPEAT 6 [
+    FD 10 RT 60
+  ]
+  REPEAT 3 [
+    BK 25
+    LT 45
+    FD 20
+    LT 35 FD 8 BK 8 RT 70 FD 8 BK 8 LT 35
+    BK 20
+    RT 90
+    FD 20
+    LT 35 FD 8 BK 8 RT 70 FD 8 BK 8 LT 35
+    BK 20
+    LT 45
+  ]
+  BK 25
+  RT 60
+]"
+2026-10-06T14:51:39.327Z,original,1,3,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6,9.5/7.5/9,9.5,9,0.5,false,false,Variant 1,false,7,5,9.5,false,false,"CS
+SETBG [5 10 25]
+SETPC [220 245 255]
+SETWIDTH 1.5
+REPEAT 6 [
+  FD 105
+  REPEAT 6 [
+    FD 8 LT 60 FD 8 RT 120
+  ]
+  REPEAT 4 [
+    BK 20
+    LT 50
+    FD 18
+    LT 35 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    RT 70 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    LT 35
+    BK 18
+    RT 100
+    FD 18
+    LT 35 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    RT 70 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    LT 35
+    BK 18
+    LT 50
+  ]
+  BK 25
+  RT 60
+]"
+2026-10-06T14:51:57.053Z,original,1,4,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6,7/8.5/7,8.5,7,1.5,false,false,Variant 2,false,6,5,8.5,false,false,"CS
+SETBG [4 8 22]
+SETPC [200 235 255]
+SETWIDTH 1.5
+REPEAT 6 [
+  FD 35
+  REPEAT 6 [ FD 7 RT 60 ]
+  FD 70
+  REPEAT 6 [
+    FD 7 LT 60 FD 7 RT 120
+  ]
+  REPEAT 4 [
+    BK 20
+    LT 60
+    REPEAT 3 [ FD 6 RT 120 ]
+    RT 60
+    LT 50
+    FD 16
+    LT 35 FD 7 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 7
+    RT 70 FD 7 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 7
+    LT 35
+    BK 16
+    RT 100
+    FD 16
+    LT 35 FD 7 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 7
+    RT 70 FD 7 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 7
+    LT 35
+    BK 16
+    LT 50
+  ]
+  BK 25
+  RT 60
+]"
+2026-10-06T14:52:18.651Z,original,1,5,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6,9.5/6.5/8.5,9.5,8.5,1,false,false,Variant 1,false,7,5,9.5,false,false,"CS
+SETBG [5 10 26]
+SETPC [180 220 255]
+SETWIDTH 1.5
+REPEAT 6 [
+  PU HOME RT REPCOUNT * 60 - 30 FD 14 LT 60 PD
+  REPEAT 6 [ FD 14 RT 60 ]
+]
+REPEAT 6 [
+  PU HOME RT REPCOUNT * 60 - 30 FD 8 LT 60 PD
+  REPEAT 6 [ FD 8 RT 60 ]
+]
+PU HOME PD
+SETPC [220 240 255]
+REPEAT 6 [
+  FD 35
+  REPEAT 6 [ FD 6 RT 60 ]
+  FD 65
+  REPEAT 6 [
+    FD 6 LT 60 FD 6 RT 120
+  ]
+  REPEAT 4 [
+    BK 18
+    LT 60
+    REPEAT 3 [ FD 6 RT 120 ]
+    RT 60
+    LT 50
+    FD 14
+    LT 35 FD 7 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 7
+    RT 70 FD 7 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 7
+    LT 35
+    BK 14
+    RT 100
+    FD 14
+    LT 35 FD 7 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 7
+    RT 70 FD 7 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 7
+    LT 35
+    BK 14
+    LT 50
+  ]
+  BK 28
+  RT 60
+]"
+2026-10-06T14:52:41.608Z,original,1,6,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6,7/6/9,9,7,2,false,false,Variant 3,false,7,4,9,false,false,"CS
+SETBG [6 12 28]
+SETPC [160 210 250]
+SETWIDTH 1.5
+REPEAT 6 [
+  PU HOME RT REPCOUNT * 60 - 30 FD 12 LT 60 PD
+  REPEAT 6 [ FD 12 RT 60 ]
+]
+PU HOME PD
+SETPC [240 250 255]
+REPEAT 6 [
+  FD 32
+  REPEAT 6 [ FD 6 RT 60 ]
+  FD 68
+  REPEAT 6 [ FD 5 LT 60 FD 5 RT 120 ]
+  REPEAT 4 [
+    MAKE ""SPAN REPCOUNT * 4 + 4
+    BK 18
+    LT 60
+    REPEAT 3 [ FD 5 RT 120 ]
+    RT 60
+    LT 50
+    FD :SPAN
+    LT 30 FD :SPAN * 0.4 BK :SPAN * 0.4 RT 60 FD :SPAN * 0.4 BK :SPAN * 0.4 LT 30
+    BK :SPAN
+    RT 100
+    FD :SPAN
+    LT 30 FD :SPAN * 0.4 BK :SPAN * 0.4 RT 60 FD :SPAN * 0.4 BK :SPAN * 0.4 LT 30
+    BK :SPAN
+    LT 50
+  ]
+  BK 28
+  RT 60
+]"
+2026-10-06T14:53:02.097Z,enhanced,1,1,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,3.1,10.1/8.35/9.95,10.1,9.95,0.15,false,false,Variant 1,false,6.8,6.6,10.1,true,false,"CS
+SETBG [10 15 30]
+SETPC [200 235 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 40
+  REPEAT 2 [
+    LT 45 FD 20 BK 20 RT 90 FD 20 BK 20 LT 45
+    FD 30
+  ]
+  BK 100
+  RT 60
+]"
+2026-10-06T14:53:37.705Z,enhanced,1,2,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,5.2,8.7/8.6/9.35,9.35,8.7,0.65,false,false,Variant 3,false,6.6,5.5,9.35,true,false,"CS
+SETBG [5 10 25]
+SETPC [225 245 255]
+SETWIDTH 1.5
+REPEAT 6 [
+  FD 25
+  REPEAT 3 [
+    LT 50
+    FD 10 LT 40 FD 8 BK 8 RT 80 FD 8 BK 8 LT 40 FD 10 BK 20
+    RT 100
+    FD 10 LT 40 FD 8 BK 8 RT 80 FD 8 BK 8 LT 40 FD 10 BK 20
+    LT 50
+    FD 25
+  ]
+  BK 100
+  RT 60
+]"
+2026-10-06T14:54:03.007Z,enhanced,1,3,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,5.8,9/8.7/9.05,9.05,9,0.05,false,false,Variant 3,false,6.6,4.9,9.05,true,false,"CS
+SETBG [5 12 30]
+SETPC [230 248 255]
+SETWIDTH 1.5
+REPEAT 6 [
+  FD 15
+  RT 120 FD 15 BK 15 LT 120
+  FD 15
+  RT 120 FD 15 BK 15 LT 120
+  REPEAT 3 [
+    LT 50
+    FD 10 LT 45 FD 7 BK 7 RT 90 FD 7 BK 7 LT 45 FD 10 BK 20
+    RT 100
+    FD 10 LT 45 FD 7 BK 7 RT 90 FD 7 BK 7 LT 45 FD 10 BK 20
+    LT 50
+    FD 22
+  ]
+  BK 96
+  RT 60
+]"
+2026-10-06T14:54:48.761Z,enhanced,1,4,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,5.5,8.1/7.8/8.45,8.45,8.1,0.35,false,false,Variant 3,false,6,4.9,8.45,true,false,"CS
+SETBG [4 10 28]
+SETPC [235 250 255]
+SETWIDTH 1.5
+REPEAT 6 [
+  FD 18
+  LT 60 FD 10 BK 10 RT 120 FD 10 BK 10 LT 60
+  FD 12
+  REPEAT 3 [
+    LT 45
+    FD 12 LT 45 FD 8 BK 8 RT 90 FD 8 BK 8 LT 45 FD 12 BK 24
+    RT 90
+    FD 12 LT 45 FD 8 BK 8 RT 90 FD 8 BK 8 LT 45 FD 12 BK 24
+    LT 45
+    FD 22
+  ]
+  LT 25 FD 14 RT 50 FD 14 RT 130 FD 14 RT 50 FD 14 RT 155
+  BK 96
+  RT 60
+]"
+2026-10-06T14:55:09.804Z,enhanced,1,5,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6.5,9.1/6.7/9.6,9.6,9.1,0.5,false,false,Variant 3,false,6.9,5.4,9.600000000000001,true,false,"CS
+SETBG [5 12 30]
+SETPC [240 250 255]
+SETWIDTH 1.2
+REPEAT 6 [
+  FD 20
+  LT 60 FD 12 BK 12 RT 120 FD 12 BK 12 LT 60
+  FD 10
+  REPEAT 3 [
+    MAKE ""arm 22 - (REPCOUNT * 5)
+    MAKE ""barb 11 - (REPCOUNT * 2.5)
+    LT 55
+    FD :arm
+    LT 50 FD :barb BK :barb RT 100 FD :barb BK :barb LT 50
+    BK :arm
+    RT 110
+    FD :arm
+    LT 50 FD :barb BK :barb RT 100 FD :barb BK :barb LT 50
+    BK :arm
+    LT 55
+    FD 22
+  ]
+  LT 20 FD 15 RT 40 FD 15 RT 140 FD 15 RT 40 FD 15 RT 160
+  BK 96
+  RT 60
+]"
+2026-10-06T14:55:29.250Z,enhanced,1,6,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6.2,9/7.55/9,9,9,0,true,false,Variant 3,false,6.6,4.8,9,true,false,"CS
+SETBG [6 14 34]
+SETPC [245 252 255]
+SETWIDTH 1.2
+REPEAT 6 [
+  FD 20
+  LT 60 REPEAT 6 [ FD 4 RT 60 ] RT 60
+  FD 14
+  REPEAT 3 [
+    MAKE ""arm 22 - (REPCOUNT * 5)
+    MAKE ""barb 9 - (REPCOUNT * 2)
+    LT 55
+    FD :arm
+    LT 45 REPEAT 4 [ FD 3.5 RT 90 ] RT 45
+    LT 50 FD :barb BK :barb RT 100 FD :barb BK :barb LT 50
+    BK :arm
+    RT 110
+    FD :arm
+    LT 45 REPEAT 4 [ FD 3.5 RT 90 ] RT 45
+    LT 50 FD :barb BK :barb RT 100 FD :barb BK :barb LT 50
+    BK :arm
+    LT 55
+    FD 18
+  ]
+  LT 20 FD 16 RT 40 FD 16 RT 140 FD 16 RT 40 FD 16 RT 160
+  BK 88
+  RT 60
+]"
+2026-10-06T14:55:57.773Z,enhanced,2,1,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,3.2,10.5/9.65/7.7,10.5,9.65,0.85,false,false,Variant 1,false,7.1,6.8,10.5,true,false,"CS
+SETBG [10 15 35]
+SETPC [200 230 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 100
+  REPEAT 3 [
+    BK 25
+    LT 45 FD 15 BK 15
+    RT 90 FD 15 BK 15
+    LT 45
+  ]
+  BK 25
+  RT 60
+]"
+2026-10-06T14:56:16.824Z,enhanced,2,2,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,5.2,9.7/9.3/9.55,9.7,9.55,0.15,false,false,Variant 1,false,6.8,5.8,9.7,true,false,"CS
+SETBG [10 15 35]
+SETPC [200 235 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 100
+  REPEAT 3 [
+    BK 25
+    LT 45
+    FD 16
+    LT 45 FD 7 BK 7
+    RT 90 FD 7 BK 7
+    LT 45 BK 16
+    RT 90
+    FD 16
+    LT 45 FD 7 BK 7
+    RT 90 FD 7 BK 7
+    LT 45 BK 16
+    LT 45
+  ]
+  BK 25
+  RT 60
+]"
+2026-10-06T14:56:38.091Z,enhanced,2,3,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6.5,8.05/8.8/7.35,8.8,8.05,0.75,false,false,Variant 2,false,6.7,4.2,8.8,true,false,"CS
+SETBG [5 15 40]
+SETPC [220 245 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 18
+  REPEAT 6 [ FD 5 RT 60 ]
+  BK 18
+  FD 105
+  REPEAT 3 [
+    BK 26
+    LT 60
+    REPEAT 6 [ FD 4 RT 60 ]
+    RT 60
+    LT 45
+    FD 18
+    LT 45 FD 7 BK 7
+    RT 90 FD 7 BK 7
+    LT 45 BK 18
+    RT 90
+    FD 18
+    LT 45 FD 7 BK 7
+    RT 90 FD 7 BK 7
+    LT 45 BK 18
+    LT 45
+  ]
+  BK 27
+  RT 60
+]"
+2026-10-06T14:56:55.019Z,enhanced,2,4,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6.5,8.6/7.7/8.1,8.6,8.1,0.5,false,false,Variant 1,false,6.7,3.8,8.6,true,false,"CS
+SETBG [5 15 40]
+SETPC [220 245 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 18
+  REPEAT 6 [ FD 5 RT 60 ]
+  BK 18
+  FD 115
+  REPEAT 3 [
+    BK 28
+    LT 60
+    REPEAT 6 [ FD 3 RT 60 ]
+    RT 60
+    MAKE ""len (4 - REPCOUNT) * 6 + 4
+    LT 50
+    FD :len
+    LT 35 FD 8 BK 8
+    RT 70 FD 8 BK 8
+    LT 35
+    LT 55 FD 5 BK 5
+    RT 110 FD 5 BK 5
+    LT 55
+    BK :len
+    RT 100
+    FD :len
+    LT 35 FD 8 BK 8
+    RT 70 FD 8 BK 8
+    LT 35
+    LT 55 FD 5 BK 5
+    RT 110 FD 5 BK 5
+    LT 55
+    BK :len
+    LT 50
+  ]
+  BK 31
+  RT 60
+]"
+2026-10-06T14:57:17.469Z,enhanced,2,5,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,5.2,7.55/9.1/9.45,9.45,9.1,0.35,false,false,Variant 3,false,6.5,5.9,9.45,true,false,"CS
+SETBG [4 10 32]
+SETPC [200 240 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 20
+  REPEAT 6 [ FD 5 RT 60 ]
+  BK 20
+  FD 118
+  SETWIDTH 1
+  REPEAT 3 [
+    LT 45 FD 7
+    LT 30 FD 4 BK 4
+    RT 60 FD 4 BK 4
+    LT 30 BK 7
+    RT 90 FD 7
+    LT 30 FD 4 BK 4
+    RT 60 FD 4 BK 4
+    LT 30 BK 7
+    LT 45 BK 6
+  ]
+  FD 18
+  SETWIDTH 2
+  REPEAT 3 [
+    BK 28
+    LT 60
+    REPEAT 6 [ FD 4 RT 60 ]
+    RT 60
+    MAKE ""len (4 - REPCOUNT) * 6 + 5
+    LT 55
+    FD :len
+    SETWIDTH 1
+    LT 35 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    RT 70 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    LT 35
+    SETWIDTH 2
+    BK :len
+    RT 110
+    FD :len
+    SETWIDTH 1
+    LT 35 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    RT 70 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    LT 35
+    SETWIDTH 2
+    BK :len
+    LT 55
+  ]
+  BK 34
+  RT 60
+]"
+2026-10-06T14:57:38.526Z,enhanced,2,6,true,true,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6.2,8.2/8.15/8.25,8.25,8.2,0.05,false,false,Variant 3,false,5.7,5.1,8.25,true,false,"CS
+SETBG [5 12 36]
+SETPC [220 245 255]
+SETWIDTH 2
+REPEAT 6 [
+  FD 18
+  REPEAT 6 [ FD 4 RT 60 ]
+  BK 18
+  FD 120
+  SETWIDTH 1
+  REPEAT 3 [
+    LT 45 FD 7
+    LT 45 REPEAT 4 [ FD 2.5 RT 90 ] RT 45
+    LT 30 FD 4 BK 4
+    RT 60 FD 4 BK 4
+    LT 30 BK 7
+    RT 90 FD 7
+    LT 45 REPEAT 4 [ FD 2.5 RT 90 ] RT 45
+    LT 30 FD 4 BK 4
+    RT 60 FD 4 BK 4
+    LT 30 BK 7
+    LT 45 BK 6
+  ]
+  FD 16
+  LT 45 REPEAT 4 [ FD 3.5 RT 90 ] RT 45
+  SETWIDTH 2
+  REPEAT 3 [
+    BK 28
+    LT 60
+    REPEAT 6 [ FD 3.5 RT 60 ]
+    RT 60
+    MAKE ""len (4 - REPCOUNT) * 6 + 6
+    LT 55
+    FD :len
+    LT 45 REPEAT 4 [ FD 2 RT 90 ] RT 45
+    SETWIDTH 1
+    LT 35 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    RT 70 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    LT 35
+    SETWIDTH 2
+    BK :len
+    RT 110
+    FD :len
+    LT 45 REPEAT 4 [ FD 2 RT 90 ] RT 45
+    SETWIDTH 1
+    LT 35 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    RT 70 FD 8 LT 30 FD 4 BK 4 RT 60 FD 4 BK 4 LT 30 BK 8
+    LT 35
+    SETWIDTH 2
+    BK :len
+    LT 55
+  ]
+  BK 36
+  RT 60
+]"
+2026-10-06T14:57:53.569Z,original,2,1,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,3,10.5/9.5/8,10.5,9.5,1,false,false,Variant 1,false,7,7,10.5,false,false,"CS
+SETBG [10 15 30]
+SETPC [180 220 255]
+SETPENSIZE 2
+REPEAT 6 [
+  FD 40
+  REPEAT 2 [
+    LT 45 FD 20 BK 20 RT 90 FD 20 BK 20 LT 45
+    FD 30
+  ]
+  BK 100
+  RT 60
+]"
+2026-10-06T14:58:26.912Z,original,2,2,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,5,9.5/7/9,9.5,9,0.5,false,false,Variant 1,false,7,5,9.5,false,false,"CS
+SETBG [10 15 30]
+SETPC [180 220 255]
+SETPENSIZE 2
+REPEAT 6 [
+  FD 30
+  REPEAT 2 [
+    LT 45
+    FD 18
+    LT 45 FD 8 BK 8 RT 90 FD 8 BK 8 LT 45
+    BK 18
+    RT 90
+    FD 18
+    LT 45 FD 8 BK 8 RT 90 FD 8 BK 8 LT 45
+    BK 18
+    LT 45
+    FD 25
+  ]
+  LT 30 FD 12 BK 12 RT 60 FD 12 BK 12 LT 30
+  BK 80
+  RT 60
+]"
+2026-10-06T14:58:54.139Z,original,2,3,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6,8/7.5/9.5,9.5,8,1.5,false,false,Variant 3,false,7,5,9.5,false,false,"CS
+SETBG [10 15 30]
+SETPC [180 220 255]
+SETPENSIZE 2
+REPEAT 6 [
+  FD 18
+  LT 60 FD 18 BK 18 RT 120 FD 18 BK 18 LT 60
+  FD 20
+  REPEAT 2 [
+    LT 45
+    FD 16
+    LT 45 FD 7 BK 7 RT 90 FD 7 BK 7 LT 45
+    BK 16
+    RT 90
+    FD 16
+    LT 45 FD 7 BK 7 RT 90 FD 7 BK 7 LT 45
+    BK 16
+    LT 45
+    FD 22
+  ]
+  LT 30 FD 10 BK 10 RT 60 FD 10 BK 10 LT 30
+  BK 82
+  RT 60
+]"
+2026-10-06T14:59:11.521Z,original,2,4,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6,8/7.5/8,8,8,0,true,true,Variant 1,false,6,4,8,false,false,"CS
+SETBG [5 10 25]
+SETPC [200 235 255]
+SETPENSIZE 2
+REPEAT 6 [
+  FD 18
+  LT 60 FD 18 BK 18 RT 120 FD 18 BK 18 LT 60
+  FD 20
+  REPEAT 2 [
+    LT 45
+    FD 16
+    LT 45 FD 8 BK 8 RT 90 FD 8 BK 8 LT 45
+    BK 16
+    RT 90
+    FD 16
+    LT 45 FD 8 BK 8 RT 90 FD 8 BK 8 LT 45
+    BK 16
+    LT 45
+    FD 22
+  ]
+  REPEAT 6 [
+    FD 10
+    LT 60 FD 5 BK 5 RT 120 FD 5 BK 5 LT 60
+    BK 10
+    RT 60
+  ]
+  BK 82
+  RT 60
+]"
+2026-10-06T14:59:41.947Z,original,2,5,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6,7/8/8.5,8.5,8,0.5,false,false,Variant 3,false,6,5,8.5,false,false,"CS
+SETBG [6 12 28]
+SETPC [220 245 255]
+SETPENSIZE 2
+REPEAT 6 [
+  FD 18
+  LT 60 FD 18 BK 18 RT 120 FD 18 BK 18 LT 60
+  FD 20
+  RT 120 FD 38 BK 38 LT 240 FD 38 BK 38 RT 120
+  REPEAT 2 [
+    LT 30 FD 8 RT 60 FD 8 RT 120 FD 8 RT 60 FD 8 RT 150
+    LT 45
+    FD 15
+    LT 45 FD 8 BK 8 RT 90 FD 8 BK 8 LT 45
+    BK 15
+    RT 90
+    FD 15
+    LT 45 FD 8 BK 8 RT 90 FD 8 BK 8 LT 45
+    BK 15
+    LT 45
+    FD 22
+  ]
+  RT 120 FD 25 BK 25 LT 240 FD 25 BK 25 RT 120
+  REPEAT 6 [
+    FD 12
+    LT 60 FD 6 BK 6 RT 120 FD 6 BK 6 LT 60
+    BK 12
+    RT 60
+  ]
+  BK 82
+  RT 60
+]"
+2026-10-06T15:00:09.690Z,original,2,6,false,false,openrouter,google/gemini-3.8-flash,A snowflake,5,4,6,8/9.5/8,9.5,8,1.5,false,false,Variant 2,false,7,5,9.5,false,false,"CS
+SETBG [4 8 22]
+REPEAT 6 [
+  SETPENSIZE 4
+  SETPC [160 210 255]
+  FD 16
+  LT 60 FD 16 BK 16 RT 120 FD 16 BK 16 LT 60
+  SETPENSIZE 2.5
+  SETPC [210 235 255]
+  FD 22
+  RT 120 FD 36 BK 36 LT 240 FD 36 BK 36 RT 120
+  REPEAT 2 [
+    SETPENSIZE 1.8
+    LT 30 FD 9 RT 60 FD 9 RT 120 FD 9 RT 60 FD 9 RT 150
+    LT 50
+    FD 16
+    LT 40 FD 9 BK 9 RT 80 FD 9 BK 9 LT 40
+    FD 6
+    LT 40 FD 5 BK 5 RT 80 FD 5 BK 5 LT 40
+    BK 22
+    RT 100
+    FD 16
+    LT 40 FD 9 BK 9 RT 80 FD 9 BK 9 LT 40
+    FD 6
+    LT 40 FD 5 BK 5 RT 80 FD 5 BK 5 LT 40
+    BK 22
+    LT 50
+    FD 24
+  ]
+  SETPENSIZE 1.2
+  SETPC [255 255 255]
+  RT 120 FD 26 BK 26 LT 240 FD 26 BK 26 RT 120
+  REPEAT 3 [
+    FD 5
+    LT 55 FD 8 BK 8 RT 110 FD 8 BK 8 LT 55
+  ]
+  PU BK 101 PD
+  RT 60
+]"
+2026-10-06T15:01:31.109Z,original,1,1,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,4,3,6.5/9/8,9,8,1,false,false,Variant 2,false,6,6,9,false,false,"PU SETXY -50 -50 PD
+SETPENSIZE 8
+SETPC ""BLACK
+REPEAT 4 [ FD 100 RT 90 ]
+PU SETXY -25 -25 PD
+SETPENSIZE 35
+SETPC ""YELLOW
+FD 50
+PU SETXY 15 15 PD
+SETPENSIZE 25
+SETPC ""RED
+FD 30
+PU SETXY -25 25 PD
+SETPENSIZE 20
+SETPC ""BLUE
+FD 20"
+2026-10-06T15:01:48.992Z,original,1,2,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,3,4,7.5/9,9,7.5,1.5,false,false,Variant 2,false,6,6,9,false,false,"SETBG ""WHITE
+PU SETXY -40 -30 PD
+SETPENSIZE 80
+SETPC ""RED
+FD 70
+PU SETXY 50 -70 PD
+SETPENSIZE 60
+SETPC ""BLUE
+FD 50
+PU SETXY -70 65 PD
+SETPENSIZE 45
+SETPC ""YELLOW
+FD 45
+SETPC ""BLACK
+SETPENSIZE 7
+PU SETXY -110 -80 PD
+SETHEADING 90 FD 220
+PU SETXY -110 30 PD
+SETHEADING 90 FD 220
+PU SETXY -110 90 PD
+SETHEADING 90 FD 220
+PU SETXY 10 -110 PD
+SETHEADING 0 FD 220
+PU SETXY -50 30 PD
+SETHEADING 0 FD 80
+PU SETXY 80 -110 PD
+SETHEADING 0 FD 220"
+2026-10-06T15:02:17.403Z,original,1,3,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,3,4,9/8,9,8,1,false,false,Variant 1,false,6,6,9,false,false,"TO RECT :x :y :w :h :c
+  SETPC :c
+  SETPENSIZE 2
+  REPEAT :h / 2 [
+    PU SETXY :x (:y + REPCOUNT * 2) PD
+    SETHEADING 90 FD :w
+  ]
+END
+
+SETBG ""WHITE
+CS
+RECT -110 -80 120 110 ""RED
+RECT 10 -110 70 30 ""BLUE
+RECT -110 30 60 60 ""YELLOW
+
+SETPC ""BLACK
+SETPENSIZE 8
+PU SETXY -120 -80 PD
+SETHEADING 90 FD 240
+PU SETXY -120 30 PD
+SETHEADING 90 FD 240
+PU SETXY -120 90 PD
+SETHEADING 90 FD 240
+PU SETXY 10 -120 PD
+SETHEADING 0 FD 240
+PU SETXY -50 30 PD
+SETHEADING 0 FD 90
+PU SETXY 80 -120 PD
+SETHEADING 0 FD 240
+PU SETXY -110 -120 PD
+SETHEADING 0 FD 240"
+2026-10-06T15:02:48.345Z,original,1,4,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,3,6,7/8,8,7,1,false,false,Variant 2,false,5,6,8,false,false,"TO RECT :x :y :w :h :c
+  SETPC :c
+  SETPENSIZE 2
+  REPEAT :h / 2 [
+    PU SETXY :x (:y + REPCOUNT * 2) PD
+    SETHEADING 90 FD :w
+  ]
+END
+
+SETBG ""WHITE
+CS
+RECT -60 -20 160 120 ""RED
+RECT -100 -100 40 80 ""BLUE
+RECT -100 60 40 40 ""YELLOW
+RECT 50 -100 50 40 ""GRAY
+
+SETPC ""BLACK
+SETPENSIZE 7
+PU SETXY -100 -100 PD
+SETHEADING 90 FD 200
+PU SETXY -100 -20 PD
+SETHEADING 90 FD 200
+PU SETXY -100 60 PD
+SETHEADING 90 FD 200
+PU SETXY -100 100 PD
+SETHEADING 90 FD 200
+PU SETXY -100 -100 PD
+SETHEADING 0 FD 200
+PU SETXY -60 -100 PD
+SETHEADING 0 FD 200
+PU SETXY 50 -100 PD
+SETHEADING 0 FD 200
+PU SETXY 100 -100 PD
+SETHEADING 0 FD 200"
+2026-10-06T15:03:23.146Z,original,1,5,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,4,5,8/7.5/7,8,7.5,0.5,false,false,Variant 1,false,6,4,8,false,false,"TO CELL :x :y :w :h :c
+  SETPC :c
+  SETPENSIZE 2
+  REPEAT :h / 2 [
+    PU SETXY :x (:y + REPCOUNT * 2) PD
+    SETHEADING 90 FD :w
+  ]
+END
+
+SETBG ""WHITE
+CS
+CELL -60 -20 110 80 ""RED
+CELL -100 -100 40 80 ""BLUE
+CELL 50 60 50 40 ""YELLOW
+CELL 50 -100 50 80 ""LIGHTGRAY
+
+SETPC ""BLACK
+SETPENSIZE 8
+PU SETXY -100 -100 PD
+SETHEADING 90 FD 200
+PU SETXY -100 -20 PD
+SETHEADING 90 FD 200
+PU SETXY -100 60 PD
+SETHEADING 90 FD 200
+PU SETXY -100 100 PD
+SETHEADING 90 FD 200
+PU SETXY -100 -100 PD
+SETHEADING 0 FD 200
+PU SETXY -60 -100 PD
+SETHEADING 0 FD 200
+PU SETXY 50 -100 PD
+SETHEADING 0 FD 200
+PU SETXY 100 -100 PD
+SETHEADING 0 FD 200"
+2026-10-06T15:03:47.921Z,original,1,6,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,4,5,7/8.5/7,8.5,7,1.5,false,false,Variant 2,false,6,5,8.5,false,false,"TO CELL :x :y :w :h :c
+  SETPC :c
+  SETPENSIZE 2
+  REPEAT :h / 2 [
+    PU SETXY :x (:y + REPCOUNT * 2) PD
+    SETHEADING 90 FD :w
+  ]
+END
+
+SETBG ""WHITE
+CS
+CELL -120 -20 140 140 ""RED
+CELL 20 -120 100 50 ""BLUE
+CELL -120 -120 50 100 ""YELLOW
+CELL 20 -20 100 40 ""SILVER
+
+SETPC ""BLACK
+SETPENSIZE 10
+PU SETXY -120 -120 PD
+SETHEADING 90 FD 240
+PU SETXY -120 -70 PD
+SETHEADING 90 FD 240
+PU SETXY -120 -20 PD
+SETHEADING 90 FD 240
+PU SETXY -120 20 PD
+SETHEADING 90 FD 240
+PU SETXY -120 120 PD
+SETHEADING 90 FD 240
+PU SETXY -120 -120 PD
+SETHEADING 0 FD 240
+PU SETXY -70 -120 PD
+SETHEADING 0 FD 240
+PU SETXY 20 -120 PD
+SETHEADING 0 FD 240
+PU SETXY 120 -120 PD
+SETHEADING 0 FD 240"
+2026-10-06T15:04:06.416Z,enhanced,1,1,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,3.4,8.9/8.35/8.65,8.9,8.65,0.25,false,false,Variant 1,false,5.8,6.2,8.9,true,false,"SETBG ""WHITE
+SETPENSIZE 8
+SETPC ""BLACK
+FD 50
+RT 90
+SETPC ""RED
+FD 40
+LT 90
+SETPC ""BLACK
+FD 50
+LT 90
+SETPC ""BLUE
+FD 40
+RT 90
+SETPC ""YELLOW
+FD 30"
+2026-10-06T15:04:41.272Z,enhanced,1,2,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,3.8,9.25/7.8/9.7,9.7,9.25,0.45,false,false,Variant 3,false,6.6,6.2,9.7,true,false,"SETBG ""WHITE
+PU SETXY -40 50 PD
+REPEAT 50 [ SETPC ""RED FD 40 BK 40 RT 90 FD 1 LT 90 ]
+PU SETXY 0 0 PD
+REPEAT 50 [ SETPC ""YELLOW FD 40 BK 40 RT 90 FD 1 LT 90 ]
+PU SETXY -40 100 PD
+REPEAT 30 [ SETPC ""BLUE FD 40 BK 40 RT 90 FD 1 LT 90 ]
+PU HOME PD
+SETPENSIZE 8
+SETPC ""BLACK
+FD 50
+RT 90
+FD 40
+LT 90
+FD 50
+LT 90
+FD 40
+RT 90
+FD 30
+BK 30
+LT 90
+FD 40
+RT 90
+FD 50"
+2026-10-06T15:05:04.089Z,enhanced,1,3,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,4.6,9/9.35/9.65,9.65,9.35,0.3,false,false,Variant 3,false,6.6,6.1,9.649999999999999,true,false,"SETBG ""WHITE
+PU SETXY -40 20 PD
+REPEAT 80 [ SETPC ""RED FD 120 BK 120 RT 90 FD 1 LT 90 ]
+PU SETXY 40 -120 PD
+REPEAT 100 [ SETPC ""YELLOW FD 80 BK 80 RT 90 FD 1 LT 90 ]
+PU SETXY -160 -120 PD
+REPEAT 60 [ SETPC ""BLUE FD 60 BK 60 RT 90 FD 1 LT 90 ]
+SETPENSIZE 7
+SETPC ""BLACK
+PU SETXY -200 140 PD SETH 90 FD 400
+PU SETXY -200 20 PD SETH 90 FD 400
+PU SETXY -200 -40 PD SETH 90 FD 400
+PU SETXY -200 -120 PD SETH 90 FD 400
+PU SETXY -100 -200 PD SETH 0 FD 400
+PU SETXY -40 -200 PD SETH 0 FD 400
+PU SETXY 40 -200 PD SETH 0 FD 400"
+2026-10-06T15:05:31.271Z,enhanced,1,4,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,6.2,8/7.85/8.25,8.25,8,0.25,false,false,Variant 3,false,5.8,4.9,8.25,true,false,"SETBG ""WHITE
+PU SETXY -60 20 PD
+REPEAT 140 [ SETPC ""RED FD 130 BK 130 RT 90 FD 1 LT 90 ]
+PU SETXY 80 -140 PD
+REPEAT 80 [ SETPC ""YELLOW FD 70 BK 70 RT 90 FD 1 LT 90 ]
+PU SETXY -150 -70 PD
+REPEAT 90 [ SETPC ""BLUE FD 90 BK 90 RT 90 FD 1 LT 90 ]
+SETPENSIZE 7
+SETPC ""BLACK
+PU SETXY -200 150 PD SETH 90 FD 400
+PU SETXY -200 20 PD SETH 90 FD 400
+PU SETXY -200 -70 PD SETH 90 FD 400
+PU SETXY -200 -140 PD SETH 90 FD 400
+PU SETXY -150 -200 PD SETH 0 FD 400
+PU SETXY -60 -200 PD SETH 0 FD 400
+PU SETXY 80 -200 PD SETH 0 FD 400
+PU SETXY 160 -200 PD SETH 0 FD 400"
+2026-10-06T15:06:20.243Z,enhanced,1,5,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,5.2,7.95/8.05/8.8,8.8,8.05,0.75,false,false,Variant 3,false,6.1,5.4,8.8,true,false,"SETBG ""WHITE
+PU SETXY -80 -40 PD
+REPEAT 180 [ SETPC ""RED FD 170 BK 170 RT 90 FD 1 LT 90 ]
+PU SETXY -200 130 PD
+REPEAT 120 [ SETPC ""YELLOW FD 70 BK 70 RT 90 FD 1 LT 90 ]
+PU SETXY 100 -170 PD
+REPEAT 100 [ SETPC ""BLUE FD 130 BK 130 RT 90 FD 1 LT 90 ]
+PU SETXY -200 -170 PD
+REPEAT 120 [ SETPC [40 40 40] FD 50 BK 50 RT 90 FD 1 LT 90 ]
+SETPC ""BLACK
+SETPENSIZE 3
+PU SETXY -200 130 PD SETH 90 FD 400
+SETPENSIZE 14
+PU SETXY -200 -40 PD SETH 90 FD 400
+SETPENSIZE 6
+PU SETXY -200 -120 PD SETH 90 FD 400
+SETPENSIZE 11
+PU SETXY -200 -170 PD SETH 90 FD 400
+SETPENSIZE 8
+PU SETXY -80 -200 PD SETH 0 FD 400
+SETPENSIZE 15
+PU SETXY 100 -200 PD SETH 0 FD 400
+SETPENSIZE 4
+PU SETXY -130 -200 PD SETH 0 FD 400
+SETPENSIZE 3
+PU SETXY 150 -200 PD SETH 0 FD 400"
+2026-10-06T15:06:44.404Z,enhanced,1,6,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,6.5,7.95/8.9/7.5,8.9,7.95,0.95,false,false,Variant 2,false,6.3,5.2,8.9,true,false,"SETBG ""WHITE
+PU SETXY -60 -40 PD
+REPEAT 160 [ SETPC ""RED FD 170 BK 170 RT 90 FD 1 LT 90 ]
+PU SETXY -200 130 PD
+REPEAT 140 [ SETPC ""YELLOW FD 70 BK 70 RT 90 FD 1 LT 90 ]
+PU SETXY 100 -170 PD
+REPEAT 100 [ SETPC ""BLUE FD 110 BK 110 RT 90 FD 1 LT 90 ]
+PU SETXY -200 -150 PD
+REPEAT 140 [ SETPC [35 35 35] FD 50 BK 50 RT 90 FD 1 LT 90 ]
+PU SETXY 150 130 PD
+REPEAT 50 [ SETPC ""YELLOW FD 70 BK 70 RT 90 FD 1 LT 90 ]
+SETPC ""BLACK
+SETPENSIZE 5
+PU SETXY -200 130 PD SETH 90 FD 350
+SETPENSIZE 12
+PU SETXY -200 -40 PD SETH 90 FD 300
+SETPENSIZE 6
+PU SETXY -60 -100 PD SETH 90 FD 260
+SETPENSIZE 10
+PU SETXY -200 -150 PD SETH 90 FD 300
+SETPENSIZE 8
+PU SETXY -60 -150 PD SETH 0 FD 350
+SETPENSIZE 13
+PU SETXY 100 -200 PD SETH 0 FD 330
+SETPENSIZE 4
+PU SETXY -130 -150 PD SETH 0 FD 280
+SETPENSIZE 6
+PU SETXY 150 -100 PD SETH 0 FD 300"
+2026-10-06T15:07:00.357Z,enhanced,2,1,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,3.4,8.1/7.8/9.4,9.4,8.1,1.3,false,false,Variant 3,false,6.2,6.4,9.4,true,false,"CS
+SETBG [240 240 235]
+SETPENSIZE 8
+SETPC ""BLACK
+FD 100
+RT 90
+FD 80
+RT 90
+FD 100
+RT 90
+FD 80
+PU
+SETXY 15 20
+PD
+SETPC ""RED
+SETPENSIZE 30
+FD 40
+PU
+SETXY -40 70
+PD
+SETPC ""BLUE
+SETPENSIZE 24
+RT 90
+FD 30"
+2026-10-06T15:07:25.193Z,enhanced,2,2,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,4.1,8.6/9.15/8.75,9.15,8.75,0.4,false,false,Variant 2,false,6.2,5.9,9.15,true,false,"CS
+SETBG [242 240 232]
+SETPC ""RED
+PU SETXY -70 50 PD
+SETPENSIZE 100
+FD 80
+SETPC ""BLUE
+PU SETXY 90 -90 PD
+SETPENSIZE 60
+FD 60
+SETPC ""YELLOW
+PU SETXY -140 -120 PD
+SETPENSIZE 45
+FD 35
+SETPC ""BLACK
+SETPENSIZE 7
+PU SETXY -200 130 PD SETH 90 FD 400
+PU SETXY -200 -30 PD SETH 90 FD 400
+PU SETXY -200 -110 PD SETH 90 FD 400
+PU SETXY -20 -200 PD SETH 0 FD 400
+PU SETXY 60 -200 PD SETH 0 FD 400"
+2026-10-06T15:07:49.466Z,enhanced,2,3,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,4.1,9.9/9.85/9.3,9.9,9.85,0.05,false,false,Variant 1,false,6.8,6.2,9.9,true,false,"TO FILLRECT :x :y :w :h :col
+  SETPC :col
+  SETPENSIZE 1
+  PU SETXY :x :y PD SETH 0
+  REPEAT :w [
+    FD :h BK :h
+    PU RT 90 FD 1 LT 90 PD
+  ]
+END
+
+CS
+SETBG [242 240 232]
+FILLRECT -200 -30 180 160 ""RED
+FILLRECT 60 -110 140 80 ""BLUE
+FILLRECT -200 -200 180 90 ""YELLOW
+FILLRECT 60 130 140 70 [225 223 215]
+
+SETPC ""BLACK
+SETPENSIZE 7
+PU SETXY -200 130 PD SETH 90 FD 400
+PU SETXY -200 -30 PD SETH 90 FD 400
+PU SETXY -200 -110 PD SETH 90 FD 400
+PU SETXY -20 -200 PD SETH 0 FD 400
+PU SETXY 60 -200 PD SETH 0 FD 400"
+2026-10-06T15:08:08.706Z,enhanced,2,4,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,6.3,8.35/8/8.95,8.95,8.35,0.6,false,false,Variant 3,false,6.4,5.1,8.95,true,false,"TO FILLRECT :x :y :w :h :col
+  SETPC :col
+  SETPENSIZE 1
+  PU SETXY :x :y PD SETH 0
+  REPEAT :w [
+    FD :h BK :h
+    PU RT 90 FD 1 LT 90 PD
+  ]
+END
+
+CS
+SETBG [246 244 238]
+FILLRECT -200 -60 160 170 ""RED
+FILLRECT 80 110 120 90 ""BLUE
+FILLRECT -40 -200 120 90 ""YELLOW
+FILLRECT 80 -110 120 130 [228 225 218]
+
+SETPC ""BLACK
+SETPENSIZE 15
+PU SETXY -40 -200 PD SETH 0 FD 400
+SETPENSIZE 8
+PU SETXY -200 110 PD SETH 90 FD 400
+SETPENSIZE 6
+PU SETXY -200 -110 PD SETH 90 FD 400
+SETPENSIZE 4
+PU SETXY 80 -200 PD SETH 0 FD 400
+SETPENSIZE 3
+PU SETXY -200 -60 PD SETH 90 FD 160
+PU SETXY -40 20 PD SETH 90 FD 240"
+2026-10-06T15:08:29.835Z,enhanced,2,5,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,6.5,8/9.5/7.45,9.5,8,1.5,false,false,Variant 2,false,6.8,5.4,9.5,true,false,"TO FILLRECT :x :y :w :h :col
+  SETPC :col
+  SETPENSIZE 1
+  PU SETXY :x :y PD SETH 0
+  REPEAT :w [
+    FD :h BK :h
+    PU RT 90 FD 1 LT 90 PD
+  ]
+END
+
+CS
+SETBG [246 244 238]
+FILLRECT -200 -200 160 140 ""BLUE
+FILLRECT -40 20 180 180 ""RED
+FILLRECT 140 -200 60 120 ""YELLOW
+FILLRECT -40 -200 180 80 [228 225 218]
+
+SETPC ""BLACK
+SETPENSIZE 6
+PU SETXY -40 -200 PD SETH 0 FD 400
+PU SETXY 140 -200 PD SETH 0 FD 400
+PU SETXY -200 -60 PD SETH 90 FD 400
+PU SETXY -200 20 PD SETH 90 FD 400
+PU SETXY -40 -120 PD SETH 90 FD 240
+PU SETXY -200 120 PD SETH 90 FD 160"
+2026-10-06T15:08:50.559Z,enhanced,2,6,true,true,openrouter,google/gemini-3.8-flash,Mondrian,5,4,5.8,9/8.45/8.9,9,8.9,0.1,false,false,Variant 1,false,6.3,5.4,9,true,false,"TO FILLRECT :x :y :w :h :col
+  SETPC :col
+  SETPENSIZE 1
+  PU SETXY :x :y PD SETH 0
+  REPEAT :w [
+    FD :h BK :h
+    PU RT 90 FD 1 LT 90 PD
+  ]
+END
+
+CS
+SETBG [245 242 235]
+FILLRECT -200 30 130 170 ""RED
+FILLRECT 80 -200 120 110 ""BLUE
+FILLRECT -70 -200 75 70 ""YELLOW
+FILLRECT 115 100 85 100 [225 222 215]
+
+SETPC ""BLACK
+SETPENSIZE 7
+PU SETXY -70 -200 PD SETH 0 FD 400
+PU SETXY 80 -200 PD SETH 0 FD 400
+PU SETXY -200 30 PD SETH 90 FD 400
+PU SETXY -200 -90 PD SETH 90 FD 400
+
+SETPENSIZE 4
+PU SETXY 5 -200 PD SETH 0 FD 230
+PU SETXY 115 30 PD SETH 0 FD 170
+PU SETXY -70 -130 PD SETH 90 FD 150
+PU SETXY 80 100 PD SETH 90 FD 120"
+2026-10-06T15:09:08.817Z,original,2,1,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,4,3,7.5/6/9,9,7.5,1.5,false,false,Variant 3,false,6,6,9,false,false,"SETPENSIZE 7
+SETPC ""BLACK
+FD 100
+RT 90
+SETPC ""RED
+FD 70
+BK 120
+SETPC ""BLACK
+RT 90
+FD 50
+LT 90
+SETPC ""BLUE
+FD 80
+BK 40
+LT 90
+SETPC ""YELLOW
+FD 60"
+2026-10-06T15:09:33.057Z,original,2,2,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,3,4,9/7.5,9,7.5,1.5,false,false,Variant 1,false,6,6,9,false,false,"CS
+SETPENSIZE 80
+PU SETXY 50 20 SETH 0 SETPC ""RED PD FD 60
+PU SETXY -60 -40 SETH 0 SETPC ""BLUE PD FD 50
+PU SETXY 50 -70 SETH 90 SETPC ""YELLOW PD FD 40
+PU HOME SETH 0
+SETPENSIZE 8
+SETPC ""BLACK
+PD FD 100
+RT 90 FD 90 BK 180
+PU SETXY 0 20 SETH 90 PD FD 90 BK 180
+PU SETXY -60 100 SETH 180 PD FD 180
+PU SETXY 90 60 SETH 180 PD FD 140
+PU SETXY -60 -20 SETH 90 PD FD 150"
+2026-10-06T15:09:58.610Z,original,2,3,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,4,4,9/7.5/10,10,9,1,false,false,Variant 3,false,7,6,10,false,false,"TO BLOCK :x :y :w :h :c
+  SETPC :c SETPENSIZE 2
+  REPEAT :h [ PU SETXY :x (:y + REPCOUNT) SETH 90 PD FD :w ]
+END
+
+CS
+BLOCK -80 30 110 80 ""RED
+BLOCK 30 -80 60 70 ""BLUE
+BLOCK -80 -80 50 40 ""YELLOW
+
+PU HOME
+SETPC ""BLACK
+SETPENSIZE 9
+PU SETXY 30 -100 SETH 0 PD FD 210
+PU SETXY -80 30 SETH 90 PD FD 170
+SETPENSIZE 5
+PU SETXY -30 -100 SETH 0 PD FD 130
+PU SETXY -80 -40 SETH 90 PD FD 170
+PU SETXY -80 -80 SETH 90 PD FD 170
+PU SETXY -80 -100 SETH 0 PD FD 210
+PU SETXY 90 -100 SETH 0 PD FD 210
+PU SETXY -80 110 SETH 90 PD FD 170
+HT"
+2026-10-06T15:10:15.606Z,original,2,4,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,4,6,7.5/8/8,8,8,0,true,true,Variant 2,false,5,6,8,false,false,"TO BLOCK :x :y :w :h :c
+  SETPC :c SETPENSIZE 2
+  REPEAT :h [ PU SETXY :x (:y + REPCOUNT) SETH 90 PD FD :w ]
+END
+
+CS
+BLOCK -60 -60 260 260 ""RED
+BLOCK -200 -200 140 140 ""BLUE
+BLOCK 80 -200 120 70 ""YELLOW
+
+PU HOME
+SETPC ""BLACK
+SETPENSIZE 16
+PU SETXY -60 -200 SETH 0 PD FD 400
+PU SETXY -200 -60 SETH 90 PD FD 400
+
+SETPENSIZE 10
+PU SETXY 80 -200 SETH 0 PD FD 140
+PU SETXY -60 -130 SETH 90 PD FD 260
+
+SETPENSIZE 5
+PU SETXY -200 120 SETH 90 PD FD 140
+PU SETXY -140 -60 SETH 0 PD FD 260
+PU SETXY 150 -60 SETH 0 PD FD 260
+
+SETPENSIZE 2
+PU SETXY -60 160 SETH 90 PD FD 260
+HT"
+2026-10-06T15:10:33.467Z,original,2,5,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,4,6,8/9/8,9,8,1,false,false,Variant 2,false,6,6,9,false,false,"TO BLOCK :x :y :w :h :c
+  SETPC :c SETPENSIZE 2
+  REPEAT :h [ PU SETXY :x (:y + REPCOUNT) SETH 90 PD FD :w ]
+END
+
+CS
+BLOCK -200 40 150 160 ""RED
+BLOCK 90 -200 110 160 ""BLUE
+BLOCK -50 -200 140 80 ""YELLOW
+
+PU HOME
+SETPC ""BLACK
+
+SETPENSIZE 14
+PU SETXY -50 -200 SETH 0 PD FD 400
+PU SETXY -200 40 SETH 90 PD FD 400
+
+SETPENSIZE 10
+PU SETXY 90 -200 SETH 0 PD FD 400
+PU SETXY -200 -40 SETH 90 PD FD 400
+
+SETPENSIZE 8
+PU SETXY -50 -120 SETH 90 PD FD 250
+PU SETXY 140 40 SETH 0 PD FD 160
+HT"
+2026-10-06T15:10:52.533Z,original,2,6,false,false,openrouter,google/gemini-3.8-flash,Mondrian,5,4,6,7.5/8.5/8,8.5,8,0.5,false,false,Variant 2,false,6,5,8.5,false,false,"TO BLOCK :x :y :w :h :c
+  SETPC :c SETPENSIZE 2
+  REPEAT :h [ PU SETXY :x (:y + REPCOUNT) SETH 90 PD FD :w ]
+END
+
+CS
+SETBG ""WHITE
+BLOCK -200 50 160 150 ""BLUE
+BLOCK 40 -90 160 190 ""RED
+BLOCK -200 -200 80 120 ""YELLOW
+BLOCK -40 -200 80 90 ""YELLOW
+
+SETPC ""BLACK
+SETPENSIZE 8
+
+PU SETXY -40 -200 SETH 0 PD FD 400
+PU SETXY 40 -200 SETH 0 PD FD 400
+PU SETXY -120 -200 SETH 0 PD FD 250
+PU SETXY -200 50 SETH 90 PD FD 400
+PU SETXY -200 -80 SETH 90 PD FD 400
+PU SETXY -200 -110 SETH 90 PD FD 400
+PU SETXY 40 100 SETH 90 PD FD 160
+
+HT"
+2026-10-06T15:12:05.126Z,original,1,1,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,3,9.5/9.5/8.5,9.5,9.5,0,true,true,Variant 1,false,6,7,9.5,false,false,"CS
+SETBG [20 35 25]
+SETPENSIZE 2
+REPEAT 14 [
+  PU
+  SETXY (REPCOUNT * 28 - 210) -160
+  SETHEADING -12 + RANDOM 24
+  PD
+  SETPC [70 150 70]
+  FD 60 + RANDOM 40
+  SETPC [255 130 180]
+  REPEAT 6 [
+    FD 14 BK 14 RT 60
+  ]
+  SETPC [255 220 40]
+  CIRCLE 3
+]
+HT"
+2026-10-06T15:12:36.413Z,original,1,2,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,4,7.5/7.5/9,9,7.5,1.5,false,false,Variant 3,false,6,6,9,false,false,"CS
+SETBG [22 36 26]
+FOR [row 1 4 1] [
+  REPEAT 8 [
+    PU
+    MAKE ""y -180 + :row * 35 + RANDOM 15
+    SETXY (-180 + REPCOUNT * 42 + RANDOM 20 - 20) :y
+    SETHEADING -18 + RANDOM 36
+    PD
+    SETPENSIZE :row
+    SETPC [65 140 60]
+    MAKE ""h 25 + :row * 15 + RANDOM 20
+    FD :h
+    IFELSE (:row > 2) [SETPC [255 120 170]] [SETPC [200 160 240]]
+    MAKE ""r 6 + :row * 2
+    REPEAT 6 [
+      FD :r
+      CIRCLE 2
+      BK :r
+      RT 60
+    ]
+    SETPC [255 210 50]
+    CIRCLE 2 + INT (:row / 2)
+  ]
+]
+HT"
+2026-10-06T15:13:08.775Z,original,1,3,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,6,7.5/7.5/5,7.5,7.5,0,true,true,Variant 1,false,5,5,7.5,false,false,"CS
+SETBG [20 32 24]
+FOR [row 1 4 1] [
+  REPEAT 9 [
+    PU
+    MAKE ""x -190 + REPCOUNT * 38 + RANDOM 16 - 8
+    MAKE ""y -190 + RANDOM 20
+    SETXY :x :y
+    MAKE ""curve -4 + RANDOM 9
+    SETHEADING -12 + RANDOM 25
+    PD
+    SETPENSIZE 1 + INT (:row / 2)
+    SETPC [55 130 50]
+    MAKE ""h 50 + :row * 24 + RANDOM 20
+    REPEAT 6 [
+      FD :h / 6
+      RT :curve
+    ]
+    IFELSE (:row > 2) [SETPC [245 90 120]] [SETPC [220 180 70]]
+    MAKE ""r 5 + :row * 2
+    REPEAT 6 [
+      FD :r
+      CIRCLE 2
+      BK :r
+      RT 60
+    ]
+    SETPC [255 230 110]
+    CIRCLE 2 + INT (:row / 2)
+  ]
+]
+HT"
+2026-10-06T15:13:39.427Z,original,1,4,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5,7/8.5/8.5,8.5,8.5,0,true,true,Variant 2,false,6,5,8.5,false,false,"CS
+SETBG [18 30 22]
+FOR [row 1 4 1] [
+  REPEAT 10 [
+    PU
+    MAKE ""x -185 + (REPCOUNT - 1) * 41 + RANDOM 20 - 10
+    MAKE ""y -180 + (:row - 1) * 20 + RANDOM 16
+    SETXY :x :y
+    MAKE ""h 40 + :row * 25 + RANDOM 20
+    MAKE ""c1 -5 + RANDOM 11
+    MAKE ""c2 0 - :c1 + RANDOM 5 - 2
+    SETHEADING -8 + RANDOM 17
+    PD
+    SETPENSIZE 1 + INT (:row / 2)
+    SETPC [50 125 40]
+    REPEAT 5 [
+      FD :h / 10
+      RT :c1
+    ]
+    REPEAT 5 [
+      FD :h / 10
+      RT :c2
+    ]
+    IFELSE (MOD REPCOUNT 2 = 0) [
+      SETPC [250 100 130]
+    ] [
+      IFELSE (:row > 2) [SETPC [120 170 245]] [SETPC [255 200 70]]
+    ]
+    MAKE ""petals 5 + RANDOM 3
+    MAKE ""r 5 + :row * 2
+    REPEAT :petals [
+      FD :r
+      ARC 360 (2 + INT (:row / 2))
+      BK :r
+      RT 360 / :petals
+    ]
+    SETPC [255 240 150]
+    CIRCLE 2 + INT (:row / 2)
+  ]
+]
+HT"
+2026-10-06T15:14:14.637Z,original,1,5,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,6,6/7/8.5,8.5,7,1.5,false,false,Variant 3,false,6,5,8.5,false,false,"CS
+SETBG [16 28 20]
+FOR [row 1 4 1] [
+  REPEAT 12 [
+    PU
+    MAKE ""x -200 + (REPCOUNT - 1) * 36 + RANDOM 20 - 10
+    MAKE ""y -180 + (:row - 1) * 24 + RANDOM 18
+    SETXY :x :y
+    MAKE ""h 38 + :row * 26 + RANDOM 24
+    MAKE ""c1 -7 + RANDOM 15
+    MAKE ""c2 -3 + RANDOM 7
+    SETHEADING -8 + RANDOM 17
+    PD
+    SETPENSIZE 1 + INT (:row / 3)
+    SETPC [55 135 45]
+    REPEAT 5 [
+      FD :h / 10
+      RT :c1
+    ]
+    LT 30 FD 7 BK 7 RT 30
+    REPEAT 5 [
+      FD :h / 10
+      RT :c2
+    ]
+    IFELSE (MOD REPCOUNT 3 = 1) [
+      SETPC [255 105 140]
+    ] [
+      IFELSE (MOD REPCOUNT 3 = 2) [SETPC [110 160 250]] [SETPC [255 220 80]]
+    ]
+    MAKE ""petals 7 + :row
+    MAKE ""r 5 + :row * 2
+    REPEAT :petals [
+      FD :r
+      ARC 360 (2 + INT (:row / 3))
+      BK :r
+      RT 360 / :petals
+    ]
+    SETPC [255 250 190]
+    CIRCLE 2 + INT (:row / 3)
+  ]
+]
+HT"
+2026-10-06T15:14:50.106Z,original,1,6,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5,8.5/6.5/7,8.5,7,1.5,false,false,Variant 1,false,6,5,8.5,false,false,"CS
+SETBG [12 24 16]
+FOR [row 1 5 1] [
+  REPEAT 14 [
+    PU
+    MAKE ""x -195 + RANDOM 390
+    MAKE ""y -190 + (:row - 1) * 28 + RANDOM 16
+    SETXY :x :y
+    MAKE ""h 30 + :row * 24 + RANDOM 20
+    MAKE ""c1 -6 + RANDOM 13
+    MAKE ""c2 -4 + RANDOM 9
+    SETHEADING -6 + RANDOM 13
+    PD
+    SETPENSIZE 1 + INT (:row / 3)
+    SETPC [40 120 35]
+    REPEAT 5 [
+      FD :h / 10
+      RT :c1
+    ]
+    LT 35 FD (5 + :row) BK (5 + :row) RT 35
+    REPEAT 5 [
+      FD :h / 10
+      RT :c2
+    ]
+    MAKE ""flowerType MOD (REPCOUNT + :row) 4
+    IFELSE :flowerType = 0 [
+      SETPC [255 75 90]
+    ] [
+      IFELSE :flowerType = 1 [
+        SETPC [140 120 235]
+      ] [
+        IFELSE :flowerType = 2 [SETPC [255 190 40]] [SETPC [250 240 245]]
+      ]
+    ]
+    MAKE ""petals 6 + :row
+    MAKE ""r 4 + :row * 2
+    REPEAT :petals [
+      FD :r
+      ARC 360 (2 + INT (:row / 2.5))
+      BK :r
+      RT 360 / :petals
+    ]
+    SETPC [255 225 120]
+    CIRCLE 2 + INT (:row / 3)
+  ]
+]
+HT"
+2026-10-06T15:15:26.071Z,enhanced,1,1,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,3.1,7.2/8.65/9.65,9.65,8.65,1,false,false,Variant 3,false,6.3,6.7,9.65,true,false,"SETBG [240 245 235]
+REPEAT 11 [
+  PU SETXY (REPCOUNT * 28 - 168) -120 PD
+  SETHEADING (REPCOUNT * 4 - 24)
+  SETPC [60 130 50]
+  SETPENSIZE 2
+  FD 85 + (REPCOUNT * 4)
+  IFELSE (MOD REPCOUNT 2 = 0) [SETPC [230 90 120]] [SETPC [120 130 220]]
+  REPEAT 6 [
+    FD 14
+    RT 60
+  ]
+  SETPC [255 215 50]
+  CIRCLE 3
+]"
+2026-10-06T15:15:50.329Z,enhanced,1,2,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,4.8,7/10/6.75,10,7,3,false,false,Variant 2,false,6.8,6.4,10,true,false,"SETBG [238 248 238]
+REPEAT 20 [
+  MAKE ""sx (SIN (REPCOUNT * 67)) * 160
+  MAKE ""sy -140 + (REPCOUNT * 6)
+  PU SETXY :sx :sy PD
+  SETHEADING (COS (REPCOUNT * 45)) * 15
+  SETPC [70 140 55]
+  SETPENSIZE 2
+  FD 40 + (REPCOUNT * 4.5)
+  MAKE ""col MOD REPCOUNT 4
+  IFELSE (:col = 0) [SETPC [225 75 110]] [IFELSE (:col = 1) [SETPC [90 140 230]] [IFELSE (:col = 2) [SETPC [245 190 40]] [SETPC [190 90 200]]]]
+  REPEAT 8 [
+    FD 8
+    BK 8
+    RT 45
+  ]
+  SETPC [255 240 120]
+  CIRCLE 3
+]"
+2026-10-06T15:16:12.071Z,enhanced,1,3,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,4.6,9.7/6.8/8,9.7,8,1.7,false,false,Variant 1,false,6.8,5.8,9.7,true,false,"SETBG [230 245 235]
+REPEAT 45 [
+  MAKE ""sx (SIN (REPCOUNT * 53)) * 175
+  MAKE ""sy -160 + (REPCOUNT * 3.2)
+  PU SETXY :sx :sy PD
+  MAKE ""curve (SIN (REPCOUNT * 37)) * 3.5
+  SETHEADING :curve * 3
+  SETPC [60 130 50]
+  SETPENSIZE 1.5
+  REPEAT 6 [
+    FD 8 + (MOD REPCOUNT 4)
+    RT :curve
+  ]
+  MAKE ""col MOD REPCOUNT 5
+  IFELSE (:col = 0) [SETPC [230 60 90]] [
+    IFELSE (:col = 1) [SETPC [80 120 220]] [
+      IFELSE (:col = 2) [SETPC [250 185 30]] [
+        IFELSE (:col = 3) [SETPC [180 80 190]] [SETPC [240 120 70]]
+      ]
+    ]
+  ]
+  SETPENSIZE 2
+  REPEAT 10 [
+    FD 7
+    BK 7
+    RT 36
+  ]
+  SETPC [255 240 100]
+  CIRCLE 2.5
+]"
+2026-10-06T15:16:36.575Z,enhanced,1,4,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5.6,9.35/5.5/9.2,9.35,9.2,0.15,false,false,Variant 1,false,6.7,5.3,9.35,true,false,"SETBG [225 242 230]
+REPEAT 60 [
+  MAKE ""gx (SIN (REPCOUNT * 67)) * 190
+  MAKE ""gy -180 + (MOD (REPCOUNT * 23) 120)
+  PU SETXY :gx :gy PD
+  SETPC [85 155 75]
+  SETPENSIZE 1
+  SETHEADING (SIN (REPCOUNT * 41)) * 25
+  REPEAT 4 [FD 9 RT (SIN (REPCOUNT * 31)) * 3]
+]
+REPEAT 45 [
+  MAKE ""scale 0.5 + (REPCOUNT * 0.02)
+  MAKE ""sx (SIN (REPCOUNT * 53)) * 175
+  MAKE ""sy 20 - (REPCOUNT * 4.2)
+  PU SETXY :sx :sy PD
+  MAKE ""curve (SIN (REPCOUNT * 37)) * 3
+  SETHEADING :curve * 3
+  SETPC [50 120 45]
+  SETPENSIZE 1 + :scale
+  REPEAT 6 [
+    FD (6 + (MOD REPCOUNT 4)) * :scale
+    RT :curve
+  ]
+  MAKE ""col MOD REPCOUNT 5
+  IFELSE (:col = 0) [SETPC [235 50 85]] [
+    IFELSE (:col = 1) [SETPC [90 130 230]] [
+      IFELSE (:col = 2) [SETPC [255 195 30]] [
+        IFELSE (:col = 3) [SETPC [170 70 190]] [SETPC [245 110 60]]
+      ]
+    ]
+  ]
+  SETPENSIZE 1.5 * :scale
+  MAKE ""petallen (5 + (MOD REPCOUNT 5)) * :scale
+  REPEAT 10 [
+    FD :petallen
+    BK :petallen
+    RT 36
+  ]
+  SETPC [255 245 120]
+  CIRCLE 2 * :scale
+]"
+2026-10-06T15:17:07.860Z,enhanced,1,5,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5.8,7.8/9.4/6.8,9.4,7.8,1.6,false,false,Variant 2,false,6.3,6.2,9.4,true,false,"SETBG [215 238 228]
+REPEAT 65 [
+  MAKE ""gx (SIN (REPCOUNT * 61)) * 185
+  MAKE ""gy -190 + (MOD (REPCOUNT * 27) 130)
+  PU SETXY :gx :gy PD
+  SETPC [75 145 68]
+  SETPENSIZE 1
+  SETHEADING (SIN (REPCOUNT * 39)) * 30
+  REPEAT 5 [FD 7 RT (SIN (REPCOUNT * 17)) * 5]
+]
+REPEAT 50 [
+  MAKE ""depth REPCOUNT / 50
+  MAKE ""scale 0.4 + (:depth * 0.9)
+  MAKE ""sx (SIN (REPCOUNT * 67)) * (160 + (:depth * 30))
+  MAKE ""sy 30 - (:depth * 210)
+  PU SETXY :sx :sy PD
+  MAKE ""stemh (24 + (SIN (REPCOUNT * 23)) * 14 + (:depth * 25))
+  MAKE ""curve (SIN (REPCOUNT * 43)) * 3.5
+  SETHEADING (SIN (REPCOUNT * 51)) * 15
+  SETPC [55 125 45]
+  SETPENSIZE 0.8 + (:depth * 1.6)
+  REPEAT 7 [
+    FD (:stemh / 7)
+    RT :curve * (REPCOUNT - 4) * 0.4
+  ]
+  MAKE ""col MOD REPCOUNT 5
+  IFELSE (:col = 0) [SETPC [240 60 90]] [
+    IFELSE (:col = 1) [SETPC [110 145 240]] [
+      IFELSE (:col = 2) [SETPC [255 205 40]] [
+        IFELSE (:col = 3) [SETPC [165 75 185]] [SETPC [250 125 55]]
+      ]
+    ]
+  ]
+  SETPENSIZE 1.2 * :scale
+  MAKE ""petallen (4 + (MOD REPCOUNT 6) * 1.3) * :scale
+  REPEAT 8 [
+    FD :petallen
+    CIRCLE 1.5 * :scale
+    BK :petallen
+    RT 45
+  ]
+  SETPC [255 245 100]
+  CIRCLE 2.5 * :scale
+]"
+2026-10-06T15:17:38.666Z,enhanced,1,6,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,7.1,6.3/6.1/6.15,7.1,6.3,0.8,false,false,Parent,true,7.1,0,7.1,true,false,"SETBG [215 238 228]
+REPEAT 65 [
+  MAKE ""gx (SIN (REPCOUNT * 61)) * 185
+  MAKE ""gy -190 + (MOD (REPCOUNT * 27) 130)
+  PU SETXY :gx :gy PD
+  SETPC [75 145 68]
+  SETPENSIZE 1
+  SETHEADING (SIN (REPCOUNT * 39)) * 30
+  REPEAT 5 [FD 7 RT (SIN (REPCOUNT * 17)) * 5]
+]
+REPEAT 50 [
+  MAKE ""depth REPCOUNT / 50
+  MAKE ""scale 0.4 + (:depth * 0.9)
+  MAKE ""sx (SIN (REPCOUNT * 67)) * (160 + (:depth * 30))
+  MAKE ""sy 30 - (:depth * 210)
+  PU SETXY :sx :sy PD
+  MAKE ""stemh (24 + (SIN (REPCOUNT * 23)) * 14 + (:depth * 25))
+  MAKE ""curve (SIN (REPCOUNT * 43)) * 3.5
+  SETHEADING (SIN (REPCOUNT * 51)) * 15
+  SETPC [55 125 45]
+  SETPENSIZE 0.8 + (:depth * 1.6)
+  REPEAT 7 [
+    FD (:stemh / 7)
+    RT :curve * (REPCOUNT - 4) * 0.4
+  ]
+  MAKE ""col MOD REPCOUNT 5
+  IFELSE (:col = 0) [SETPC [240 60 90]] [
+    IFELSE (:col = 1) [SETPC [110 145 240]] [
+      IFELSE (:col = 2) [SETPC [255 205 40]] [
+        IFELSE (:col = 3) [SETPC [165 75 185]] [SETPC [250 125 55]]
+      ]
+    ]
+  ]
+  SETPENSIZE 1.2 * :scale
+  MAKE ""petallen (4 + (MOD REPCOUNT 6) * 1.3) * :scale
+  REPEAT 8 [
+    FD :petallen
+    CIRCLE 1.5 * :scale
+    BK :petallen
+    RT 45
+  ]
+  SETPC [255 245 100]
+  CIRCLE 2.5 * :scale
+]"
+2026-10-06T15:18:04.697Z,enhanced,2,1,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,3.2,8.9/9.85/9.25,9.85,9.25,0.6,false,false,Variant 2,false,6.5,6.7,9.85,true,false,"CS
+SETBG [15 30 20]
+FOR [i 1 35] [
+  PU
+  SETXY (RANDOM 320) - 160 (-140 + RANDOM 70)
+  PD
+  SETPENSIZE 2
+  SETPC [60 160 80]
+  SETHEADING (RANDOM 30) - 15
+  FD 40 + (RANDOM 60)
+  SETPC [180 140 240]
+  REPEAT 5 [
+    ARC 180 6
+    RT 72
+  ]
+  SETPC [255 255 200]
+  CIRCLE 3
+]"
+2026-10-06T15:18:24.141Z,enhanced,2,2,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5.4,6.5/9.55/7.4,9.55,7.4,2.15,false,false,Variant 2,false,6.3,6.5,9.55,true,false,"CS
+SETBG [20 35 25]
+FOR [i 1 50] [
+  PU
+  MAKE ""baseY (-170 + RANDOM 200)
+  SETXY ((RANDOM 360) - 180) :baseY
+  PD
+  SETPENSIZE 1.5
+  SETPC [70 170 85]
+  SETHEADING (RANDOM 30) - 15
+  ARC 40 50
+  MAKE ""c RANDOM 3
+  IFELSE :c = 0 [SETPC [255 130 170]] [
+    IFELSE :c = 1 [SETPC [160 170 250]] [SETPC [255 200 80]]
+  ]
+  REPEAT 5 [
+    ARC 180 5
+    RT 72
+  ]
+  SETPC [255 255 220]
+  DOT
+  CIRCLE 2.5
+]"
+2026-10-06T15:18:48.489Z,enhanced,2,3,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5.4,7.5/8.45/7.2,8.45,7.5,0.95,false,false,Variant 2,false,5.7,5.5,8.45,true,false,"CS
+SETBG [25 38 28]
+FOR [i 1 60] [
+  PU
+  MAKE ""baseY (-160 + RANDOM 210)
+  MAKE ""scale (3 + RANDOM 5)
+  SETXY ((RANDOM 360) - 180) :baseY
+  PD
+  SETPENSIZE 1.2
+  SETPC [80 180 90]
+  MAKE ""bend ((RANDOM 9) - 4)
+  SETHEADING :bend
+  REPEAT 8 [
+    FD 4.5
+    RT (:bend * 0.5)
+  ]
+  MAKE ""c RANDOM 3
+  IFELSE :c = 0 [SETPC [245 105 160]] [
+    IFELSE :c = 1 [SETPC [140 190 255]] [SETPC [255 225 90]]
+  ]
+  REPEAT 5 [
+    ARC 140 :scale
+    RT 72
+  ]
+  SETPC [255 240 160]
+  DOT
+  CIRCLE (:scale * 0.35)
+]"
+2026-10-06T15:19:08.934Z,enhanced,2,4,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5.8,9.2/7.8/7.9,9.2,7.9,1.3,false,false,Variant 1,false,6.4,5.6,9.2,true,false,"CS
+SETBG [20 32 22]
+FOR [i 1 70] [
+  PU
+  MAKE ""baseY (-170 + RANDOM 230)
+  MAKE ""scale (3 + RANDOM 6)
+  SETXY ((RANDOM 370) - 185) :baseY
+  PD
+  SETPENSIZE 1.2
+  MAKE ""bend ((RANDOM 9) - 4)
+  SETHEADING :bend
+  REPEAT 8 [
+    SETPC [70 160 80]
+    FD 4.5
+    RT (:bend * 0.5)
+    IF (REPCOUNT = 3) [
+      MAKE ""h HEADING
+      LT 40 FD 5 BK 5 SETHEADING :h
+    ]
+    IF (REPCOUNT = 5) [
+      MAKE ""h HEADING
+      RT 45 FD 6 BK 6 SETHEADING :h
+    ]
+  ]
+  MAKE ""c RANDOM 4
+  IFELSE :c = 0 [SETPC [245 110 160]] [
+    IFELSE :c = 1 [SETPC [130 185 255]] [
+      IFELSE :c = 2 [SETPC [255 220 80]] [SETPC [230 140 240]]
+    ]
+  ]
+  SETPENSIZE 1.5
+  REPEAT 5 [
+    ARC 150 :scale
+    RT 72
+  ]
+  SETPC [255 240 140]
+  DOT
+  CIRCLE (:scale * 0.35)
+]"
+2026-10-06T15:19:34.845Z,enhanced,2,5,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5.8,9/7.5/7.25,9,7.5,1.5,false,false,Variant 1,false,6.4,5.2,9,true,false,"CS
+SETBG [16 26 18]
+FOR [i 1 80] [
+  PU
+  MAKE ""baseY (-175 + RANDOM 240)
+  MAKE ""depthFactor ((:baseY + 180) / 240)
+  MAKE ""scale (2.5 + (:depthFactor * 6.5) + ((RANDOM 20) / 10))
+  SETXY ((RANDOM 380) - 190) :baseY
+  PD
+  SETPENSIZE (0.8 + (:depthFactor * 0.8))
+  MAKE ""bend ((RANDOM 11) - 5)
+  SETHEADING :bend
+  REPEAT 10 [
+    SETPC [60 145 75]
+    FD (3 + (:depthFactor * 2.5))
+    RT ((:bend * 0.3) + ((RANDOM 5) - 2))
+    IF (REPCOUNT = 4) [
+      MAKE ""h HEADING
+      LT (35 + RANDOM 15) FD (4 + (:scale * 0.6)) BK (4 + (:scale * 0.6)) SETHEADING :h
+    ]
+    IF (REPCOUNT = 7) [
+      MAKE ""h HEADING
+      RT (35 + RANDOM 15) FD (5 + (:scale * 0.5)) BK (5 + (:scale * 0.5)) SETHEADING :h
+    ]
+  ]
+  MAKE ""c RANDOM 5
+  IFELSE :c = 0 [SETPC [255 105 150]] [
+    IFELSE :c = 1 [SETPC [110 170 255]] [
+      IFELSE :c = 2 [SETPC [255 210 60]] [
+        IFELSE :c = 3 [SETPC [220 130 235]] [SETPC [250 85 85]]
+      ]
+    ]
+  ]
+  SETPENSIZE 1.4
+  REPEAT 6 [
+    ARC 140 :scale
+    RT 60
+  ]
+  SETPC [255 240 130]
+  DOT
+  CIRCLE (:scale * 0.32)
+]"
+2026-10-06T15:20:15.721Z,enhanced,2,6,true,true,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5.2,9.3/7.4/6.85,9.3,7.4,1.9,false,false,Variant 1,false,6.4,5.8,9.3,true,false,"CS
+SETBG [14 24 16]
+FOR [i 1 90] [
+  PU
+  MAKE ""baseY (-175 + RANDOM 240)
+  MAKE ""depthFactor ((:baseY + 180) / 240)
+  MAKE ""scale (2.5 + (:depthFactor * 6.5) + ((RANDOM 20) / 10))
+  SETXY ((RANDOM 380) - 190) :baseY
+  PD
+  SETPENSIZE (0.8 + (:depthFactor * 1.0))
+  MAKE ""wind (4 + (RANDOM 7))
+  SETHEADING (-10 + (RANDOM 8))
+  REPEAT 12 [
+    SETPC [55 140 70]
+    FD (2.6 + (:depthFactor * 2.2))
+    RT (:wind * 0.45)
+    IF (REPCOUNT = 4) [
+      MAKE ""h HEADING
+      RT (25 + RANDOM 15) FD (5 + (:scale * 0.7)) BK (5 + (:scale * 0.7)) SETHEADING :h
+    ]
+    IF (REPCOUNT = 8) [
+      MAKE ""h HEADING
+      RT (30 + RANDOM 20) FD (6 + (:scale * 0.6)) BK (6 + (:scale * 0.6)) SETHEADING :h
+    ]
+  ]
+  MAKE ""c RANDOM 5
+  IFELSE :c = 0 [SETPC [255 120 160]] [
+    IFELSE :c = 1 [SETPC [120 180 255]] [
+      IFELSE :c = 2 [SETPC [255 215 70]] [
+        IFELSE :c = 3 [SETPC [225 140 240]] [SETPC [255 95 95]]
+      ]
+    ]
+  ]
+  SETPENSIZE 1.3
+  REPEAT 6 [
+    ARC 150 :scale
+    RT 60
+  ]
+  SETPC [255 240 130]
+  DOT
+  CIRCLE (:scale * 0.35)
+]"
+2026-10-06T15:20:37.512Z,original,2,1,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,3,9.5/8/9.5,9.5,9.5,0,true,true,Variant 1,false,6,7,9.5,false,false,"SETBG [15 30 20]
+FOR [i -150 150 25] [
+  PU
+  SETXY :i -140
+  PD
+  SETHEADING (RANDOM 20) - 10
+  SETPENSIZE 2
+  SETPC [60 140 50]
+  FD 80 + RANDOM 40
+  SETPC [255 180 50]
+  REPEAT 12 [
+    FD 14
+    BK 14
+    RT 30
+  ]
+  SETPC [255 240 100]
+  DOT 5
+]"
+2026-10-06T15:20:59.564Z,original,2,2,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5,7.5/8/9,9,8,1,false,false,Variant 3,false,6,6,9,false,false,"SETBG [14 28 22]
+REPEAT 45 [
+  MAKE ""bx (RANDOM 340) - 170
+  MAKE ""by (RANDOM 130) - 160
+  PU
+  SETXY :bx :by
+  PD
+  SETHEADING (RANDOM 24) - 12
+  SETPENSIZE 1 + (:by + 160) * 0.015
+  SETPC [55 125 50]
+  MAKE ""stem 50 + (:by + 160) * 0.5 + RANDOM 30
+  FD :stem * 0.5
+  LT 25 FD 8 BK 8 RT 25
+  FD :stem * 0.5
+  SETPC [255 195 55]
+  IF :bx > 40 [ SETPC [235 105 130] ]
+  IF :bx < -40 [ SETPC [180 130 220] ]
+  REPEAT 8 [
+    FD 11 + (:by + 160) * 0.04
+    BK 11 + (:by + 160) * 0.04
+    RT 45
+  ]
+  SETPC [255 245 140]
+  DOT 4
+]"
+2026-10-06T15:21:21.552Z,original,2,3,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5,8.5/9/7.5,9,8.5,0.5,false,false,Variant 2,false,6,6,9,false,false,"SETBG [12 24 18]
+REPEAT 50 [
+  MAKE ""bx (RANDOM 350) - 175
+  MAKE ""by (RANDOM 140) - 160
+  PU
+  SETXY :bx :by
+  PD
+  MAKE ""bend (RANDOM 9) - 4
+  SETHEADING :bend * 2
+  SETPENSIZE 1.2 + (:by + 160) * 0.018
+  SETPC [45 115 40]
+  MAKE ""stem 40 + (:by + 160) * 0.5 + RANDOM 30
+  REPEAT 5 [
+    FD :stem * 0.2
+    RT :bend * 0.7
+  ]
+  RT 30 FD 10 BK 10 LT 30
+  MAKE ""petals 6 + (RANDOM 4) * 2
+  MAKE ""frad 6 + (:by + 160) * 0.06 + (RANDOM 10)
+  SETPC [250 180 50]
+  IF :bx > 25 [ SETPC [240 110 145] ]
+  IF :bx < -25 [ SETPC [160 140 230] ]
+  IF (ABS :bx) < 25 [ SETPC [245 235 210] ]
+  REPEAT :petals [
+    FD :frad
+    BK :frad
+    RT 360 / :petals
+  ]
+  SETPC [255 220 80]
+  DOT 2 + :frad * 0.25
+]"
+2026-10-06T15:21:44.684Z,original,2,4,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,5,9/7/9.5,9.5,9,0.5,false,false,Variant 3,false,7,5,9.5,false,false,"SETBG [8 22 15]
+REPEAT 70 [
+  MAKE ""bx (RANDOM 360) - 180
+  MAKE ""by (RANDOM 150) - 165
+  PU
+  SETXY :bx :by
+  PD
+  MAKE ""sway (RANDOM 15) - 7
+  SETHEADING :sway * 1.5
+  SETPENSIZE 1 + (:by + 165) * 0.014
+  SETPC [55 120 48]
+  MAKE ""stem 38 + (:by + 165) * 0.5 + RANDOM 22
+  REPEAT 7 [
+    FD :stem / 7
+    RT :sway * 0.8
+  ]
+  MAKE ""petals 5 + (RANDOM 5) * 2
+  MAKE ""frad 6 + (:by + 165) * 0.055 + (RANDOM 7)
+  MAKE ""k RANDOM 6
+  IF :k = 0 [ SETPC [240 70 90] ]
+  IF :k = 1 [ SETPC [255 175 40] ]
+  IF :k = 2 [ SETPC [195 130 235] ]
+  IF :k = 3 [ SETPC [90 190 240] ]
+  IF :k = 4 [ SETPC [255 240 210] ]
+  IF :k = 5 [ SETPC [245 135 185] ]
+  SETPENSIZE 2
+  REPEAT :petals [
+    FD :frad
+    BK :frad
+    RT 360 / :petals
+  ]
+  SETPC [255 225 70]
+  DOT 2.5 + :frad * 0.22
+]"
+2026-10-06T15:22:08.815Z,original,2,5,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,6,7/9.5/7.5,9.5,7.5,2,false,false,Variant 2,false,7,5,9.5,false,false,"SETBG [10 26 18]
+REPEAT 75 [
+  MAKE ""bx (RANDOM 360) - 180
+  MAKE ""by (RANDOM 150) - 165
+  PU
+  SETXY :bx :by
+  PD
+  MAKE ""sway (RANDOM 15) - 7
+  SETHEADING :sway * 1.5
+  SETPENSIZE 1 + (:by + 165) * 0.015
+  SETPC [45 110 40]
+  MAKE ""stem 36 + (:by + 165) * 0.48 + RANDOM 20
+  REPEAT 7 [
+    FD :stem / 7
+    RT :sway * 0.8
+    IF REPCOUNT = 1 [
+      SETPC [60 135 50]
+      LT 50
+      FD 9 + (:by + 165) * 0.06
+      BK 9 + (:by + 165) * 0.06
+      RT 50
+      SETPC [45 110 40]
+    ]
+    IF REPCOUNT = 3 [
+      SETPC [60 135 50]
+      RT 48
+      FD 11 + (:by + 165) * 0.07
+      BK 11 + (:by + 165) * 0.07
+      LT 48
+      SETPC [45 110 40]
+    ]
+  ]
+  MAKE ""petals 5 + (RANDOM 5) * 2
+  MAKE ""frad 6 + (:by + 165) * 0.055 + (RANDOM 7)
+  MAKE ""k RANDOM 6
+  IF :k = 0 [ SETPC [245 80 110] ]
+  IF :k = 1 [ SETPC [255 185 50] ]
+  IF :k = 2 [ SETPC [180 140 240] ]
+  IF :k = 3 [ SETPC [100 200 245] ]
+  IF :k = 4 [ SETPC [255 245 220] ]
+  IF :k = 5 [ SETPC [230 110 160] ]
+  SETPENSIZE 2
+  REPEAT :petals [
+    FD :frad
+    BK :frad
+    RT 360 / :petals
+  ]
+  SETPC [255 220 60]
+  DOT 2.5 + :frad * 0.22
+]"
+2026-10-06T15:22:38.249Z,original,2,6,false,false,openrouter,google/gemini-3.8-flash,A field of wild flowers,5,4,7,6/7/7,7,7,0,true,true,Parent,true,7,0,7,false,false,"SETBG [10 26 18]
+REPEAT 75 [
+  MAKE ""bx (RANDOM 360) - 180
+  MAKE ""by (RANDOM 150) - 165
+  PU
+  SETXY :bx :by
+  PD
+  MAKE ""sway (RANDOM 15) - 7
+  SETHEADING :sway * 1.5
+  SETPENSIZE 1 + (:by + 165) * 0.015
+  SETPC [45 110 40]
+  MAKE ""stem 36 + (:by + 165) * 0.48 + RANDOM 20
+  REPEAT 7 [
+    FD :stem / 7
+    RT :sway * 0.8
+    IF REPCOUNT = 1 [
+      SETPC [60 135 50]
+      LT 50
+      FD 9 + (:by + 165) * 0.06
+      BK 9 + (:by + 165) * 0.06
+      RT 50
+      SETPC [45 110 40]
+    ]
+    IF REPCOUNT = 3 [
+      SETPC [60 135 50]
+      RT 48
+      FD 11 + (:by + 165) * 0.07
+      BK 11 + (:by + 165) * 0.07
+      LT 48
+      SETPC [45 110 40]
+    ]
+  ]
+  MAKE ""petals 5 + (RANDOM 5) * 2
+  MAKE ""frad 6 + (:by + 165) * 0.055 + (RANDOM 7)
+  MAKE ""k RANDOM 6
+  IF :k = 0 [ SETPC [245 80 110] ]
+  IF :k = 1 [ SETPC [255 185 50] ]
+  IF :k = 2 [ SETPC [180 140 240] ]
+  IF :k = 3 [ SETPC [100 200 245] ]
+  IF :k = 4 [ SETPC [255 245 220] ]
+  IF :k = 5 [ SETPC [230 110 160] ]
+  SETPENSIZE 2
+  REPEAT :petals [
+    FD :frad
+    BK :frad
+    RT 360 / :petals
+  ]
+  SETPC [255 220 60]
+  DOT 2.5 + :frad * 0.22
+]"
+2026-10-06T15:23:54.919Z,original,1,1,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,3,7/9.5/10.5,10.5,9.5,1,false,false,Variant 3,false,7,7,10.5,false,false,"CS
+SETBG [10 15 30]
+PU
+SETXY -140 130
+PD
+SETPC [240 240 200]
+CIRCLE 18
+PU
+SETXY -190 -140
+PD
+SETPENSIZE 3
+REPEAT 8 [
+  MAKE ""H 70 + RANDOM 80
+  SETPC [30 40 65]
+  FD :H
+  RT 45 FD 15 RT 90 FD 15 RT 45
+  FD :H
+  LT 90
+  FD 12
+  LT 90
+]
+PU
+SETXY -170 -140
+PD
+SETPC [15 20 35]
+REPEAT 7 [
+  MAKE ""H 50 + RANDOM 70
+  FD :H
+  RT 90 FD 38 RT 90
+  FD :H
+  LT 90
+  FD 15
+  LT 90
+]"
+2026-10-06T15:24:17.862Z,original,1,2,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5,10/5/5,10,5,5,false,false,Variant 1,false,7,6,10,false,false,"CS
+SETBG [8 12 24]
+PU
+SETXY -130 130
+PD
+SETPC [245 240 210]
+CIRCLE 16
+PU
+SETXY -190 -150
+SETPENSIZE 2
+REPEAT 8 [
+  MAKE ""W 36
+  MAKE ""H 90 + RANDOM 70
+  MAKE ""BX XCOR
+  SETPC [22 30 50]
+  PD
+  REPEAT 2 [ FD :H RT 90 FD :W RT 90 ]
+  PU
+  REPEAT 4 [
+    MAKE ""WY -130 + (REPCOUNT * 22)
+    IF :WY < (-150 + :H - 15) [
+      SETXY :BX + 8 :WY
+      SETPC [240 210 90]
+      PD REPEAT 2 [ FD 6 RT 90 FD 4 RT 90 ] PU
+      SETXY :BX + 22 :WY
+      IF RANDOM 3 > 0 [
+        PD REPEAT 2 [ FD 6 RT 90 FD 4 RT 90 ] PU
+      ]
+    ]
+  ]
+  SETXY :BX + :W + 8 -150
+]
+PU
+SETXY -175 -150
+REPEAT 6 [
+  MAKE ""W 44
+  MAKE ""H 60 + RANDOM 65
+  MAKE ""BX XCOR
+  SETPC [12 16 28]
+  PD
+  REPEAT 2 [ FD :H RT 90 FD :W RT 90 ]
+  PU
+  REPEAT 5 [
+    MAKE ""WY -140 + (REPCOUNT * 16)
+    IF :WY < (-150 + :H - 12) [
+      SETXY :BX + 10 :WY
+      IF RANDOM 2 = 1 [ SETPC [255 230 110] ] [ SETPC [40 45 60] ]
+      PD REPEAT 2 [ FD 5 RT 90 FD 6 RT 90 ] PU
+      SETXY :BX + 26 :WY
+      IF RANDOM 2 = 1 [ SETPC [255 220 100] ] [ SETPC [40 45 60] ]
+      PD REPEAT 2 [ FD 5 RT 90 FD 6 RT 90 ] PU
+    ]
+  ]
+  SETXY :BX + :W + 12 -150
+]"
+2026-10-06T15:24:49.166Z,original,1,3,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5,7/9/7.5,9,7.5,1.5,false,false,Variant 2,false,6,6,9,false,false,"CS
+SETBG [10 12 28]
+PU
+SETXY 120 135
+PD
+SETPC [255 250 215]
+CIRCLE 18
+PU
+SETXY -195 -150
+REPEAT 9 [
+  MAKE ""W 34
+  MAKE ""H 80 + RANDOM 85
+  MAKE ""BX XCOR
+  SETPENSIZE :W
+  SETPC [25 32 54]
+  SETXY :BX + (:W / 2) -150
+  PD SETXY :BX + (:W / 2) (-150 + :H) PU
+  SETPENSIZE 1
+  SETXY :BX + (:W / 2) (-150 + :H)
+  SETPC [80 100 140]
+  PD FD 16 PU
+  SETPC [255 50 50]
+  DOT
+  REPEAT 5 [
+    MAKE ""WY -135 + (REPCOUNT * 22)
+    IF :WY < (-150 + :H - 14) [
+      SETXY :BX + 7 :WY
+      SETPC [245 225 110]
+      PD REPEAT 2 [ FD 6 RT 90 FD 4 RT 90 ] PU
+      SETXY :BX + 20 :WY
+      IF RANDOM 2 = 1 [
+        SETPC [140 210 240]
+        PD REPEAT 2 [ FD 6 RT 90 FD 4 RT 90 ] PU
+      ]
+    ]
+  ]
+  SETXY :BX + :W + 6 -150
+]
+SETXY -185 -150
+REPEAT 6 [
+  MAKE ""W 52
+  MAKE ""H 50 + RANDOM 75
+  MAKE ""BX XCOR
+  SETPENSIZE :W
+  SETPC [12 16 30]
+  SETXY :BX + (:W / 2) -150
+  PD SETXY :BX + (:W / 2) (-150 + :H) PU
+  SETPENSIZE 2
+  SETPC [30 38 60]
+  SETXY :BX -150
+  PD REPEAT 2 [ FD :H RT 90 FD :W RT 90 ] PU
+  REPEAT 5 [
+    MAKE ""WY -138 + (REPCOUNT * 18)
+    IF :WY < (-150 + :H - 12) [
+      FOR [COL 8 36 14] [
+        SETXY :BX + :COL :WY
+        IFELSE RANDOM 3 > 0 [ SETPC [255 210 80] ] [ SETPC [22 28 42] ]
+        PD REPEAT 2 [ FD 6 RT 90 FD 5 RT 90 ] PU
+      ]
+    ]
+  ]
+  SETXY :BX + :W + 10 -150
+]"
+2026-10-06T15:25:19.114Z,original,1,4,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,6,8.5/10/6.5,10,8.5,1.5,false,false,Variant 2,false,7,6,10,false,false,"CS
+SETBG [6 8 20]
+PU
+SETXY -130 145
+PD
+SETPC [255 240 190]
+CIRCLE 15
+PU
+SETXY -195 -150
+REPEAT 8 [
+  MAKE ""W 42
+  MAKE ""H 90 + RANDOM 75
+  MAKE ""BX XCOR
+  SETPENSIZE :W
+  SETPC [20 25 45]
+  SETXY :BX + (:W / 2) -150
+  PD SETXY :BX + (:W / 2) (-150 + :H) PU
+  SETPENSIZE 2
+  SETPC [70 90 140]
+  SETXY :BX + (:W / 2) (-150 + :H)
+  PD FD 24 PU
+  SETPC [255 40 40]
+  DOT
+  SETPENSIZE 1
+  SETPC [20 25 45]
+  SETXY :BX + 6 (-150 + :H)
+  PD SETXY :BX + (:W / 2) (-150 + :H + 20) SETXY :BX + :W - 6 (-150 + :H) PU
+  REPEAT 6 [
+    MAKE ""WY -135 + (REPCOUNT * 20)
+    IF :WY < (-150 + :H - 10) [
+      SETXY :BX + 10 :WY
+      SETPC [255 220 110]
+      PD REPEAT 2 [ FD 5 RT 90 FD 4 RT 90 ] PU
+      SETXY :BX + 26 :WY
+      IF RANDOM 3 > 0 [
+        SETPC [120 190 225]
+        PD REPEAT 2 [ FD 5 RT 90 FD 4 RT 90 ] PU
+      ]
+    ]
+  ]
+  SETXY :BX + :W + 7 -150
+]
+SETXY -190 -150
+REPEAT 6 [
+  MAKE ""W 50
+  MAKE ""H 55 + RANDOM 85
+  MAKE ""BX XCOR
+  MAKE ""ROOF MOD REPCOUNT 3
+  SETPENSIZE :W
+  SETPC [10 14 26]
+  SETXY :BX + (:W / 2) -150
+  PD SETXY :BX + (:W / 2) (-150 + :H) PU
+  SETPENSIZE 2
+  SETPC [38 50 78]
+  IF :ROOF = 0 [
+    SETXY :BX (-150 + :H)
+    PD SETXY :BX + :W (-150 + :H + 18) SETXY :BX + :W -150 PU
+  ]
+  IF :ROOF = 1 [
+    SETXY :BX (-150 + :H)
+    PD SETXY :BX + (:W / 2) (-150 + :H + 22) SETXY :BX + :W (-150 + :H) PU
+    SETXY :BX + (:W / 2) (-150 + :H + 22)
+    SETPC [255 60 60]
+    PD FD 8 PU
+  ]
+  IF :ROOF = 2 [
+    SETXY :BX + 8 (-150 + :H)
+    PD FD 14 RT 90 FD (:W - 16) RT 90 FD 14 PU
+  ]
+  REPEAT 5 [
+    MAKE ""WY -138 + (REPCOUNT * 18)
+    IF :WY < (-150 + :H - 12) [
+      FOR [COL 7 35 13] [
+        SETXY :BX + :COL :WY
+        IFELSE RANDOM 3 > 0 [ SETPC [255 215 90] ] [ SETPC [18 24 38] ]
+        PD REPEAT 2 [ FD 6 RT 90 FD 5 RT 90 ] PU
+      ]
+    ]
+  ]
+  SETXY :BX + :W + 11 -150
+]"
+2026-10-06T15:25:58.384Z,original,1,5,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5,8.5/8.5/6.5,8.5,8.5,0,true,true,Variant 1,false,6,5,8.5,false,false,"CS
+SETBG [5 8 22]
+REPEAT 35 [
+  PU SETXY (-190 + RANDOM 380) (65 + RANDOM 125)
+  SETPC [200 220 255] DOT
+]
+PU SETXY -125 140 PD SETPC [255 245 200] CIRCLE 14 PU
+SETXY -195 -150
+REPEAT 8 [
+  MAKE ""W 42 MAKE ""H 90 + RANDOM 75 MAKE ""BX XCOR
+  SETPENSIZE :W SETPC [22 28 48]
+  SETXY :BX + (:W / 2) -150 PD SETXY :BX + (:W / 2) (-150 + :H) PU
+  SETPENSIZE 2 SETPC [70 90 140] SETXY :BX + (:W / 2) (-150 + :H) PD FD 22 PU
+  SETPC [255 50 50] DOT SETPENSIZE 1 SETPC [22 28 48]
+  SETXY :BX + 6 (-150 + :H) PD SETXY :BX + (:W / 2) (-150 + :H + 20) SETXY :BX + :W - 6 (-150 + :H) PU
+  REPEAT 6 [
+    MAKE ""WY -135 + (REPCOUNT * 20)
+    IF :WY < (-150 + :H - 10) [
+      SETXY :BX + 10 :WY SETPC [255 220 110] PD REPEAT 2 [ FD 5 RT 90 FD 4 RT 90 ] PU
+      SETXY :BX + 26 :WY IF RANDOM 3 > 0 [ SETPC [120 190 225] PD REPEAT 2 [ FD 5 RT 90 FD 4 RT 90 ] PU ]
+    ]
+  ]
+  SETXY :BX + :W + 7 -150
+]
+SETXY -190 -150
+REPEAT 6 [
+  MAKE ""W 50 MAKE ""H 55 + RANDOM 85 MAKE ""BX XCOR MAKE ""ROOF MOD REPCOUNT 3
+  SETPENSIZE :W SETPC [10 14 26] SETXY :BX + (:W / 2) -150 PD SETXY :BX + (:W / 2) (-150 + :H) PU
+  SETPENSIZE 2 SETPC [38 50 78]
+  IF :ROOF = 0 [ SETXY :BX (-150 + :H) PD SETXY :BX + :W (-150 + :H + 18) SETXY :BX + :W -150 PU ]
+  IF :ROOF = 1 [ SETXY :BX (-150 + :H) PD SETXY :BX + (:W / 2) (-150 + :H + 22) SETXY :BX + :W (-150 + :H) PU SETXY :BX + (:W / 2) (-150 + :H + 22) SETPC [255 60 60] PD FD 8 PU ]
+  IF :ROOF = 2 [ SETXY :BX + 8 (-150 + :H) PD FD 14 RT 90 FD (:W - 16) RT 90 FD 14 PU ]
+  REPEAT 5 [
+    MAKE ""WY -138 + (REPCOUNT * 18)
+    IF :WY < (-150 + :H - 12) [
+      FOR [COL 7 35 13] [
+        SETXY :BX + :COL :WY IFELSE RANDOM 3 > 0 [ SETPC [255 215 90] ] [ SETPC [18 24 38] ]
+        PD REPEAT 2 [ FD 6 RT 90 FD 5 RT 90 ] PU
+      ]
+    ]
+  ]
+  SETXY :BX + :W + 11 -150
+]"
+2026-10-06T15:26:32.046Z,original,1,6,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,6,7/8.5/7.5,8.5,7.5,1,false,false,Variant 2,false,6,5,8.5,false,false,"CS
+SETBG [6 10 26]
+REPEAT 40 [
+  PU SETXY (-190 + RANDOM 380) (60 + RANDOM 130)
+  SETPC [210 230 255] DOT
+]
+PU SETXY -130 145 PD SETPC [250 240 210] CIRCLE 15 PU
+SETXY -195 -150
+REPEAT 8 [
+  MAKE ""W 44 MAKE ""H 80 + RANDOM 85 MAKE ""BX XCOR
+  SETPENSIZE :W SETPC [24 30 52]
+  SETXY :BX + (:W / 2) -150 PD SETXY :BX + (:W / 2) (-150 + :H) PU
+  SETPENSIZE 2 SETPC [65 85 135]
+  IFELSE (MOD REPCOUNT 2) = 0 [
+    SETXY :BX + 10 (-150 + :H) PD FD 12 RT 90 FD (:W - 20) RT 90 FD 12 PU
+  ] [
+    SETXY :BX + (:W / 2) (-150 + :H) PD FD 26 PU SETPC [255 70 70] DOT
+  ]
+  REPEAT 6 [
+    MAKE ""WY -135 + (REPCOUNT * 20)
+    IF :WY < (-150 + :H - 10) [
+      SETXY :BX + 8 :WY SETPC [255 230 130] PD REPEAT 2 [ FD 5 RT 90 FD 4 RT 90 ] PU
+      SETXY :BX + 24 :WY IF RANDOM 3 > 0 [ SETPC [100 180 230] PD REPEAT 2 [ FD 5 RT 90 FD 4 RT 90 ] PU ]
+    ]
+  ]
+  SETXY :BX + :W + 6 -150
+]
+SETXY -192 -150
+REPEAT 6 [
+  MAKE ""W 52 MAKE ""H 60 + RANDOM 85 MAKE ""BX XCOR MAKE ""ROOF MOD REPCOUNT 3
+  SETPENSIZE :W SETPC [14 18 34] SETXY :BX + (:W / 2) -150 PD SETXY :BX + (:W / 2) (-150 + :H) PU
+  SETPENSIZE 2 SETPC [50 65 100]
+  IF :ROOF = 0 [
+    SETXY :BX + 5 (-150 + :H) PD FD 10 RT 90 FD (:W - 10) RT 90 FD 10 PU
+    SETXY :BX + 12 (-150 + :H + 10) PD FD 8 RT 90 FD (:W - 24) RT 90 FD 8 PU
+    SETXY :BX + (:W / 2) (-150 + :H + 18) SETPC [255 50 50] PD FD 10 PU DOT
+  ]
+  IF :ROOF = 1 [
+    SETXY :BX + 2 (-150 + :H) PD SETXY :BX + (:W / 2) (-150 + :H + 30) SETXY :BX + :W - 2 (-150 + :H) PU
+    SETXY :BX + (:W / 2) (-150 + :H + 30) SETPC [255 50 50] PD FD 14 PU DOT
+  ]
+  IF :ROOF = 2 [
+    SETPENSIZE (:W - 12) SETPC [14 18 34] SETXY :BX + (:W / 2) (-150 + :H + 10) PD FD 1 PU
+    SETPENSIZE 2 SETPC [80 110 160] SETXY :BX + 8 (-150 + :H) PD
+    SETHEADING 0 REPEAT 18 [ FD 1.8 RT 10 ] PU
+  ]
+  REPEAT 6 [
+    MAKE ""WY -136 + (REPCOUNT * 17)
+    IF :WY < (-150 + :H - 12) [
+      FOR [COL 7 38 12] [
+        SETXY :BX + :COL :WY IFELSE RANDOM 3 > 0 [ SETPC [255 210 90] ] [ SETPC [20 28 46] ]
+        PD REPEAT 2 [ FD 6 RT 90 FD 5 RT 90 ] PU
+      ]
+    ]
+  ]
+  SETXY :BX + :W + 10 -150
+]"
+2026-10-06T15:27:00.291Z,enhanced,1,1,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,3.2,9.8/9.85/9.05,9.85,9.8,0.05,false,false,Variant 2,false,6.5,6.7,9.85,true,false,"CS
+SETBG [10 15 30]
+PU SETXY -180 -130 PD
+REPEAT 14 [
+  MAKE ""H 40 + (MOD (REPCOUNT * 29) 100)
+  SETPC [70 95 140]
+  FD :H
+  RT 90 FD 18 RT 90
+  FD :H
+  LT 90 FD 8 LT 90
+]
+PU SETXY -150 120 SETPC [255 240 160] PD
+CIRCLE 20"
+2026-10-06T15:27:30.348Z,enhanced,1,2,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5.2,9.6/6.85/7.05,9.6,7.05,2.55,false,false,Variant 1,false,6.8,5.6,9.6,true,false,"CS
+SETBG [10 15 32]
+PU SETXY -180 -130 PD
+REPEAT 14 [
+  MAKE ""H 45 + (MOD (REPCOUNT * 37) 120)
+  MAKE ""BX XCOR
+  SETPC [60 80 120]
+  FD :H RT 90 FD 22 RT 90 FD :H LT 90 FD 4 LT 90
+  PU
+  REPEAT (INT ((:H - 15) / 12)) [
+    MAKE ""WY -125 + (REPCOUNT * 12)
+    SETXY :BX + 5 :WY
+    SETPC [255 225 100]
+    PD FD 3 PU
+    SETXY :BX + 11 :WY
+    IFELSE (MOD (REPCOUNT + :BX) 3) = 0 [SETPC [35 45 70]] [SETPC [255 210 80]]
+    PD FD 3 PU
+    SETXY :BX + 17 :WY
+    SETPC [255 235 120]
+    PD FD 3 PU
+  ]
+  SETXY :BX + 26 -130
+  PD
+]
+PU SETXY -140 130 SETPC [255 240 170] PD CIRCLE 22"
+2026-10-06T15:27:58.865Z,enhanced,1,3,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5.3,8.6/9.3/7.2,9.3,8.6,0.7,false,false,Variant 2,false,6.5,5.6,9.3,true,false,"CS
+SETBG [6 10 24]
+PU
+REPEAT 40 [
+  SETXY (-195 + MOD (REPCOUNT * 63) 390) (20 + MOD (REPCOUNT * 41) 165)
+  IFELSE (MOD REPCOUNT 4) = 0 [SETPC [255 255 220]] [SETPC [140 170 210]]
+  DOT
+]
+SETXY -130 130 SETPC [255 245 180] PD CIRCLE 18 PU
+SETXY -182 -130 PD
+REPEAT 14 [
+  MAKE ""H 42 + (MOD (REPCOUNT * 43) 125)
+  MAKE ""BX XCOR
+  MAKE ""RTYPE MOD REPCOUNT 4
+  SETPC [40 55 90]
+  FD :H
+  IFELSE :RTYPE = 0 [
+    RT 30 FD 22 RT 120 FD 11 RT 30
+  ] [
+    IFELSE :RTYPE = 1 [
+      RT 90 FD 4 LT 90 FD 8 RT 90 FD 14 RT 90 FD 8 LT 90 FD 4 RT 90
+    ] [
+      IFELSE :RTYPE = 2 [
+        RT 90 FD 11 LT 90 FD 25 BK 25 RT 90 FD 11 RT 90
+      ] [
+        RT 90 FD 22 RT 90
+      ]
+    ]
+  ]
+  FD :H LT 90 FD 4 LT 90
+  PU
+  REPEAT (INT ((:H - 20) / 11)) [
+    MAKE ""WY -124 + (REPCOUNT * 11)
+    SETXY :BX + 5 :WY
+    SETPC [255 215 80]
+    PD FD 3 PU
+    SETXY :BX + 11 :WY
+    IFELSE (MOD (REPCOUNT * 7 + :BX) 5) < 2 [SETPC [20 30 50]] [SETPC [255 235 120]]
+    PD FD 3 PU
+    SETXY :BX + 17 :WY
+    SETPC [255 195 70]
+    PD FD 3 PU
+  ]
+  SETXY :BX + 26 -130
+  PD
+]"
+2026-10-06T15:28:24.555Z,enhanced,1,4,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,6.4,5.8/8.95/5.75,8.95,6.4,2.55,false,false,Variant 2,false,6.1,5.7,8.95,true,false,"CS
+SETBG [4 6 18]
+PU
+REPEAT 45 [
+  SETXY (-190 + MOD (REPCOUNT * 61) 380) (40 + MOD (REPCOUNT * 37) 150)
+  SETPC (IFELSE (MOD REPCOUNT 4) = 0 [[255 255 230]] [[100 130 170]])
+  DOT
+]
+SETXY 110 130 SETPC [255 240 170] PD CIRCLE 15 PU
+REPEAT 20 [
+  MAKE ""BX -190 + (REPCOUNT * 19)
+  MAKE ""BH 80 + MOD (REPCOUNT * 41) 90
+  SETPC [14 20 38]
+  SETWIDTH 17
+  SETXY :BX -140 PD SETY (-140 + :BH) PU
+]
+SETWIDTH 1
+REPEAT 14 [
+  MAKE ""H 35 + (MOD (REPCOUNT * 51) 120)
+  MAKE ""BX -195 + ((REPCOUNT - 1) * 27)
+  SETPC [25 36 62]
+  SETWIDTH 22
+  SETXY (:BX + 11) -140 PD SETY (-140 + :H) PU
+  SETWIDTH 1
+  SETPC [85 110 155]
+  SETXY :BX -140 PD SETY (-140 + :H)
+  IFELSE (MOD REPCOUNT 3) = 0 [SETXY (:BX + 11) (-140 + :H + 18) SETXY (:BX + 22) (-140 + :H)] [SETX (:BX + 22)]
+  SETY -140 PU
+  REPEAT (INT ((:H - 16) / 10)) [
+    MAKE ""WY -132 + (REPCOUNT * 10)
+    SETXY (:BX + 5) :WY SETPC (IFELSE (MOD (:BX + :WY) 3) = 0 [[255 235 130]] [[20 28 45]]) PD FD 2 PU
+    SETXY (:BX + 11) :WY SETPC (IFELSE (MOD (:BX + :WY) 4) = 0 [[255 190 70]] [[255 240 140]]) PD FD 2 PU
+    SETXY (:BX + 17) :WY SETPC (IFELSE (MOD (:BX + :WY) 2) = 0 [[255 210 90]] [[18 24 40]]) PD FD 2 PU
+  ]
+]"
+2026-10-06T15:29:00.905Z,enhanced,1,5,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5.4,8.8/8.6/8.45,8.8,8.6,0.2,false,false,Variant 1,false,6.2,5.2,8.8,true,false,"CS
+SETBG [5 7 20]
+PU
+REPEAT 50 [
+  SETXY (-190 + MOD (REPCOUNT * 67) 380) (40 + MOD (REPCOUNT * 31) 150)
+  SETPC (IFELSE (MOD REPCOUNT 5) = 0 [[255 255 255]] [[120 150 190]])
+  DOT
+]
+SETXY 120 135 SETPC [255 245 190] PD CIRCLE 14 PU
+REPEAT 20 [
+  MAKE ""BX -190 + (REPCOUNT * 19)
+  MAKE ""BH 75 + MOD (REPCOUNT * 43) 95
+  SETPC [16 22 42]
+  SETWIDTH 17
+  SETXY :BX -140 PD SETY (-140 + :BH) PU
+  REPEAT (INT (:BH / 22)) [
+    MAKE ""WY -135 + (REPCOUNT * 20)
+    SETPC (IFELSE (MOD (REPCOUNT + :BX) 3) = 0 [[255 210 110]] [[180 200 220]])
+    SETWIDTH 2
+    SETXY (:BX - 3) :WY PD FD 2 PU
+    SETXY (:BX + 3) :WY PD FD 2 PU
+  ]
+]
+REPEAT 14 [
+  MAKE ""H 40 + (MOD (REPCOUNT * 53) 120)
+  MAKE ""BX -195 + ((REPCOUNT - 1) * 27)
+  SETPC [22 32 55]
+  SETWIDTH 22
+  SETXY (:BX + 11) -140 PD SETY (-140 + :H) PU
+  SETWIDTH 1
+  SETPC [70 95 135]
+  SETXY :BX -140 PD SETY (-140 + :H)
+  IFELSE (MOD REPCOUNT 3) = 0 [
+    SETXY (:BX + 11) (-140 + :H + 20)
+    SETPC [255 240 180] DOT
+    SETPC [70 95 135]
+    SETXY (:BX + 22) (-140 + :H)
+  ] [SETX (:BX + 22)]
+  SETY -140 PU
+  REPEAT (INT ((:H - 14) / 9)) [
+    MAKE ""WY -133 + (REPCOUNT * 9)
+    SETXY (:BX + 5) :WY SETPC (IFELSE (MOD (:BX + :WY) 4) = 0 [[255 255 240]] [[255 215 100]]) PD FD 2 PU
+    SETXY (:BX + 11) :WY SETPC (IFELSE (MOD (:BX * 2 + :WY) 3) = 0 [[255 240 150]] [[28 38 60]]) PD FD 2 PU
+    SETXY (:BX + 17) :WY SETPC (IFELSE (MOD (:BX + :WY) 5) = 0 [[255 255 255]] [[255 195 80]]) PD FD 2 PU
+  ]
+]
+REPEAT 30 [
+  MAKE ""RX -190 + (REPCOUNT * 13)
+  SETPC (IFELSE (MOD REPCOUNT 2) = 0 [[60 80 110]] [[120 110 70]])
+  SETWIDTH 1
+  SETXY :RX (-145 - MOD (REPCOUNT * 19) 45) PD SETX (:RX + 10) PU
+]"
+2026-10-06T15:29:36.275Z,enhanced,1,6,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,6.8,6.05/5.8/5.95,6.8,6.05,0.75,false,false,Parent,true,6.8,0,6.8,true,false,"CS
+SETBG [5 7 20]
+PU
+REPEAT 50 [
+  SETXY (-190 + MOD (REPCOUNT * 67) 380) (40 + MOD (REPCOUNT * 31) 150)
+  SETPC (IFELSE (MOD REPCOUNT 5) = 0 [[255 255 255]] [[120 150 190]])
+  DOT
+]
+SETXY 120 135 SETPC [255 245 190] PD CIRCLE 14 PU
+REPEAT 20 [
+  MAKE ""BX -190 + (REPCOUNT * 19)
+  MAKE ""BH 75 + MOD (REPCOUNT * 43) 95
+  SETPC [16 22 42]
+  SETWIDTH 17
+  SETXY :BX -140 PD SETY (-140 + :BH) PU
+  REPEAT (INT (:BH / 22)) [
+    MAKE ""WY -135 + (REPCOUNT * 20)
+    SETPC (IFELSE (MOD (REPCOUNT + :BX) 3) = 0 [[255 210 110]] [[180 200 220]])
+    SETWIDTH 2
+    SETXY (:BX - 3) :WY PD FD 2 PU
+    SETXY (:BX + 3) :WY PD FD 2 PU
+  ]
+]
+REPEAT 14 [
+  MAKE ""H 40 + (MOD (REPCOUNT * 53) 120)
+  MAKE ""BX -195 + ((REPCOUNT - 1) * 27)
+  SETPC [22 32 55]
+  SETWIDTH 22
+  SETXY (:BX + 11) -140 PD SETY (-140 + :H) PU
+  SETWIDTH 1
+  SETPC [70 95 135]
+  SETXY :BX -140 PD SETY (-140 + :H)
+  IFELSE (MOD REPCOUNT 3) = 0 [
+    SETXY (:BX + 11) (-140 + :H + 20)
+    SETPC [255 240 180] DOT
+    SETPC [70 95 135]
+    SETXY (:BX + 22) (-140 + :H)
+  ] [SETX (:BX + 22)]
+  SETY -140 PU
+  REPEAT (INT ((:H - 14) / 9)) [
+    MAKE ""WY -133 + (REPCOUNT * 9)
+    SETXY (:BX + 5) :WY SETPC (IFELSE (MOD (:BX + :WY) 4) = 0 [[255 255 240]] [[255 215 100]]) PD FD 2 PU
+    SETXY (:BX + 11) :WY SETPC (IFELSE (MOD (:BX * 2 + :WY) 3) = 0 [[255 240 150]] [[28 38 60]]) PD FD 2 PU
+    SETXY (:BX + 17) :WY SETPC (IFELSE (MOD (:BX + :WY) 5) = 0 [[255 255 255]] [[255 195 80]]) PD FD 2 PU
+  ]
+]
+REPEAT 30 [
+  MAKE ""RX -190 + (REPCOUNT * 13)
+  SETPC (IFELSE (MOD REPCOUNT 2) = 0 [[60 80 110]] [[120 110 70]])
+  SETWIDTH 1
+  SETXY :RX (-145 - MOD (REPCOUNT * 19) 45) PD SETX (:RX + 10) PU
+]"
+2026-10-06T15:29:55.489Z,enhanced,2,1,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,3,3.1,6/10.05,10.05,6,4.05,false,false,Variant 2,false,6.8,6.5,10.05,true,false,"CS
+SETBG [8 12 28]
+PU SETXY 100 110 PD
+SETPC [240 240 210]
+CIRCLE 20
+PU SETXY -170 -130 PD
+SETWIDTH 20
+REPEAT 10 [
+  MAKE ""H (50 + (MOD (REPCOUNT * 47) 90))
+  SETPC [30 45 75]
+  FD :H
+  BK :H
+  PU RT 90 FD 34 LT 90 PD
+]"
+2026-10-06T15:30:16.990Z,enhanced,2,2,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5.2,6.7/9.55/6.65,9.55,6.7,2.85,false,false,Variant 2,false,6.5,6.1,9.55,true,false,"CS
+SETBG [10 15 35]
+PU SETXY 110 115 PD
+SETPC [250 245 200]
+CIRCLE 18
+PU SETXY -170 -140 PD
+REPEAT 10 [
+  MAKE ""H (50 + (MOD (REPCOUNT * 53) 95))
+  SETWIDTH 24
+  SETPC [25 38 65]
+  PD FD :H BK :H PU
+  SETWIDTH 2
+  MAKE ""FLOORS INT (:H / 10)
+  REPEAT :FLOORS [
+    FD 9
+    IFELSE (MOD (REPCOUNT * 7) 5) > 1 [
+      SETPC [255 240 160]
+      PD DOT PU
+    ] [
+      SETPC [60 80 110]
+      PD DOT PU
+    ]
+  ]
+  BK (:FLOORS * 9)
+  RT 90 FD 34 LT 90
+]"
+2026-10-06T15:30:38.573Z,enhanced,2,3,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,4.8,8.3/7.95/8.95,8.95,8.3,0.65,false,false,Variant 3,false,5.9,6.1,8.95,true,false,"CS
+SETBG [6 8 22]
+REPEAT 30 [
+  PU SETXY (-190 + RANDOM 380) (30 + RANDOM 150) PD
+  SETPC [220 230 255]
+  DOT
+]
+PU SETXY 100 110 PD
+SETPC [255 240 180]
+CIRCLE 20
+PU SETXY -190 -160 PD
+REPEAT 10 [
+  MAKE ""W 34
+  MAKE ""H (55 + (MOD (REPCOUNT * 67) 130))
+  SETPC [15 22 40]
+  SETWIDTH 1
+  REPEAT :W [
+    PD FD :H BK :H PU
+    RT 90 FD 1 LT 90
+  ]
+  RT 180 FD :W LT 180
+  MAKE ""FLOORS INT ((:H - 16) / 11)
+  REPEAT :FLOORS [
+    PU FD 11
+    RT 90 FD 7 LT 90
+    REPEAT 2 [
+      IFELSE (MOD (REPCOUNT * 7 + :FLOORS) 3) = 0 [
+        SETPC [255 220 120]
+      ] [
+        SETPC [45 60 90]
+      ]
+      PD REPEAT 4 [ FD 5 RT 90 ] PU
+      RT 90 FD 13 LT 90
+    ]
+    RT 90 BK 33 LT 90
+  ]
+  BK (:FLOORS * 11)
+  RT 90 FD 39 LT 90
+]"
+2026-10-06T15:31:06.168Z,enhanced,2,4,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,6.7,6.25/6.15/6.1,6.7,6.25,0.45,false,false,Parent,true,6.7,0,6.7,true,false,"CS
+SETBG [6 8 22]
+REPEAT 30 [
+  PU SETXY (-190 + RANDOM 380) (30 + RANDOM 150) PD
+  SETPC [220 230 255]
+  DOT
+]
+PU SETXY 100 110 PD
+SETPC [255 240 180]
+CIRCLE 20
+PU SETXY -190 -160 PD
+REPEAT 10 [
+  MAKE ""W 34
+  MAKE ""H (55 + (MOD (REPCOUNT * 67) 130))
+  SETPC [15 22 40]
+  SETWIDTH 1
+  REPEAT :W [
+    PD FD :H BK :H PU
+    RT 90 FD 1 LT 90
+  ]
+  RT 180 FD :W LT 180
+  MAKE ""FLOORS INT ((:H - 16) / 11)
+  REPEAT :FLOORS [
+    PU FD 11
+    RT 90 FD 7 LT 90
+    REPEAT 2 [
+      IFELSE (MOD (REPCOUNT * 7 + :FLOORS) 3) = 0 [
+        SETPC [255 220 120]
+      ] [
+        SETPC [45 60 90]
+      ]
+      PD REPEAT 4 [ FD 5 RT 90 ] PU
+      RT 90 FD 13 LT 90
+    ]
+    RT 90 BK 33 LT 90
+  ]
+  BK (:FLOORS * 11)
+  RT 90 FD 39 LT 90
+]"
+2026-10-06T15:31:30.744Z,enhanced,2,5,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5.4,9.05/8/6.45,9.05,8,1.05,false,false,Variant 1,false,6.3,5.5,9.05,true,false,"CS
+SETBG [5 10 25]
+REPEAT 40 [
+  PU SETXY (-190 + RANDOM 380) (20 + RANDOM 160) PD
+  SETPC [210 225 255]
+  DOT
+]
+PU SETXY 110 115 PD
+SETPC [255 245 200]
+CIRCLE 18
+PU SETXY -200 -130 PD
+SETPC [20 30 50]
+SETWIDTH 2
+SETHEADING 90 FD 400 SETHEADING 0
+PU SETXY -185 -130 PD
+REPEAT 9 [
+  MAKE ""W (28 + MOD (REPCOUNT * 13) 18)
+  MAKE ""H (60 + MOD (REPCOUNT * 83) 170)
+  SETPC [14 20 36]
+  SETWIDTH 1
+  REPEAT :W [
+    PD FD :H BK :H PU
+    RT 90 FD 1 LT 90
+  ]
+  RT 180 FD :W LT 180
+  IF :H > 140 [
+    PU RT 90 FD (:W / 2) LT 90 FD :H PD
+    SETPC [180 190 210] FD 25
+    SETPC [255 60 60] DOT
+    PU BK (:H + 25) LT 90 FD (:W / 2) RT 90
+  ]
+  MAKE ""FLOORS INT ((:H - 18) / 12)
+  REPEAT :FLOORS [
+    PU FD 12 RT 90 FD 6 LT 90
+    REPEAT 2 [
+      IFELSE (MOD (REPCOUNT * 5 + :FLOORS) 2) = 0 [
+        SETPC [255 215 110]
+      ] [
+        SETPC [40 50 75]
+      ]
+      PD REPEAT 4 [ FD 5 RT 90 ] PU
+      RT 90 FD 11 LT 90
+    ]
+    RT 90 BK 28 LT 90
+  ]
+  BK (:FLOORS * 12)
+  RT 90 FD (:W + 6) LT 90
+]
+PU SETXY -200 -131 PD
+SETPC [10 15 30]
+REPEAT 60 [
+  PU SETXY (-190 + RANDOM 380) (-132 - RANDOM 60) PD
+  SETPC [30 45 75]
+  SETHEADING 90 FD (10 + RANDOM 30) SETHEADING 0
+]"
+2026-10-06T15:32:07.820Z,enhanced,2,6,true,true,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,6.9,6/5.8/6.05,6.9,6.05,0.85,false,false,Parent,true,6.9,0,6.9,true,false,"CS
+SETBG [5 10 25]
+REPEAT 40 [
+  PU SETXY (-190 + RANDOM 380) (20 + RANDOM 160) PD
+  SETPC [210 225 255]
+  DOT
+]
+PU SETXY 110 115 PD
+SETPC [255 245 200]
+CIRCLE 18
+PU SETXY -200 -130 PD
+SETPC [20 30 50]
+SETWIDTH 2
+SETHEADING 90 FD 400 SETHEADING 0
+PU SETXY -185 -130 PD
+REPEAT 9 [
+  MAKE ""W (28 + MOD (REPCOUNT * 13) 18)
+  MAKE ""H (60 + MOD (REPCOUNT * 83) 170)
+  SETPC [14 20 36]
+  SETWIDTH 1
+  REPEAT :W [
+    PD FD :H BK :H PU
+    RT 90 FD 1 LT 90
+  ]
+  RT 180 FD :W LT 180
+  IF :H > 140 [
+    PU RT 90 FD (:W / 2) LT 90 FD :H PD
+    SETPC [180 190 210] FD 25
+    SETPC [255 60 60] DOT
+    PU BK (:H + 25) LT 90 FD (:W / 2) RT 90
+  ]
+  MAKE ""FLOORS INT ((:H - 18) / 12)
+  REPEAT :FLOORS [
+    PU FD 12 RT 90 FD 6 LT 90
+    REPEAT 2 [
+      IFELSE (MOD (REPCOUNT * 5 + :FLOORS) 2) = 0 [
+        SETPC [255 215 110]
+      ] [
+        SETPC [40 50 75]
+      ]
+      PD REPEAT 4 [ FD 5 RT 90 ] PU
+      RT 90 FD 11 LT 90
+    ]
+    RT 90 BK 28 LT 90
+  ]
+  BK (:FLOORS * 12)
+  RT 90 FD (:W + 6) LT 90
+]
+PU SETXY -200 -131 PD
+SETPC [10 15 30]
+REPEAT 60 [
+  PU SETXY (-190 + RANDOM 380) (-132 - RANDOM 60) PD
+  SETPC [30 45 75]
+  SETHEADING 90 FD (10 + RANDOM 30) SETHEADING 0
+]"
+2026-10-06T15:32:27.636Z,original,2,1,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,3,6.5/6.5/10.5,10.5,6.5,4,false,false,Variant 3,false,7,7,10.5,false,false,"SETBG [10 15 35]
+PU SETXY -180 -150 PD
+SETPENSIZE 14
+REPEAT 26 [
+  MAKE ""H 40 + (MOD (REPCOUNT * 47) 120)
+  SETPC [20 28 48]
+  FD :H
+  SETPC [240 210 90]
+  IF (MOD REPCOUNT 3) = 0 [ DOT ]
+  PU BK :H RT 90 FD 14 LT 90 PD
+]
+PU SETXY -80 130 PD
+SETPC [255 250 200]
+DOT
+PU SETXY 40 110 PD DOT
+PU SETXY 120 140 PD DOT"
+2026-10-06T15:32:55.419Z,original,2,2,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5,6/10/9,10,9,1,false,false,Variant 2,false,7,6,10,false,false,"SETBG [6 10 24]
+REPEAT 25 [
+  PU SETXY (-180 + RANDOM 360) (40 + RANDOM 140) PD
+  SETPC [220 230 255]
+  DOT
+]
+REPEAT 13 [
+  MAKE ""BX -180 + (REPCOUNT * 26)
+  MAKE ""H 70 + (MOD (REPCOUNT * 67) 150)
+  PU SETXY :BX -160 PD
+  SETPENSIZE 24
+  SETPC [16 20 38]
+  FD :H
+  PU SETXY :BX :H - 160 PD
+  SETPENSIZE 2
+  SETPC [35 45 70]
+  LT 90 FD 12 RT 90 FD 2 RT 90 FD 24 RT 90 FD 2 LT 90
+  FOR [Y -145 (-160 + :H - 12) 14] [
+    FOR [DX -6 6 6] [
+      PU SETXY (:BX + :DX) :Y PD
+      IFELSE (MOD (:BX + :Y) 7) > 2 [ SETPC [245 215 90] ] [ SETPC [25 32 50] ]
+      DOT
+    ]
+  ]
+]"
+2026-10-06T15:33:17.633Z,original,2,3,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,4,9/7/7.5,9,7.5,1.5,false,false,Variant 1,false,6,6,9,false,false,"SETBG [5 8 20]
+REPEAT 35 [
+  PU SETXY (-190 + RANDOM 380) (30 + RANDOM 160) PD
+  SETPC [210 225 255]
+  DOT
+]
+PU SETXY 120 140 PD
+SETPC [255 245 210]
+CIRCLE 12
+REPEAT 15 [
+  MAKE ""BX -185 + (REPCOUNT * 24)
+  MAKE ""H 60 + (MOD (REPCOUNT * 73) 165)
+  PU SETXY :BX -160 PD
+  SETPENSIZE 22
+  SETPC [14 18 34]
+  FD :H
+  IF :H > 140 [
+    PU SETXY :BX (:H - 160) PD
+    SETPENSIZE 1
+    SETPC [200 60 60]
+    FD 16
+    DOT
+  ]
+  FOR [Y -148 (-160 + :H - 10) 11] [
+    FOR [DX -6 6 4] [
+      PU SETXY (:BX + :DX) :Y PD
+      IFELSE (MOD (:BX * 3 + :Y * 5) 10) > 3 [ SETPC [255 215 70] ] [ SETPC [22 28 48] ]
+      DOT
+    ]
+  ]
+]"
+2026-10-06T15:33:46.228Z,original,2,4,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,3,6,7/7.5,7.5,7,0.5,false,false,Variant 2,false,5,5,7.5,false,false,"SETBG [6 8 24]
+REPEAT 45 [
+  PU SETXY (-190 + RANDOM 380) (25 + RANDOM 165) PD
+  SETPC [220 230 255]
+  DOT
+]
+PU SETXY -110 130 PD
+SETPC [250 245 220]
+CIRCLE 11
+REPEAT 15 [
+  MAKE ""BX -182 + (REPCOUNT * 24)
+  MAKE ""H 45 + (MOD (REPCOUNT * 89) 120) + (IFELSE (ABS (:BX + 10)) < 70 [60] [0])
+  PU SETXY :BX -160 PD
+  SETH 0
+  SETPENSIZE 22
+  SETPC [15 19 36]
+  FD :H
+  MAKE ""TOPY :H - 160
+  PU SETXY (:BX - 13) :TOPY PD
+  SETH 90
+  SETPENSIZE 3
+  SETPC [30 38 60]
+  FD 26
+  IFELSE (MOD REPCOUNT 3) = 0 [
+    PU SETXY (:BX - 6) (:TOPY + 3) PD
+    SETH 0
+    SETPENSIZE 10
+    SETPC [20 26 46]
+    FD 12
+  ] [
+    IF (MOD REPCOUNT 3) = 1 [
+      PU SETXY :BX (:TOPY + 3) PD
+      SETH 0
+      SETPENSIZE 14
+      SETPC [20 26 46]
+      FD 8
+      PU SETXY :BX (:TOPY + 11) PD
+      SETPENSIZE 1
+      SETPC [220 50 50]
+      FD 14
+      DOT
+    ]
+  ]
+  FOR [Y -148 (:TOPY - 8) 10] [
+    FOR [DX -6 6 4] [
+      PU SETXY (:BX + :DX) :Y PD
+      IFELSE (MOD (:BX * 5 + :Y * 3) 9) > 3 [ SETPC [255 220 80] ] [ SETPC [22 28 48] ]
+      DOT
+    ]
+  ]
+]"
+2026-10-06T15:34:10.215Z,original,2,5,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,3,5,9.5/7,9.5,7,2.5,false,false,Variant 1,false,7,5,9.5,false,false,"SETBG [5 6 20]
+REPEAT 60 [
+  PU SETXY (-195 + RANDOM 390) (10 + RANDOM 180) PD
+  SETPC [220 230 255]
+  DOT
+]
+PU SETXY -120 135 PD
+SETPC [255 240 180]
+CIRCLE 14
+REPEAT 16 [
+  MAKE ""BX -185 + (REPCOUNT * 23)
+  MAKE ""H 50 + (MOD (REPCOUNT * 97) 125) + (IFELSE (ABS (:BX + 15)) < 65 [55] [0])
+  PU SETXY :BX -160 PD
+  SETH 0
+  SETPENSIZE 21
+  SETPC [14 18 34]
+  FD :H
+  MAKE ""TOPY :H - 160
+  PU SETXY (:BX - 12) :TOPY PD
+  SETH 90
+  SETPENSIZE 2
+  SETPC [40 50 75]
+  FD 24
+  IF (MOD REPCOUNT 2) = 1 [
+    PU SETXY :BX :TOPY PD
+    SETH 0
+    SETPENSIZE 1
+    SETPC [240 60 60]
+    FD 16
+    DOT
+  ]
+  FOR [Y -152 (:TOPY - 6) 8] [
+    FOR [DX -6 6 4] [
+      IF (RANDOM 10) > 3 [
+        PU SETXY (:BX + :DX) :Y PD
+        SETPC [255 235 70]
+        IF (RANDOM 5) = 0 [ SETPC [255 255 180] ]
+        DOT
+      ]
+    ]
+  ]
+]"
+2026-10-06T15:34:33.508Z,original,2,6,false,false,openrouter,google/gemini-3.8-flash,A city skyline at night,5,4,5,10/8/6.5,10,8,2,false,false,Variant 1,false,7,6,10,false,false,"SETBG [8 10 28]
+REPEAT 75 [
+  PU SETXY (-195 + RANDOM 390) ( RANDOM 190) PD
+  SETPC [210 225 255]
+  DOT
+]
+PU SETXY 120 140 PD
+SETPC [255 245 200]
+CIRCLE 16
+REPEAT 12 [
+  MAKE ""BX -180 + (REPCOUNT * 30)
+  MAKE ""H 70 + (MOD (REPCOUNT * 73) 110)
+  PU SETXY :BX -160 PD
+  SETH 0
+  SETPENSIZE 28
+  SETPC [20 25 48]
+  FD :H
+  FOR [Y -150 (:H - 170) 7] [
+    FOR [DX -9 9 6] [
+      IF (RANDOM 10) > 4 [
+        PU SETXY (:BX + :DX) :Y PD
+        SETPC [140 160 190]
+        DOT
+      ]
+    ]
+  ]
+]
+REPEAT 18 [
+  MAKE ""BX -195 + (REPCOUNT * 21)
+  MAKE ""H 45 + (MOD (REPCOUNT * 83) 130) + (IFELSE (ABS (:BX + 10)) < 70 [50] [0])
+  PU SETXY :BX -160 PD
+  SETH 0
+  SETPENSIZE 19
+  SETPC [10 14 28]
+  FD :H
+  MAKE ""TOPY :H - 160
+  PU SETXY (:BX - 10) :TOPY PD
+  SETH 90
+  SETPENSIZE 2
+  SETPC [50 65 95]
+  FD 20
+  IF (MOD REPCOUNT 3) < 2 [
+    PU SETXY :BX :TOPY PD
+    SETH 0
+    SETPENSIZE 1
+    SETPC [255 60 60]
+    FD 14
+    DOT
+  ]
+  FOR [Y -152 (:TOPY - 6) 6] [
+    FOR [DX -6 6 3] [
+      IF (RANDOM 10) > 2 [
+        PU SETXY (:BX + :DX) :Y PD
+        SETPC [255 230 60]
+        IF (RANDOM 4) = 0 [ SETPC [255 255 190] ]
+        DOT
+      ]
+    ]
+  ]
+]"
+2026-10-06T15:35:59.916Z,original,1,1,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,3,10.5/7/9.5,10.5,9.5,1,false,false,Variant 1,false,7,7,10.5,false,false,"CS
+SETBG BLACK
+SETPENCOLOR [100 220 255]
+SETWIDTH 1.5
+REPEAT 72 [
+  FD 100
+  RT 145
+]"
+2026-10-06T15:36:17.085Z,original,1,2,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6,10/6.5/8,10,8,2,false,false,Variant 1,false,7,6,10,false,false,"CS
+SETBG BLACK
+SETPENCOLOR [80 200 255]
+SETWIDTH 1.2
+REPEAT 144 [
+  FD REPCOUNT * 1.4
+  RT 145
+]"
+2026-10-06T15:36:37.515Z,original,1,3,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6,8/9.5/7,9.5,8,1.5,false,false,Variant 2,false,7,5,9.5,false,false,"CS
+SETBG BLACK
+SETPENCOLOR [255 170 110]
+SETWIDTH 1.3
+REPEAT 210 [
+  FD 3 + (REPCOUNT * 0.5) + (REPCOUNT * REPCOUNT * 0.006)
+  RT 144.4
+]"
+2026-10-06T15:36:54.507Z,original,1,4,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6,7/10.5/8,10.5,8,2.5,false,false,Variant 2,false,7,7,10.5,false,false,"CS
+SETBG BLACK
+SETPENCOLOR [180 220 255]
+SETWIDTH 1.2
+REPEAT 240 [
+  FD 1.5 + (REPCOUNT * 0.3) + (REPCOUNT * REPCOUNT * REPCOUNT * 0.000035)
+  RT 137.52
+]"
+2026-10-06T15:37:09.597Z,original,1,5,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6,7/7.5/8.5,8.5,7.5,1,false,false,Variant 3,false,6,5,8.5,false,false,"CS
+SETBG BLACK
+SETPENCOLOR [120 240 200]
+SETWIDTH 1.3
+REPEAT 260 [
+  FD (REPCOUNT * 0.3) * (1 + 0.35 * SIN (REPCOUNT * 8)) + (REPCOUNT * REPCOUNT * 0.0008)
+  RT 137.508
+]"
+2026-10-06T15:37:26.716Z,original,1,6,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,5,8/6/8.5,8.5,8,0.5,false,false,Variant 3,false,6,5,8.5,false,false,"CS
+SETBG BLACK
+SETPENCOLOR [190 130 255]
+SETWIDTH 1.3
+REPEAT 270 [
+  FD 16 + (REPCOUNT * 0.35) * (1 + 0.4 * SIN (REPCOUNT * 14)) + (10 * SIN (REPCOUNT * 3))
+  RT 137.508
+]"
+2026-10-06T15:37:41.415Z,enhanced,1,1,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,3.2,10.3/9.65/8.15,10.3,9.65,0.65,false,false,Variant 1,false,6.8,7,10.3,true,false,"CS
+SETBG BLACK
+SETPC CYAN
+REPEAT 120 [
+  FD REPCOUNT * 1.5
+  RT 89
+]"
+2026-10-06T15:38:03.100Z,enhanced,1,2,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,5.3,6.6/9.1/9.3,9.3,9.1,0.2,false,false,Variant 3,false,6.7,5.2,9.3,true,false,"CS
+SETBG BLACK
+SETPENSIZE 1
+REPEAT 320 [
+  SETPC [120 240 255]
+  FD (REPCOUNT * 0.55) + (SIN (REPCOUNT * 4)) * 12
+  RT 90.75
+]"
+2026-10-06T15:38:16.841Z,enhanced,1,3,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,5.8,8.35/7.35/9.35,9.35,8.35,1,false,false,Variant 3,false,6.1,6.5,9.35,true,false,"CS
+SETBG BLACK
+SETPENSIZE 1
+REPEAT 380 [
+  SETPC (LIST (INT (40 + 215 * (REPCOUNT / 380))) (INT (100 + 155 * (SIN (REPCOUNT * 4)))) (INT (255 * (1 - REPCOUNT / 450))))
+  FD (REPCOUNT * 0.5) + (SIN (REPCOUNT * 3)) * 18
+  RT 120.4
+]"
+2026-10-06T15:38:36.387Z,enhanced,1,4,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,5.5,8.1/7.85/7.9,8.1,7.9,0.2,false,false,Variant 1,false,6.2,3.8,8.1,true,false,"CS
+SETBG BLACK
+SETPENSIZE 1
+REPEAT 420 [
+  SETPC (LIST (INT (30 + 225 * (REPCOUNT / 420))) (INT (120 + 130 * (SIN (REPCOUNT * 3)))) (INT (240 * (1 - REPCOUNT / 480))))
+  FD (SQRT REPCOUNT) * 8.5 + (SIN (REPCOUNT * 3)) * 14
+  RT 120.35
+]"
+2026-10-06T15:38:57.554Z,enhanced,1,5,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6.8,7.7/8.5/6.95,8.5,7.7,0.8,false,false,Variant 2,false,5.4,6.2,8.5,true,false,"CS
+SETBG BLACK
+SETPENSIZE 1
+REPEAT 450 [
+  SETPC (LIST (INT (120 + 130 * (COS (REPCOUNT * 2.2)))) (INT (50 + 200 * (REPCOUNT / 450))) (INT (220 * (ABS (SIN (REPCOUNT * 1.8))))))
+  FD (SQRT REPCOUNT) * 9.0 + (COS (REPCOUNT * 5)) * 10
+  RT 120.4 + 0.35 * (COS (REPCOUNT * 3.6))
+]"
+2026-10-06T15:39:20.811Z,enhanced,1,6,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6.2,7.5/9.8/7.3,9.8,7.5,2.3,false,false,Variant 2,false,6.7,6.2,9.8,true,false,"CS
+SETBG BLACK
+SETPENSIZE 1
+REPEAT 3 [
+  MAKE ""ARM REPCOUNT
+  PU HOME SETHEADING :ARM * 120 PD
+  REPEAT 320 [
+    SETPC (LIST (INT (130 + 125 * (COS (REPCOUNT * 2.4 + :ARM * 40)))) (INT (40 + 215 * (REPCOUNT / 320))) (INT (240 * (ABS (SIN (REPCOUNT * 1.6))))))
+    FD (SQRT REPCOUNT) * 8.5 + (COS (REPCOUNT * 5)) * 9
+    RT 120.35 + 0.4 * (COS (REPCOUNT * 3.2))
+  ]
+]"
+2026-10-06T15:39:57.258Z,enhanced,2,1,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,3.2,10.5/9.65/8.3,10.5,9.65,0.85,false,false,Variant 1,false,7.1,6.8,10.5,true,false,"CS SETBG 0
+SETPC [255 215 80]
+REPEAT 72 [
+  FD 100
+  RT 145
+]"
+2026-10-06T15:40:21.828Z,enhanced,2,2,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6.8,7.4/10.45/6.8,10.45,7.4,3.05,false,false,Variant 2,false,7.1,6.7,10.45,true,false,"CS SETBG 0
+SETPENSIZE 1
+REPEAT 4 [
+  MAKE ""L REPCOUNT
+  SETPC (LIST 255 (150 + :L * 25) (40 + :L * 45))
+  REPEAT 72 [
+    FD (28 * :L)
+    RT 145
+  ]
+]"
+2026-10-06T15:40:37.561Z,enhanced,2,3,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6.2,9.7/7.15/7.9,9.7,7.9,1.8,false,false,Variant 1,false,6.8,5.8,9.7,true,false,"CS SETBG 0
+SETPENSIZE 1
+REPEAT 5 [
+  MAKE ""L REPCOUNT
+  SETPC (LIST (40 + :L * 40) (255 - :L * 30) (150 + :L * 20))
+  REPEAT 90 [
+    FD (:L * 1.5 + REPCOUNT * 1.2)
+    RT 145
+  ]
+]"
+2026-10-06T15:41:00.238Z,enhanced,2,4,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6.2,8.3/9.55/8.3,9.55,8.3,1.25,false,false,Variant 2,false,6.5,6.1,9.55,true,false,"CS SETBG 0
+SETPENSIZE 1
+REPEAT 8 [
+  MAKE ""L REPCOUNT
+  SETPC (LIST (255 - :L * 25) (60 + :L * 20) (140 + :L * 14))
+  REPEAT 80 [
+    FD (:L * 1.2 + REPCOUNT * 1.4)
+    RT 135
+  ]
+  RT 45
+]"
+2026-10-06T15:41:20.438Z,enhanced,2,5,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6.8,8.5/6.8/7.8,8.5,7.8,0.7,false,false,Variant 1,false,5.6,5.8,8.5,true,false,"CS SETBG 0
+SETPENSIZE 1
+REPEAT 8 [
+  MAKE ""L REPCOUNT
+  SETPC (LIST (240 - :L * 20) (80 + :L * 18) (255 - :L * 15))
+  REPEAT 90 [
+    FD (150 / :L + REPCOUNT * (1 + 1 / REPCOUNT))
+    RT 135
+  ]
+  RT 45
+]"
+2026-10-06T15:41:40.434Z,enhanced,2,6,true,true,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,5.2,7.5/9.5/8.6,9.5,8.6,0.9,false,false,Variant 2,false,6.6,5.8,9.5,true,false,"CS SETBG 0
+SETPENSIZE 1
+REPEAT 8 [
+  MAKE ""L REPCOUNT
+  PU HOME
+  SETHEADING (:L * 45)
+  FD (20 * (1.2 ^ :L))
+  PD
+  SETPC (LIST (40 + :L * 25) (220 - :L * 15) (180 + :L * 9))
+  REPEAT 60 [
+    FD (0.8 * :L * SQRT REPCOUNT)
+    RT 134
+  ]
+]"
+2026-10-06T15:41:58.131Z,original,2,1,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,3,9.5/10.5/7,10.5,9.5,1,false,false,Variant 2,false,7,7,10.5,false,false,"CS
+SETBG ""BLACK
+SETPC ""GOLD
+REPEAT 120 [
+  FD 100
+  RT 137.5
+]"
+2026-10-06T15:42:26.610Z,original,2,2,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6,7.5/8.5/7,8.5,7.5,1,false,false,Variant 2,false,6,5,8.5,false,false,"CS
+SETBG ""BLACK
+SETPC ""AMBER
+SETPENSIZE 1.5
+REPEAT 180 [
+  FD (SQRT REPCOUNT) * 11
+  RT 137.5
+]"
+2026-10-06T15:42:42.812Z,original,2,3,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6,7.5/9.5/8,9.5,8,1.5,false,false,Variant 2,false,7,5,9.5,false,false,"CS
+SETBG ""BLACK
+SETPC ""GOLD
+SETPENSIZE 1.5
+REPEAT 300 [
+  FD ((SQRT REPCOUNT) * 8) + (22 * COS (REPCOUNT * 6))
+  RT 137.51
+]"
+2026-10-06T15:43:19.871Z,original,2,4,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6,7/8.5/7.5,8.5,7.5,1,false,false,Variant 2,false,6,5,8.5,false,false,"CS
+SETBG ""BLACK
+SETPC ""CYAN
+REPEAT 380 [
+  SETPENSIZE 1
+  FD ((SQRT REPCOUNT) * 7) + (15 * COS (REPCOUNT * 3)) + (10 * SIN (REPCOUNT * 10))
+  RT 137.3
+]"
+2026-10-06T15:43:38.058Z,original,2,5,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,6,7/7/7.5,7.5,7,0.5,false,false,Variant 3,false,5,5,7.5,false,false,"CS
+SETBG ""BLACK
+SETPC ""SKYBLUE
+REPEAT 420 [
+  SETPENSIZE 1 + (SIN (REPCOUNT * 2))
+  FD (((SQRT REPCOUNT) * 7) + (14 * COS (REPCOUNT * 6))) * (1 + 0.3 * SIN (REPCOUNT * (360 / 60)))
+  RT 137.6
+]"
+2026-10-06T15:44:55.496Z,original,2,6,false,false,openrouter,google/gemini-3.8-flash,Mathematical beauty where simple rules generate complexity,5,4,4,9/9/10,10,9,1,false,false,Variant 3,false,7,6,10,false,false,"CS
+SETBG ""BLACK
+SETPC ""MINT
+REPEAT 420 [
+  SETPENSIZE 1 + 0.7 * (SIN (REPCOUNT * 5))
+  FD (1.5 + (REPCOUNT * 0.4)) * (1 + 0.14 * COS (REPCOUNT * 5))
+  RT 72.25
+]"
+# final picture v0 of batch Bmuws91zc = original, run 1 (6 rounds), taste: A single red circle
+# final picture v1 of batch Bmuws91zc = enhanced, run 1 (6 rounds), taste: A single red circle
+# final picture v2 of batch Bmuws91zc = enhanced, run 2 (6 rounds), taste: A single red circle
+# final picture v3 of batch Bmuws91zc = original, run 2 (6 rounds), taste: A single red circle
+# final picture v0 of batch Bmuwspco5 = original, run 1 (6 rounds), taste: A five-pointed star
+# final picture v1 of batch Bmuwspco5 = enhanced, run 1 (6 rounds), taste: A five-pointed star
+# final picture v2 of batch Bmuwspco5 = enhanced, run 2 (6 rounds), taste: A five-pointed star
+# final picture v3 of batch Bmuwspco5 = original, run 2 (6 rounds), taste: A five-pointed star
+# final picture v0 of batch Bmuwt27h9 = original, run 1 (6 rounds), taste: A snowflake
+# final picture v1 of batch Bmuwt27h9 = enhanced, run 1 (6 rounds), taste: A snowflake
+# final picture v2 of batch Bmuwt27h9 = enhanced, run 2 (6 rounds), taste: A snowflake
+# final picture v3 of batch Bmuwt27h9 = original, run 2 (6 rounds), taste: A snowflake
+# final picture v0 of batch Bmuwtfzi2 = original, run 1 (6 rounds), taste: Mondrian
+# final picture v1 of batch Bmuwtfzi2 = enhanced, run 1 (6 rounds), taste: Mondrian
+# final picture v2 of batch Bmuwtfzi2 = enhanced, run 2 (6 rounds), taste: Mondrian
+# final picture v3 of batch Bmuwtfzi2 = original, run 2 (6 rounds), taste: Mondrian
+# final picture v0 of batch Bmuwtv41d = original, run 1 (6 rounds), taste: A field of wild flowers
+# final picture v1 of batch Bmuwtv41d = enhanced, run 1 (6 rounds), taste: A field of wild flowers
+# final picture v2 of batch Bmuwtv41d = enhanced, run 2 (6 rounds), taste: A field of wild flowers
+# final picture v3 of batch Bmuwtv41d = original, run 2 (6 rounds), taste: A field of wild flowers
+# final picture v0 of batch Bmuwuafxn = original, run 1 (6 rounds), taste: A city skyline at night
+# final picture v1 of batch Bmuwuafxn = enhanced, run 1 (6 rounds), taste: A city skyline at night
+# final picture v2 of batch Bmuwuafxn = enhanced, run 2 (6 rounds), taste: A city skyline at night
+# final picture v3 of batch Bmuwuafxn = original, run 2 (6 rounds), taste: A city skyline at night
+# final picture v0 of batch Bmuwunrv1 = original, run 1 (6 rounds), taste: Mathematical beauty where simple rules generate complexity
+# final picture v1 of batch Bmuwunrv1 = enhanced, run 1 (6 rounds), taste: Mathematical beauty where simple rules generate complexity
+# final picture v2 of batch Bmuwunrv1 = enhanced, run 2 (6 rounds), taste: Mathematical beauty where simple rules generate complexity
+# final picture v3 of batch Bmuwunrv1 = original, run 2 (6 rounds), taste: Mathematical beauty where simple rules generate complexity

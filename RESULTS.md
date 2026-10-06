@@ -341,3 +341,51 @@ What this shows:
   drift, so this is suggestive only.
 - Caveats: one taste, one model as both modifier and critic, 10 rounds, and the
   same model judged the finals.
+
+## Seven tastes, small runs (6 Oct)
+Ken's suggestion: vary the difficulty of the goal, and do small experiments
+before big ones. Modifier, critic and final judge google/gemini-3.8-flash via
+OpenRouter, start `FD 100`, 3 variants, magnitude 5, 6 rounds, 2 runs of each
+version per taste (168 rounds, about $2.40). Data:
+`data/evolution-2026-10-06-seven-tastes.csv`,
+`data/rows-2026-10-06-seven-tastes-finals.csv`.
+
+| taste | ties, original | ties, enhanced | mean gap, original | final aesthetic, orig / enh |
+|---|---|---|---|---|
+| A single red circle | **5 of 12** | 0 of 12 | 0.75 | 7.01 / 5.31 |
+| A five-pointed star | **4 of 12** | 0 of 12 | 0.79 | 6.69 / 6.52 |
+| A snowflake | 1 of 12 | 1 of 12 | 1.13 | 6.91 / 6.49 |
+| Mondrian | 1 of 12 | 0 of 12 | 1.00 | 5.26 / 6.86 |
+| A field of wild flowers | **5 of 12** | 0 of 12 | 0.71 | 6.44 / 5.86 |
+| A city skyline at night | 1 of 12 | 0 of 12 | 1.79 | 6.32 / 5.85 |
+| Mathematical beauty... | 0 of 12 | 0 of 12 | 1.21 | 5.90 / 6.21 |
+| **all** | **17 of 84** | **1 of 84** | | 6.36 / 6.16 |
+
+- **Ties again fall with the enhancements:** 17 of 84 rounds against 1 of 84,
+  Fisher exact p = 6.5e-5. All 17 went to the first-listed candidate; in 2 of
+  them that was the parent, so the round was wasted.
+- **Ties depend on the taste, but not simply on difficulty.** The two simplest
+  goals (circle, star) tied a lot, and so did wild flowers; the open-ended goal
+  (mathematical beauty) never tied. What does line up is the gap: the three
+  tastes with the smallest mean gap between the top two (0.71, 0.75, 0.79) had
+  14 of the 17 ties, and the four with gaps of 1.0 or more had 3 (14 of 36
+  rounds against 3 of 48, p = 1.4e-4; rank correlation between gap and ties
+  -0.85 over seven tastes). The gap rule from the frozen batches holds in live
+  evolution. A plausible reading: with a simple, concrete goal several variants
+  satisfy it equally (scores like 10 / 10 / 10), so the critic cannot separate them.
+- **Still no gain in the final pictures.** Enhanced minus original over the 14
+  taste-and-run pairs averages -0.20, positive in 4 of 14, sign-flip p = 0.56.
+  Single tastes swing both ways (Mondrian +1.6, red circle -1.7), which with two
+  runs each is noise.
+- Ties per round in the original, rounds 1 to 6: 4, 2, 1, 4, 4, 2 (of 14 each).
+  No trend. Four ties came in round 1, where every variant is very different
+  from `FD 100` and they score alike.
+- **The plateau shows up on every taste.** The parent's aesthetic score reaches
+  about 6 by round 3 or 4 and stays there, easy goal or hard. And in 4 enhanced
+  rounds (all late, all on wild flowers or city skyline) no variant beat the
+  parent at all (for example parent 7.1 against 6.3 / 6.1 / 6.15), so the parent
+  was kept without any tie. On hard goals the modifier's variants stop being
+  improvements.
+- Pooled with the 5 Oct run: 27 of 144 original rounds tied, 2 of 144 enhanced.
+- Caveats: 2 runs per taste, so the per-taste rows are a survey, not results;
+  one model in every role.
