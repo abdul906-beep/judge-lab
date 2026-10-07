@@ -71,6 +71,19 @@ if it wins, list order did not give it the win. These are hand-written, not
 evolved, so the gap between variants is set on purpose. Expect whole-number
 ties on the close sets and none on the far sets.
 
+**6. Ranking instead of scoring** (10 calls per judge per batch, about 80 per
+judge; added 7 Oct). The critic is asked to order the pictures from best to
+worst, with no ties allowed, in place of scoring each one. The variants are
+shown in a fresh random order every call. A ranking is stored as points (best
+of n gets n, worst gets 1) so the usual results table works. On the far sets
+the strongest variant should come first every time. On the close sets and
+Mondrian, the question is whether the same variant keeps winning, which would
+mean the critic can tell them apart when made to compare, or whichever variant
+lands in a particular slot, which the position table shows. The prompt keeps
+the app's weighting (taste first, distinctness from the parent second) so only
+the form of the judgement changes. This is ranking in one call, not a separate
+call for every pair.
+
 ## Evolution: original vs enhanced (added 1 Oct)
 
 Everything above scores one frozen round. This runs the real evolution loop.
@@ -81,6 +94,14 @@ Section 4 of the Judge Lab panel has two enhancements, both ticked by default:
   now added to the app's own Critic call
 - **break ties at random, not by list order** — replaces the rule that hands a
   tie to the earliest candidate
+
+A third, unticked by default, replaces those two while it is on:
+
+- **the critic ranks the pictures instead of scoring them** — the ranking prompt
+  from experiment 6, used inside the evolution loop, with the variants shuffled
+  each round. A ranking cannot tie. Rows from this version have `rankCritic`
+  true, and their score columns hold ranking points, not aesthetic scores, so
+  compare versions by the final judging and by `step-size.js`, not by score.
 
 While ticked they also apply to the app's own **Start** button, so the page is
 the app with the enhancements built in. Untick both to get the original

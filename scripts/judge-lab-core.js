@@ -179,6 +179,34 @@ function jlRoundSummary(pool, winnerIdx){
     criticFailed: pool.some(c=>/critic failed|not scored/.test(c.reason||''))
   };
 }
-if (typeof module!=='undefined') module.exports={jlPickWinner,jlRoundSummary,jlMean,jlSD,jlScore,jlIdentityOrder,
+/* ── ranking critic ─────────────────────────────────────────────
+   The critic is asked to order the pictures, best first, instead of scoring
+   each one. jlParseRanking reads its reply; it must name every image exactly
+   once (0 = parent, 1..n-1 = variants as presented) or the reply is rejected,
+   because silently filling gaps would invent a preference. */
+function jlParseRanking(raw, nImages){
+  const m = String(raw||'').match(/\{[\s\S]*\}/);
+  if(!m) throw new Error('ranking reply has no JSON object');
+  let obj;
+  try { obj = JSON.parse(m[0]); } catch(e){ throw new Error('ranking reply is not valid JSON'); }
+  const r = (obj.ranking||[]).map(Number);
+  const seen = {};
+  const ok = r.length===nImages && r.every(x=>Number.isInteger(x) && x>=0 && x<nImages && !seen[x] && (seen[x]=true));
+  if(!ok) throw new Error('ranking must list each of the '+nImages+' images once, got ['+r.join(',')+']');
+  return {ranking:r, reason:String(obj.reason||''), suggestedImprovement:String(obj.suggestedImprovement||'')};
+}
+/* Turn a ranking into the evaluations the app expects. Best of n gets n
+   points, the next n-1, down to 1; novelty is 0, so score = points and the
+   app's "highest score wins" picks the top-ranked picture. order maps a
+   presented variant slot back to the variant's own number (see jlShuffled). */
+function jlRankingToEvaluations(parsed, order){
+  const n = parsed.ranking.length;
+  return parsed.ranking.map((img, idx) => ({
+    imageNumber: img===0 ? 0 : (order ? order[img-1]+1 : img),
+    aestheticScore: n-idx, noveltyScore: 0,
+    reason: idx===0 ? (parsed.reason || 'ranked first') : 'ranked '+(idx+1)+' of '+n
+  })).sort((a,b)=>a.imageNumber-b.imageNumber);
+}
+if (typeof module!=='undefined') module.exports={jlParseRanking,jlRankingToEvaluations,jlPickWinner,jlRoundSummary,jlMean,jlSD,jlScore,jlIdentityOrder,
   jlShuffled,jlMapEvaluations,jlWinnerOf,jlStats,jlWinnerStability,jlPositionEffect,
   jlCorrelation,jlFavouritism,jlCSV};

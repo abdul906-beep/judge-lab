@@ -218,8 +218,15 @@ async function jlScoreOnce(batch, judge, order, opts){
   const t0 = performance.now();
   let raw = '', err = null, parsed = {evaluations:[], suggestedImprovement:''};
   try {
-    raw = await jlCallJudge(judge, system, userText, imgs);
-    parsed = parseCritiqueJSON(raw);
+    if(opts.rank){
+      raw = await jlCallJudge(judge, JL_RANK_SYS, userText, imgs);
+      const pr = JLCore.jlParseRanking(raw, imgs.length);
+      // positions stay as presented here; jlMapEvaluations below undoes the shuffle
+      parsed = {evaluations: JLCore.jlRankingToEvaluations(pr), suggestedImprovement: pr.suggestedImprovement};
+    } else {
+      raw = await jlCallJudge(judge, system, userText, imgs);
+      parsed = parseCritiqueJSON(raw);
+    }
   } catch(e){ err = e.message; }
   const latency = Math.round(performance.now() - t0);
   const mapped = JLCore.jlMapEvaluations(parsed.evaluations, order);
@@ -249,7 +256,8 @@ async function jlRun(config){
         jlStatus('Call ' + (done+1) + ' of ' + total + ' — ' + batch.name
                  + ' / ' + judge.model + ' / repeat ' + rep);
         const r = await jlScoreOnce(batch, judge, order,
-                                    {taste: config.taste, criticSystem: config.criticSystem});
+                                    {taste: config.taste, criticSystem: config.criticSystem,
+                                     rank: config.precision === 'rank'});
         const stamp = new Date().toISOString();
         const callId = 'c' + (JL.callSeq = (JL.callSeq || 0) + 1) + '-' + stamp;
         if(r.mapped.length === 0){
@@ -288,7 +296,7 @@ function jlAnalyse(rows){
   const byBatchJudge = {};
   rows.forEach(function(r){
     if(!r.target) return;
-    const k = r.batchId + ' | ' + r.judgeModel + (r.precision === 'decimal' ? ' | decimals' : ' | whole numbers');
+    const k = r.batchId + ' | ' + r.judgeModel + (r.precision === 'decimal' ? ' | decimals' : r.precision === 'rank' ? ' | ranking (points: best of n gets n)' : ' | whole numbers');
     (byBatchJudge[k] = byBatchJudge[k] || []).push(r);
   });
   for(const k in byBatchJudge){
@@ -525,6 +533,12 @@ const JL_PRESETS = {
     calls: 0,
     tests: 'Six new batches: snowflake, city skyline and spiral galaxy, each as a close set (three near-identical variants) and a far set (one clearly strongest, listed last). Expect whole-number ties on the close sets and none on the far ones. Tick every judge you want; about 60 calls per judge.',
     batches: 'new', repeats: 10, precision: 'app', shuffle: false
+  },
+  ranking: {
+    label: '6. Ranking instead of scoring (every batch, shuffled, 10 calls each)',
+    calls: 80,
+    tests: 'The critic orders the pictures best to worst instead of scoring each, with the variants in a fresh random order every call. On the far sets the strongest should come first every time. On the close sets and Mondrian, watch whether the same variant keeps winning (it can tell them apart) or whichever lands in a given slot (the position table).',
+    batches: 'all', repeats: 10, precision: 'rank', shuffle: true
   }
 };
 
@@ -533,7 +547,7 @@ async function jlRunPreset(key){
   if(!p){ jlStatus('Unknown preset.'); return; }
   if(JL.running){ jlStatus('Already running — press Stop first.'); return; }
   const want = function(b){
-    return p.batches === 'all' ? true
+    return p.batches === 'all' ? b.makerCompany !== 'evolution'
          : p.batches === 'original' ? /mondrian|flower/i.test(b.name)
          : p.batches === 'new' ? / - (close|far)$/.test(b.name)
          : p.batches === 'mondrian' ? /mondrian/i.test(b.name)
@@ -561,6 +575,8 @@ async function jlRunPreset(key){
   } else if(p.shuffle === 'both'){
     runs.push(Object.assign({}, base));
     runs.push(Object.assign({}, base, {shuffle: true}));
+  } else if(p.precision === 'rank'){
+    runs.push(Object.assign({}, base, {precision: 'rank', shuffle: !!p.shuffle}));
   } else {
     runs.push(Object.assign({}, base, {shuffle: !!p.shuffle}));
   }
@@ -608,23 +624,60 @@ window.jlGapReport = jlGapReport;
    with the ticked ones on, and logs every round. */
 const JL_DECIMAL_SUFFIX = '\n\nSCORING PRECISION: give aestheticScore and noveltyScore to one decimal place '
   + '(for example 7.4 or 8.1). Do not round to whole numbers.';
-JL.enh = {decimal:true, fairTie:true};   // on by default; the panel checkboxes mirror this
+/* Ranking critic: same inputs as CRITIC_SYS, but the pictures are compared with
+   each other and ordered, not scored one by one. It keeps the app's weighting
+   (taste first, distinctness from the parent second) so that only the form of
+   the judgement changes. */
+const JL_RANK_SYS = "You are an expert generative art critic evaluating Logo turtle graphics artwork.\n\n"
+  + "TASK: Compare the canvas images with each other and rank them, to guide the next evolution iteration.\n\n"
+  + "INPUTS (supplied in the user message each call):\n"
+  + "- Aesthetic taste: the user's stated preference for what makes art good\n"
+  + "- Iteration number: which round of evolution this is\n"
+  + "- Canvas images: Image 0 = parent/base, Images 1+ = new variants (sent as base64 PNG)\n\n"
+  + "RANKING: order ALL the images, including Image 0, from the one that should be the parent of the next "
+  + "iteration to the one that least should be. Judge mainly how well each image embodies the aesthetic "
+  + "taste; as a secondary consideration, about half as important, prefer images that are visually distinct "
+  + "from Image 0. Compare the images directly with each other. No ties: every image gets its own place.\n\n"
+  + "Also provide suggestedImprovement: one specific, actionable Logo-level change for the next iteration - be concrete.\n\n"
+  + "Return ONLY valid JSON - no markdown, no backticks, no preamble:\n"
+  + "{\n  \"ranking\": [2, 0, 3, 1],\n  \"reason\": \"one sentence on why the first beats the second\",\n"
+  + "  \"suggestedImprovement\": \"specific actionable Logo suggestion\"\n}\n"
+  + "ranking lists the image numbers, best first, and must contain every image number exactly once.";
+window.JL_RANK_SYS = JL_RANK_SYS;
+JL.enh = {decimal:true, fairTie:true, rank:false};   // the panel checkboxes mirror this
 JL.evo = null;          // set while a comparison is running
 JL.evoRows = [];        // one row per evolution round
 JL.evoFinals = [];      // which final picture came from which arm
 
 const _hostCallAI = window.callAI;
 window.callAI = function(system, userText, imgB64s, maxTokens, label){
-  if(label === 'Critic' && JL.enh.decimal) system = system + JL_DECIMAL_SUFFIX;
-  const prov = document.getElementById('providerSelect');
-  if(prov && prov.value === 'openrouter'){
-    // the host only knows Gemini and OpenAI; route OpenRouter here. The extra
-    // tokens leave room for models that think before answering.
-    return jlOpenRouterChat(document.getElementById('fallbackModel').value,
-      document.getElementById('fallbackKey').value.trim(), system, userText, imgB64s || [],
-      (maxTokens || 1400) + 4096, 0.7);
+  const send = function(sys, imgs){
+    const prov = document.getElementById('providerSelect');
+    if(prov && prov.value === 'openrouter'){
+      // the host only knows Gemini and OpenAI; route OpenRouter here. The extra
+      // tokens leave room for models that think before answering.
+      return jlOpenRouterChat(document.getElementById('fallbackModel').value,
+        document.getElementById('fallbackKey').value.trim(), sys, userText, imgs || [],
+        (maxTokens || 1400) + 4096, 0.7);
+    }
+    return _hostCallAI(sys, userText, imgs, maxTokens, label);
+  };
+  if(label === 'Critic' && JL.enh.rank && imgB64s && imgB64s.length > 1){
+    // Ranking critic. Variants are shown in a fresh random order so that a habit
+    // of favouring a slot cannot favour a variant; only possible when the critic
+    // sees images alone, because the code listing in the message is in fixed order.
+    const n = imgB64s.length;
+    const imagesOnly = ((document.getElementById('criticMode') || {}).value || 'images') === 'images';
+    const order = imagesOnly ? JLCore.jlShuffled(n - 1) : JLCore.jlIdentityOrder(n - 1);
+    const shown = [imgB64s[0]].concat(order.map(function(i){ return imgB64s[i + 1]; }));
+    return Promise.resolve(send(JL_RANK_SYS, shown)).then(function(raw){
+      const pr = JLCore.jlParseRanking(raw, n);
+      return JSON.stringify({evaluations: JLCore.jlRankingToEvaluations(pr, order),
+                             suggestedImprovement: pr.suggestedImprovement});
+    });
   }
-  return _hostCallAI(system, userText, imgB64s, maxTokens, label);
+  if(label === 'Critic' && JL.enh.decimal) system = system + JL_DECIMAL_SUFFIX;
+  return send(system, imgB64s);
 };
 
 const _hostSelectWinner = window.selectWinner;
@@ -641,7 +694,7 @@ window.selectWinner = function(pool){
     const row = JLCore.jlRoundSummary(pool, pool.indexOf(w));
     row.ts = new Date().toISOString();
     row.arm = JL.evo.arm; row.run = JL.evo.run; row.round = S.iteration + 1;
-    row.decimal = JL.enh.decimal; row.fairTie = JL.enh.fairTie;
+    row.decimal = JL.enh.decimal && !JL.enh.rank; row.fairTie = JL.enh.fairTie; row.rankCritic = !!JL.enh.rank;
     row.provider = JL.evo.provider; row.model = JL.evo.model;
     row.taste = JL.evo.taste; row.magnitude = JL.evo.magnitude;
     row.winnerCode = w.code || '';
@@ -650,7 +703,7 @@ window.selectWinner = function(pool){
   return w;
 };
 
-const EVO_COLS = ['ts','arm','run','round','decimal','fairTie','provider','model','taste','magnitude',
+const EVO_COLS = ['ts','arm','run','round','decimal','fairTie','rankCritic','provider','model','taste','magnitude',
   'candidates','parentScore','variantScores','best','second','gap','tiedAtTop','tieWentToFirstListed',
   'winner','parentKept','winnerAes','winnerNov','winnerScore','decimalsUsed','criticFailed','winnerCode'];
 
@@ -759,8 +812,9 @@ function jlEvoSummary(){
 async function jlEvoAB(){
   if(JL.running || S.autoRunning){ jlEvoStatus('Something is already running — press Stop first.'); return; }
   const enhDef = {decimal: document.getElementById('jlEnhDecimal').checked,
-                  fairTie: document.getElementById('jlEnhFair').checked};
-  if(!enhDef.decimal && !enhDef.fairTie){ jlEvoStatus('Tick at least one enhancement to compare against the original.'); return; }
+                  fairTie: document.getElementById('jlEnhFair').checked,
+                  rank: document.getElementById('jlEnhRank').checked};
+  if(!enhDef.decimal && !enhDef.fairTie && !enhDef.rank){ jlEvoStatus('Tick at least one enhancement to compare against the original.'); return; }
   const startCode = document.getElementById('codeInput').value.trim();
   if(!startCode){ jlEvoStatus('Type a starting Logo program in the app first.'); return; }
   // Outside an artifact the host only uses a pasted key while its provider panel is open.
@@ -809,7 +863,7 @@ async function jlEvoAB(){
       const order = (run % 2) ? ['original','enhanced'] : ['enhanced','original'];
       for(const arm of order){
         if(JL.abort) break;
-        JL.enh = (arm === 'enhanced') ? enhDef : {decimal:false, fairTie:false};
+        JL.enh = (arm === 'enhanced') ? enhDef : {decimal:false, fairTie:false, rank:false};
         JL.evo = Object.assign({arm: arm, run: run}, meta);
         clearHistory();
         document.getElementById('codeInput').value = startCode;
@@ -967,7 +1021,7 @@ const JLui = {
   run: function(shuffle){
     if(JL.running){ jlStatus('Already running — press Stop first.'); return; }
     const prec = document.getElementById('jlPrecision');
-    const cfg = JLui._config(shuffle, (prec && prec.value === 'decimal') ? 'decimal' : 'app');
+    const cfg = JLui._config(shuffle, (prec && (prec.value === 'decimal' || prec.value === 'rank')) ? prec.value : 'app');
     if(cfg) jlRun(cfg);
   },
   // Day-in-one-click: N calls with whole-number scores, then N with decimals,
@@ -1021,6 +1075,7 @@ function jlBuildPanel(){
   + '<div style="font-weight:700;margin-top:8px">4 &middot; Evolution: original vs enhanced</div>'
   + '<label style="display:block"><input type="checkbox" id="jlEnhDecimal" checked onchange="JL.enh.decimal=this.checked"> enhancement: ask the critic for one decimal place</label>'
   + '<label style="display:block"><input type="checkbox" id="jlEnhFair" checked onchange="JL.enh.fairTie=this.checked"> enhancement: break ties at random, not by list order</label>'
+  + '<label style="display:block"><input type="checkbox" id="jlEnhRank" onchange="JL.enh.rank=this.checked"> enhancement: the critic ranks the pictures (best to worst) instead of scoring them — replaces the two above while ticked</label>'
   + '<div style="opacity:.75;font-size:.66rem;margin:3px 0">While ticked, an enhancement also applies to the app\'s own Start button. Compare evolution runs the starting program twice per run (original app, then with the ticked enhancements) using the app\'s own taste, magnitude, variants per round and API PROVIDER settings, then asks the ticked judges to score the final pictures together. About rounds &times; 4 &times; runs calls, plus the judging.</div>'
   + '<div style="display:flex;gap:6px;align-items:center;margin:3px 0">rounds <input id="jlEvoRounds" type="number" value="10" min="2" max="100" style="width:48px"> runs <input id="jlEvoRuns" type="number" value="2" min="1" max="20" style="width:44px"> final judging calls <input id="jlEvoJudge" type="number" value="10" min="0" max="50" style="width:48px"></div>'
   + '<textarea id="jlEvoTastes" placeholder="optional: several tastes, one per line — runs the whole comparison once for each. Leave empty to use the taste in the app." style="width:100%;height:52px;font-size:.65rem;margin:2px 0"></textarea>'
@@ -1029,7 +1084,7 @@ function jlBuildPanel(){
   + '<div id="jlEvoOut"></div>'
   + '<div style="font-weight:700;margin-top:8px">5 &middot; Or set it up by hand</div>'
   + '<div style="display:flex;gap:6px;align-items:center;margin:3px 0">'
-  + 'scores <select id="jlPrecision" style="font-size:.65rem"><option value="app">as the app asks (1-10)</option><option value="decimal">one decimal place</option></select> '
+  + 'scores <select id="jlPrecision" style="font-size:.65rem"><option value="app">as the app asks (1-10)</option><option value="decimal">one decimal place</option><option value="rank">ranking, no scores</option></select> '
   + 'repeats <input id="jlRepeats" type="number" value="10" min="1" max="200" style="width:52px">'
   + 'delay ms <input id="jlDelay" type="number" value="1200" min="0" step="100" style="width:64px"></div>'
   + '<div style="display:flex;gap:4px;flex-wrap:wrap">'

@@ -40,7 +40,7 @@ const builtin = fs.readFileSync('data/builtin-batches.json','utf8');
 // 3. inject Judge Lab before </body>
 const core=fs.readFileSync('judge-lab-core.js','utf8');
 const ui=fs.readFileSync('judge-lab-ui.js','utf8');
-const bridge='\nwindow.JLCore={jlPickWinner,jlRoundSummary,jlMean,jlSD,jlScore,jlIdentityOrder,jlShuffled,jlMapEvaluations,'
+const bridge='\nwindow.JLCore={jlParseRanking,jlRankingToEvaluations,jlPickWinner,jlRoundSummary,jlMean,jlSD,jlScore,jlIdentityOrder,jlShuffled,jlMapEvaluations,'
   +'jlWinnerOf,jlStats,jlWinnerStability,jlPositionEffect,jlCorrelation,jlFavouritism,jlCSV};\n';
 const block='\n<!-- ===== Judge Lab (added for the critic-reliability study) ===== -->\n'
   +'<script>window.JL_BUILTIN_BATCHES='+builtin+';</'+'script>\n'

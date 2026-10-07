@@ -99,6 +99,24 @@ const rs2=J.jlRoundSummary([{title:'Parent',score:9,aes:9,nov:0},{title:'Variant
 ok('parent kept on a tie is flagged', rs2.parentKept===true&&rs2.tieWentToFirstListed===true&&rs2.decimalsUsed===false);
 ok('default-score round flagged', J.jlRoundSummary([{title:'Variant 1',score:6.5,reason:'(critic failed — default score)'}],0).criticFailed===true);
 
+console.log('ranking critic');
+const pr=J.jlParseRanking('Here you go: {"ranking":[2,0,3,1],"reason":"bolder","suggestedImprovement":"add blue"}',4);
+ok('parses a ranking inside extra text', pr.ranking.join()==='2,0,3,1'&&pr.suggestedImprovement==='add blue');
+const bad=s=>{ try{ J.jlParseRanking(s,4); return false; }catch(e){ return true; } };
+ok('rejects a missing image', bad('{"ranking":[2,0,3]}'));
+ok('rejects a repeated image', bad('{"ranking":[2,2,3,1]}'));
+ok('rejects an out-of-range image', bad('{"ranking":[4,0,3,1]}'));
+ok('rejects a reply with no JSON', bad('I like the second one'));
+const re=J.jlRankingToEvaluations(pr);
+ok('best gets n points, worst gets 1', re.find(e=>e.imageNumber===2).aestheticScore===4&&re.find(e=>e.imageNumber===1).aestheticScore===1);
+ok('returned in image order, novelty 0', re.map(e=>e.imageNumber).join()==='0,1,2,3'&&re.every(e=>e.noveltyScore===0));
+// presented slot 1 held variant 3, slot 2 held variant 1, slot 3 held variant 2 (order = [2,0,1])
+const rs3=J.jlRankingToEvaluations(pr,[2,0,1]);
+ok('shuffled presentation maps back: presented image 2 is variant 1', rs3.find(e=>e.imageNumber===1).aestheticScore===4);
+ok('parent stays image 0 when shuffled', rs3.find(e=>e.imageNumber===0).aestheticScore===3);
+ok('presented image 3 is variant 2, presented image 1 is variant 3', rs3.find(e=>e.imageNumber===2).aestheticScore===2&&rs3.find(e=>e.imageNumber===3).aestheticScore===1);
+ok('a ranking never ties', J.jlRoundSummary(rs3.map(e=>({title:e.imageNumber?'Variant '+e.imageNumber:'Parent',score:e.aestheticScore,aes:e.aestheticScore})),0).tiedAtTop===false);
+
 console.log('CSV escaping');
 const csv=J.jlCSV([{a:'plain',b:'has,comma',c:'has "quote"',d:null}],['a','b','c','d']);
 ok('header + escaping', csv==='a,b,c,d\nplain,"has,comma","has ""quote""",', csv);
