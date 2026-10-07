@@ -448,7 +448,9 @@ Data: `data/rows-2026-10-07-ranking.csv`.
   first.** On Mondrian the first-ranked picture was the one in slot 1 in 10 of
   10 calls, while the variant in that slot changed (chance of that: 1.7e-5).
   Snowflake close: slot 1 in 7 of 10. Over those two batches slot 1 won 17 of
-  20 (p = 4e-6 against one in three).
+  20 (p = 3e-6 against one in three, though I picked those two batches after
+  seeing the results; over all five close or original batches slot 1 won 29 of
+  50, p = 3e-4).
 - **So a ranking critic does not remove the order problem, it hides it.** The
   scoring critic says "these are equal" (a visible tie, and no position effect
   on its scores: 19 of 19 in the 21 Sep test); the app then breaks the tie by
