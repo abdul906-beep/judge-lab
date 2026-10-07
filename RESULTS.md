@@ -420,3 +420,45 @@ within noise):
   as program text can show.
 - Limits: this measures program text, not pictures. Two different programs can
   draw similar pictures, and one changed number can change a picture a lot.
+
+## Ranking instead of scoring (7 Oct)
+Experiment 6: the critic orders the pictures best to worst, no ties allowed,
+variants in a fresh random order every call. Judge google/gemini-3.8-flash via
+OpenRouter, 10 calls per batch, 80 of 80 succeeded.
+Data: `data/rows-2026-10-07-ranking.csv`.
+
+| batch | ranked first, by variant (1 / 2 / 3) | ranked first, by slot shown in (1 / 2 / 3) |
+|---|---|---|
+| Snowflake - far | 0 / 0 / **10** | 6 / 1 / 3 |
+| City skyline - far | 0 / 0 / **10** | 6 / 2 / 2 |
+| Spiral galaxy - far | 0 / 0 / **10** | 3 / 3 / 4 |
+| Spiral galaxy - close | 0 / 1 / **9** | 2 / 3 / 5 |
+| City skyline - close | 3 / 0 / **7** | 4 / 3 / 3 |
+| Wild flowers | **8** / 2 / 0 | 6 / 4 / 0 |
+| Snowflake - close | 3 / 4 / 3 | **7** / 3 / 0 |
+| Mondrian | 2 / 3 / 5 | **10** / 0 / 0 |
+
+- **Where one picture is clearly best, ranking finds it:** the strongest variant
+  came first in 30 of 30 far-set calls, wherever it was shown.
+- **Ranking shows preferences the scores hid.** On the spiral galaxy close set
+  the scoring critic tied in 7 of 10 calls; made to rank, it put variant 3 first
+  in 9 of 10, in every slot. City skyline close is similar (variant 3, 7 of 10).
+  So some "ties" were real preferences lost to a coarse scale.
+- **Where it cannot tell the pictures apart, it picks whichever it is shown
+  first.** On Mondrian the first-ranked picture was the one in slot 1 in 10 of
+  10 calls, while the variant in that slot changed (chance of that: 1.7e-5).
+  Snowflake close: slot 1 in 7 of 10. Over those two batches slot 1 won 17 of
+  20 (p = 4e-6 against one in three).
+- **So a ranking critic does not remove the order problem, it hides it.** The
+  scoring critic says "these are equal" (a visible tie, and no position effect
+  on its scores: 19 of 19 in the 21 Sep test); the app then breaks the tie by
+  order. The ranking critic is not allowed to say "equal", so it breaks the tie
+  itself, by order, and reports it as a preference. Without shuffling the
+  first-written variant would win exactly as before, with nothing in the output
+  to show it.
+- Shuffling the order each call turns that into a fair random pick, which is
+  what the evolution switch does. In effect ranking plus shuffling behaves like
+  decimals plus a random tie-break: it follows a real preference where there is
+  one and chooses at random where there is not.
+- Caveats: one judge, 10 calls per batch, ranking of four images in one call
+  rather than separate pairwise calls.
