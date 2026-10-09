@@ -464,3 +464,58 @@ Data: `data/rows-2026-10-07-ranking.csv`.
   one and chooses at random where there is not.
 - Caveats: one judge, 10 calls per batch, ranking of four images in one call
   rather than separate pairwise calls.
+
+## A different model as critic (9 Oct)
+Ken's question: has the critic ever been a different model from the generator?
+Until now, no. Here google/gemini-3.8-flash writes the variants in both
+versions; the critic is gemini-3.8-flash in one ("original") and
+openai/gpt-5.6-luna in the other ("enhanced"). No other difference: whole-number
+scores, app tie rule. Tastes Mondrian, wild flowers, mathematical beauty; 6
+rounds, 2 runs of each (72 rounds). Final pictures judged together per taste,
+5 calls per judge, shuffled, decimals, by a Google, an OpenAI and an Anthropic
+model. Data: `data/evolution-2026-10-09-critic-model.csv`,
+`data/rows-2026-10-09-critic-model-finals.csv`.
+
+Final pictures, mean aesthetic score:
+
+| judge | Gemini-critic runs | GPT-critic runs | best picture came from GPT-critic runs |
+|---|---|---|---|
+| gemini-3.8-flash | 5.97 | 6.53 | 9 of 15 calls |
+| gpt-5.6-luna | 6.91 | 8.27 | 10 of 15 calls |
+| claude-haiku-4.5 | 6.85 | 8.28 | 13 of 15 calls |
+
+During the runs:
+
+| | Gemini critic | GPT critic |
+|---|---|---|
+| rounds with a tie for top score | 6 of 36 | 3 of 36 |
+| rounds where the parent was kept | 2 | 0 |
+| parent's aesthetic score, rounds 2 to 6 (as scored by that critic) | 4.8, 5.7, 5.5, 5.8, 6.2 | 4.8, 6.7, 7.2, 8.0, 8.0 |
+| share of the program changed, rounds 1 to 6 | .92 .72 .46 .48 .39 .30 | .94 .77 .45 .40 .34 .33 |
+| program length at round 6 (tokens) | 146 | 187 |
+
+- **All three judges scored the GPT-critic runs' final pictures higher**,
+  including the Gemini judge (+0.57), and most clearly the Anthropic judge,
+  which had no part in either version (+1.43). So this is not each judge
+  favouring its own company's critic.
+- **But it is not established.** There are only six pairs of runs, and the
+  difference comes mostly from two poor Gemini-critic runs (Mondrian run 1 and
+  mathematical beauty run 2). Per pair, averaged over judges: +3.85, -0.14,
+  +0.85, -0.23, +0.07, +2.28; sign-flip p = 0.22. It needs more runs.
+- **The three judges mostly agree with each other about which pictures are
+  better**: over the 12 final pictures the judges' scores correlate at 0.87
+  (Gemini with GPT), 0.87 (Gemini with Claude) and 0.92 (GPT with Claude). What
+  differs is the scale: the Gemini judge's picture averages run from 4.6 to 6.9,
+  GPT's from 3.0 to 8.7, Claude's from 4.3 to 8.8. So the models seem to share a
+  taste and differ in how widely they spread their scores.
+- **The plateau at 6 is partly the Gemini critic's scale.** Scored by GPT, the
+  parent keeps rising to 8 by round 5. The two critics' scores are on different
+  scales and cannot be compared directly, which is why the side-by-side final
+  judging is the measure that counts.
+- **The narrowing is the same with either critic.** The share of the program
+  changed each round falls in the same way. A different critic changes which
+  variant is chosen, not how different the variants are; that is set by the
+  generator.
+- One possible mechanism for the two poor runs: with the Gemini critic the
+  parent was kept in 2 rounds (both Mondrian, both on ties), wasting them; with
+  the GPT critic, never.
