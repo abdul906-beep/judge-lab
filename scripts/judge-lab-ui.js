@@ -644,7 +644,7 @@ const JL_RANK_SYS = "You are an expert generative art critic evaluating Logo tur
   + "  \"suggestedImprovement\": \"specific actionable Logo suggestion\"\n}\n"
   + "ranking lists the image numbers, best first, and must contain every image number exactly once.";
 window.JL_RANK_SYS = JL_RANK_SYS;
-JL.enh = {decimal:true, fairTie:true, rank:false};   // the panel checkboxes mirror this
+JL.enh = {decimal:true, fairTie:true, rank:false, criticModel:''};   // the panel checkboxes mirror this
 JL.evo = null;          // set while a comparison is running
 JL.evoRows = [];        // one row per evolution round
 JL.evoFinals = [];      // which final picture came from which arm
@@ -656,7 +656,10 @@ window.callAI = function(system, userText, imgB64s, maxTokens, label){
     if(prov && prov.value === 'openrouter'){
       // the host only knows Gemini and OpenAI; route OpenRouter here. The extra
       // tokens leave room for models that think before answering.
-      return jlOpenRouterChat(document.getElementById('fallbackModel').value,
+      // a separate critic model, if one is set, judges; the model in the panel generates
+      const model = (label === 'Critic' && JL.enh.criticModel) ? JL.enh.criticModel
+                  : document.getElementById('fallbackModel').value;
+      return jlOpenRouterChat(model,
         document.getElementById('fallbackKey').value.trim(), sys, userText, imgs || [],
         (maxTokens || 1400) + 4096, 0.7);
     }
@@ -695,6 +698,7 @@ window.selectWinner = function(pool){
     row.ts = new Date().toISOString();
     row.arm = JL.evo.arm; row.run = JL.evo.run; row.round = S.iteration + 1;
     row.decimal = JL.enh.decimal && !JL.enh.rank; row.fairTie = JL.enh.fairTie; row.rankCritic = !!JL.enh.rank;
+    row.criticModel = JL.enh.criticModel || JL.evo.model;
     row.provider = JL.evo.provider; row.model = JL.evo.model;
     row.taste = JL.evo.taste; row.magnitude = JL.evo.magnitude;
     row.winnerCode = w.code || '';
@@ -703,7 +707,7 @@ window.selectWinner = function(pool){
   return w;
 };
 
-const EVO_COLS = ['ts','arm','run','round','decimal','fairTie','rankCritic','provider','model','taste','magnitude',
+const EVO_COLS = ['ts','arm','run','round','decimal','fairTie','rankCritic','provider','model','criticModel','taste','magnitude',
   'candidates','parentScore','variantScores','best','second','gap','tiedAtTop','tieWentToFirstListed',
   'winner','parentKept','winnerAes','winnerNov','winnerScore','decimalsUsed','criticFailed','winnerCode'];
 
@@ -778,6 +782,14 @@ function jlEvoSummary(){
        + ['original','enhanced'].map(function(a, i){
            return a + ': mean aesthetic ' + fs2[i].aes.toFixed(2) + ', mean score ' + fs2[i].score.toFixed(2)
                 + ', best picture in ' + fs2[i].wins + ' of ' + fs2[i].calls + ' calls'; }).join('<br>') + '</div>';
+    const judgeModels = [];
+    finalRows.forEach(function(r){ if(judgeModels.indexOf(r.judgeModel) < 0) judgeModels.push(r.judgeModel); });
+    if(judgeModels.length > 1){
+      h += '<div style="margin-top:3px">' + judgeModels.map(function(jm){
+        const f = finalStats(finalRows.filter(function(r){ return r.judgeModel === jm; }));
+        return 'judge ' + jm + ': original ' + f[0].aes.toFixed(2) + ' (best in ' + f[0].wins + '), enhanced '
+             + f[1].aes.toFixed(2) + ' (best in ' + f[1].wins + ') of ' + f[0].calls + ' calls'; }).join('<br>') + '</div>';
+    }
   }
   // one line per taste, when more than one was run
   const tastes = [];
@@ -813,8 +825,12 @@ async function jlEvoAB(){
   if(JL.running || S.autoRunning){ jlEvoStatus('Something is already running — press Stop first.'); return; }
   const enhDef = {decimal: document.getElementById('jlEnhDecimal').checked,
                   fairTie: document.getElementById('jlEnhFair').checked,
-                  rank: document.getElementById('jlEnhRank').checked};
-  if(!enhDef.decimal && !enhDef.fairTie && !enhDef.rank){ jlEvoStatus('Tick at least one enhancement to compare against the original.'); return; }
+                  rank: document.getElementById('jlEnhRank').checked,
+                  criticModel: ((document.getElementById('jlEvoCritic') || {}).value || '').trim()};
+  if(!enhDef.decimal && !enhDef.fairTie && !enhDef.rank && !enhDef.criticModel){
+    jlEvoStatus('Tick at least one enhancement, or name a different critic model, to compare against the original.'); return; }
+  if(enhDef.criticModel && (document.getElementById('providerSelect') || {}).value !== 'openrouter'){
+    jlEvoStatus('A separate critic model needs OpenRouter as the provider in the app\'s API PROVIDER panel.'); return; }
   const startCode = document.getElementById('codeInput').value.trim();
   if(!startCode){ jlEvoStatus('Type a starting Logo program in the app first.'); return; }
   // Outside an artifact the host only uses a pasted key while its provider panel is open.
@@ -863,7 +879,7 @@ async function jlEvoAB(){
       const order = (run % 2) ? ['original','enhanced'] : ['enhanced','original'];
       for(const arm of order){
         if(JL.abort) break;
-        JL.enh = (arm === 'enhanced') ? enhDef : {decimal:false, fairTie:false, rank:false};
+        JL.enh = (arm === 'enhanced') ? enhDef : {decimal:false, fairTie:false, rank:false, criticModel:''};
         JL.evo = Object.assign({arm: arm, run: run}, meta);
         clearHistory();
         document.getElementById('codeInput').value = startCode;
@@ -1078,6 +1094,7 @@ function jlBuildPanel(){
   + '<label style="display:block"><input type="checkbox" id="jlEnhRank" onchange="JL.enh.rank=this.checked"> enhancement: the critic ranks the pictures (best to worst) instead of scoring them — replaces the two above while ticked</label>'
   + '<div style="opacity:.75;font-size:.66rem;margin:3px 0">While ticked, an enhancement also applies to the app\'s own Start button. Compare evolution runs the starting program twice per run (original app, then with the ticked enhancements) using the app\'s own taste, magnitude, variants per round and API PROVIDER settings, then asks the ticked judges to score the final pictures together. About rounds &times; 4 &times; runs calls, plus the judging.</div>'
   + '<div style="display:flex;gap:6px;align-items:center;margin:3px 0">rounds <input id="jlEvoRounds" type="number" value="10" min="2" max="100" style="width:48px"> runs <input id="jlEvoRuns" type="number" value="2" min="1" max="20" style="width:44px"> final judging calls <input id="jlEvoJudge" type="number" value="10" min="0" max="50" style="width:48px"></div>'
+  + '<input id="jlEvoCritic" onchange="JL.enh.criticModel=this.value.trim()" placeholder="optional: a different critic model for the enhanced version, e.g. openai/gpt-5.6-luna (OpenRouter only)" style="width:100%;font-size:.65rem;margin:2px 0">'
   + '<textarea id="jlEvoTastes" placeholder="optional: several tastes, one per line — runs the whole comparison once for each. Leave empty to use the taste in the app." style="width:100%;height:52px;font-size:.65rem;margin:2px 0"></textarea>'
   + '<div style="display:flex;gap:4px;flex-wrap:wrap"><button onclick="jlEvoAB()" style="background:#7c3aed;color:#fff">Compare evolution</button><button onclick="JLui.stop()">Stop</button><button onclick="jlEvoExport()">Export evolution CSV</button></div>'
   + '<div id="jlEvoStatus" style="margin:4px 0;min-height:14px;opacity:.85"></div>'

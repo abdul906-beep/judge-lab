@@ -116,6 +116,15 @@ round and API PROVIDER settings from the app itself, then:
 4. freezes the final picture from every run as one batch and has the ticked
    judges score them together, in shuffled order, with decimals
 
+**A different model as critic.** Type an OpenRouter model id into the critic
+box (for example `openai/gpt-5.6-luna`) and the enhanced version uses that model
+to judge each round, while the model in the API PROVIDER panel still writes the
+variants. Untick all three enhancements to make the critic model the only
+difference between the two versions. Tick one judge from each company for the
+final judging: the panel then reports the final pictures per judge, which shows
+whether a judge prefers the pictures its own company's critic selected. The
+evolution CSV records the critic model on every row.
+
 **Several tastes at once.** Type tastes into the box above the button, one per
 line, and the whole comparison runs once for each. Use few rounds and few runs
 per taste for a quick survey, then repeat the interesting tastes with more. The
