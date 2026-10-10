@@ -519,3 +519,45 @@ During the runs:
 - One possible mechanism for the two poor runs: with the Gemini critic the
   parent was kept in 2 rounds (both Mondrian, both on ties), wasting them; with
   the GPT critic, never.
+
+## A different model as critic: more runs (10 Oct)
+The same comparison again, 3 runs of each per taste, to see whether the 9 Oct
+result holds. Data: `data/evolution-2026-10-10-critic-model-b.csv`,
+`data/rows-2026-10-10-critic-model-b-finals.csv`. `critic-model.js` pools both
+days: 15 pairs of runs, 180 rounds, 90 judging calls.
+
+Final pictures, both days pooled (mean aesthetic score):
+
+| judge | Gemini-critic runs | GPT-critic runs | pairs favouring the GPT critic | p |
+|---|---|---|---|---|
+| gemini-3.8-flash | 5.72 | 6.03 | 7 of 15 | 0.39 |
+| gpt-5.6-luna | 6.51 | 7.69 | 10 of 15 | 0.06 |
+| claude-haiku-4.5 | 6.53 | 7.70 | 10 of 15 | 0.12 |
+| all three | | | 9 of 15, mean +0.89 | **0.11** |
+
+Per pair, averaged over judges (GPT-critic run minus Gemini-critic run):
++3.85, -0.14, +0.85, -0.28, +0.07, +2.28 (9 Oct); -0.10, -3.19, +0.87, +4.79,
+-0.47, +0.07, +1.58, -0.50, +3.67 (10 Oct). By taste: Mondrian +0.26, wild
+flowers +0.99, mathematical beauty +1.42.
+
+- **The advantage is still there but it is not established.** The new nine
+  pairs average +0.75, the fifteen together +0.89, with a sign-flip p of 0.11.
+  The first six pairs alone had looked stronger (+1.11); the new Mondrian runs
+  went the other way (-0.81), which is why more runs were needed.
+- **The difference is not a steady one.** Ten of the fifteen pairs are within
+  one point of zero. The rest are four large wins for the GPT critic (+2.3 to
+  +4.8) and one large loss (-3.2). So the plainer description is that runs
+  occasionally end badly, and that happened in four Gemini-critic runs against
+  one GPT-critic run. Fifteen pairs cannot say whether that is the critic or luck.
+- **The judges do not see it equally.** The GPT judge and the Claude judge both
+  score the GPT-critic pictures about 1.2 higher; the Gemini judge sees almost
+  no difference (+0.31). Claude had no part in either version, so this is not
+  only GPT preferring its own choices, but Gemini's narrower scale may also be
+  hiding a real difference.
+- **During the runs the GPT critic ties less**: 4 of 90 rounds against 14 of 90
+  (Fisher exact p = 0.02), and it never kept the parent (0 against 3).
+- **Scored by GPT the parent keeps rising** (5.3, 6.4, 7.1, 7.7, 7.6 over rounds
+  2 to 6); scored by Gemini it is nearly flat (5.0, 5.4, 5.3, 5.6, 5.8).
+- **The narrowing is the same with either critic** (share of the program
+  changed by round 6: 0.33 and 0.37).
+- Caveats: one generator, one pair of critics, 6 rounds, three tastes.
